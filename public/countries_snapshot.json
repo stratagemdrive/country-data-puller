@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T07:07:23.249025Z",
+  "generatedAt": "2026-03-07T06:58:21.501019Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -777,7 +777,7 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 49.35,
+        "overallPercentile": 54.25,
         "band": "Medium",
         "year": 2023,
         "components": {
@@ -793,9 +793,8 @@
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
-            "percentile": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 78.7735824584961,
+            "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
@@ -1193,7 +1192,7 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 40.95,
+        "overallPercentile": 39.47,
         "band": "Medium",
         "year": 2023,
         "components": {
@@ -1209,9 +1208,8 @@
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
-            "percentile": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 32.0754699707031,
+            "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
@@ -1584,7 +1582,7 @@
       "executive": {
         "headOfState": {
           "name": "Alireza Arafi",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Islamic Republican Party",
           "source": "wikidata:P35 (current statement; +party P102)"
         },
         "headOfGovernment": {
@@ -2025,7 +2023,7 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 4.77,
+        "overallPercentile": 5.44,
         "band": "Low",
         "year": 2023,
         "components": {
@@ -2056,8 +2054,9 @@
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
-            "percentile": 1.41509437561035,
-            "year": 2023
+            "percentile": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           }
         },
         "sources": {
@@ -2345,7 +2344,7 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 79.58,
+        "overallPercentile": 80.47,
         "band": "High",
         "year": 2023,
         "components": {
@@ -2366,9 +2365,8 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 84.9056625366211,
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
@@ -4214,7 +4212,7 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 41.25,
+        "overallPercentile": 40.98,
         "band": "Medium",
         "year": 2023,
         "components": {
@@ -4235,9 +4233,8 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 39.6226425170898,
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
