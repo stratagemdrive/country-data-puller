@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-03-12T01:15:57.442341Z",
+  "generatedAt": "2026-03-12T04:42:54.156239Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
       "country": "Russia",
       "iso2": "RU",
+      "metadata": {
+        "officialName": "Russian Federation",
+        "capital": "Moscow",
+        "population": 146028325,
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "flag": "🇷🇺",
+        "flagPng": "https://flagcdn.com/w320/ru.png",
+        "currencies": [
+          "Russian ruble"
+        ],
+        "languages": [
+          "Russian"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "super-presidential republic"
@@ -96,11 +112,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for RU.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -115,6 +132,24 @@
     {
       "country": "India",
       "iso2": "IN",
+      "metadata": {
+        "officialName": "Republic of India",
+        "capital": "New Delhi",
+        "population": 1417492000,
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "flag": "🇮🇳",
+        "flagPng": "https://flagcdn.com/w320/in.png",
+        "currencies": [
+          "Indian rupee"
+        ],
+        "languages": [
+          "English",
+          "Hindi",
+          "Tamil"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic",
@@ -207,11 +242,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for IN.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -226,6 +262,23 @@
     {
       "country": "Pakistan",
       "iso2": "PK",
+      "metadata": {
+        "officialName": "Islamic Republic of Pakistan",
+        "capital": "Islamabad",
+        "population": 241499431,
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "flag": "🇵🇰",
+        "flagPng": "https://flagcdn.com/w320/pk.png",
+        "currencies": [
+          "Pakistani rupee"
+        ],
+        "languages": [
+          "English",
+          "Urdu"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic",
@@ -318,11 +371,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for PK.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -337,6 +391,22 @@
     {
       "country": "China",
       "iso2": "CN",
+      "metadata": {
+        "officialName": "People's Republic of China",
+        "capital": "Beijing",
+        "population": 1408280000,
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "flag": "🇨🇳",
+        "flagPng": "https://flagcdn.com/w320/cn.png",
+        "currencies": [
+          "Chinese yuan"
+        ],
+        "languages": [
+          "Chinese"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -434,11 +504,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for CN.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -453,6 +524,22 @@
     {
       "country": "United Kingdom",
       "iso2": "GB",
+      "metadata": {
+        "officialName": "United Kingdom of Great Britain and Northern Ireland",
+        "capital": "London",
+        "population": 69281437,
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "flag": "🇬🇧",
+        "flagPng": "https://flagcdn.com/w320/gb.png",
+        "currencies": [
+          "British pound"
+        ],
+        "languages": [
+          "English"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "constitutional monarchy"
@@ -544,11 +631,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for GB.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -563,6 +651,22 @@
     {
       "country": "Germany",
       "iso2": "DE",
+      "metadata": {
+        "officialName": "Federal Republic of Germany",
+        "capital": "Berlin",
+        "population": 83491249,
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "flag": "🇩🇪",
+        "flagPng": "https://flagcdn.com/w320/de.png",
+        "currencies": [
+          "euro"
+        ],
+        "languages": [
+          "German"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -657,11 +761,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for DE.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -676,6 +781,22 @@
     {
       "country": "UAE",
       "iso2": "AE",
+      "metadata": {
+        "officialName": "United Arab Emirates",
+        "capital": "Abu Dhabi",
+        "population": 11294243,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇦🇪",
+        "flagPng": "https://flagcdn.com/w320/ae.png",
+        "currencies": [
+          "United Arab Emirates dirham"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "constitutional monarchy",
@@ -769,11 +890,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for AE.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -788,6 +910,22 @@
     {
       "country": "Saudi Arabia",
       "iso2": "SA",
+      "metadata": {
+        "officialName": "Kingdom of Saudi Arabia",
+        "capital": "Riyadh",
+        "population": 35300280,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇸🇦",
+        "flagPng": "https://flagcdn.com/w320/sa.png",
+        "currencies": [
+          "Saudi riyal"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "monarchy",
@@ -881,11 +1019,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for SA.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -900,6 +1039,23 @@
     {
       "country": "Israel",
       "iso2": "IL",
+      "metadata": {
+        "officialName": "State of Israel",
+        "capital": "Jerusalem",
+        "population": 10134800,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇮🇱",
+        "flagPng": "https://flagcdn.com/w320/il.png",
+        "currencies": [
+          "Israeli new shekel"
+        ],
+        "languages": [
+          "Arabic",
+          "Hebrew"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "unitary state",
@@ -992,11 +1148,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for IL.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1011,6 +1168,24 @@
     {
       "country": "Palestine",
       "iso2": "PS",
+      "metadata": {
+        "officialName": "State of Palestine",
+        "capital": "Ramallah",
+        "population": 5483450,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇵🇸",
+        "flagPng": "https://flagcdn.com/w320/ps.png",
+        "currencies": [
+          "Egyptian pound",
+          "Israeli new shekel",
+          "Jordanian dinar"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "parliamentary republic"
@@ -1102,11 +1277,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for PS.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1121,6 +1297,22 @@
     {
       "country": "Mexico",
       "iso2": "MX",
+      "metadata": {
+        "officialName": "United Mexican States",
+        "capital": "Mexico City",
+        "population": 130575786,
+        "region": "Americas",
+        "subregion": "North America",
+        "flag": "🇲🇽",
+        "flagPng": "https://flagcdn.com/w320/mx.png",
+        "currencies": [
+          "Mexican peso"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic"
@@ -1212,11 +1404,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for MX.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1231,6 +1424,22 @@
     {
       "country": "Brazil",
       "iso2": "BR",
+      "metadata": {
+        "officialName": "Federative Republic of Brazil",
+        "capital": "Brasília",
+        "population": 213421037,
+        "region": "Americas",
+        "subregion": "South America",
+        "flag": "🇧🇷",
+        "flagPng": "https://flagcdn.com/w320/br.png",
+        "currencies": [
+          "Brazilian real"
+        ],
+        "languages": [
+          "Portuguese"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "presidential system",
@@ -1324,11 +1533,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for BR.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1343,6 +1553,23 @@
     {
       "country": "Canada",
       "iso2": "CA",
+      "metadata": {
+        "officialName": "Canada",
+        "capital": "Ottawa",
+        "population": 41651653,
+        "region": "Americas",
+        "subregion": "North America",
+        "flag": "🇨🇦",
+        "flagPng": "https://flagcdn.com/w320/ca.png",
+        "currencies": [
+          "Canadian dollar"
+        ],
+        "languages": [
+          "English",
+          "French"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "constitutional monarchy",
@@ -1436,11 +1663,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for CA.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1455,6 +1683,22 @@
     {
       "country": "Nigeria",
       "iso2": "NG",
+      "metadata": {
+        "officialName": "Federal Republic of Nigeria",
+        "capital": "Abuja",
+        "population": 223800000,
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "flag": "🇳🇬",
+        "flagPng": "https://flagcdn.com/w320/ng.png",
+        "currencies": [
+          "Nigerian naira"
+        ],
+        "languages": [
+          "English"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic"
@@ -1546,11 +1790,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for NG.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1565,6 +1810,22 @@
     {
       "country": "Japan",
       "iso2": "JP",
+      "metadata": {
+        "officialName": "Japan",
+        "capital": "Tokyo",
+        "population": 123210000,
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "flag": "🇯🇵",
+        "flagPng": "https://flagcdn.com/w320/jp.png",
+        "currencies": [
+          "Japanese yen"
+        ],
+        "languages": [
+          "Japanese"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "constitutional monarchy"
@@ -1656,11 +1917,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for JP.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1675,6 +1937,22 @@
     {
       "country": "Iran",
       "iso2": "IR",
+      "metadata": {
+        "officialName": "Islamic Republic of Iran",
+        "capital": "Tehran",
+        "population": 85961000,
+        "region": "Asia",
+        "subregion": "Southern Asia",
+        "flag": "🇮🇷",
+        "flagPng": "https://flagcdn.com/w320/ir.png",
+        "currencies": [
+          "Iranian rial"
+        ],
+        "languages": [
+          "Persian (Farsi)"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "presidential system",
@@ -1769,11 +2047,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for IR.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1788,6 +2067,22 @@
     {
       "country": "Syria",
       "iso2": "SY",
+      "metadata": {
+        "officialName": "Syrian Arab Republic",
+        "capital": "Damascus",
+        "population": 25620000,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇸🇾",
+        "flagPng": "https://flagcdn.com/w320/sy.png",
+        "currencies": [
+          "Syrian pound"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "semi-presidential system"
@@ -1879,11 +2174,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for SY.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -1898,6 +2194,22 @@
     {
       "country": "France",
       "iso2": "FR",
+      "metadata": {
+        "officialName": "French Republic",
+        "capital": "Paris",
+        "population": 66351959,
+        "region": "Europe",
+        "subregion": "Western Europe",
+        "flag": "🇫🇷",
+        "flagPng": "https://flagcdn.com/w320/fr.png",
+        "currencies": [
+          "euro"
+        ],
+        "languages": [
+          "French"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "semi-presidential system"
@@ -1989,11 +2301,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for FR.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2008,6 +2321,22 @@
     {
       "country": "Turkey",
       "iso2": "TR",
+      "metadata": {
+        "officialName": "Republic of Turkey",
+        "capital": "Ankara",
+        "population": 85664944,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇹🇷",
+        "flagPng": "https://flagcdn.com/w320/tr.png",
+        "currencies": [
+          "Turkish lira"
+        ],
+        "languages": [
+          "Turkish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "presidential system",
@@ -2100,11 +2429,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for TR.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2119,6 +2449,22 @@
     {
       "country": "Venezuela",
       "iso2": "VE",
+      "metadata": {
+        "officialName": "Bolivarian Republic of Venezuela",
+        "capital": "Caracas",
+        "population": 28517000,
+        "region": "Americas",
+        "subregion": "South America",
+        "flag": "🇻🇪",
+        "flagPng": "https://flagcdn.com/w320/ve.png",
+        "currencies": [
+          "Venezuelan bolívar soberano"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "presidential system",
@@ -2211,11 +2557,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for VE.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2230,6 +2577,22 @@
     {
       "country": "Vietnam",
       "iso2": "VN",
+      "metadata": {
+        "officialName": "Socialist Republic of Vietnam",
+        "capital": "Hanoi",
+        "population": 101343800,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "flag": "🇻🇳",
+        "flagPng": "https://flagcdn.com/w320/vn.png",
+        "currencies": [
+          "Vietnamese đồng"
+        ],
+        "languages": [
+          "Vietnamese"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -2323,11 +2686,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for VN.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2342,6 +2706,22 @@
     {
       "country": "Taiwan",
       "iso2": "TW",
+      "metadata": {
+        "officialName": "Republic of China (Taiwan)",
+        "capital": "Taipei",
+        "population": 23317031,
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "flag": "🇹🇼",
+        "flagPng": "https://flagcdn.com/w320/tw.png",
+        "currencies": [
+          "New Taiwan dollar"
+        ],
+        "languages": [
+          "Chinese"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "democracy",
@@ -2441,11 +2821,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (Country (TW) not represented in IPU Parline.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2460,6 +2841,22 @@
     {
       "country": "South Korea",
       "iso2": "KR",
+      "metadata": {
+        "officialName": "Republic of Korea",
+        "capital": "Seoul",
+        "population": 51159889,
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "flag": "🇰🇷",
+        "flagPng": "https://flagcdn.com/w320/kr.png",
+        "currencies": [
+          "South Korean won"
+        ],
+        "languages": [
+          "Korean"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -2552,11 +2949,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for KR.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2571,6 +2969,22 @@
     {
       "country": "North Korea",
       "iso2": "KP",
+      "metadata": {
+        "officialName": "Democratic People's Republic of Korea",
+        "capital": "Pyongyang",
+        "population": 25950000,
+        "region": "Asia",
+        "subregion": "Eastern Asia",
+        "flag": "🇰🇵",
+        "flagPng": "https://flagcdn.com/w320/kp.png",
+        "currencies": [
+          "North Korean won"
+        ],
+        "languages": [
+          "Korean"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -2668,11 +3082,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for KP.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2687,6 +3102,22 @@
     {
       "country": "Indonesia",
       "iso2": "ID",
+      "metadata": {
+        "officialName": "Republic of Indonesia",
+        "capital": "Jakarta",
+        "population": 284438782,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "flag": "🇮🇩",
+        "flagPng": "https://flagcdn.com/w320/id.png",
+        "currencies": [
+          "Indonesian rupiah"
+        ],
+        "languages": [
+          "Indonesian"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -2779,11 +3210,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for ID.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2798,6 +3230,22 @@
     {
       "country": "Myanmar",
       "iso2": "MM",
+      "metadata": {
+        "officialName": "Republic of the Union of Myanmar",
+        "capital": "Naypyidaw",
+        "population": 51316756,
+        "region": "Asia",
+        "subregion": "South-Eastern Asia",
+        "flag": "🇲🇲",
+        "flagPng": "https://flagcdn.com/w320/mm.png",
+        "currencies": [
+          "Burmese kyat"
+        ],
+        "languages": [
+          "Burmese"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic"
@@ -2889,11 +3337,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for MM.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -2908,6 +3357,22 @@
     {
       "country": "Armenia",
       "iso2": "AM",
+      "metadata": {
+        "officialName": "Republic of Armenia",
+        "capital": "Yerevan",
+        "population": 3076200,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇦🇲",
+        "flagPng": "https://flagcdn.com/w320/am.png",
+        "currencies": [
+          "Armenian dram"
+        ],
+        "languages": [
+          "Armenian"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -3001,11 +3466,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for AM.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3020,6 +3486,22 @@
     {
       "country": "Azerbaijan",
       "iso2": "AZ",
+      "metadata": {
+        "officialName": "Republic of Azerbaijan",
+        "capital": "Baku",
+        "population": 10241722,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇦🇿",
+        "flagPng": "https://flagcdn.com/w320/az.png",
+        "currencies": [
+          "Azerbaijani manat"
+        ],
+        "languages": [
+          "Azerbaijani"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -3113,11 +3595,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for AZ.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3132,6 +3615,23 @@
     {
       "country": "Morocco",
       "iso2": "MA",
+      "metadata": {
+        "officialName": "Kingdom of Morocco",
+        "capital": "Rabat",
+        "population": 36828330,
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "flag": "🇲🇦",
+        "flagPng": "https://flagcdn.com/w320/ma.png",
+        "currencies": [
+          "Moroccan dirham"
+        ],
+        "languages": [
+          "Arabic",
+          "Berber"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "constitutional monarchy"
@@ -3168,7 +3668,7 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 43.37,
+        "overallPercentile": 41.12,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2023,
@@ -3181,10 +3681,9 @@
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 29.8578205108643,
+            "label": "Low political stability",
+            "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
@@ -3224,11 +3723,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for MA.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3243,6 +3743,23 @@
     {
       "country": "Somalia",
       "iso2": "SO",
+      "metadata": {
+        "officialName": "Federal Republic of Somalia",
+        "capital": "Mogadishu",
+        "population": 19655000,
+        "region": "Africa",
+        "subregion": "Eastern Africa",
+        "flag": "🇸🇴",
+        "flagPng": "https://flagcdn.com/w320/so.png",
+        "currencies": [
+          "Somali shilling"
+        ],
+        "languages": [
+          "Arabic",
+          "Somali"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic"
@@ -3334,11 +3851,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for SO.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3353,6 +3871,22 @@
     {
       "country": "Yemen",
       "iso2": "YE",
+      "metadata": {
+        "officialName": "Republic of Yemen",
+        "capital": "Sana'a",
+        "population": 32684503,
+        "region": "Asia",
+        "subregion": "Western Asia",
+        "flag": "🇾🇪",
+        "flagPng": "https://flagcdn.com/w320/ye.png",
+        "currencies": [
+          "Yemeni rial"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -3445,11 +3979,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for YE.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3464,6 +3999,22 @@
     {
       "country": "Libya",
       "iso2": "LY",
+      "metadata": {
+        "officialName": "State of Libya",
+        "capital": "Tripoli",
+        "population": 7459000,
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "flag": "🇱🇾",
+        "flagPng": "https://flagcdn.com/w320/ly.png",
+        "currencies": [
+          "Libyan dinar"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic"
@@ -3555,11 +4106,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for LY.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3574,6 +4126,22 @@
     {
       "country": "Egypt",
       "iso2": "EG",
+      "metadata": {
+        "officialName": "Arab Republic of Egypt",
+        "capital": "Cairo",
+        "population": 107271260,
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "flag": "🇪🇬",
+        "flagPng": "https://flagcdn.com/w320/eg.png",
+        "currencies": [
+          "Egyptian pound"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic"
@@ -3665,11 +4233,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for EG.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3684,6 +4253,22 @@
     {
       "country": "Algeria",
       "iso2": "DZ",
+      "metadata": {
+        "officialName": "People's Democratic Republic of Algeria",
+        "capital": "Algiers",
+        "population": 47400000,
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "flag": "🇩🇿",
+        "flagPng": "https://flagcdn.com/w320/dz.png",
+        "currencies": [
+          "Algerian dinar"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "semi-presidential system"
@@ -3775,11 +4360,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for DZ.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3794,6 +4380,23 @@
     {
       "country": "Argentina",
       "iso2": "AR",
+      "metadata": {
+        "officialName": "Argentine Republic",
+        "capital": "Buenos Aires",
+        "population": 46735004,
+        "region": "Americas",
+        "subregion": "South America",
+        "flag": "🇦🇷",
+        "flagPng": "https://flagcdn.com/w320/ar.png",
+        "currencies": [
+          "Argentine peso"
+        ],
+        "languages": [
+          "Guaraní",
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic"
@@ -3885,11 +4488,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for AR.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -3904,6 +4508,22 @@
     {
       "country": "Chile",
       "iso2": "CL",
+      "metadata": {
+        "officialName": "Republic of Chile",
+        "capital": "Santiago",
+        "population": 20206953,
+        "region": "Americas",
+        "subregion": "South America",
+        "flag": "🇨🇱",
+        "flagPng": "https://flagcdn.com/w320/cl.png",
+        "currencies": [
+          "Chilean peso"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "democratic republic"
@@ -3995,11 +4615,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for CL.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4014,6 +4635,24 @@
     {
       "country": "Peru",
       "iso2": "PE",
+      "metadata": {
+        "officialName": "Republic of Peru",
+        "capital": "Lima",
+        "population": 34350244,
+        "region": "Americas",
+        "subregion": "South America",
+        "flag": "🇵🇪",
+        "flagPng": "https://flagcdn.com/w320/pe.png",
+        "currencies": [
+          "Peruvian sol"
+        ],
+        "languages": [
+          "Aymara",
+          "Quechua",
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "presidential system"
@@ -4105,11 +4744,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for PE.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4124,6 +4764,23 @@
     {
       "country": "Cuba",
       "iso2": "CU",
+      "metadata": {
+        "officialName": "Republic of Cuba",
+        "capital": "Havana",
+        "population": 9748007,
+        "region": "Americas",
+        "subregion": "Caribbean",
+        "flag": "🇨🇺",
+        "flagPng": "https://flagcdn.com/w320/cu.png",
+        "currencies": [
+          "Cuban convertible peso",
+          "Cuban peso"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "unitary state"
@@ -4215,11 +4872,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for CU.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4234,6 +4892,22 @@
     {
       "country": "Colombia",
       "iso2": "CO",
+      "metadata": {
+        "officialName": "Republic of Colombia",
+        "capital": "Bogotá",
+        "population": 53057212,
+        "region": "Americas",
+        "subregion": "South America",
+        "flag": "🇨🇴",
+        "flagPng": "https://flagcdn.com/w320/co.png",
+        "currencies": [
+          "Colombian peso"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic"
@@ -4325,11 +4999,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for CO.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4344,6 +5019,23 @@
     {
       "country": "Panama",
       "iso2": "PA",
+      "metadata": {
+        "officialName": "Republic of Panama",
+        "capital": "Panama City",
+        "population": 4064780,
+        "region": "Americas",
+        "subregion": "Central America",
+        "flag": "🇵🇦",
+        "flagPng": "https://flagcdn.com/w320/pa.png",
+        "currencies": [
+          "Panamanian balboa",
+          "United States dollar"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "presidential system"
@@ -4435,11 +5127,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for PA.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4454,6 +5147,22 @@
     {
       "country": "El Salvador",
       "iso2": "SV",
+      "metadata": {
+        "officialName": "Republic of El Salvador",
+        "capital": "San Salvador",
+        "population": 6029976,
+        "region": "Americas",
+        "subregion": "Central America",
+        "flag": "🇸🇻",
+        "flagPng": "https://flagcdn.com/w320/sv.png",
+        "currencies": [
+          "United States dollar"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "republic",
@@ -4547,11 +5256,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for SV.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4566,6 +5276,22 @@
     {
       "country": "Denmark",
       "iso2": "DK",
+      "metadata": {
+        "officialName": "Kingdom of Denmark",
+        "capital": "Copenhagen",
+        "population": 6011488,
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "flag": "🇩🇰",
+        "flagPng": "https://flagcdn.com/w320/dk.png",
+        "currencies": [
+          "Danish krone"
+        ],
+        "languages": [
+          "Danish"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "constitutional monarchy"
@@ -4657,11 +5383,12 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
           "nextDate": null,
           "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election item found in Wikidata (common gap).",
-          "source": "wikidata:P1001,P585,P31 (tightened types)"
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for DK.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4676,6 +5403,23 @@
     {
       "country": "Sudan",
       "iso2": "SD",
+      "metadata": {
+        "officialName": "Republic of the Sudan",
+        "capital": "Khartoum",
+        "population": 51662000,
+        "region": "Africa",
+        "subregion": "Northern Africa",
+        "flag": "🇸🇩",
+        "flagPng": "https://flagcdn.com/w320/sd.png",
+        "currencies": [
+          "Sudanese pound"
+        ],
+        "languages": [
+          "Arabic",
+          "English"
+        ],
+        "source": "restcountries"
+      },
       "politicalSystem": {
         "values": [
           "federal republic"
@@ -4767,11 +5511,139 @@
       "elections": {
         "legislative": {
           "exists": "unknown",
+          "lastDate": null,
+          "nextDate": null,
+          "electionType": null,
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for SD.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
+        },
+        "executive": {
+          "exists": "unknown",
           "nextDate": null,
           "electionType": null,
           "method": "wikidata_upcoming",
           "notes": "No upcoming election item found in Wikidata (common gap).",
           "source": "wikidata:P1001,P585,P31 (tightened types)"
+        }
+      }
+    },
+    {
+      "country": "Ukraine",
+      "iso2": "UA",
+      "metadata": {
+        "officialName": "Ukraine",
+        "capital": "Kyiv",
+        "population": 32862000,
+        "region": "Europe",
+        "subregion": "Eastern Europe",
+        "flag": "🇺🇦",
+        "flagPng": "https://flagcdn.com/w320/ua.png",
+        "currencies": [
+          "Ukrainian hryvnia"
+        ],
+        "languages": [
+          "Ukrainian"
+        ],
+        "source": "restcountries"
+      },
+      "politicalSystem": {
+        "values": [
+          "semi-presidential system"
+        ],
+        "source": "wikidata:P122"
+      },
+      "executive": {
+        "headOfState": {
+          "name": "Volodymyr Zelenskyy",
+          "partyOrGroup": "Servant of the People",
+          "source": "wikidata:P35 (current statement; +party P102)"
+        },
+        "headOfGovernment": {
+          "name": "Yulia Svyrydenko",
+          "partyOrGroup": "unknown",
+          "source": "wikidata:P6 (current statement; +party P102)"
+        },
+        "executiveInPower": {
+          "leader": "Yulia Svyrydenko",
+          "partyOrGroup": "Servant of the People",
+          "method": "hog_party_else_hos_party"
+        }
+      },
+      "legislature": {
+        "bodies": [
+          {
+            "name": "Verkhovna Rada",
+            "inControl": "unknown",
+            "controlMethod": "wikidata_last_leg_election_winner",
+            "controlNotes": "No prior legislative election item found in Wikidata.",
+            "controlBasis": null
+          }
+        ],
+        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+      },
+      "worldBankGovernance": {
+        "overallPercentile": 30.07,
+        "band": "Low",
+        "bandLabel": "Low governance overall",
+        "year": 2023,
+        "components": {
+          "voiceAccountability": {
+            "indicator": "VA.PER.RNK",
+            "percentile": 42.6470603942871,
+            "label": "Moderate voice & accountability",
+            "year": 2023
+          },
+          "politicalStability": {
+            "indicator": "PV.PER.RNK",
+            "percentile": 10.9004735946655,
+            "label": "Very low political stability",
+            "year": 2023
+          },
+          "governmentEffectiveness": {
+            "indicator": "GE.PER.RNK",
+            "percentile": 37.7358474731445,
+            "label": "Low government effectiveness",
+            "year": 2023
+          },
+          "regulatoryQuality": {
+            "indicator": "RQ.PER.RNK",
+            "percentile": 43.3962249755859,
+            "label": "Moderate regulatory quality",
+            "year": 2023
+          },
+          "ruleOfLaw": {
+            "indicator": "RL.PER.RNK",
+            "percentile": 19.8113212585449,
+            "label": "Very low rule of law",
+            "year": 2023
+          },
+          "controlOfCorruption": {
+            "indicator": "CC.PER.RNK",
+            "percentile": 25.943395614624,
+            "label": "Low control of corruption",
+            "year": 2023
+          }
+        },
+        "sources": {
+          "voiceAccountability": "https://api.worldbank.org/v2/country/ua/indicator/VA.PER.RNK",
+          "politicalStability": "https://api.worldbank.org/v2/country/ua/indicator/PV.PER.RNK",
+          "governmentEffectiveness": "https://api.worldbank.org/v2/country/ua/indicator/GE.PER.RNK",
+          "regulatoryQuality": "https://api.worldbank.org/v2/country/ua/indicator/RQ.PER.RNK",
+          "ruleOfLaw": "https://api.worldbank.org/v2/country/ua/indicator/RL.PER.RNK",
+          "controlOfCorruption": "https://api.worldbank.org/v2/country/ua/indicator/CC.PER.RNK"
+        },
+        "notes": null
+      },
+      "elections": {
+        "legislative": {
+          "exists": "unknown",
+          "lastDate": null,
+          "nextDate": null,
+          "electionType": null,
+          "method": "ipu_parline+wikidata_fallback",
+          "notes": "IPU Parline had no next date (No IPU chamber data found for UA.); next date from Wikidata fallback.",
+          "source": "IPU Parline (last date) + Wikidata (next date fallback)"
         },
         "executive": {
           "exists": "unknown",
@@ -4786,7 +5658,9 @@
   ],
   "sources": {
     "wikidata_sparql": "https://query.wikidata.org/sparql",
-    "world_bank_base": "https://api.worldbank.org/v2"
+    "world_bank_base": "https://api.worldbank.org/v2",
+    "ipu_parline": "https://api.data.ipu.org/v1",
+    "rest_countries": "https://restcountries.com/v3.1"
   },
   "worldBankIndicatorsUsed": {
     "voiceAccountability": "VA.PER.RNK",
