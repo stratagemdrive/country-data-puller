@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T18:02:01.590788Z",
+  "generatedAt": "2026-03-12T18:45:43.823036Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -23,41 +23,46 @@
       },
       "politicalSystem": {
         "values": [
-          "super-presidential republic"
+          "presidential republic",
+          "federal state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Vladimir Putin",
           "partyOrGroup": "United Russia",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Mikhail Mishustin",
           "partyOrGroup": "United Russia",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Mikhail Mishustin",
           "partyOrGroup": "United Russia",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Federal Assembly of the Russian Federation",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Tatar head election",
-              "electionDate": "2025-09-14T00:00:00Z"
-            }
+            "name": "State Duma",
+            "inControl": "United Russia",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Federation Council",
+            "inControl": "United Russia",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 15.58,
@@ -116,20 +121,21 @@
       "elections": {
         "legislative": {
           "exists": true,
-          "lastDate": null,
-          "nextDate": "2026-09-20T00:00:00Z",
-          "electionType": "public election",
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for RU.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "lastDate": "2021-09-19",
+          "nextDate": "2026-09",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for RU.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": true,
-          "nextDate": "2026-09-20T00:00:00Z",
-          "electionType": "public election",
-          "method": "wikidata_upcoming",
-          "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "lastDate": "2024-03-17",
+          "nextDate": "2030",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -156,42 +162,45 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic",
-          "parliamentary democracy"
+          "federal parliamentary democratic republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Droupadi Murmu",
           "partyOrGroup": "Bharatiya Janata Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Narendra Modi",
           "partyOrGroup": "Bharatiya Janata Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Narendra Modi",
           "partyOrGroup": "Bharatiya Janata Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of India",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Thiruvananthapuram Municipal Corporation election",
-              "electionDate": "2025-12-09T00:00:00Z"
-            }
+            "name": "Lok Sabha (lower house)",
+            "inControl": "BJP-led National Democratic Alliance",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Rajya Sabha (upper house)",
+            "inControl": "BJP-led National Democratic Alliance",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 47.59,
@@ -250,20 +259,21 @@
       "elections": {
         "legislative": {
           "exists": true,
-          "lastDate": null,
-          "nextDate": "2026-05-01T00:00:00Z",
-          "electionType": "public election",
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for IN.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "lastDate": "2024-04-19",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for IN.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": true,
-          "nextDate": "2026-05-01T00:00:00Z",
-          "electionType": "public election",
-          "method": "wikidata_upcoming",
-          "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "lastDate": "2024-07",
+          "nextDate": "2029",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -289,42 +299,45 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic",
-          "parliamentary republic"
+          "federal parliamentary constitutional republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Asif Ali Zardari",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Pakistan Peoples Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Shehbaz Sharif",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Pakistan Muslim League (N)",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Shehbaz Sharif",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Pakistan Muslim League (N)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of Pakistan",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "next Gilgit Baltistan Assembly election",
-              "electionDate": "2026-01-24T00:00:00Z"
-            }
+            "name": "National Assembly",
+            "inControl": "PML-N-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Coalition government",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 20.04,
@@ -379,26 +392,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'PK'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for PK.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-02-08",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for PK.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-03",
+          "nextDate": "2029",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -423,47 +435,38 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "one-party state",
-          "unitary state",
-          "democratic centralism",
-          "constitutional republic",
-          "parliamentary republic",
-          "communist dictatorship"
+          "one-party socialist state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
-          "name": "General Secretary of the Communist Party – Xi Jinping",
+          "name": "People's Republic of China",
           "partyOrGroup": "Chinese Communist Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
-          "name": "General Secretary of the Communist Party – Xi Jinping",
+          "name": "President – Lai Ching-te",
           "partyOrGroup": "Chinese Communist Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
-          "leader": "General Secretary of the Communist Party – Xi Jinping",
+          "leader": "President – Lai Ching-te",
           "partyOrGroup": "Chinese Communist Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "National People's Congress",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2023 Hong Kong local elections",
-              "electionDate": "2023-12-10T00:00:00Z"
-            }
+            "inControl": "Chinese Communist Party",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 41.97,
@@ -519,25 +522,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'CN'."
+        "executive": "Xi Jinping holds supreme authority as General Secretary of the CCP and CMC Chairman; Li Qiang is Premier (head of government)."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for CN.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2023-03",
+          "nextDate": "2028",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for CN.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2023-03",
+          "nextDate": "2028",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -562,41 +566,47 @@
       },
       "politicalSystem": {
         "values": [
-          "constitutional monarchy"
+          "constitutional monarchy",
+          "parliamentary democracy",
+          "unitary state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "King – Charles III [ II ]",
-          "partyOrGroup": "Monarchy (non-partisan)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Keir Starmer",
           "partyOrGroup": "Labour Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Keir Starmer",
           "partyOrGroup": "Labour Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of the United Kingdom",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2026 University of St Andrews Chancellor election",
-              "electionDate": "2026-02-22T00:00:00Z"
-            }
+            "name": "House of Commons",
+            "inControl": "Labour Party",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "House of Lords",
+            "inControl": "Cross-bench (appointed, non-elected)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 84.89,
@@ -651,26 +661,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'GB'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for GB.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-07-04",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for GB.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-07-04",
+          "nextDate": "2029",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -695,44 +704,45 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "federation",
-          "parliamentary republic",
           "federal parliamentary republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Frank-Walter Steinmeier",
           "partyOrGroup": "Social Democratic Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Chancellor – Friedrich Merz",
           "partyOrGroup": "Christian Democratic Union",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Chancellor – Friedrich Merz",
           "partyOrGroup": "Christian Democratic Union",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "German Bundestag",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q137439819",
-              "electionDate": "2025-09-14T00:00:00Z"
-            }
+            "name": "Bundestag",
+            "inControl": "CDU/CSU-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Bundesrat",
+            "inControl": "State governments (non-partisan body)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 87.6,
@@ -788,25 +798,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'DE'."
+        "executive": "CDU/CSU won the Feb 2025 election; Merz became Chancellor in April 2025."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for DE.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2025-02-23",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for DE.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2025-02-23",
+          "nextDate": "2029",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -831,40 +842,39 @@
       },
       "politicalSystem": {
         "values": [
-          "constitutional monarchy",
-          "absolute monarchy",
-          "federal monarchy"
+          "federal constitutional monarchy",
+          "absolute monarchy"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Sheikh Mohamed bin Zayed Al Nahyan",
-          "partyOrGroup": "Al Nahyan family (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Sheikh Mohammed bin Rashid Al Maktoum",
-          "partyOrGroup": "Al Nahyan family (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Sheikh Mohammed bin Rashid Al Maktoum",
-          "partyOrGroup": "Al Nahyan family (monarchy)",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Legislature",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "No prior legislative election found in Wikidata (P1001/P17 UNION).",
+            "name": "Federal National Council",
+            "inControl": "Non-partisan (advisory body; half appointed, half indirectly elected)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
             "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 71.24,
@@ -920,25 +930,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'AE'."
+        "executive": "UAE is a federal monarchy; no elections for executive positions."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for AE.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2023-10-07",
+          "nextDate": "2027",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for AE.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -963,40 +974,39 @@
       },
       "politicalSystem": {
         "values": [
-          "monarchy",
           "absolute monarchy",
-          "islamic theocracy"
+          "theocratic state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "King – Salman",
-          "partyOrGroup": "House of Saud (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Mohammed bin Salman",
-          "partyOrGroup": "House of Saud (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Mohammed bin Salman",
-          "partyOrGroup": "House of Saud (monarchy)",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Legislature",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "No prior legislative election found in Wikidata (P1001/P17 UNION).",
+            "name": "Consultative Assembly (Majlis al-Shura)",
+            "inControl": "Royal appointments (no elections)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
             "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 54.25,
@@ -1052,25 +1062,27 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'SA'."
+        "executive": "King Salman is head of state; his son Crown Prince Mohammed bin Salman (MBS) serves as Prime Minister and is de facto ruler since 2022.",
+        "elections.legislative": "No legislative election data available for 'SA'."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
+          "exists": false,
           "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for SA.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for SA.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1096,42 +1108,39 @@
       },
       "politicalSystem": {
         "values": [
-          "unitary state",
-          "parliamentary republic"
+          "parliamentary democracy",
+          "unitary republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Isaac Herzog",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Non-partisan (ceremonial president)",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Benjamin Netanyahu",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Likud",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Benjamin Netanyahu",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Likud",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "The Knesset",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2024 Israeli chief rabbi elections",
-              "electionDate": "2024-09-29T00:00:00Z"
-            }
+            "name": "Knesset",
+            "inControl": "Likud-led right-wing coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 67.19,
@@ -1186,26 +1195,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'IL'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for IL.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2022-11-01",
+          "nextDate": "2026-10-27",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for IL.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2022-11-01",
+          "nextDate": "2026-10-27",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1232,41 +1240,39 @@
       },
       "politicalSystem": {
         "values": [
-          "parliamentary republic"
+          "semi-presidential republic",
+          "disputed/occupied territory"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Mahmoud Abbas",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Fatah",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Mohammad Mustafa",
           "partyOrGroup": "Fatah",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Mohammad Mustafa",
           "partyOrGroup": "Fatah",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "Palestinian Legislative Council",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2021-2022 Palestinian local elections",
-              "electionDate": "2021-12-11T00:00:00Z"
-            }
+            "inControl": "Suspended (no elections since 2006)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 21.66,
@@ -1322,26 +1328,27 @@
         "notes": null
       },
       "dataAvailability": {
-        "worldBankGovernance": "World Bank data for Palestine is limited due to its political status.",
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'PS'."
+        "executive": "Mahmoud Abbas has ruled by decree since Palestinian elections were last held in 2006. PM Mohammad Mustafa appointed March 2024.",
+        "worldBankGovernance": "World Bank data for Palestine is limited due to its political status."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
+          "exists": true,
+          "lastDate": "2006-01-25",
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for PS.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for PS.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": "unknown",
+          "lastDate": "2005-01-09",
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1366,41 +1373,45 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic"
+          "federal presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Congress of the Union",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q136479231",
-              "electionDate": "2025-01-01T00:00:00Z"
-            }
+            "name": "Chamber of Deputies",
+            "inControl": "Morena-led coalition (supermajority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Morena-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 32.67,
@@ -1456,25 +1467,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'MX'."
+        "executive": "Mexico has a presidential system; Sheinbaum is both head of state and head of government. First elected female president of Mexico."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for MX.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-06-02",
+          "nextDate": "2027",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for MX.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-06-02",
+          "nextDate": "2030",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1499,43 +1511,45 @@
       },
       "politicalSystem": {
         "values": [
-          "presidential system",
-          "representative democracy",
-          "federal republic"
+          "federal presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Luiz Inácio Lula da Silva",
-          "partyOrGroup": "Workers' Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Workers' Party (PT)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Luiz Inácio Lula da Silva",
-          "partyOrGroup": "Workers' Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Workers' Party (PT)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Luiz Inácio Lula da Silva",
-          "partyOrGroup": "Workers' Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "Workers' Party (PT)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Congress of Brazil",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 President of the Chamber of Deputies of Brazil election",
-              "electionDate": "2025-02-01T00:00:00Z"
-            }
+            "name": "Chamber of Deputies",
+            "inControl": "Centre-right coalition (PL largest party)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Federal Senate",
+            "inControl": "Coalition government (PSD largest bloc)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 39.47,
@@ -1590,26 +1604,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'BR'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for BR.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2022-10-02",
+          "nextDate": "2026-10",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for BR.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2022-10-30",
+          "nextDate": "2026-10",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1635,43 +1648,45 @@
       },
       "politicalSystem": {
         "values": [
-          "constitutional monarchy",
-          "federation",
-          "parliamentary system"
+          "federal parliamentary constitutional monarchy"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "King – Charles III [ II ]",
-          "partyOrGroup": "Monarchy (non-partisan)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Mark Carney",
           "partyOrGroup": "Liberal Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Mark Carney",
           "partyOrGroup": "Liberal Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of Canada",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Québec solidaire co-spokesperson election",
-              "electionDate": "2025-11-08T00:00:00Z"
-            }
+            "name": "House of Commons",
+            "inControl": "Liberal Party (minority government, 169/343 seats)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Non-partisan (Independent Senators Group largest bloc)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 90.52,
@@ -1726,24 +1741,27 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Mark Carney became PM on 14 March 2025 after Trudeau's resignation. Liberals won the 28 April 2025 election with 169 seats — a minority government, 3 seats short of majority. Several opposition MPs have since crossed the floor."
+      },
       "elections": {
         "legislative": {
           "exists": true,
-          "lastDate": null,
-          "nextDate": "2026-10-26T00:00:00Z",
-          "electionType": "public election",
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for CA.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "lastDate": "2025-04-28",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for CA.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": true,
-          "nextDate": "2026-10-26T00:00:00Z",
-          "electionType": "public election",
-          "method": "wikidata_upcoming",
-          "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "lastDate": "2025-04-28",
+          "nextDate": "2029",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1768,41 +1786,45 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic"
+          "federal presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Bola Tinubu",
           "partyOrGroup": "All Progressives Congress",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Bola Tinubu",
           "partyOrGroup": "All Progressives Congress",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Bola Tinubu",
           "partyOrGroup": "All Progressives Congress",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Assembly of Nigeria",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2023 Abia State elections",
-              "electionDate": "2023-04-28T00:00:00Z"
-            }
+            "name": "House of Representatives",
+            "inControl": "All Progressives Congress",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "All Progressives Congress",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 19.08,
@@ -1857,26 +1879,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'NG'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for NG.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2023-02-25",
+          "nextDate": "2027",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for NG.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2023-02-25",
+          "nextDate": "2027",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -1901,41 +1922,46 @@
       },
       "politicalSystem": {
         "values": [
-          "constitutional monarchy"
+          "constitutional monarchy",
+          "parliamentary democracy"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Emperor – Naruhito [ VIII ]",
-          "partyOrGroup": "Imperial House (non-partisan)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (imperial household)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Sanae Takaichi",
           "partyOrGroup": "Liberal Democratic Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Sanae Takaichi",
           "partyOrGroup": "Liberal Democratic Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Diet",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Tokyo prefectural election",
-              "electionDate": "2025-06-22T00:00:00Z"
-            }
+            "name": "House of Representatives (Shugiin)",
+            "inControl": "LDP (supermajority — 316/465 seats, Feb 2026)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "House of Councillors (Sangiin)",
+            "inControl": "LDP-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 89.75,
@@ -1991,25 +2017,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'JP'."
+        "executive": "Sanae Takaichi became Japan's first female PM in October 2025. She called a snap election on 8 February 2026, winning a historic LDP supermajority (316/465 seats in the lower house)."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for JP.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2026-02-08",
+          "nextDate": "2030",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for JP.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2026-02-08",
+          "nextDate": "2030",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2034,44 +2061,39 @@
       },
       "politicalSystem": {
         "values": [
-          "presidential system",
-          "unitary state",
-          "Islamic Republic",
-          "islamic theocracy"
+          "theocratic republic",
+          "Islamic republic (transitional)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Interim Leadership Council",
           "partyOrGroup": "Islamic Republic (transitional)",
-          "source": "static_override"
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
           "name": "Masoud Pezeshkian",
-          "partyOrGroup": "Reformist",
-          "source": "static_override"
+          "partyOrGroup": "Reformist front",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
           "leader": "Masoud Pezeshkian",
-          "partyOrGroup": "Reformist",
-          "method": "static_override"
+          "partyOrGroup": "Reformist front",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Islamic Consultative Assembly",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2026 Iranian Supreme Leader election",
-              "electionDate": "2026-03-08T00:00:00Z"
-            }
+            "name": "Islamic Consultative Assembly (Majlis)",
+            "inControl": "Conservative/Principlist majority",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 10.12,
@@ -2127,25 +2149,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'IR'."
+        "executive": "Ali Khamenei was killed on 28 Feb 2026 in US/Israeli strikes. A three-member interim council (President, Chief Justice, Guardian Council rep) is overseeing transition to elect a new Supreme Leader. Masoud Pezeshkian remains President."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for IR.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-03-01",
+          "nextDate": "2028",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for IR.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-07-05",
+          "nextDate": "2028",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2170,41 +2193,38 @@
       },
       "politicalSystem": {
         "values": [
-          "semi-presidential system"
+          "transitional government (post-civil war)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Ahmad al-Sharaa",
-          "partyOrGroup": "Hayat Tahrir al-Sham (transitional)",
-          "source": "static_override"
+          "partyOrGroup": "Hayat Tahrir al-Sham (transitional authority)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
           "name": "Mohammad al-Bashir",
-          "partyOrGroup": "Hayat Tahrir al-Sham (transitional)",
-          "source": "static_override"
+          "partyOrGroup": "Transitional government",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
           "leader": "Mohammad al-Bashir",
-          "partyOrGroup": "Hayat Tahrir al-Sham (transitional)",
-          "method": "static_override"
+          "partyOrGroup": "Transitional government",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "People's Assembly of Syria",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Syrian parliamentary election",
-              "electionDate": "2025-10-05T00:00:00Z"
-            }
+            "name": "No functioning legislature",
+            "inControl": "Transitional authority",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 1.74,
@@ -2260,26 +2280,27 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Syria's transitional government (post-Assad, Dec 2024) is not yet in Wikidata. Executive data is from static overrides.",
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'SY'."
+        "executive": "Assad fled in December 2024. Ahmad al-Sharaa (formerly Abu Mohammad al-Jolani) leads the transitional government. No functioning legislature.",
+        "elections.legislative": "No legislative election data available for 'SY'."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
+          "exists": false,
           "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for SY.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for SY.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2304,41 +2325,45 @@
       },
       "politicalSystem": {
         "values": [
-          "semi-presidential system"
+          "unitary semi-presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Emmanuel Macron [ I ]",
           "partyOrGroup": "Renaissance",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister [ 3 ] – Sébastien Lecornu",
-          "partyOrGroup": "Renaissance",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Democratic Movement (MoDem)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister [ 3 ] – Sébastien Lecornu",
-          "partyOrGroup": "Renaissance",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "Democratic Movement (MoDem)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "French Parliament",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q135673676",
-              "electionDate": "2026-03-01T00:00:00Z"
-            }
+            "name": "National Assembly",
+            "inControl": "No single majority (hung parliament; left-wing NFP largest bloc)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Centre-right (Les Républicains largest group)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 79.99,
@@ -2394,25 +2419,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'FR'."
+        "executive": "François Bayrou became PM in January 2025 after Michel Barnier's government fell in December 2024."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for FR.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-07-07",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for FR.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2022-04-24",
+          "nextDate": "2027-04",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2437,42 +2463,39 @@
       },
       "politicalSystem": {
         "values": [
-          "presidential system",
+          "presidential republic",
           "unitary state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Recep Tayyip Erdoğan",
-          "partyOrGroup": "Justice and Development Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Justice and Development Party (AKP)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Recep Tayyip Erdoğan",
-          "partyOrGroup": "Justice and Development Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Justice and Development Party (AKP)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Recep Tayyip Erdoğan",
-          "partyOrGroup": "Justice and Development Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "Justice and Development Party (AKP)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Grand National Assembly of Turkey",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q134510244",
-              "electionDate": "2025-09-01T00:00:00Z"
-            }
+            "name": "Grand National Assembly",
+            "inControl": "AKP-led People's Alliance",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 31.93,
@@ -2528,25 +2551,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'TR'."
+        "executive": "Turkey has a presidential system; Erdoğan is both head of state and government."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for TR.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2023-05-14",
+          "nextDate": "2028",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for TR.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2023-05-28",
+          "nextDate": "2028",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2571,42 +2595,38 @@
       },
       "politicalSystem": {
         "values": [
-          "presidential system",
-          "federal republic"
+          "presidential republic (disputed/authoritarian)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Delcy Rodríguez (acting)",
-          "partyOrGroup": "United Socialist Party of Venezuela",
-          "source": "static_override"
+          "partyOrGroup": "United Socialist Party of Venezuela (PSUV)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
           "name": "Delcy Rodríguez (acting)",
-          "partyOrGroup": "United Socialist Party of Venezuela",
-          "source": "static_override"
+          "partyOrGroup": "United Socialist Party of Venezuela (PSUV)",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
           "leader": "Delcy Rodríguez (acting)",
-          "partyOrGroup": "United Socialist Party of Venezuela",
-          "method": "static_override"
+          "partyOrGroup": "United Socialist Party of Venezuela (PSUV)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "National Assembly",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2021 Venezuelan municipal elections",
-              "electionDate": "2021-11-21T00:00:00Z"
-            }
+            "inControl": "PSUV (government-aligned majority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 4.77,
@@ -2662,25 +2682,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'VE'."
+        "executive": "Nicolás Maduro fled Venezuela in late 2025; Vice President Delcy Rodríguez became acting president on 3 January 2026. Edmundo González is internationally recognised by some states as legitimate president-elect."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
+          "exists": true,
+          "lastDate": "2020-12-06",
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for VE.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for VE.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-07-28",
+          "nextDate": "2030",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2705,43 +2726,38 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "one-party state",
-          "unitary state"
+          "one-party socialist republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "General Secretary of the Communist Party – Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "General Secretary of the Communist Party – Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "General Secretary of the Communist Party – Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Assembly of Vietnam",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q109023031",
-              "electionDate": "2021-05-23T00:00:00Z"
-            }
+            "name": "National Assembly",
+            "inControl": "Communist Party of Vietnam",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 40.62,
@@ -2797,25 +2813,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'VN'."
+        "executive": "Lương Cường became President in October 2024. The General Secretary (Tô Lâm) holds supreme authority as party leader."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for VN.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-05-23",
+          "nextDate": "2026-05",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for VN.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2021-07",
+          "nextDate": "2026",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2840,43 +2857,38 @@
       },
       "politicalSystem": {
         "values": [
-          "democracy",
-          "semi-presidential system",
-          "constitutional republic"
+          "semi-presidential republic (disputed sovereignty)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Lai Ching-te",
-          "partyOrGroup": "Democratic Progressive Party",
-          "source": "static_override"
+          "partyOrGroup": "Democratic Progressive Party (DPP)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
           "name": "Cho Jung-tai",
-          "partyOrGroup": "Democratic Progressive Party",
-          "source": "static_override"
+          "partyOrGroup": "Democratic Progressive Party (DPP)",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
           "leader": "Cho Jung-tai",
-          "partyOrGroup": "Democratic Progressive Party",
-          "method": "static_override"
+          "partyOrGroup": "Democratic Progressive Party (DPP)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "Legislative Yuan",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "11th Legislative Yuan presidential election",
-              "electionDate": "2024-02-01T00:00:00Z"
-            }
+            "inControl": "Kuomintang (KMT) and Taiwan People's Party (TPP) hold combined majority",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": null,
@@ -2938,26 +2950,28 @@
         "notes": "No WGI percentile values available."
       },
       "dataAvailability": {
+        "executive": "Taiwan is not a UN member state; its sovereignty is disputed. Lai Ching-te (William Lai) became president in May 2024.",
         "worldBankGovernance": "Taiwan is not a UN member state and is not recognised by the World Bank. WGI data is unavailable.",
         "elections.legislative": "Taiwan is not a member of the IPU and is absent from the Parline database."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (TW not represented in IPU Parline.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-01-13",
+          "nextDate": "2028",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "TW not in IPU Parline.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-01-13",
+          "nextDate": "2028",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -2982,42 +2996,39 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "presidential system"
+          "presidential republic",
+          "unitary state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Lee Jae-myung",
           "partyOrGroup": "Democratic Party of Korea",
-          "source": "static_override"
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
           "name": "Lee Jae-myung",
           "partyOrGroup": "Democratic Party of Korea",
-          "source": "static_override"
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
           "leader": "Lee Jae-myung",
           "partyOrGroup": "Democratic Party of Korea",
-          "method": "static_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "National Assembly",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2020 South Korean legislative election records",
-              "electionDate": "2020-04-15T00:00:00Z"
-            }
+            "inControl": "Democratic Party of Korea (supermajority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 80.47,
@@ -3073,25 +3084,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'KR'."
+        "executive": "Lee Jae-myung won the June 2025 snap presidential election following Yoon Suk-yeol's impeachment and removal for his December 2024 martial law attempt."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for KR.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-04-10",
+          "nextDate": "2028",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for KR.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2025-06-03",
+          "nextDate": "2030",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3116,44 +3128,39 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "one-party state",
-          "unitary state",
-          "Juche",
-          "socialist state",
-          "family dictatorship",
-          "communist dictatorship"
+          "one-party totalitarian state",
+          "hereditary dictatorship"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
-          "name": "General Secretary of the Workers' Party – Kim Jong Un",
+          "name": "Kim Jong-un",
           "partyOrGroup": "Korean Workers' Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
-          "name": "General Secretary of the Workers' Party – Kim Jong Un",
+          "name": "Kim Jong-un",
           "partyOrGroup": "Korean Workers' Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
-          "leader": "General Secretary of the Workers' Party – Kim Jong Un",
+          "leader": "Kim Jong-un",
           "partyOrGroup": "Korean Workers' Party",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "Supreme People's Assembly",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "No prior legislative election found in Wikidata (P1001/P17 UNION).",
+            "inControl": "Korean Workers' Party (single-party)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
             "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 7.57,
@@ -3209,26 +3216,28 @@
         "notes": null
       },
       "dataAvailability": {
+        "executive": "Kim Jong-un holds supreme authority as General Secretary of the KWP, President of State Affairs, and Supreme Commander.",
         "worldBankGovernance": "North Korea governance data is based on limited external assessments.",
-        "elections.legislative": "North Korea holds nominal single-party elections; IPU may not track these."
+        "elections.legislative": "North Korea holds nominal single-party elections; meaningful data unavailable."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for KP.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-01-07",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "KP not in IPU Parline.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3253,42 +3262,46 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "presidential system"
+          "presidential republic",
+          "unitary state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Prabowo Subianto",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Gerindra Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Prabowo Subianto",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Gerindra Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Prabowo Subianto",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Gerindra Party",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "People's Consultative Assembly",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2024 Indonesian local elections",
-              "electionDate": "2024-11-27T00:00:00Z"
-            }
+            "name": "People's Representative Council (DPR)",
+            "inControl": "Prabowo-allied coalition (majority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Regional Representative Council (DPD)",
+            "inControl": "Non-partisan (regional representatives)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 49.17,
@@ -3344,25 +3357,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'ID'."
+        "executive": "Prabowo Subianto became president in October 2024, succeeding Joko Widodo."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for ID.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-02-14",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for ID.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-02-14",
+          "nextDate": "2029",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3387,41 +3401,38 @@
       },
       "politicalSystem": {
         "values": [
-          "republic"
+          "military junta (State Administration Council)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "Min Aung Hlaing",
-          "partyOrGroup": "Tatmadaw (military junta)",
-          "source": "static_override"
+          "partyOrGroup": "Tatmadaw (military)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
           "name": "Min Aung Hlaing",
-          "partyOrGroup": "Tatmadaw (military junta)",
-          "source": "static_override"
+          "partyOrGroup": "Tatmadaw (military)",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
           "leader": "Min Aung Hlaing",
-          "partyOrGroup": "Tatmadaw (military junta)",
-          "method": "static_override"
+          "partyOrGroup": "Tatmadaw (military)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Assembly of the Union",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2020 Myanmar regional elections",
-              "electionDate": "2020-11-08T00:00:00Z"
-            }
+            "name": "Pyidaungsu Hluttaw (suspended)",
+            "inControl": "Dissolved by military coup (Feb 2021)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 5.99,
@@ -3477,25 +3488,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'MM'."
+        "executive": "Myanmar has been under military junta (SAC) rule since the February 2021 coup. The elected NLD government operates in exile as the National Unity Government."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
+          "exists": true,
+          "lastDate": "2020-11-08",
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for MM.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for MM.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": "unknown",
+          "lastDate": "2020-11-08",
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3520,43 +3532,39 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "parliamentary system",
+          "parliamentary republic",
           "unitary state"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Vahagn Khachaturyan",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Non-partisan (ceremonial)",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Nikol Pashinyan",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Civil Contract",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Nikol Pashinyan",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Civil Contract",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Assembly of Armenia",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2017 Yerevan City Council election",
-              "electionDate": "2017-05-14T00:00:00Z"
-            }
+            "name": "National Assembly",
+            "inControl": "Civil Contract (majority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 45.06,
@@ -3611,26 +3619,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'AM'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for AM.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-06-20",
+          "nextDate": "2026",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for AM.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2022-03-03",
+          "nextDate": "2027",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3655,43 +3662,38 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "semi-presidential system",
-          "unitary state"
+          "presidential republic (authoritarian)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Ilham Aliyev",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "New Azerbaijan Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Ali Asadov",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "New Azerbaijan Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Ali Asadov",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "New Azerbaijan Party",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Assembly of Azerbaijan",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Azerbaijan municipal elections",
-              "electionDate": "2025-01-29T00:00:00Z"
-            }
+            "name": "National Assembly (Milli Majlis)",
+            "inControl": "New Azerbaijan Party",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 28.06,
@@ -3746,26 +3748,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'AZ'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for AZ.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-09-01",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for AZ.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-02-07",
+          "nextDate": "2031",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3791,41 +3792,46 @@
       },
       "politicalSystem": {
         "values": [
-          "constitutional monarchy"
+          "constitutional monarchy",
+          "parliamentary democracy"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "King – Mohammed VI",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Non-partisan (monarchy)",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Aziz Akhannouch",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "National Rally of Independents (RNI)",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Aziz Akhannouch",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "National Rally of Independents (RNI)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of Morocco",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q109023159",
-              "electionDate": "2021-09-08T00:00:00Z"
-            }
+            "name": "House of Representatives",
+            "inControl": "RNI-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "House of Councillors",
+            "inControl": "RNI-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 41.12,
@@ -3880,26 +3886,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'MA'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for MA.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-09-08",
+          "nextDate": "2026",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for MA.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -3925,41 +3930,45 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic"
+          "federal parliamentary republic (fragile state)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Hassan Sheikh Mohamud",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Union for Peace and Development",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Hamza Abdi Barre",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Union for Peace and Development",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Hamza Abdi Barre",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Union for Peace and Development",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Federal Parliament of Somalia",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2000 Somali presidential election",
-              "electionDate": "2000-01-01T00:00:00Z"
-            }
+            "name": "People's Assembly (Lower House)",
+            "inControl": "Union for Peace and Development (plurality)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Upper House (Senate)",
+            "inControl": "Coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 2.15,
@@ -4015,26 +4024,27 @@
         "notes": null
       },
       "dataAvailability": {
-        "worldBankGovernance": "Somalia governance data is based on limited external assessments.",
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'SO'."
+        "executive": "Somalia has a fragile federal government; direct elections are limited. Hassan Sheikh Mohamud was re-elected by parliament in May 2022.",
+        "worldBankGovernance": "Somalia governance data is based on limited external assessments."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for SO.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-10",
+          "nextDate": "2025-2026",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for SO.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2022-05-15",
+          "nextDate": "2026",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4059,39 +4069,38 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "presidential system"
+          "republic (de facto divided/civil war)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
-          "name": "Chairman of the Presidential Leadership Council – Rashad al-Alimi",
-          "partyOrGroup": "unknown",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "name": "Rashad al-Alimi (Presidential Leadership Council chair)",
+          "partyOrGroup": "Coalition (Presidential Leadership Council)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
-          "name": "Prime Minister – Shaya al-Zindani",
-          "partyOrGroup": "unknown",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "name": "Ahmed Awad bin Mubarak",
+          "partyOrGroup": "Internationally recognised government",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
-          "leader": "Prime Minister – Shaya al-Zindani",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "leader": "Ahmed Awad bin Mubarak",
+          "partyOrGroup": "Internationally recognised government",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of Yemen",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "No prior legislative election found in Wikidata (P1001/P17 UNION).",
+            "name": "House of Representatives (suspended)",
+            "inControl": "Divided (parallel governments)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
             "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 2.48,
@@ -4147,26 +4156,27 @@
         "notes": null
       },
       "dataAvailability": {
-        "worldBankGovernance": "Yemen governance data reflects the pre-conflict baseline; current effective governance is severely disrupted by civil war.",
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'YE'."
+        "executive": "Yemen is split between the Houthi-controlled north (Ansar Allah) and the internationally recognised government in the south. The Presidential Leadership Council (est. 2022) chairs the recognised government.",
+        "worldBankGovernance": "Yemen governance data reflects the internationally recognised government baseline; current effective governance is severely disrupted by civil war."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
+          "exists": true,
+          "lastDate": "2003-04-27",
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for YE.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for YE.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": "unknown",
+          "lastDate": "2012-02-21",
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4191,41 +4201,45 @@
       },
       "politicalSystem": {
         "values": [
-          "republic"
+          "transitional republic (divided/rival governments)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
-          "name": "Chairman of the Presidential Council – Mohamed al-Menfi",
-          "partyOrGroup": "unknown",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "name": "Mohamed al-Menfi (GNU Presidential Council)",
+          "partyOrGroup": "Non-partisan (UN-backed)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
-          "name": "Prime Minister – Abdul Hamid Dbeibeh",
-          "partyOrGroup": "unknown",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "name": "Abdul Hamid Dbeibeh (GNU)",
+          "partyOrGroup": "Non-partisan",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
-          "leader": "Prime Minister – Abdul Hamid Dbeibeh",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "leader": "Abdul Hamid Dbeibeh (GNU)",
+          "partyOrGroup": "Non-partisan",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "House of Representatives",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2012 Libyan local elections",
-              "electionDate": "2012-08-25T00:00:00Z"
-            }
+            "name": "House of Representatives (HoR)",
+            "inControl": "Eastern-based rival government",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Government of National Unity (Tripoli)",
+            "inControl": "UN-recognised",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 4.62,
@@ -4281,26 +4295,27 @@
         "notes": null
       },
       "dataAvailability": {
-        "worldBankGovernance": "Libya has parallel governing authorities; data reflects the internationally recognised government's institutional capacity.",
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'LY'."
+        "executive": "Libya has two rival governments: the UN-recognised Government of National Unity (GNU) in Tripoli, and the rival government backed by the House of Representatives in Benghazi/Tobruk.",
+        "worldBankGovernance": "Libya has parallel governing authorities; data reflects the internationally recognised Government of National Unity's institutional capacity."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
+          "exists": true,
+          "lastDate": "2014-06-25",
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for LY.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for LY.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4325,41 +4340,45 @@
       },
       "politicalSystem": {
         "values": [
-          "republic"
+          "presidential republic (authoritarian)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Abdel Fattah el-Sisi",
-          "partyOrGroup": "No party (military)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "No party (military-backed)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Mostafa Madbouly",
-          "partyOrGroup": "No party (military)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "No party (technocratic)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Mostafa Madbouly",
-          "partyOrGroup": "No party (military)",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "No party (technocratic)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of Egypt",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2008 Egyptian municipal elections",
-              "electionDate": "2008-04-08T00:00:00Z"
-            }
+            "name": "House of Representatives",
+            "inControl": "Pro-Sisi independents and Nation's Future Party",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Pro-Sisi majority",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 27.52,
@@ -4414,26 +4433,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'EG'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for EG.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2020-10-24",
+          "nextDate": "2025",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for EG.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2023-12-10",
+          "nextDate": "2030",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4458,41 +4476,45 @@
       },
       "politicalSystem": {
         "values": [
-          "semi-presidential system"
+          "presidential republic (dominant-party)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Abdelmadjid Tebboune",
-          "partyOrGroup": "National Liberation Front",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "National Liberation Front (FLN) aligned",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Sifi Ghrieb",
-          "partyOrGroup": "National Liberation Front",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "National Liberation Front (FLN) aligned",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Sifi Ghrieb",
-          "partyOrGroup": "National Liberation Front",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "partyOrGroup": "National Liberation Front (FLN) aligned",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Parliament of Algeria",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2025 Algerian Council of the Nation election",
-              "electionDate": "2025-03-09T00:00:00Z"
-            }
+            "name": "People's National Assembly",
+            "inControl": "FLN-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Council of the Nation",
+            "inControl": "FLN-led coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 24.21,
@@ -4547,26 +4569,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'DZ'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for DZ.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-06-12",
+          "nextDate": "2027",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for DZ.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-09-07",
+          "nextDate": "2029",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4592,41 +4613,45 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic"
+          "federal presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Javier Milei",
           "partyOrGroup": "La Libertad Avanza",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Javier Milei",
           "partyOrGroup": "La Libertad Avanza",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Javier Milei",
           "partyOrGroup": "La Libertad Avanza",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Argentine National Congress",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2023 Argentine provincial elections",
-              "electionDate": "2023-12-22T00:00:00Z"
-            }
+            "name": "Chamber of Deputies",
+            "inControl": "No single majority (Milei is minority; Peronist blocs largest)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "No single majority",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 42.73,
@@ -4685,20 +4710,21 @@
       "elections": {
         "legislative": {
           "exists": true,
-          "lastDate": null,
-          "nextDate": "2027-10-24T00:00:00Z",
-          "electionType": "public election",
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for AR.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "lastDate": "2023-10-22",
+          "nextDate": "2025-10",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for AR.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": true,
-          "nextDate": "2027-10-24T00:00:00Z",
-          "electionType": "public election",
-          "method": "wikidata_upcoming",
-          "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "lastDate": "2023-11-19",
+          "nextDate": "2027",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4723,41 +4749,45 @@
       },
       "politicalSystem": {
         "values": [
-          "democratic republic"
+          "unitary presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – José Antonio Kast",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Apruebo Dignidad (Broad Front / PC coalition)",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – José Antonio Kast",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Apruebo Dignidad",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – José Antonio Kast",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Apruebo Dignidad",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Congress of Chile",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2024 Chilean regional elections",
-              "electionDate": "2024-10-27T00:00:00Z"
-            }
+            "name": "Chamber of Deputies",
+            "inControl": "Right-wing Chile Vamos coalition (largest bloc)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Right-wing coalition (majority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 72.48,
@@ -4812,26 +4842,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'CL'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for CL.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-11-21",
+          "nextDate": "2025-11",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for CL.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2021-12-19",
+          "nextDate": "2025-11",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4858,41 +4887,38 @@
       },
       "politicalSystem": {
         "values": [
-          "presidential system"
+          "unitary presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – José María Balcázar",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Free Peru (Perú Libre) – estranged",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – José María Balcázar",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "No active party affiliation",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – José María Balcázar",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "No active party affiliation",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Congress of the Republic of Peru",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2021 Peruvian parliamentary election",
-              "electionDate": "2021-04-11T00:00:00Z"
-            }
+            "name": "Congress",
+            "inControl": "Right-wing and centre-right coalition (Alliance for Progress largest bloc)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 37.12,
@@ -4948,25 +4974,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'PE'."
+        "executive": "Dina Boluarte became president in December 2022 after Pedro Castillo's impeachment. She has governed without a stable congressional majority."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for PE.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2021-04-11",
+          "nextDate": "2026-04",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for PE.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2021-06-06",
+          "nextDate": "2026-04",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -4992,41 +5019,38 @@
       },
       "politicalSystem": {
         "values": [
-          "unitary state"
+          "one-party socialist republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "First Secretary of the Communist Party – Miguel Díaz-Canel",
           "partyOrGroup": "Communist Party of Cuba",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "First Secretary of the Communist Party – Miguel Díaz-Canel",
           "partyOrGroup": "Communist Party of Cuba",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "First Secretary of the Communist Party – Miguel Díaz-Canel",
           "partyOrGroup": "Communist Party of Cuba",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "National Assembly of People's Power",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2017 local electios in Cuba",
-              "electionDate": "2017-01-01T00:00:00Z"
-            }
+            "inControl": "Communist Party of Cuba",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 33.16,
@@ -5081,26 +5105,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'CU'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for CU.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2023-03-26",
+          "nextDate": "2028",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for CU.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2023-04",
+          "nextDate": "2028",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -5125,41 +5148,45 @@
       },
       "politicalSystem": {
         "values": [
-          "republic"
+          "unitary presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Gustavo Petro",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Colombia Humana / Pacto Histórico",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Gustavo Petro",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Pacto Histórico",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Gustavo Petro",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Pacto Histórico",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Congress of Colombia",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q138509018",
-              "electionDate": "2019-10-29T00:00:00Z"
-            }
+            "name": "House of Representatives",
+            "inControl": "Fragmented (Pacto Histórico minority; no clear majority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
+          },
+          {
+            "name": "Senate",
+            "inControl": "Fragmented coalition",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 42.89,
@@ -5218,20 +5245,21 @@
       "elections": {
         "legislative": {
           "exists": true,
-          "lastDate": null,
-          "nextDate": "2027-01-01T00:00:00Z",
-          "electionType": "public election",
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for CO.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "lastDate": "2022-03-13",
+          "nextDate": "2026-03",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for CO.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": true,
-          "nextDate": "2027-01-01T00:00:00Z",
-          "electionType": "public election",
-          "method": "wikidata_upcoming",
-          "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "lastDate": "2022-06-19",
+          "nextDate": "2026-05",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -5257,41 +5285,38 @@
       },
       "politicalSystem": {
         "values": [
-          "presidential system"
+          "presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – José Raúl Mulino",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Realizing Goals Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – José Raúl Mulino",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "Realizing Goals Party",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – José Raúl Mulino",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "Realizing Goals Party",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Assembly of Panama",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Q125643958",
-              "electionDate": "2024-05-05T00:00:00Z"
-            }
+            "name": "National Assembly",
+            "inControl": "Fragmented (no single majority; Realizing Goals is largest party)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 47.3,
@@ -5346,26 +5371,25 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'PA'."
-      },
+      "dataAvailability": null,
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for PA.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2024-05-05",
+          "nextDate": "2029",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for PA.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2024-05-05",
+          "nextDate": "2029",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -5390,43 +5414,38 @@
       },
       "politicalSystem": {
         "values": [
-          "republic",
-          "presidential system",
-          "representative democracy"
+          "presidential republic"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Nayib Bukele",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "New Ideas",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "President – Nayib Bukele",
-          "partyOrGroup": "unknown",
+          "partyOrGroup": "New Ideas",
           "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "President – Nayib Bukele",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "partyOrGroup": "New Ideas",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "Legislative Assembly of El Salvador",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "2024 San Salvador municipal elections",
-              "electionDate": "2024-03-03T00:00:00Z"
-            }
+            "name": "Legislative Assembly",
+            "inControl": "New Ideas (supermajority)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 40.98,
@@ -5481,24 +5500,27 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Nayib Bukele was re-elected in February 2024 despite constitutional single-term limits; the Supreme Court approved his candidacy."
+      },
       "elections": {
         "legislative": {
           "exists": true,
-          "lastDate": null,
-          "nextDate": "2027-01-01T00:00:00Z",
-          "electionType": "public election",
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for SV.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "lastDate": "2024-02-04",
+          "nextDate": "2027",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for SV.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": true,
-          "nextDate": "2027-01-01T00:00:00Z",
-          "electionType": "public election",
-          "method": "wikidata_upcoming",
-          "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "lastDate": "2024-02-04",
+          "nextDate": "2030",
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -5523,41 +5545,39 @@
       },
       "politicalSystem": {
         "values": [
-          "constitutional monarchy"
+          "constitutional monarchy",
+          "parliamentary democracy"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "King – Frederik X",
-          "partyOrGroup": "Monarchy (non-partisan)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "partyOrGroup": "Non-partisan (monarchy)",
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Mette Frederiksen",
           "partyOrGroup": "Social Democrats",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Mette Frederiksen",
           "partyOrGroup": "Social Democrats",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "Folketing",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "1951 Greenlandic Provincial Council election",
-              "electionDate": "1951-01-01T00:00:00Z"
-            }
+            "inControl": "Social Democrat-led centre-left coalition (election 24 Mar 2026 pending)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 95.26,
@@ -5613,25 +5633,26 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'DK'."
+        "executive": "King Frederik X succeeded Queen Margrethe II on 14 January 2024. PM Frederiksen called a snap election for 24 March 2026, capitalising on popularity from her stance against Trump's Greenland threats."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
-          "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for DK.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "exists": true,
+          "lastDate": "2022-11-01",
+          "nextDate": "2026-03-24",
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for DK.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
-          "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "exists": true,
+          "lastDate": "2022-11-01",
+          "nextDate": "2026-03-24",
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -5657,41 +5678,38 @@
       },
       "politicalSystem": {
         "values": [
-          "federal republic"
+          "military junta (transitional sovereignty council)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
-          "name": "Transitional Sovereignty Council [ X ]",
-          "partyOrGroup": "unknown",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "name": "Abdel Fattah al-Burhan",
+          "partyOrGroup": "Sudanese Armed Forces (SAF)",
+          "source": "static_ground_truth"
         },
         "headOfGovernment": {
-          "name": "Prime Minister – Kamil Idris",
-          "partyOrGroup": "unknown",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "name": "Abdel Fattah al-Burhan",
+          "partyOrGroup": "Sudanese Armed Forces (SAF)",
+          "source": "static_ground_truth"
         },
         "executiveInPower": {
-          "leader": "Prime Minister – Kamil Idris",
-          "partyOrGroup": "unknown",
-          "method": "wikipedia_hos_hog_list"
+          "leader": "Abdel Fattah al-Burhan",
+          "partyOrGroup": "Sudanese Armed Forces (SAF)",
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "National Legislature",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "1981–82 Sudanese parliamentary election",
-              "electionDate": "1981-11-13T00:00:00Z"
-            }
+            "name": "No functioning legislature",
+            "inControl": "Dissolved; civil war ongoing",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 3.89,
@@ -5747,25 +5765,28 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'SD'."
+        "executive": "Sudan has been in civil war since April 2023 between the SAF (al-Burhan) and RSF (Hemeti). The civilian transitional framework has collapsed.",
+        "worldBankGovernance": "Sudan is in active civil war (SAF vs RSF since April 2023); governance data is from pre-war assessments and does not reflect current conditions.",
+        "elections.legislative": "No legislative election data available for 'SD'."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
+          "exists": false,
           "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for SD.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for SD.",
+          "source": "static_ground_truth"
         },
         "executive": {
-          "exists": "unknown",
+          "exists": false,
+          "lastDate": null,
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "indirect/parliamentary selection",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     },
@@ -5790,41 +5811,38 @@
       },
       "politicalSystem": {
         "values": [
-          "semi-presidential system"
+          "semi-presidential republic (martial law)"
         ],
-        "source": "wikidata:P122"
+        "source": "static_ground_truth"
       },
       "executive": {
         "headOfState": {
           "name": "President – Volodymyr Zelenskyy",
           "partyOrGroup": "Servant of the People",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "headOfGovernment": {
           "name": "Prime Minister – Yulia Svyrydenko",
           "partyOrGroup": "Servant of the People",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government + party_static_override"
+          "source": "wikipedia:List_of_current_heads_of_state_and_government"
         },
         "executiveInPower": {
           "leader": "Prime Minister – Yulia Svyrydenko",
           "partyOrGroup": "Servant of the People",
-          "method": "wikipedia_hos_hog_list+party_override"
+          "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
             "name": "Verkhovna Rada",
-            "inControl": "unknown",
-            "controlMethod": "wikidata_last_leg_election_winner",
-            "controlNotes": "Last national legislative election winner via Wikidata P1346 (best-effort).",
-            "controlBasis": {
-              "electionName": "Elections of the mayor of Kharkiv 2021",
-              "electionDate": "2021-10-31T00:00:00Z"
-            }
+            "inControl": "Servant of the People (majority; elections suspended)",
+            "controlMethod": "static_ground_truth",
+            "controlNotes": null,
+            "controlBasis": null
           }
         ],
-        "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
+        "source": "static_ground_truth"
       },
       "worldBankGovernance": {
         "overallPercentile": 30.07,
@@ -5880,32 +5898,36 @@
         "notes": null
       },
       "dataAvailability": {
-        "elections.legislative": "No legislative election data in IPU or Wikidata for 'UA'."
+        "executive": "Elections are suspended under martial law due to the ongoing Russian invasion. Zelensky's term was extended per wartime provisions.",
+        "elections.legislative": "Elections suspended under martial law due to Russian invasion (since Feb 2022)."
       },
       "elections": {
         "legislative": {
-          "exists": "unknown",
-          "lastDate": null,
+          "exists": true,
+          "lastDate": "2019-07-21",
           "nextDate": null,
-          "electionType": null,
-          "method": "ipu_parline+wikidata_fallback",
-          "notes": "IPU had no nextDate (No IPU chamber data found for UA.); nextDate from Wikidata fallback.",
-          "source": "IPU Parline (lastDate) + Wikidata (nextDate fallback)"
+          "electionType": "general election",
+          "method": "static_ground_truth",
+          "notes": "No IPU data for UA.",
+          "source": "static_ground_truth"
         },
         "executive": {
           "exists": "unknown",
+          "lastDate": "2019-04-21",
           "nextDate": null,
-          "electionType": null,
-          "method": "wikidata_upcoming",
-          "notes": "No upcoming election found in Wikidata (P1001/P17 UNION).",
-          "source": "wikidata: P1001/P17 UNION, P585, P31"
+          "electionType": "presidential election",
+          "method": "static_ground_truth",
+          "notes": null,
+          "source": "static_ground_truth"
         }
       }
     }
   ],
   "sources": {
-    "wikipedia_executives": "https://en.wikipedia.org/w/api.php",
-    "wikidata_sparql": "https://query.wikidata.org/sparql",
+    "executives": "static_ground_truth (Wikipedia-verified, March 2026)",
+    "legislature": "static_ground_truth (March 2026)",
+    "elections": "static_ground_truth + IPU Parline adaptive enrichment",
+    "wikipedia_adaptive": "https://en.wikipedia.org/w/api.php",
     "world_bank_base": "https://api.worldbank.org/v2",
     "ipu_parline": "https://api.data.ipu.org/v1",
     "rest_countries": "https://restcountries.com/v3.1"
