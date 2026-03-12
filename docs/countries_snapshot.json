@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T07:10:57.757896Z",
+  "generatedAt": "2026-03-12T01:15:57.442341Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -42,37 +42,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 15.58,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 13.235294342041,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 13.2701425552368,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 26.4150943756104,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 12.7358493804932,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 12.2641506195068,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 15.5660381317139,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -147,36 +154,43 @@
       "worldBankGovernance": {
         "overallPercentile": 47.59,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 51.470588684082,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 21.3270149230957,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 67.9245300292969,
+            "label": "High government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 47.1698112487793,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 56.1320762634277,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 41.5094337463379,
+            "label": "Moderate control of corruption",
             "year": 2023
           }
         },
@@ -251,36 +265,43 @@
       "worldBankGovernance": {
         "overallPercentile": 20.04,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 23.0392150878906,
+            "label": "Low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 6.63507127761841,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 30.6603775024414,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 19.8113212585449,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 21.2264156341553,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 18.8679237365723,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -360,36 +381,43 @@
       "worldBankGovernance": {
         "overallPercentile": 41.97,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 7.35294103622437,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 25.1184825897217,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 73.5849075317383,
+            "label": "High government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 38.6792449951172,
+            "label": "Low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 52.8301887512207,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 54.2452812194824,
+            "label": "Moderate control of corruption",
             "year": 2023
           }
         },
@@ -462,37 +490,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 84.89,
-        "band": "High",
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 90.1960754394531,
+            "label": "Very high voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 62.0853080749512,
+            "label": "High political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 84.4339599609375,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 92.9245300292969,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 89.1509399414062,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 90.5660400390625,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -568,37 +603,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 87.6,
-        "band": "High",
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 94.6078414916992,
+            "label": "Very high voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 66.3507080078125,
+            "label": "High political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 85.3773574829102,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 91.9811325073242,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 92.9245300292969,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 94.3396224975586,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -674,36 +716,43 @@
       "worldBankGovernance": {
         "overallPercentile": 71.24,
         "band": "High",
+        "bandLabel": "High governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 18.6274509429932,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 70.1421813964844,
+            "label": "High political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 95.2830200195312,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 82.0754699707031,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 78.7735824584961,
+            "label": "High rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 82.5471725463867,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -779,36 +828,43 @@
       "worldBankGovernance": {
         "overallPercentile": 54.25,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 8.82352924346924,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 39.8104248046875,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 78.7735824584961,
+            "label": "High government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 68.8679275512695,
+            "label": "High regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 62.7358474731445,
+            "label": "High rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 66.5094375610352,
+            "label": "High control of corruption",
             "year": 2023
           }
         },
@@ -883,36 +939,43 @@
       "worldBankGovernance": {
         "overallPercentile": 67.19,
         "band": "High",
+        "bandLabel": "High governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 69.1176452636719,
+            "label": "High voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 9.95260620117188,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 83.4905624389648,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 84.4339599609375,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 77.3584899902344,
+            "label": "High rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 78.7735824584961,
+            "label": "High control of corruption",
             "year": 2023
           }
         },
@@ -986,36 +1049,43 @@
       "worldBankGovernance": {
         "overallPercentile": 21.66,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 18.1372547149658,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 7.10900497436523,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 10.3773584365845,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 41.9811325073242,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 25.943395614624,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 26.4150943756104,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -1089,36 +1159,43 @@
       "worldBankGovernance": {
         "overallPercentile": 32.67,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 42.1568641662598,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 22.748815536499,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 43.3962249755859,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 46.2264137268066,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 24.056604385376,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 17.4528293609619,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -1193,37 +1270,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 39.47,
-        "band": "Medium",
+        "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 59.8039207458496,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 28.4360198974609,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 32.0754699707031,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 40.0943412780762,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 41.9811325073242,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 34.4339637756348,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -1298,37 +1382,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 90.52,
-        "band": "High",
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 95.0980377197266,
+            "label": "Very high voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 76.3033142089844,
+            "label": "High political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 91.9811325073242,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 94.8113174438477,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 90.0943374633789,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 94.8113174438477,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -1401,37 +1492,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 19.08,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 32.3529396057129,
+            "label": "Low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 7.5829381942749,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 20.2830181121826,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 16.9811325073242,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 20.2830181121826,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 16.9811325073242,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -1504,37 +1602,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 89.75,
-        "band": "High",
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 85.2941207885742,
+            "label": "Very high voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 81.5165863037109,
+            "label": "Very high political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 96.698112487793,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 92.4528274536133,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 92.4528274536133,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 90.0943374633789,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -1610,37 +1715,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 10.12,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 7.84313726425171,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 8.05687236785889,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 14.1509437561035,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 4.24528312683105,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 16.0377349853516,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 10.3773584365845,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -1713,37 +1825,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 1.74,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 1.47058820724487,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 0.0,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 3.30188679695129,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 3.77358484268188,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 1.41509437561035,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 0.471698105335236,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -1817,36 +1936,43 @@
       "worldBankGovernance": {
         "overallPercentile": 79.99,
         "band": "High",
+        "bandLabel": "High governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 86.7647094726562,
+            "label": "Very high voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 55.9241714477539,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 83.0188674926758,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 85.3773574829102,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 84.9056625366211,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 83.9622650146484,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -1921,36 +2047,43 @@
       "worldBankGovernance": {
         "overallPercentile": 31.93,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 25.0,
+            "label": "Low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 13.7440757751465,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 41.5094337463379,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 43.8679237365723,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 32.5471687316895,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 34.9056587219238,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -2024,37 +2157,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 4.77,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 6.86274528503418,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 12.3222751617432,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 5.66037750244141,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 1.88679242134094,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 0.471698105335236,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 1.41509437561035,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -2130,36 +2270,43 @@
       "worldBankGovernance": {
         "overallPercentile": 40.62,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 15.1960783004761,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 45.0236968994141,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 56.1320762634277,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 38.2075462341309,
+            "label": "Low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 50.4716987609863,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 38.6792449951172,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -2235,41 +2382,48 @@
       "worldBankGovernance": {
         "overallPercentile": null,
         "band": "unknown",
+        "bandLabel": null,
         "year": null,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": null,
+            "label": null,
             "year": null,
             "notes": "Unexpected WB response shape."
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": null,
+            "label": null,
             "year": null,
             "notes": "Unexpected WB response shape."
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": null,
+            "label": null,
             "year": null,
             "notes": "Unexpected WB response shape."
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": null,
+            "label": null,
             "year": null,
             "notes": "Unexpected WB response shape."
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": null,
+            "label": null,
             "year": null,
             "notes": "Unexpected WB response shape."
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": null,
+            "label": null,
             "year": null,
             "notes": "Unexpected WB response shape."
           }
@@ -2344,37 +2498,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 80.47,
-        "band": "High",
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 73.529411315918,
+            "label": "High voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 68.2464447021484,
+            "label": "High political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 90.5660400390625,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 84.9056625366211,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 85.8490600585938,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 79.7169799804688,
+            "label": "High control of corruption",
             "year": 2023
           }
         },
@@ -2453,37 +2614,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 7.57,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 0.0,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 30.3317527770996,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 7.07547187805176,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 0.0,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 5.66037750244141,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 2.35849046707153,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -2558,36 +2726,43 @@
       "worldBankGovernance": {
         "overallPercentile": 49.17,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 52.4509811401367,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 28.9099521636963,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 69.8113174438477,
+            "label": "High government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 60.8490562438965,
+            "label": "High regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 46.698112487793,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 36.3207550048828,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -2660,37 +2835,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 5.99,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 2.45098042488098,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 4.7393364906311,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 3.77358484268188,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 7.07547187805176,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 6.13207530975342,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 11.7924528121948,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -2766,36 +2948,43 @@
       "worldBankGovernance": {
         "overallPercentile": 45.06,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 50.4901962280273,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 17.0616111755371,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 43.8679237365723,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 52.8301887512207,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 49.0566024780273,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 57.0754699707031,
+            "label": "Moderate control of corruption",
             "year": 2023
           }
         },
@@ -2869,40 +3058,46 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 31.22,
+        "overallPercentile": 28.06,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 9.31372547149658,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 18.0094795227051,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 50.4716987609863,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 49.0566024780273,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 29.2452831268311,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
-            "percentile": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 12.2641506195068,
+            "label": "Very low control of corruption",
+            "year": 2023
           }
         },
         "sources": {
@@ -2973,38 +3168,46 @@
         "source": "wikidata:P194 (filtered to legislature items) + control best-effort via elections winner P1346"
       },
       "worldBankGovernance": {
-        "overallPercentile": 41.12,
+        "overallPercentile": 43.37,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 34.3137245178223,
+            "label": "Low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
-            "percentile": 29.8578205108643,
-            "year": 2023
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 50.0,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 50.9433975219727,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 48.5849075317383,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 33.0188674926758,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -3077,37 +3280,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 2.15,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 4.41176462173462,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 2.84360194206238,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 1.88679242134094,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 2.8301887512207,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 0.0,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 0.943396210670471,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -3181,37 +3391,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 2.48,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 6.37254905700684,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 0.947867274284363,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 0.471698105335236,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 3.30188679695129,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 1.88679242134094,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 1.88679242134094,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -3284,37 +3501,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 4.62,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 9.80392169952393,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 4.26540279388428,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 5.18867921829224,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 2.35849046707153,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 2.35849046707153,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 3.77358484268188,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
@@ -3388,36 +3612,43 @@
       "worldBankGovernance": {
         "overallPercentile": 27.52,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 10.7843141555786,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 16.5876770019531,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 41.9811325073242,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 26.8867931365967,
+            "label": "Low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 44.3396224975586,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 24.5283012390137,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -3491,36 +3722,43 @@
       "worldBankGovernance": {
         "overallPercentile": 24.21,
         "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 22.0588226318359,
+            "label": "Low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 23.222749710083,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 27.3584899902344,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 16.0377349853516,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 26.4150943756104,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 30.1886787414551,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -3594,36 +3832,43 @@
       "worldBankGovernance": {
         "overallPercentile": 42.73,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 63.235294342041,
+            "label": "High voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 41.7061614990234,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 36.3207550048828,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 35.3773574829102,
+            "label": "Low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 37.7358474731445,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 41.9811325073242,
+            "label": "Moderate control of corruption",
             "year": 2023
           }
         },
@@ -3667,18 +3912,18 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Gabriel Boric",
-          "partyOrGroup": "Broad Front",
+          "name": "José Antonio Kast",
+          "partyOrGroup": "Republican Party of Chile",
           "source": "wikidata:P35 (current statement; +party P102)"
         },
         "headOfGovernment": {
-          "name": null,
-          "partyOrGroup": "unknown",
+          "name": "José Antonio Kast",
+          "partyOrGroup": "Republican Party of Chile",
           "source": "wikidata:P6 (current statement; +party P102)"
         },
         "executiveInPower": {
-          "leader": "Gabriel Boric",
-          "partyOrGroup": "Broad Front",
+          "leader": "José Antonio Kast",
+          "partyOrGroup": "Republican Party of Chile",
           "method": "hog_party_else_hos_party"
         }
       },
@@ -3697,36 +3942,43 @@
       "worldBankGovernance": {
         "overallPercentile": 72.48,
         "band": "High",
+        "bandLabel": "High governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 79.9019622802734,
+            "label": "High voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 50.2369651794434,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 75.9433975219727,
+            "label": "High government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 76.8867950439453,
+            "label": "High regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 71.2264175415039,
+            "label": "High rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 80.6603775024414,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -3799,37 +4051,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 37.12,
-        "band": "Medium",
+        "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 49.5098037719727,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 24.1706161499023,
+            "label": "Low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 33.0188674926758,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 60.3773574829102,
+            "label": "High regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 30.1886787414551,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 25.4716987609863,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -3902,37 +4161,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 33.16,
-        "band": "Medium",
+        "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 14.7058820724487,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 56.8720397949219,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 33.4905662536621,
+            "label": "Low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 5.18867921829224,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 36.3207550048828,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 52.3584899902344,
+            "label": "Moderate control of corruption",
             "year": 2023
           }
         },
@@ -4006,36 +4272,43 @@
       "worldBankGovernance": {
         "overallPercentile": 42.89,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 55.3921585083008,
+            "label": "Moderate voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 18.9573459625244,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 48.113208770752,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 54.2452812194824,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 35.8490562438965,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 44.8113212585449,
+            "label": "Moderate control of corruption",
             "year": 2023
           }
         },
@@ -4109,36 +4382,43 @@
       "worldBankGovernance": {
         "overallPercentile": 47.3,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 64.2156829833984,
+            "label": "High voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 52.6066360473633,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 42.9245300292969,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 55.6603775024414,
+            "label": "Moderate regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 40.0943412780762,
+            "label": "Moderate rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 28.301887512207,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -4214,36 +4494,43 @@
       "worldBankGovernance": {
         "overallPercentile": 40.98,
         "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 34.8039207458496,
+            "label": "Low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 46.445499420166,
+            "label": "Moderate political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 53.7735862731934,
+            "label": "Moderate government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 39.6226425170898,
+            "label": "Low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 39.1509437561035,
+            "label": "Low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 32.0754699707031,
+            "label": "Low control of corruption",
             "year": 2023
           }
         },
@@ -4316,37 +4603,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 95.26,
-        "band": "High",
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 98.529411315918,
+            "label": "Very high voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 76.7772521972656,
+            "label": "High political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 98.5849075317383,
+            "label": "Very high government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 98.1132049560547,
+            "label": "Very high regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 99.5283050537109,
+            "label": "Very high rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 100.0,
+            "label": "Very high control of corruption",
             "year": 2023
           }
         },
@@ -4419,37 +4713,44 @@
       },
       "worldBankGovernance": {
         "overallPercentile": 3.89,
-        "band": "Low",
+        "band": "Very Low",
+        "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
             "percentile": 5.88235282897949,
+            "label": "Very low voice & accountability",
             "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
             "percentile": 1.89573454856873,
+            "label": "Very low political stability",
             "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
             "percentile": 2.35849046707153,
+            "label": "Very low government effectiveness",
             "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
             "percentile": 4.71698093414307,
+            "label": "Very low regulatory quality",
             "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
             "percentile": 4.24528312683105,
+            "label": "Very low rule of law",
             "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
             "percentile": 4.24528312683105,
+            "label": "Very low control of corruption",
             "year": 2023
           }
         },
