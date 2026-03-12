@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T04:42:54.156239Z",
+  "generatedAt": "2026-03-12T05:01:34.552598Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -30,18 +30,18 @@
       "executive": {
         "headOfState": {
           "name": "Vladimir Putin",
-          "partyOrGroup": "unknown",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "partyOrGroup": "United Russia",
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
           "name": "Mikhail Mishustin",
-          "partyOrGroup": "unknown",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "partyOrGroup": "United Russia",
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
           "leader": "Mikhail Mishustin",
-          "partyOrGroup": "unknown",
-          "method": "hog_party_else_hos_party"
+          "partyOrGroup": "United Russia",
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -109,6 +109,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'RU'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -171,7 +174,7 @@
         "executiveInPower": {
           "leader": "Narendra Modi",
           "partyOrGroup": "Bharatiya Janata Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -239,6 +242,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'IN'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -300,7 +306,7 @@
         "executiveInPower": {
           "leader": "Shehbaz Sharif",
           "partyOrGroup": "Pakistan Muslim League (N)",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -368,6 +374,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'PK'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -433,7 +442,7 @@
         "executiveInPower": {
           "leader": "Li Qiang",
           "partyOrGroup": "Chinese Communist Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -501,6 +510,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'CN'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -560,7 +572,7 @@
         "executiveInPower": {
           "leader": "Keir Starmer",
           "partyOrGroup": "Labour Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -628,6 +640,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'GB'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -690,7 +705,7 @@
         "executiveInPower": {
           "leader": "Friedrich Merz",
           "partyOrGroup": "Christian Democratic Union",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -758,6 +773,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'DE'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -819,7 +837,7 @@
         "executiveInPower": {
           "leader": "Mohammed bin Rashid Al Maktoum",
           "partyOrGroup": "unknown",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -887,6 +905,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'AE'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -948,7 +969,7 @@
         "executiveInPower": {
           "leader": "Salman bin Abdulaziz Al Saud",
           "partyOrGroup": "unknown",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1016,6 +1037,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'SA'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1077,7 +1101,7 @@
         "executiveInPower": {
           "leader": "Benjamin Netanyahu",
           "partyOrGroup": "Likud",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1145,6 +1169,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'IL'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1206,7 +1233,7 @@
         "executiveInPower": {
           "leader": "Mohammad Shtayyeh",
           "partyOrGroup": "Fatah",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1274,6 +1301,10 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "worldBankGovernance": "World Bank data for Palestine (West Bank and Gaza) is limited and may be incomplete due to the territory's political status.",
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'PS'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1333,7 +1364,7 @@
         "executiveInPower": {
           "leader": "Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1401,6 +1432,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'MX'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1462,7 +1496,7 @@
         "executiveInPower": {
           "leader": "Luiz Inácio Lula da Silva",
           "partyOrGroup": "Workers' Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1530,6 +1564,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'BR'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1592,7 +1629,7 @@
         "executiveInPower": {
           "leader": "Mark Carney",
           "partyOrGroup": "Liberal Party of Canada",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1660,6 +1697,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'CA'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1708,18 +1748,18 @@
       "executive": {
         "headOfState": {
           "name": "Bola Ahmed Tinubu",
-          "partyOrGroup": "Action Congress of Nigeria",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "partyOrGroup": "All Progressives Congress",
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
           "name": "Bola Ahmed Tinubu",
-          "partyOrGroup": "Action Congress of Nigeria",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "partyOrGroup": "All Progressives Congress",
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
           "leader": "Bola Ahmed Tinubu",
-          "partyOrGroup": "Action Congress of Nigeria",
-          "method": "hog_party_else_hos_party"
+          "partyOrGroup": "All Progressives Congress",
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -1787,6 +1827,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'NG'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1846,7 +1889,7 @@
         "executiveInPower": {
           "leader": "Sanae Takaichi",
           "partyOrGroup": "Liberal Democratic Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -1914,6 +1957,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'JP'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -1964,19 +2010,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Mojtaba Khamenei",
-          "partyOrGroup": "Front of Islamic Revolution Stability",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "name": "Ali Khamenei",
+          "partyOrGroup": "Association of Combatant Clergy",
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
           "name": "Masoud Pezeshkian",
           "partyOrGroup": "independent politician",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
           "leader": "Masoud Pezeshkian",
           "partyOrGroup": "independent politician",
-          "method": "hog_party_else_hos_party"
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -2044,6 +2090,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'IR'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2091,19 +2140,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": null,
-          "partyOrGroup": "unknown",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "name": "Ahmad al-Sharaa",
+          "partyOrGroup": "Hayat Tahrir al-Sham (transitional)",
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
-          "name": null,
-          "partyOrGroup": "unknown",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "name": "Mohammad al-Bashir",
+          "partyOrGroup": "Hayat Tahrir al-Sham (transitional)",
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
-          "leader": null,
-          "partyOrGroup": "unknown",
-          "method": "hog_party_else_hos_party"
+          "leader": "Mohammad al-Bashir",
+          "partyOrGroup": "Hayat Tahrir al-Sham (transitional)",
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -2171,6 +2220,10 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "executive": "Syria's transitional government formed after Assad's fall in December 2024 is not yet fully reflected in Wikidata. Executive data is from static overrides.",
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'SY'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2219,18 +2272,18 @@
       "executive": {
         "headOfState": {
           "name": "Emmanuel Macron",
-          "partyOrGroup": "Socialist Party",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "partyOrGroup": "Renaissance",
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
           "name": "Sébastien Lecornu",
-          "partyOrGroup": "Union for a Popular Movement",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "partyOrGroup": "Renaissance",
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
           "leader": "Sébastien Lecornu",
-          "partyOrGroup": "Union for a Popular Movement",
-          "method": "hog_party_else_hos_party"
+          "partyOrGroup": "Renaissance",
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -2298,6 +2351,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'FR'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2358,7 +2414,7 @@
         "executiveInPower": {
           "leader": "Recep Tayyip Erdoğan",
           "partyOrGroup": "Justice and Development Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -2426,6 +2482,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'TR'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2474,19 +2533,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Delcy Rodríguez",
+          "name": "Nicolás Maduro",
           "partyOrGroup": "United Socialist Party of Venezuela",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
-          "name": null,
-          "partyOrGroup": "unknown",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "name": "Nicolás Maduro",
+          "partyOrGroup": "United Socialist Party of Venezuela",
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
-          "leader": "Delcy Rodríguez",
+          "leader": "Nicolás Maduro",
           "partyOrGroup": "United Socialist Party of Venezuela",
-          "method": "hog_party_else_hos_party"
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -2554,6 +2613,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'VE'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2615,7 +2677,7 @@
         "executiveInPower": {
           "leader": "Phạm Minh Chính",
           "partyOrGroup": "Communist Party of Vietnam",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -2683,6 +2745,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'VN'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2744,7 +2809,7 @@
         "executiveInPower": {
           "leader": "Cho Jung-tai",
           "partyOrGroup": "Democratic Progressive Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -2818,6 +2883,10 @@
         },
         "notes": "No WGI percentile values available (WB may not have this entity / code)."
       },
+      "dataAvailability": {
+        "worldBankGovernance": "Taiwan is not a UN member state and is not recognized by the World Bank as a sovereign country. The WB API does not include Taiwan in its governance indicators.",
+        "elections.legislative": "Taiwan is not a member of the Inter-Parliamentary Union (IPU) and is therefore absent from the Parline parliamentary database."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -2866,19 +2935,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Lee Jae Myung",
-          "partyOrGroup": "Democratic Party of Korea",
-          "source": "wikidata:P35 (current statement; +party P102)"
+          "name": "Han Duck-soo (acting)",
+          "partyOrGroup": "People Power Party",
+          "source": "wikidata:P35 + static_override:True"
         },
         "headOfGovernment": {
-          "name": "Lee Jae Myung",
-          "partyOrGroup": "Democratic Party of Korea",
-          "source": "wikidata:P6 (current statement; +party P102)"
+          "name": "Han Duck-soo (acting)",
+          "partyOrGroup": "People Power Party",
+          "source": "wikidata:P6 + static_override:True"
         },
         "executiveInPower": {
-          "leader": "Lee Jae Myung",
-          "partyOrGroup": "Democratic Party of Korea",
-          "method": "hog_party_else_hos_party"
+          "leader": "Han Duck-soo (acting)",
+          "partyOrGroup": "People Power Party",
+          "method": "static_override"
         }
       },
       "legislature": {
@@ -2946,6 +3015,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'KR'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3011,7 +3083,7 @@
         "executiveInPower": {
           "leader": "Pak Thae-song",
           "partyOrGroup": "Workers’ Party of Korea",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3079,6 +3151,10 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "worldBankGovernance": "North Korea data in World Bank governance indicators is based on limited external assessments due to restricted access.",
+        "elections.legislative": "North Korea holds nominal elections with a single-party slate; IPU Parline may not track these as competitive legislative elections."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3139,7 +3215,7 @@
         "executiveInPower": {
           "leader": "Prabowo Subianto",
           "partyOrGroup": "Golkar",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3207,6 +3283,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'ID'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3266,7 +3345,7 @@
         "executiveInPower": {
           "leader": "Min Aung Hlaing",
           "partyOrGroup": "Union Solidarity and Development Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3334,6 +3413,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'MM'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3395,7 +3477,7 @@
         "executiveInPower": {
           "leader": "Nikol Pashinyan",
           "partyOrGroup": "My Step Alliance",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3463,6 +3545,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'AM'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3524,7 +3609,7 @@
         "executiveInPower": {
           "leader": "Ali Asadov",
           "partyOrGroup": "New Azerbaijan Party",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3592,6 +3677,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'AZ'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3652,7 +3740,7 @@
         "executiveInPower": {
           "leader": "Aziz Akhannouch",
           "partyOrGroup": "National Rally of Independents",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3720,6 +3808,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'MA'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3780,7 +3871,7 @@
         "executiveInPower": {
           "leader": "Mohamed Hussein Roble",
           "partyOrGroup": "independent politician",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3848,6 +3939,10 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "worldBankGovernance": "Somalia's governance data is based on limited external assessments due to ongoing conflict and restricted institutional access.",
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'SO'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -3908,7 +4003,7 @@
         "executiveInPower": {
           "leader": "Salem Saleh bin Braik",
           "partyOrGroup": "General People's Congress",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -3976,6 +4071,10 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "worldBankGovernance": "Yemen's governance data reflects the pre-conflict institutional baseline; current effective governance is severely disrupted by civil war.",
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'YE'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4035,7 +4134,7 @@
         "executiveInPower": {
           "leader": "Abd al-Hamid Dbeibeh",
           "partyOrGroup": "independent politician",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4103,6 +4202,10 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "worldBankGovernance": "Libya has parallel governing authorities; governance data reflects the internationally recognized government's institutional capacity.",
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'LY'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4162,7 +4265,7 @@
         "executiveInPower": {
           "leader": "Mostafa Madbouly",
           "partyOrGroup": "independent politician",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4230,6 +4333,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'EG'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4289,7 +4395,7 @@
         "executiveInPower": {
           "leader": "Sifi Ghrieb",
           "partyOrGroup": "National Liberation Front",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4357,6 +4463,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'DZ'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4417,7 +4526,7 @@
         "executiveInPower": {
           "leader": "Javier Milei",
           "partyOrGroup": "Avanza Libertad",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4485,6 +4594,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'AR'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4544,7 +4656,7 @@
         "executiveInPower": {
           "leader": "José Antonio Kast",
           "partyOrGroup": "Republican Party of Chile",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4612,6 +4724,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'CL'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4673,7 +4788,7 @@
         "executiveInPower": {
           "leader": "José María Balcázar",
           "partyOrGroup": "Free Peru",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4741,6 +4856,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'PE'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4801,7 +4919,7 @@
         "executiveInPower": {
           "leader": "Manuel Marrero Cruz",
           "partyOrGroup": "Communist Party of Cuba",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4869,6 +4987,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'CU'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -4928,7 +5049,7 @@
         "executiveInPower": {
           "leader": "Gustavo Petro",
           "partyOrGroup": "Alternative Democratic Pole",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -4996,6 +5117,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'CO'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -5056,7 +5180,7 @@
         "executiveInPower": {
           "leader": "José Raúl Mulino",
           "partyOrGroup": "Patriotic Union",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -5124,6 +5248,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'PA'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -5185,7 +5312,7 @@
         "executiveInPower": {
           "leader": "Nayib Bukele",
           "partyOrGroup": "Farabundo Martí National Liberation Front",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -5253,6 +5380,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'SV'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -5312,7 +5442,7 @@
         "executiveInPower": {
           "leader": "Mette Frederiksen",
           "partyOrGroup": "Social Democrats",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -5380,6 +5510,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'DK'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -5440,7 +5573,7 @@
         "executiveInPower": {
           "leader": "Abdalla Hamdok",
           "partyOrGroup": "unknown",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -5508,6 +5641,9 @@
         },
         "notes": null
       },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'SD'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+      },
       "elections": {
         "legislative": {
           "exists": "unknown",
@@ -5567,7 +5703,7 @@
         "executiveInPower": {
           "leader": "Yulia Svyrydenko",
           "partyOrGroup": "Servant of the People",
-          "method": "hog_party_else_hos_party"
+          "method": "wikidata"
         }
       },
       "legislature": {
@@ -5634,6 +5770,9 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ua/indicator/CC.PER.RNK"
         },
         "notes": null
+      },
+      "dataAvailability": {
+        "elections.legislative": "No legislative election data found in IPU Parline or Wikidata for 'UA'. This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
       },
       "elections": {
         "legislative": {
