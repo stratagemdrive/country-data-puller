@@ -68,7 +68,7 @@ WGI_PERCENTILE_INDICATORS: Dict[str, str] = {
     "controlOfCorruption": "CC.PER.RNK",
 }
 
-# Human-readable label templates per dimension (used to build qualitative descriptors)
+# Human-readable label templates per dimension
 WGI_LABEL_TEMPLATES: Dict[str, Dict[str, str]] = {
     "voiceAccountability": {
         "Very Low":  "Very low voice & accountability",
@@ -126,56 +126,54 @@ WGI_OVERALL_LABELS: Dict[str, str] = {
 # ---------------------------- COUNTRY LIST ----------------------------
 
 COUNTRIES: List[Dict[str, str]] = [
-    {"country": "Russia", "iso2": "RU"},
-    {"country": "India", "iso2": "IN"},
-    {"country": "Pakistan", "iso2": "PK"},
-    {"country": "China", "iso2": "CN"},
-    {"country": "United Kingdom", "iso2": "GB"},
-    {"country": "Germany", "iso2": "DE"},
-    {"country": "UAE", "iso2": "AE"},
+    {"country": "Russia",       "iso2": "RU"},
+    {"country": "India",        "iso2": "IN"},
+    {"country": "Pakistan",     "iso2": "PK"},
+    {"country": "China",        "iso2": "CN"},
+    {"country": "United Kingdom","iso2": "GB"},
+    {"country": "Germany",      "iso2": "DE"},
+    {"country": "UAE",          "iso2": "AE"},
     {"country": "Saudi Arabia", "iso2": "SA"},
-    {"country": "Israel", "iso2": "IL"},
-    {"country": "Palestine", "iso2": "PS"},
-    {"country": "Mexico", "iso2": "MX"},
-    {"country": "Brazil", "iso2": "BR"},
-    {"country": "Canada", "iso2": "CA"},
-    {"country": "Nigeria", "iso2": "NG"},
-    {"country": "Japan", "iso2": "JP"},
-    {"country": "Iran", "iso2": "IR"},
-    {"country": "Syria", "iso2": "SY"},
-    {"country": "France", "iso2": "FR"},
-    {"country": "Turkey", "iso2": "TR"},
-    {"country": "Venezuela", "iso2": "VE"},
-    {"country": "Vietnam", "iso2": "VN"},
-    {"country": "Taiwan", "iso2": "TW"},
-    {"country": "South Korea", "iso2": "KR"},
-    {"country": "North Korea", "iso2": "KP"},
-    {"country": "Indonesia", "iso2": "ID"},
-    {"country": "Myanmar", "iso2": "MM"},
-    {"country": "Armenia", "iso2": "AM"},
-    {"country": "Azerbaijan", "iso2": "AZ"},
-    {"country": "Morocco", "iso2": "MA"},
-    {"country": "Somalia", "iso2": "SO"},
-    {"country": "Yemen", "iso2": "YE"},
-    {"country": "Libya", "iso2": "LY"},
-    {"country": "Egypt", "iso2": "EG"},
-    {"country": "Algeria", "iso2": "DZ"},
-    {"country": "Argentina", "iso2": "AR"},
-    {"country": "Chile", "iso2": "CL"},
-    {"country": "Peru", "iso2": "PE"},
-    {"country": "Cuba", "iso2": "CU"},
-    {"country": "Colombia", "iso2": "CO"},
-    {"country": "Panama", "iso2": "PA"},
-    {"country": "El Salvador", "iso2": "SV"},
-    {"country": "Denmark", "iso2": "DK"},
-    {"country": "Sudan", "iso2": "SD"},
-    {"country": "Ukraine", "iso2": "UA"},
+    {"country": "Israel",       "iso2": "IL"},
+    {"country": "Palestine",    "iso2": "PS"},
+    {"country": "Mexico",       "iso2": "MX"},
+    {"country": "Brazil",       "iso2": "BR"},
+    {"country": "Canada",       "iso2": "CA"},
+    {"country": "Nigeria",      "iso2": "NG"},
+    {"country": "Japan",        "iso2": "JP"},
+    {"country": "Iran",         "iso2": "IR"},
+    {"country": "Syria",        "iso2": "SY"},
+    {"country": "France",       "iso2": "FR"},
+    {"country": "Turkey",       "iso2": "TR"},
+    {"country": "Venezuela",    "iso2": "VE"},
+    {"country": "Vietnam",      "iso2": "VN"},
+    {"country": "Taiwan",       "iso2": "TW"},
+    {"country": "South Korea",  "iso2": "KR"},
+    {"country": "North Korea",  "iso2": "KP"},
+    {"country": "Indonesia",    "iso2": "ID"},
+    {"country": "Myanmar",      "iso2": "MM"},
+    {"country": "Armenia",      "iso2": "AM"},
+    {"country": "Azerbaijan",   "iso2": "AZ"},
+    {"country": "Morocco",      "iso2": "MA"},
+    {"country": "Somalia",      "iso2": "SO"},
+    {"country": "Yemen",        "iso2": "YE"},
+    {"country": "Libya",        "iso2": "LY"},
+    {"country": "Egypt",        "iso2": "EG"},
+    {"country": "Algeria",      "iso2": "DZ"},
+    {"country": "Argentina",    "iso2": "AR"},
+    {"country": "Chile",        "iso2": "CL"},
+    {"country": "Peru",         "iso2": "PE"},
+    {"country": "Cuba",         "iso2": "CU"},
+    {"country": "Colombia",     "iso2": "CO"},
+    {"country": "Panama",       "iso2": "PA"},
+    {"country": "El Salvador",  "iso2": "SV"},
+    {"country": "Denmark",      "iso2": "DK"},
+    {"country": "Sudan",        "iso2": "SD"},
+    {"country": "Ukraine",      "iso2": "UA"},
 ]
 
 # IPU uses ISO2 codes, but a few countries need remapping.
 # Taiwan (TW) is not in IPU (not a UN member state).
-# Palestine (PS) is listed as "PS" in IPU.
-# North Korea (KP) is listed as "KP" in IPU.
 IPU_ISO2_OVERRIDES: Dict[str, Optional[str]] = {
     "TW": None,   # Taiwan not in IPU — skip gracefully
 }
@@ -191,9 +189,8 @@ STATIC_EXECUTIVE_OVERRIDES: Dict[str, Dict[str, Optional[str]]] = {
     # Tinubu: Wikidata still shows old "Action Congress of Nigeria" pre-merger party
     "NG": {"hosParty": "All Progressives Congress", "hogParty": "All Progressives Congress"},
     # Macron: Wikidata P102 shows old "Socialist Party" membership; correct party is Renaissance
-    # Lecornu: Wikidata shows "Union for a Popular Movement" (old); correct is Renaissance/Les Républicains
     "FR": {"hosParty": "Renaissance", "hogParty": "Renaissance"},
-    # Syria: transitional government — Ahmad al-Sharaa (Abu Mohammad al-Jolani) leads HTS-backed administration
+    # Syria: transitional government — Ahmad al-Sharaa leads HTS-backed administration
     # Wikidata hasn't caught up since Assad fell in Dec 2024
     "SY": {
         "hosName": "Ahmad al-Sharaa",
@@ -216,20 +213,15 @@ STATIC_EXECUTIVE_OVERRIDES: Dict[str, Dict[str, Optional[str]]] = {
         "hogName": "Han Duck-soo (acting)",
         "hogParty": "People Power Party",
     },
-    # Iran: Wikidata P35 is resolving to Mojtaba Khamenei (son); correct HoS is Ali Khamenei (Supreme Leader)
+    # Iran: Wikidata P35 is resolving to Mojtaba Khamenei (son); correct HoS is Ali Khamenei
     "IR": {
         "hosName": "Ali Khamenei",
         "hosParty": "Association of Combatant Clergy",
     },
 }
 
-
-
 # ---------------------------------------------------------------------------
 # DATA AVAILABILITY NOTES
-# Explains why specific data sources return null for certain countries.
-# Shown in the JSON output under each country's "dataAvailability" block.
-# Keys are ISO2. Each entry maps source name -> explanation string.
 # ---------------------------------------------------------------------------
 DATA_AVAILABILITY_NOTES: Dict[str, Dict[str, str]] = {
     "TW": {
@@ -284,6 +276,7 @@ DATA_AVAILABILITY_NOTES: Dict[str, Dict[str, str]] = {
     },
 }
 
+
 # ---------------------------- HELPERS ----------------------------
 
 def now_utc() -> datetime:
@@ -295,7 +288,16 @@ def iso_z(dt: datetime) -> str:
 def _sleep_backoff(attempt: int) -> None:
     time.sleep(RETRY_SLEEP * attempt)
 
-def req_json(url: str, params: Optional[dict] = None, headers: Optional[dict] = None) -> Optional[Any]:
+def req_json(
+    url: str,
+    params: Optional[dict] = None,
+    headers: Optional[dict] = None,
+    label: str = "",
+) -> Optional[Any]:
+    """
+    GET a URL and return parsed JSON, or None on failure.
+    Logs unexpected HTTP status codes to aid diagnosis.
+    """
     h = dict(HEADERS)
     if headers:
         h.update(headers)
@@ -305,10 +307,17 @@ def req_json(url: str, params: Optional[dict] = None, headers: Optional[dict] = 
             if r.status_code == 200:
                 return r.json()
             if r.status_code in (400, 404):
+                print(f"    [req_json] {label or url} → HTTP {r.status_code} (not found / bad request)")
                 return None
-        except requests.RequestException:
-            pass
+            # Unexpected status — log and retry
+            print(
+                f"    [req_json] {label or url} → unexpected HTTP {r.status_code} "
+                f"(attempt {attempt}/{MAX_RETRIES})"
+            )
+        except requests.RequestException as exc:
+            print(f"    [req_json] {label or url} → request error (attempt {attempt}/{MAX_RETRIES}): {exc}")
         _sleep_backoff(attempt)
+    print(f"    [req_json] {label or url} → all {MAX_RETRIES} attempts failed, returning None")
     return None
 
 def safe_get(d: Any, *keys: str, default=None):
@@ -338,7 +347,6 @@ def load_previous_snapshot(path: Path) -> Dict[str, Any]:
 # ---------------------------- QUALITATIVE LABELS ----------------------------
 
 def percentile_to_tier(percentile: Optional[float]) -> Optional[str]:
-    """Map a 0-100 WB percentile to a 5-tier label."""
     if percentile is None:
         return None
     if percentile < 20:
@@ -352,7 +360,6 @@ def percentile_to_tier(percentile: Optional[float]) -> Optional[str]:
     return "Very High"
 
 def percentile_to_label(percentile: Optional[float], dimension: str) -> Optional[str]:
-    """Return a human-readable descriptor for a given WGI dimension and percentile."""
     tier = percentile_to_tier(percentile)
     if tier is None:
         return None
@@ -360,7 +367,6 @@ def percentile_to_label(percentile: Optional[float], dimension: str) -> Optional
     return templates.get(tier, tier)
 
 def overall_percentile_to_label(percentile: Optional[float]) -> Optional[str]:
-    """Return a human-readable descriptor for the overall WB governance score."""
     tier = percentile_to_tier(percentile)
     if tier is None:
         return None
@@ -374,6 +380,7 @@ def wikidata_sparql(query: str) -> Optional[dict]:
         WIKIDATA_SPARQL,
         params={"format": "json", "query": query},
         headers={"Accept": "application/sparql-results+json"},
+        label="Wikidata SPARQL",
     )
 
 def _wd_val(b: dict, key: str) -> Optional[str]:
@@ -458,7 +465,6 @@ def get_government_snapshot(country_qid: str) -> Dict[str, Any]:
     hos = get_current_officeholder(country_qid, "P35")
     hog = get_current_officeholder(country_qid, "P6")
     legislatures = get_legislature_bodies(country_qid)
-
     return {
         "headOfState": hos,
         "headOfGovernment": hog,
@@ -471,29 +477,37 @@ def get_government_snapshot(country_qid: str) -> Dict[str, Any]:
     }
 
 
-# ---------------------------- WIKIDATA ELECTIONS (exec fallback) ----------------------------
+# ---------------------------- WIKIDATA ELECTIONS ----------------------------
 
 def _today_yyyymmdd() -> str:
     return now_utc().strftime("%Y-%m-%dT00:00:00Z")
 
 def get_next_election_upcoming_wikidata(country_qid: str, kind: str) -> Dict[str, Any]:
-    """Wikidata upcoming election lookup — used for executive elections and as fallback."""
+    """
+    Wikidata upcoming election lookup.
+
+    KEY FIX: Uses UNION of wdt:P1001 (applies to jurisdiction) and wdt:P17 (country)
+    because most election items in Wikidata use P17, not P1001.
+    Also includes Q40231 (election) as a broad type fallback alongside specific types.
+    """
     today = _today_yyyymmdd()
 
     if kind == "executive":
-        type_values = "wd:Q159821 wd:Q152203"
+        type_filter = "VALUES ?type { wd:Q159821 wd:Q152203 wd:Q40231 }"
     else:
-        type_values = "wd:Q1079032 wd:Q104203 wd:Q152203"
+        type_filter = "VALUES ?type { wd:Q1079032 wd:Q104203 wd:Q152203 wd:Q40231 }"
 
     q = f"""
     SELECT ?eLabel ?date ?typeLabel WHERE {{
-      ?e wdt:P1001 wd:{country_qid} .
+      {{
+        ?e wdt:P1001 wd:{country_qid} .
+      }} UNION {{
+        ?e wdt:P17 wd:{country_qid} .
+      }}
       ?e wdt:P585 ?date .
       FILTER(?date >= "{today}"^^xsd:dateTime)
-
       ?e wdt:P31 ?type .
-      VALUES ?type {{ {type_values} }}
-
+      {type_filter}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
     }}
     ORDER BY ASC(?date)
@@ -517,24 +531,25 @@ def get_next_election_upcoming_wikidata(country_qid: str, kind: str) -> Dict[str
         "nextDate": _wd_val(b, "date"),
         "electionType": _wd_val(b, "typeLabel"),
         "method": "wikidata_upcoming",
-        "notes": "From Wikidata upcoming election items (jurisdiction + future date).",
+        "notes": "From Wikidata upcoming election items (P1001/P17 UNION + future date).",
     }
 
 def get_last_legislative_election_winner(country_qid: str) -> Dict[str, Any]:
+    """
+    KEY FIX: Uses UNION of wdt:P1001 and wdt:P17, plus Q40231 broad fallback.
+    """
     today = _today_yyyymmdd()
     q = f"""
     SELECT ?eLabel ?date ?winnerLabel WHERE {{
-      ?e wdt:P1001 wd:{country_qid} .
+      {{
+        ?e wdt:P1001 wd:{country_qid} .
+      }} UNION {{
+        ?e wdt:P17 wd:{country_qid} .
+      }}
       ?e wdt:P585 ?date .
       FILTER(?date <= "{today}"^^xsd:dateTime)
-
       ?e wdt:P31 ?type .
-      VALUES ?type {{
-        wd:Q152203
-        wd:Q1079032
-        wd:Q104203
-      }}
-
+      VALUES ?type {{ wd:Q152203 wd:Q1079032 wd:Q104203 wd:Q40231 }}
       OPTIONAL {{ ?e wdt:P1346 ?winner . }}
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
     }}
@@ -565,20 +580,15 @@ def get_last_legislative_election_winner(country_qid: str) -> Dict[str, Any]:
 # ---------------------------- IPU PARLINE ----------------------------
 
 # One-time cache: fetched once at startup, reused for all countries.
-# Maps iso2 (uppercase) -> list of chamber dicts from the explorer endpoint.
 _ipu_chamber_cache: Optional[Dict[str, List[Dict[str, Any]]]] = None
 
 def _load_ipu_cache() -> Dict[str, List[Dict[str, Any]]]:
     """
-    Fetch chamber data from IPU Parline using the confirmed per-chamber endpoint:
+    Fetch chamber data from IPU Parline using the per-chamber endpoint:
       GET /v1/chambers/{ISO2}
 
-    Called once per country (lazily cached). The per-chamber endpoint is
-    documented at api.data.ipu.org/v1/documentation and confirmed to work
-    by the example: https://api.data.ipu.org/v1/chambers/ES
-
-    We pre-fetch all 44 countries in sequence here to keep the one-time
-    cache warm, so individual country builds don't each trigger a fetch.
+    Logs the raw response shape for the FIRST successful fetch to aid
+    diagnosis when the schema changes or returns unexpected shapes.
     """
     global _ipu_chamber_cache
     if _ipu_chamber_cache is not None:
@@ -588,19 +598,42 @@ def _load_ipu_cache() -> Dict[str, List[Dict[str, Any]]]:
     cache: Dict[str, List[Dict[str, Any]]] = {}
 
     all_iso2 = [c["iso2"] for c in COUNTRIES]
+    _first_success_logged = False
 
     for iso2 in all_iso2:
-        # Skip countries with explicit IPU overrides (e.g. Taiwan)
         if iso2 in IPU_ISO2_OVERRIDES and IPU_ISO2_OVERRIDES[iso2] is None:
+            print(f"  [IPU] Skipping {iso2} (explicit override: not in IPU)")
             continue
 
         url = f"{IPU_API_BASE}/chambers/{iso2.upper()}"
-        data = req_json(url)
+        data = req_json(url, label=f"IPU /chambers/{iso2.upper()}")
 
         if not data:
+            print(f"  [IPU] {iso2}: no data returned (None)")
             continue
 
-        # The /chambers/{iso2} endpoint returns either:
+        # --- DIAGNOSTIC: log raw shape for first successful response ---
+        if not _first_success_logged:
+            shape_desc = (
+                f"type={type(data).__name__}"
+            )
+            if isinstance(data, dict):
+                top_keys = list(data.keys())[:10]
+                shape_desc += f", top_keys={top_keys}"
+                raw_inner = data.get("data")
+                shape_desc += f", data_field_type={type(raw_inner).__name__}"
+                if isinstance(raw_inner, list) and raw_inner:
+                    shape_desc += f", data[0]_keys={list(raw_inner[0].keys())[:10]}"
+                elif isinstance(raw_inner, dict):
+                    shape_desc += f", data_dict_keys={list(raw_inner.keys())[:10]}"
+            elif isinstance(data, list) and data:
+                shape_desc += f", list_len={len(data)}, [0]_type={type(data[0]).__name__}"
+                if isinstance(data[0], dict):
+                    shape_desc += f", [0]_keys={list(data[0].keys())[:10]}"
+            print(f"  [IPU] FIRST SUCCESS SHAPE ({iso2}): {shape_desc}")
+            _first_success_logged = True
+
+        # Parse response — handles multiple possible shapes:
         #   JSON:API single: {"data": {"attributes": {...}}}
         #   JSON:API list:   {"data": [{"attributes": {...}}, ...]}
         #   Flat dict:       {"country_code": "...", ...}
@@ -616,9 +649,11 @@ def _load_ipu_cache() -> Dict[str, List[Dict[str, Any]]]:
             elif isinstance(raw, dict):
                 chambers = [raw]
             elif raw is None:
-                # Flat dict — the response itself is the chamber
-                if "country_code" in data or "last_election_date" in data:
+                # No "data" key — the dict itself may be a flat chamber object
+                if "country_code" in data or "last_election_date" in data or "expect_date_next_election" in data:
                     chambers = [data]
+                else:
+                    print(f"  [IPU] {iso2}: dict response but no 'data' key and no known flat fields. Keys: {list(data.keys())[:15]}")
 
         # Unwrap JSON:API attributes if present
         unwrapped: List[Dict] = []
@@ -627,9 +662,16 @@ def _load_ipu_cache() -> Dict[str, List[Dict[str, Any]]]:
             unwrapped.append(raw_attrs if isinstance(raw_attrs, dict) else ch)
 
         if unwrapped:
+            print(f"  [IPU] {iso2}: found {len(unwrapped)} chamber(s)")
+            # Log available date fields on first chamber for debugging
+            first_ch = unwrapped[0]
+            date_fields = {k: v for k, v in first_ch.items() if "date" in k.lower() or "election" in k.lower()}
+            print(f"  [IPU] {iso2}: date/election fields = {date_fields}")
             cache[iso2.upper()] = unwrapped
+        else:
+            print(f"  [IPU] {iso2}: response parsed to 0 chambers. Raw type: {type(data).__name__}")
 
-        time.sleep(0.1)  # be polite to IPU
+        time.sleep(0.15)  # be polite to IPU
 
     print(f"  [IPU] Cached chamber data for {len(cache)} countries.")
     _ipu_chamber_cache = cache
@@ -648,16 +690,12 @@ def _parse_ipu_date(raw: Any) -> Optional[str]:
     if not raw:
         return None
     s = str(raw).strip()
-    # Already full date
     if re.match(r"^\d{4}-\d{2}-\d{2}$", s):
         return s
-    # Year-month only → return as-is (partial date)
     if re.match(r"^\d{4}-\d{2}$", s):
         return s
-    # Year only
     if re.match(r"^\d{4}$", s):
         return s
-    # ISO datetime — strip time part
     m = re.match(r"^(\d{4}-\d{2}-\d{2})T", s)
     if m:
         return m.group(1)
@@ -666,21 +704,8 @@ def _parse_ipu_date(raw: Any) -> Optional[str]:
 
 def fetch_ipu_legislative_election(iso2: str) -> Dict[str, Any]:
     """
-    Returns legislative election data for a country from IPU Parline.
-
-    Pulls from the bulk chamber cache. Prefers the lower chamber (unicameral
-    or lower house). Falls back to upper chamber if lower is absent.
-
-    Returns a dict with:
-      exists        : True | "unknown"
-      lastDate      : str | None   (last election date)
-      nextDate      : str | None   (expected next election date)
-      chamberName   : str | None
-      chamberType   : str | None   ("lower_chamber" | "upper_chamber" | "unicameral")
-      method        : "ipu_parline"
-      notes         : str | None
+    Returns legislative election data for a country from the IPU Parline cache.
     """
-    # Handle IPU overrides (e.g. Taiwan has no IPU entry)
     if iso2 in IPU_ISO2_OVERRIDES:
         override = IPU_ISO2_OVERRIDES[iso2]
         if override is None:
@@ -708,7 +733,6 @@ def fetch_ipu_legislative_election(iso2: str) -> Dict[str, Any]:
             "notes": f"No IPU chamber data found for {iso2}.",
         }
 
-    # Prefer lower chamber; fall back to first available
     def _chamber_priority(c: dict) -> int:
         status = str(c.get("struct_parl_status") or "").lower()
         if "lower" in status or "unicameral" in status:
@@ -719,13 +743,10 @@ def fetch_ipu_legislative_election(iso2: str) -> Dict[str, Any]:
 
     chambers_sorted = sorted(chambers, key=_chamber_priority)
     best = chambers_sorted[0]
-
-    # Skip suspended chambers but keep result with a note
     is_suspended = best.get("is_suspended_chamber", False)
 
     next_date = _parse_ipu_date(best.get("expect_date_next_election"))
     last_date = _parse_ipu_date(best.get("last_election_date"))
-
     exists: Any = True if (next_date or last_date) else "unknown"
 
     return {
@@ -747,30 +768,15 @@ def fetch_ipu_legislative_election(iso2: str) -> Dict[str, Any]:
 def fetch_rest_countries_metadata(iso2: str) -> Dict[str, Any]:
     """
     Fetches country metadata from the REST Countries API.
-
-    Returns a dict with:
-      capital       : str | None
-      population    : int | None
-      region        : str | None
-      subregion     : str | None
-      flag          : str | None    (emoji flag)
-      flagPng       : str | None    (URL to flag PNG)
-      currencies    : list[str]     (currency names)
-      languages     : list[str]     (language names)
-      officialName  : str | None
-      source        : "restcountries"
-      notes         : str | None
+    NOTE: Do NOT pass a fields param — when fields is specified, REST Countries v3.1
+    returns a plain dict instead of a list, which breaks list-unwrap.
     """
     url = f"{REST_COUNTRIES_BASE}/alpha/{iso2.lower()}"
-    # Do NOT pass a fields param — when fields is specified, REST Countries v3.1
-    # returns a plain dict instead of a list, which breaks the list-unwrap below.
-    # The full response is small (~3KB) so fetching everything is fine.
-    data = req_json(url)
+    data = req_json(url, label=f"REST Countries /alpha/{iso2.lower()}")
 
-    # REST Countries /alpha/{code} returns a list with one item
+    # REST Countries /alpha/{code} normally returns a list with one item
     if isinstance(data, list):
         data = data[0] if data else None
-    # Some versions return a plain dict directly
     elif not isinstance(data, dict):
         data = None
 
@@ -795,7 +801,7 @@ def fetch_rest_countries_metadata(iso2: str) -> Dict[str, Any]:
 
     # Currencies: dict keyed by currency code, values have "name"
     currencies_raw = data.get("currencies") or {}
-    currencies = [v.get("name") for v in currencies_raw.values() if v.get("name")]
+    currencies = [v.get("name") for v in currencies_raw.values() if isinstance(v, dict) and v.get("name")]
 
     # Languages: dict keyed by language code, values are language name strings
     languages_raw = data.get("languages") or {}
@@ -814,8 +820,8 @@ def fetch_rest_countries_metadata(iso2: str) -> Dict[str, Any]:
         "population": data.get("population"),
         "region": data.get("region"),
         "subregion": data.get("subregion"),
-        "flag": data.get("flag"),           # emoji e.g. "🇩🇪"
-        "flagPng": flag_png,                # URL to PNG image
+        "flag": data.get("flag"),
+        "flagPng": flag_png,
         "currencies": currencies,
         "languages": languages,
         "officialName": official_name,
@@ -856,7 +862,7 @@ def _parse_wb_series_latest(payload: Any) -> Tuple[Optional[float], Optional[int
 
 def fetch_wb_indicator_latest(iso2: str, indicator: str) -> Dict[str, Any]:
     url = _wb_indicator_url(iso2, indicator)
-    payload = req_json(url, params={"format": "json", "per_page": 60})
+    payload = req_json(url, params={"format": "json", "per_page": 60}, label=f"WB {indicator} {iso2}")
     if payload is None:
         return {"ok": False, "value": None, "year": None, "source": url, "notes": "Failed to fetch WB indicator."}
 
@@ -867,10 +873,6 @@ def fetch_wb_indicator_latest(iso2: str, indicator: str) -> Dict[str, Any]:
     return {"ok": True, "value": value, "year": year, "source": url, "notes": None}
 
 def fetch_wb_wgi_percentiles(iso2: str) -> Dict[str, Any]:
-    """
-    Pulls latest non-null percentile ranks for all WGI dimensions.
-    Adds qualitative label alongside each raw percentile.
-    """
     components: Dict[str, Any] = {}
     years: List[int] = []
     values: List[float] = []
@@ -946,7 +948,9 @@ def merge_wb_sticky(new_wb: Dict[str, Any], prev_country_obj: Optional[Dict[str,
 # ---------------------------- BUILD ----------------------------
 
 def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) -> Dict[str, Any]:
+    print(f"  [{iso2}] Fetching Wikidata QID...")
     qid = get_wikidata_country_qid_by_iso2(iso2)
+    print(f"  [{iso2}] QID = {qid}")
 
     political_systems: List[str] = []
     gov: Dict[str, Any] = {
@@ -955,23 +959,36 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
         "legislatureBodies": [],
         "executiveController": {"leader": None, "partyOrGroup": "unknown", "method": "hog_party_else_hos_party"},
     }
-
-    elections_exec = {"exists": "unknown", "nextDate": None, "electionType": None, "method": "wikidata_upcoming", "notes": "unknown"}
-    leg_control = {"winner": "unknown", "method": "wikidata_last_leg_election_winner", "notes": "unknown"}
+    elections_exec = {
+        "exists": "unknown",
+        "nextDate": None,
+        "electionType": None,
+        "method": "wikidata_upcoming",
+        "notes": "QID not found",
+    }
+    leg_control = {
+        "winner": "unknown",
+        "method": "wikidata_last_leg_election_winner",
+        "notes": "QID not found",
+    }
 
     if qid:
+        print(f"  [{iso2}] Fetching political systems...")
         political_systems = get_political_system_labels(qid) or ["unknown"]
+        print(f"  [{iso2}] Fetching government snapshot...")
         gov = get_government_snapshot(qid)
+        print(f"  [{iso2}] Fetching executive elections...")
         elections_exec = get_next_election_upcoming_wikidata(qid, "executive")
+        print(f"  [{iso2}] Fetching last leg election winner...")
         leg_control = get_last_legislative_election_winner(qid)
     else:
         political_systems = ["unknown"]
 
     # --- IPU Parline: legislative election data (primary source) ---
+    print(f"  [{iso2}] Fetching IPU legislative elections...")
     ipu_leg = fetch_ipu_legislative_election(iso2)
+    print(f"  [{iso2}] IPU result: lastDate={ipu_leg.get('lastDate')}, nextDate={ipu_leg.get('nextDate')}")
 
-    # Build elections_leg from IPU. If IPU has a nextDate, it wins.
-    # If IPU has no nextDate but Wikidata does, fall back to Wikidata.
     if ipu_leg.get("nextDate"):
         elections_leg = {
             "exists": ipu_leg["exists"],
@@ -983,13 +1000,13 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
             "source": "IPU Parline API",
         }
     else:
-        # Fallback to Wikidata for legislative if IPU has no nextDate
         wd_leg_fallback: Dict[str, Any] = {}
         if qid:
+            print(f"  [{iso2}] IPU had no nextDate — trying Wikidata legislative fallback...")
             wd_leg_fallback = get_next_election_upcoming_wikidata(qid, "legislative")
         elections_leg = {
             "exists": wd_leg_fallback.get("exists", "unknown"),
-            "lastDate": ipu_leg.get("lastDate"),   # still use IPU's last date if available
+            "lastDate": ipu_leg.get("lastDate"),
             "nextDate": wd_leg_fallback.get("nextDate"),
             "electionType": wd_leg_fallback.get("electionType"),
             "method": "ipu_parline+wikidata_fallback",
@@ -1014,19 +1031,19 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
             "controlBasis": leg_control.get("basis"),
         })
 
+    print(f"  [{iso2}] Fetching World Bank WGI...")
     new_wb = fetch_wb_wgi_percentiles(iso2)
     prev_obj = prev_by_iso2.get(iso2)
     wb_gov = merge_wb_sticky(new_wb, prev_obj)
 
-    # --- REST Countries: metadata ---
+    print(f"  [{iso2}] Fetching REST Countries metadata...")
     metadata = fetch_rest_countries_metadata(iso2)
+    print(f"  [{iso2}] metadata.capital={metadata.get('capital')}, metadata.population={metadata.get('population')}")
 
     # --- Build dataAvailability block ---
-    # Combines: static known-gap notes + runtime null-detection notes
     static_notes = DATA_AVAILABILITY_NOTES.get(iso2, {})
     availability: Dict[str, Any] = {}
 
-    # Wikidata executive
     if not qid:
         availability["executive"] = (
             static_notes.get("executive") or
@@ -1036,36 +1053,32 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
     elif static_notes.get("executive"):
         availability["executive"] = static_notes["executive"]
 
-    # World Bank governance
     if wb_gov.get("overallPercentile") is None:
         availability["worldBankGovernance"] = (
             static_notes.get("worldBankGovernance") or
-            f"World Bank WGI data unavailable for '{iso2}'. "
-            "This country may not be tracked by the World Bank API."
+            f"World Bank WGI data unavailable for '{iso2}'."
         )
     elif static_notes.get("worldBankGovernance"):
         availability["worldBankGovernance"] = static_notes["worldBankGovernance"]
 
-    # Legislative elections (IPU)
     if elections_leg.get("nextDate") is None and elections_leg.get("lastDate") is None:
         availability["elections.legislative"] = (
             static_notes.get("elections.legislative") or
-            f"No legislative election data found in IPU Parline or Wikidata for '{iso2}'. "
-            "This may indicate a non-multiparty system, an unrecognized territory, or a data gap."
+            f"No legislative election data found in IPU Parline or Wikidata for '{iso2}'."
         )
     elif static_notes.get("elections.legislative"):
         availability["elections.legislative"] = static_notes["elections.legislative"]
 
-    # REST Countries metadata
     if metadata.get("capital") is None and metadata.get("population") is None:
         availability["metadata"] = (
             static_notes.get("metadata") or
-            f"REST Countries API returned no data for '{iso2}'. "
-            "This may indicate an unrecognized territory or non-standard ISO code."
+            f"REST Countries API returned no data for '{iso2}'."
         )
 
-    # --- Apply static executive overrides for known bad Wikidata entries ---
+    # --- Apply static executive overrides ---
     ov = STATIC_EXECUTIVE_OVERRIDES.get(iso2, {})
+    if ov:
+        print(f"  [{iso2}] Applying static executive override: {list(ov.keys())}")
     hos_name  = ov.get("hosName")  or gov["headOfState"].get("name")
     hos_party = ov.get("hosParty") or gov["headOfState"].get("party") or "unknown"
     hog_name  = ov.get("hogName")  or gov["headOfGovernment"].get("name")
@@ -1077,7 +1090,6 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
     return {
         "country": country_name,
         "iso2": iso2,
-        # --- Metadata block ---
         "metadata": {
             "officialName": metadata["officialName"],
             "capital": metadata["capital"],
@@ -1098,12 +1110,20 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
             "headOfState": {
                 "name": hos_name,
                 "partyOrGroup": hos_party,
-                "source": f"wikidata:P35 + static_override:{bool(ov)}" if ov else "wikidata:P35 (current statement; +party P102)",
+                "source": (
+                    f"wikidata:P35 + static_override:True"
+                    if ov else
+                    "wikidata:P35 (current statement; +party P102)"
+                ),
             },
             "headOfGovernment": {
                 "name": hog_name,
                 "partyOrGroup": hog_party,
-                "source": f"wikidata:P6 + static_override:{bool(ov)}" if ov else "wikidata:P6 (current statement; +party P102)",
+                "source": (
+                    f"wikidata:P6 + static_override:True"
+                    if ov else
+                    "wikidata:P6 (current statement; +party P102)"
+                ),
             },
             "executiveInPower": {
                 "leader": exec_leader,
@@ -1125,14 +1145,18 @@ def build_country(country_name: str, iso2: str, prev_by_iso2: Dict[str, Any]) ->
                 "electionType": elections_exec["electionType"],
                 "method": elections_exec["method"],
                 "notes": elections_exec["notes"],
-                "source": "wikidata:P1001,P585,P31 (tightened types)",
+                "source": "wikidata:P1001+P17 UNION, P585, P31 (tightened types)",
             },
         },
     }
 
+
 def main() -> None:
     out_path = Path("public") / "countries_snapshot.json"
     prev_by_iso2 = load_previous_snapshot(out_path)
+
+    print("=== Starting countries snapshot build ===")
+    print(f"  Previous snapshot: {len(prev_by_iso2)} countries cached")
 
     # Pre-warm the IPU cache once before processing all countries
     _load_ipu_cache()
@@ -1153,13 +1177,14 @@ def main() -> None:
     for c in COUNTRIES:
         name = c["country"]
         iso2 = c["iso2"]
-        print(f"▶ Building {name} ({iso2}) ...")
+        print(f"\n▶ Building {name} ({iso2}) ...")
         out["countries"].append(build_country(name, iso2, prev_by_iso2))
         time.sleep(0.25)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✅ Wrote {len(out['countries'])} countries to {out_path.resolve()}")
+    print(f"\n✅ Wrote {len(out['countries'])} countries to {out_path.resolve()}")
+
 
 if __name__ == "__main__":
     main()
