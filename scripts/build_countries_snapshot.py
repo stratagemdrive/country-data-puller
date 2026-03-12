@@ -164,6 +164,7 @@ COUNTRIES: List[Dict[str, str]] = [
     {"country": "El Salvador", "iso2": "SV"},
     {"country": "Denmark", "iso2": "DK"},
     {"country": "Sudan", "iso2": "SD"},
+    {"country": "Ukraine", "iso2": "UA"},
 ]
 
 
