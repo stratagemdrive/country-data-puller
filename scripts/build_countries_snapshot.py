@@ -1404,9 +1404,9 @@ def build_country(name: str, iso2: str, prev_by_iso2: Dict[str, Any]) -> Dict[st
     ipu = fetch_ipu_leg_election(iso2)
     print(f"  [{iso2}] IPU: lastDate={ipu.get('lastDate')}, nextDate={ipu.get('nextDate')}")
 
-    static_elec = static.get("elections", {})
-    static_leg  = static_elec.get("legislative", {})
-    static_exec = static_elec.get("executive", {})
+    static_elec = static.get("elections") or {}
+    static_leg  = static_elec.get("legislative") or {}
+    static_exec = static_elec.get("executive") or {}
 
     # IPU wins for lastDate/nextDate if it has data (it's the authoritative election schedule)
     leg_last = ipu.get("lastDate") or static_leg.get("lastDate")
@@ -1432,12 +1432,12 @@ def build_country(name: str, iso2: str, prev_by_iso2: Dict[str, Any]) -> Dict[st
         "exists":       True if static_exec.get("nextDate") else (
                         "unknown" if static_exec.get("lastDate") else False),
         "lastDate":     static_exec.get("lastDate"),
-        "nextDate":     static_exec.get("nextDate"),
+        "nextDate":     static_exec.get("nextDate"), or None,
         "electionType": "presidential election" if static.get("politicalSystem") and
                         any("presidential" in p.lower() for p in static.get("politicalSystem", []))
                         else "indirect/parliamentary selection",
         "method":       "static_ground_truth",
-        "notes":        None,
+        "notes":        None, if static_exec.get("nextDate") else "No executive election scheduled or date unknown.",
         "source":       "static_ground_truth",
     }
 
