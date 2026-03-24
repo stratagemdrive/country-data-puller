@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T06:14:53.439535Z",
+  "generatedAt": "2026-03-24T05:47:52.866822Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -65,17 +65,16 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 16.05,
+        "overallPercentile": 15.58,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 13.235294342041,
+            "label": "Very low voice & accountability",
+            "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
@@ -610,7 +609,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 83.29,
+        "overallPercentile": 84.89,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2023,
@@ -635,10 +634,9 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 92.9245300292969,
+            "label": "Very high regulatory quality",
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
@@ -747,7 +745,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 86.53,
+        "overallPercentile": 87.6,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2023,
@@ -778,10 +776,9 @@
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 92.9245300292969,
+            "label": "Very high rule of law",
+            "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
@@ -880,7 +877,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 69.07,
+        "overallPercentile": 71.24,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2023,
@@ -905,10 +902,9 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 82.0754699707031,
+            "label": "Very high regulatory quality",
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
@@ -1693,17 +1689,16 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 89.6,
+        "overallPercentile": 90.52,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 95.0980377197266,
+            "label": "Very high voice & accountability",
+            "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
@@ -2765,9 +2760,9 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 38.65,
-        "band": "Low",
-        "bandLabel": "Low governance overall",
+        "overallPercentile": 40.62,
+        "band": "Medium",
+        "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
@@ -2796,10 +2791,9 @@
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 50.4716987609863,
+            "label": "Moderate rule of law",
+            "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
@@ -2914,7 +2908,7 @@
             "percentile": null,
             "label": null,
             "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "notes": "Unexpected WB response shape."
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
@@ -3310,17 +3304,16 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 48.52,
+        "overallPercentile": 49.17,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 52.4509811401367,
+            "label": "Moderate voice & accountability",
+            "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
@@ -3442,7 +3435,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 5.78,
+        "overallPercentile": 5.99,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
@@ -3467,10 +3460,9 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 7.07547187805176,
+            "label": "Very low regulatory quality",
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
@@ -3575,17 +3567,16 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 43.98,
+        "overallPercentile": 45.06,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
             "indicator": "VA.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 50.4901962280273,
+            "label": "Moderate voice & accountability",
+            "year": 2023
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
@@ -4112,7 +4103,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 2.6,
+        "overallPercentile": 2.48,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
@@ -4143,10 +4134,9 @@
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 1.88679242134094,
+            "label": "Very low rule of law",
+            "year": 2023
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
@@ -4931,7 +4921,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 37.94,
+        "overallPercentile": 37.12,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2023,
@@ -4950,10 +4940,9 @@
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 33.0188674926758,
+            "label": "Low government effectiveness",
+            "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
@@ -5591,7 +5580,7 @@
         "source": "static_ground_truth"
       },
       "worldBankGovernance": {
-        "overallPercentile": 94.68,
+        "overallPercentile": 95.26,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2023,
@@ -5616,10 +5605,9 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 98.1132049560547,
+            "label": "Very high regulatory quality",
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
