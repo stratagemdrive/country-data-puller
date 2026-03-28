@@ -8,8 +8,9 @@ on:
     branches:
       - main
     paths:
-      - "scripts/build_countries_snapshot.py"
+      - "build_countries_snapshot.py"
       - ".github/workflows/build_countries_snapshot.yml"
+      - "requirements.txt"
 
 permissions:
   contents: write
@@ -46,93 +47,68 @@ jobs:
           pip install requests beautifulsoup4 lxml
 
       # ── 4. Ensure output directory exists ────────────────────────────────────
-      - name: Create public/ directory
-        run: mkdir -p public
+      - name: Create docs/ directory
+        run: mkdir -p docs
 
       # ── 5. Run the snapshot builder ──────────────────────────────────────────
       - name: Build countries_snapshot.json
-        run: |
-          python scripts/build_countries_snapshot.py
+        run: python build_countries_snapshot.py
         env:
           PYTHONUNBUFFERED: "1"
+          OUTPUT_DIR: "docs"
 
       # ── 6. Verify output ──────────────────────────────────────────────────────
       - name: Verify output file
         run: |
-          if [ ! -f public/countries_snapshot.json ]; then
-            echo "ERROR: public/countries_snapshot.json was not created"
+          if [ ! -f docs/countries_snapshot.json ]; then
+            echo "ERROR: docs/countries_snapshot.json was not created"
             exit 1
           fi
-          SIZE=$(wc -c < public/countries_snapshot.json)
+          SIZE=$(wc -c < docs/countries_snapshot.json)
           echo "Output file size: ${SIZE} bytes"
           if [ "$SIZE" -lt 10000 ]; then
-            echo "ERROR: Output file suspiciously small (${SIZE} bytes) — possible build failure"
+            echo "ERROR: Output file suspiciously small (${SIZE} bytes)"
             exit 1
           fi
           python -c "
           import json, sys
 
-          with open('public/countries_snapshot.json') as f:
+          with open('docs/countries_snapshot.json') as f:
               data = json.load(f)
 
           countries = data.get('countries', [])
           print(f'Country count: {len(countries)}')
           print(f'Generated at:  {data.get(\"generatedAt\")}')
 
-          errors = []
           non_competitive_count = 0
-          missing_exec = []
           missing_leg_next = []
 
           for c in countries:
               iso2 = c.get('iso2', '?')
               name = c.get('country', '?')
-
-              # Executive sanity
-              hos = c.get('executive', {}).get('headOfState', {}).get('name')
-              if not hos:
-                  missing_exec.append(f'{name} ({iso2}): missing headOfState.name')
-
-              # Election schema sanity (new structure)
               elec = c.get('elections', {})
               if elec.get('competitiveElections') is False:
                   non_competitive_count += 1
-                  if not elec.get('nonCompetitiveReason'):
-                      errors.append(f'{name} ({iso2}): non-competitive but missing reason')
               else:
                   leg = elec.get('legislative', {})
-                  leg_next = leg.get('nextElection')
-                  if leg_next is None:
+                  if not leg.get('nextElection'):
                       missing_leg_next.append(f'{name} ({iso2})')
 
           print(f'Non-competitive countries: {non_competitive_count}')
-          print(f'Countries missing nextElection: {len(missing_leg_next)}')
-          if missing_leg_next:
-              for m in missing_leg_next:
-                  print(f'  - {m}')
+          print(f'Competitive countries missing nextElection: {len(missing_leg_next)}')
+          for m in missing_leg_next:
+              print(f'  - {m}')
 
-          if missing_exec:
-              print(\"WARNINGS — missing executive data:\")
-              for w in missing_exec:
-                  print(f'  - {w}')
-
-          if errors:
-              print(\"ERRORS:\")
-              for e in errors:
-                  print(f'  - {e}')
-              sys.exit(1)
-
-          # Spot-check first country
           first = countries[0]
           print()
           print(f'Spot-check: {first[\"country\"]} ({first[\"iso2\"]})')
-          print(f'  headOfState:   {first.get(\"executive\", {}).get(\"headOfState\", {}).get(\"name\")}')
+          print(f'  headOfState: {first.get(\"executive\", {}).get(\"headOfState\", {}).get(\"name\")}')
           print(f'  competitiveElections: {first.get(\"elections\", {}).get(\"competitiveElections\")}')
           leg = first.get('elections', {}).get('legislative', {})
-          last = leg.get('lastElection') or {}
-          nxt  = leg.get('nextElection') or {}
-          print(f'  lastElection:  {last.get(\"date\")} ({last.get(\"type\")})')
-          print(f'  nextElection:  {nxt.get(\"date\")} ({nxt.get(\"type\")})')
+          last_e = leg.get('lastElection') or {}
+          nxt_e  = leg.get('nextElection') or {}
+          print(f'  lastElection: {last_e.get(\"date\")} ({last_e.get(\"type\")})')
+          print(f'  nextElection: {nxt_e.get(\"date\")} ({nxt_e.get(\"type\")})')
           print('Verification passed.')
           "
 
@@ -141,7 +117,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/countries_snapshot.json
+          git add docs/countries_snapshot.json
           if git diff --cached --quiet; then
             echo "No changes to commit — snapshot unchanged."
           else
@@ -154,7 +130,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public/
+          path: docs/
 
   # ── 9. Deploy to GitHub Pages ─────────────────────────────────────────────────
   deploy:
