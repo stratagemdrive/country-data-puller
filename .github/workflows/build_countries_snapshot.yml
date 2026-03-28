@@ -1,12 +1,9 @@
 name: Build Countries Snapshot
 
 on:
-  # Run on a schedule — daily at 02:00 UTC
   schedule:
     - cron: "0 2 * * *"
-  # Allow manual trigger from the Actions tab
   workflow_dispatch:
-  # Also run on pushes to main that touch the script or workflow
   push:
     branches:
       - main
@@ -15,9 +12,9 @@ on:
       - ".github/workflows/build_countries_snapshot.yml"
 
 permissions:
-  contents: write   # needed to commit the generated JSON back to the repo
-  pages: write      # needed for GitHub Pages deployment
-  id-token: write   # needed for OIDC-based Pages deployment
+  contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -33,7 +30,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Fetch full history so we can read the previous snapshot for sticky WB data
           fetch-depth: 1
 
       # ── 2. Python setup ──────────────────────────────────────────────────────
@@ -47,7 +43,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests beautifulsoup4 lxml
 
       # ── 4. Ensure output directory exists ────────────────────────────────────
       - name: Create public/ directory
@@ -58,7 +54,6 @@ jobs:
         run: |
           python scripts/build_countries_snapshot.py
         env:
-          # No secrets required — all APIs are public
           PYTHONUNBUFFERED: "1"
 
       # ── 6. Verify output ──────────────────────────────────────────────────────
@@ -74,31 +69,79 @@ jobs:
             echo "ERROR: Output file suspiciously small (${SIZE} bytes) — possible build failure"
             exit 1
           fi
-          # Pretty-print first country as a sanity check
           python -c "
           import json, sys
+
           with open('public/countries_snapshot.json') as f:
               data = json.load(f)
+
           countries = data.get('countries', [])
           print(f'Country count: {len(countries)}')
-          if countries:
-              first = countries[0]
-              print(f'First country: {first[\"country\"]} ({first[\"iso2\"]})')
-              print(f'  metadata.capital: {first.get(\"metadata\", {}).get(\"capital\")}')
-              print(f'  executive.headOfState.name: {first.get(\"executive\", {}).get(\"headOfState\", {}).get(\"name\")}')
-              print(f'  elections.legislative.nextDate: {first.get(\"elections\", {}).get(\"legislative\", {}).get(\"nextDate\")}')
+          print(f'Generated at:  {data.get(\"generatedAt\")}')
+
+          errors = []
+          non_competitive_count = 0
+          missing_exec = []
+          missing_leg_next = []
+
+          for c in countries:
+              iso2 = c.get('iso2', '?')
+              name = c.get('country', '?')
+
+              # Executive sanity
+              hos = c.get('executive', {}).get('headOfState', {}).get('name')
+              if not hos:
+                  missing_exec.append(f'{name} ({iso2}): missing headOfState.name')
+
+              # Election schema sanity (new structure)
+              elec = c.get('elections', {})
+              if elec.get('competitiveElections') is False:
+                  non_competitive_count += 1
+                  if not elec.get('nonCompetitiveReason'):
+                      errors.append(f'{name} ({iso2}): non-competitive but missing reason')
+              else:
+                  leg = elec.get('legislative', {})
+                  leg_next = leg.get('nextElection')
+                  if leg_next is None:
+                      missing_leg_next.append(f'{name} ({iso2})')
+
+          print(f'Non-competitive countries: {non_competitive_count}')
+          print(f'Countries missing nextElection: {len(missing_leg_next)}')
+          if missing_leg_next:
+              for m in missing_leg_next:
+                  print(f'  - {m}')
+
+          if missing_exec:
+              print(\"WARNINGS — missing executive data:\")
+              for w in missing_exec:
+                  print(f'  - {w}')
+
+          if errors:
+              print(\"ERRORS:\")
+              for e in errors:
+                  print(f'  - {e}')
+              sys.exit(1)
+
+          # Spot-check first country
+          first = countries[0]
+          print()
+          print(f'Spot-check: {first[\"country\"]} ({first[\"iso2\"]})')
+          print(f'  headOfState:   {first.get(\"executive\", {}).get(\"headOfState\", {}).get(\"name\")}')
+          print(f'  competitiveElections: {first.get(\"elections\", {}).get(\"competitiveElections\")}')
+          leg = first.get('elections', {}).get('legislative', {})
+          last = leg.get('lastElection') or {}
+          nxt  = leg.get('nextElection') or {}
+          print(f'  lastElection:  {last.get(\"date\")} ({last.get(\"type\")})')
+          print(f'  nextElection:  {nxt.get(\"date\")} ({nxt.get(\"type\")})')
+          print('Verification passed.')
           "
 
-      # ── 7. Commit snapshot back to main (optional — keeps history) ────────────
-      # Comment this step out if you only want GitHub Pages deployment, not a
-      # committed JSON. Keeping it means the previous snapshot is always available
-      # for the sticky World Bank fallback on the next run.
+      # ── 7. Commit snapshot back to main ───────────────────────────────────────
       - name: Commit updated snapshot to repository
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/countries_snapshot.json
-          # Only commit if the file actually changed
           if git diff --cached --quiet; then
             echo "No changes to commit — snapshot unchanged."
           else
