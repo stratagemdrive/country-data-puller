@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T18:47:31.382220Z",
+  "generatedAt": "2026-03-28T19:32:25.118374Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -117,6 +117,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-09-19",
@@ -124,7 +126,7 @@
             "notes": "United Russia won 324/450 seats."
           },
           "nextElection": {
-            "date": "2026-09",
+            "date": "2026-09-30",
             "type": "Parliamentary (State Duma)",
             "notes": "Scheduled September 2026."
           },
@@ -261,6 +263,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-04-19",
@@ -404,6 +408,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-02-08",
@@ -543,6 +549,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "One-party state. The Chinese Communist Party holds a monopoly on political power. National People's Congress 'elections' are uncontested single-party votes.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2023-03",
@@ -687,6 +695,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-07-04",
@@ -831,6 +841,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2025-02-23",
@@ -971,6 +983,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Federal constitutional monarchy. Executive positions are hereditary. The Federal National Council is half-appointed, half indirectly elected via a limited electorate.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2023-10-07",
@@ -1103,6 +1117,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Absolute monarchy with no national elections for executive or legislative positions. The Consultative Assembly (Majlis al-Shura) is fully appointed by royal decree.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": null,
           "nextElection": null,
@@ -1226,6 +1242,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2022-11-01",
@@ -1370,6 +1388,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "No elections held since 2006 (legislative) and 2005 (presidential). Mahmoud Abbas rules by decree; Hamas controls Gaza. Elections indefinitely postponed.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2006-01-25",
@@ -1506,6 +1526,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-06-02",
@@ -1648,6 +1670,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2022-10-02",
@@ -1655,9 +1679,9 @@
             "notes": "PL (Bolsonaro's party) won most Chamber seats despite Lula winning presidency."
           },
           "nextElection": {
-            "date": "2026-10",
+            "date": "2026-10-04",
             "type": "Congressional + Presidential",
-            "notes": "Both congressional and presidential elections held simultaneously in October 2026."
+            "notes": "October 4, 2026 first round (congressional + presidential). Presidential runoff October 25 if needed."
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -1668,9 +1692,9 @@
             "notes": "Lula defeated Bolsonaro 50.9% to 49.1% in a runoff."
           },
           "nextElection": {
-            "date": "2026-10",
+            "date": "2026-10-04",
             "type": "Presidential",
-            "notes": "Lula eligible for re-election. October 2026."
+            "notes": "October 4 first round; runoff October 25 if needed. Lula eligible for re-election."
           },
           "source": "static_ground_truth"
         }
@@ -1793,6 +1817,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2025-04-28",
@@ -1935,6 +1961,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2023-02-25",
@@ -2080,6 +2108,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2026-02-08",
@@ -2220,6 +2250,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-03-01",
@@ -2360,6 +2392,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Transitional authority following Assad's fall (December 2024). No elections scheduled; country is governed by interim administration (Hayat Tahrir al-Sham).",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-07-15",
@@ -2492,6 +2526,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-07-07",
@@ -2632,6 +2668,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2023-05-14",
@@ -2771,6 +2809,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2020-12-06",
@@ -2906,6 +2946,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "One-party socialist republic. The Communist Party of Vietnam controls all state institutions. National Assembly candidates are vetted by the party.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-05-23",
@@ -3053,6 +3095,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-01-13",
@@ -3193,6 +3237,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-04-10",
@@ -3335,6 +3381,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Totalitarian single-party state. Supreme People's Assembly elections feature a single Korean Workers' Party-approved candidate per seat with near-100% reported turnout.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-01-07",
@@ -3472,6 +3520,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-02-14",
@@ -3612,6 +3662,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Military junta (State Administration Council) since the February 2021 coup. The elected NLD government operates in exile as the National Unity Government.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2020-11-08",
@@ -3742,6 +3794,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-06-20",
@@ -3749,7 +3803,7 @@
             "notes": "Civil Contract won 54% and majority. Called after post-war protests."
           },
           "nextElection": {
-            "date": "2026",
+            "date": "2026-06-07",
             "type": "Parliamentary",
             "notes": "Due by 2026. Pashinyan may call snap election following Armenia-Azerbaijan peace deal controversy."
           },
@@ -3879,6 +3933,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-09-01",
@@ -4023,6 +4079,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-09-08",
@@ -4030,7 +4088,7 @@
             "notes": "RNI won 102/395 seats and formed a coalition government."
           },
           "nextElection": {
-            "date": "2026",
+            "date": "2026-09-23",
             "type": "Parliamentary",
             "notes": "Due September 2026."
           },
@@ -4161,6 +4219,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-10",
@@ -4168,7 +4228,7 @@
             "notes": "Indirect clan-delegate system. No universal suffrage. Process completed late 2021 / early 2022."
           },
           "nextElection": {
-            "date": "2026",
+            "date": "2026-12-31",
             "type": "Indirect parliamentary election",
             "notes": "Expected 2025–2026. A move towards direct universal suffrage elections has been discussed but not implemented."
           },
@@ -4302,6 +4362,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Civil war. Two parallel governments (Houthi/Ansar Allah in the north; Presidential Leadership Council in the south). No elections possible.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2003-04-27",
@@ -4440,6 +4502,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Divided state with two rival governments. Elections scheduled for 2021 were never held. No current electoral process.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2014-06-25",
@@ -4570,6 +4634,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2020-10-24",
@@ -4577,9 +4643,9 @@
             "notes": "Nation's Future Party and pro-Sisi independents won overwhelmingly. Opposition largely excluded."
           },
           "nextElection": {
-            "date": "2025",
+            "date": "2026",
             "type": "Parliamentary",
-            "notes": "Due 2025. Exact date not yet confirmed."
+            "notes": "Due 2025-2026. Sisi extended parliament's term; election timing uncertain."
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -4712,6 +4778,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-06-12",
@@ -4855,6 +4923,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2025-10-26",
@@ -4993,33 +5063,37 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Gabriel Boric was term-limited; election held Nov-Dec 2025. New president took office March 2026. Static data pending update with confirmed winner."
+      },
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
-            "date": "2021-11-21",
+            "date": "2025-11-16",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "Right-wing Chile Vamos won most seats; Boric's coalition controls government despite congress opposition."
+            "notes": "First round held 16 Nov 2025. Boric term-limited; right-wing Chile Vamos led in congressional seats."
           },
           "nextElection": {
-            "date": "2025-11",
+            "date": "2029-11",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "Boric is term-limited; cannot stand for re-election."
+            "notes": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
-            "date": "2021-12-19",
+            "date": "2025-12-07",
             "type": "Presidential (runoff)",
-            "notes": "Gabriel Boric defeated José Antonio Kast 55.9% to 44.1%."
+            "notes": "Runoff held Dec 2025. Boric was term-limited; new president took office March 2026."
           },
           "nextElection": {
-            "date": "2025-11",
+            "date": "2029-11",
             "type": "Presidential",
-            "notes": "Boric cannot run again (single 4-year term). Election November 2025."
+            "notes": null
           },
           "source": "static_ground_truth"
         }
@@ -5138,6 +5212,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2021-04-11",
@@ -5145,9 +5221,9 @@
             "notes": "Highly fragmented result. No party won more than 15% of seats."
           },
           "nextElection": {
-            "date": "2026-04",
+            "date": "2026-04-12",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "April 2026. Boluarte is serving out Castillo's term."
+            "notes": "April 12, 2026. Presidential runoff June 7 if no majority. Boluarte term ended; José María Balcázar serving as interim president."
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -5158,9 +5234,9 @@
             "notes": "Castillo defeated Fujimori 50.1% to 49.9%. Castillo impeached Dec 2022; Boluarte assumed presidency."
           },
           "nextElection": {
-            "date": "2026-04",
+            "date": "2026-04-12",
             "type": "Presidential",
-            "notes": "April 2026. Boluarte cannot run (completing prior term, not her own)."
+            "notes": "April 12 first round; runoff June 7 if needed. Boluarte cannot run (completing prior term, not her own)."
           },
           "source": "static_ground_truth"
         }
@@ -5276,6 +5352,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "One-party socialist republic. The Communist Party of Cuba is the only legal party. National Assembly candidates are pre-approved.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2023-03-26",
@@ -5418,16 +5496,18 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
-            "date": "2022-03-13",
+            "date": "2026-03-08",
             "type": "Congressional",
-            "notes": "Pacto Histórico won most seats but not a majority."
+            "notes": "March 8, 2026. Fragmented result; Paloma Valencia's center-right coalition performed strongly. Petro's Historic Pact suffered losses."
           },
           "nextElection": {
-            "date": "2026-03",
-            "type": "Congressional",
-            "notes": "March 2026 — congressional election precedes presidential."
+            "date": "2026-05-31",
+            "type": "Presidential",
+            "notes": "Presidential first round May 31, 2026; runoff June 21 if needed. Congressional election already held March 8, 2026."
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -5438,9 +5518,9 @@
             "notes": "Petro defeated Hernández 50.4% to 47.3%. First left-wing president in Colombia's history."
           },
           "nextElection": {
-            "date": "2026-05",
+            "date": "2026-05-31",
             "type": "Presidential",
-            "notes": "Petro is term-limited (single 4-year term). May 2026."
+            "notes": "May 31 first round; runoff June 21 if needed. Petro term-limited; cannot run again."
           },
           "source": "static_ground_truth"
         }
@@ -5556,6 +5636,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-05-05",
@@ -5695,6 +5777,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2024-02-04",
@@ -5835,16 +5919,18 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
-            "date": "2022-11-01",
-            "type": "Snap parliamentary election",
-            "notes": "Left-wing bloc won narrow majority. Frederiksen formed minority government."
-          },
-          "nextElection": {
             "date": "2026-03-24",
             "type": "Snap parliamentary election",
-            "notes": "Called by Frederiksen 4 weeks early amid strong polling on Greenland sovereignty issue."
+            "notes": "Held 24 March 2026. Frederiksen called snap election on Greenland sovereignty platform. Results still being tallied as of March 28 2026."
+          },
+          "nextElection": {
+            "date": "2030",
+            "type": "Parliamentary",
+            "notes": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -5855,7 +5941,7 @@
             "notes": "PM emerges from parliamentary majority formation."
           },
           "nextElection": {
-            "date": "2026-03-24",
+            "date": "2030",
             "type": "Parliamentary",
             "notes": null
           },
@@ -5977,6 +6063,8 @@
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Military junta. Sudan is under Sudanese Armed Forces (SAF) control amid civil war with the RSF. No elections scheduled or possible under current conditions.",
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": null,
           "nextElection": null,
@@ -6101,6 +6189,8 @@
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "legislative": {
           "lastElection": {
             "date": "2019-07-21",
