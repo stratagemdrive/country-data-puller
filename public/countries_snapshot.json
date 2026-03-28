@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T17:53:32.858822Z",
+  "generatedAt": "2026-03-28T18:03:23.405674Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -128,7 +128,7 @@
             "type": "Parliamentary (State Duma)",
             "notes": "Scheduled September 2026."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -698,7 +698,7 @@
             "type": "General election",
             "notes": "Due by January 2029 under the Dissolution and Calling of Parliament Act 2022."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -842,7 +842,7 @@
             "type": "Federal election (Bundestag)",
             "notes": null
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -1237,7 +1237,7 @@
             "type": "Parliamentary (Knesset)",
             "notes": "Legal deadline. Netanyahu may call snap elections earlier (as early as mid-2026)."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -1659,7 +1659,7 @@
             "type": "Congressional + Presidential",
             "notes": "Both congressional and presidential elections held simultaneously in October 2026."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -1804,7 +1804,7 @@
             "type": "Federal election",
             "notes": "Due by October 2029 at latest; minority government makes earlier election possible."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -2091,7 +2091,7 @@
             "type": "General election (House of Representatives)",
             "notes": null
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -2778,7 +2778,7 @@
             "notes": "Opposition boycotted. PSUV won 253/277 seats in discredited election."
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -2917,7 +2917,7 @@
             "type": "National Assembly (non-competitive)",
             "notes": "Scheduled May 2026."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -3064,7 +3064,7 @@
             "type": "Legislative Yuan",
             "notes": null
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -3204,7 +3204,7 @@
             "type": "Parliamentary",
             "notes": null
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -3619,7 +3619,7 @@
             "notes": "NLD won landslide (396/476 seats). Military nullified results and staged coup on 1 Feb 2021."
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -3753,7 +3753,7 @@
             "type": "Parliamentary",
             "notes": "Due by 2026. Pashinyan may call snap election following Armenia-Azerbaijan peace deal controversy."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -4034,7 +4034,7 @@
             "type": "Parliamentary",
             "notes": "Due September 2026."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": null,
@@ -4172,7 +4172,7 @@
             "type": "Indirect parliamentary election",
             "notes": "Expected 2025–2026. A move towards direct universal suffrage elections has been discussed but not implemented."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -4581,7 +4581,7 @@
             "type": "Parliamentary",
             "notes": "Due 2025. Exact date not yet confirmed."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -4723,7 +4723,7 @@
             "type": "Parliamentary",
             "notes": null
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -4866,7 +4866,7 @@
             "type": "Congressional midterm",
             "notes": "Half of Chamber of Deputies renewed in October 2025."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -5008,7 +5008,7 @@
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": "Boric is term-limited; cannot stand for re-election."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -5149,7 +5149,7 @@
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": "April 2026. Boluarte is serving out Castillo's term."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -5429,7 +5429,7 @@
             "type": "Congressional",
             "notes": "March 2026 — congressional election precedes presidential."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -5846,7 +5846,7 @@
             "type": "Snap parliamentary election",
             "notes": "Called by Frederiksen 4 weeks early amid strong polling on Greenland sovereignty issue."
           },
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": {
@@ -5980,7 +5980,7 @@
         "legislative": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "static_ground_truth + electionguide enrichment"
         },
         "executive": {
           "lastElection": null,
