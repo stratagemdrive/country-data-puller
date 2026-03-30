@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T19:38:24.224279Z",
+  "generatedAt": "2026-03-30T22:13:43.027638Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -115,35 +115,14 @@
       },
       "dataAvailability": null,
       "elections": {
-        "competitiveElections": true,
-        "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
-        "legislative": {
-          "lastElection": {
-            "date": "2021-09-19",
-            "type": "Parliamentary (State Duma)",
-            "notes": "United Russia won 324/450 seats."
-          },
-          "nextElection": {
-            "date": "2026-09-30",
-            "type": "Parliamentary (State Duma)",
-            "notes": "Scheduled September 2026."
-          },
-          "source": "static_ground_truth + electionguide enrichment"
-        },
         "executive": {
-          "lastElection": {
-            "date": "2024-03-17",
-            "type": "Presidential",
-            "notes": "Putin re-elected with reported 87% of vote."
-          },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Next presidential election scheduled for 2030 under current six-year term.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         }
       }
     },
@@ -261,35 +240,23 @@
       },
       "dataAvailability": null,
       "elections": {
-        "competitiveElections": true,
-        "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
         "legislative": {
-          "lastElection": {
-            "date": "2024-04-19",
-            "type": "General election (Lok Sabha)",
-            "notes": "BJP-led NDA won majority; Modi began third term as PM."
-          },
           "nextElection": {
             "date": "2029",
             "type": "General election (Lok Sabha)",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Constitutional maximum five-year term expires by May 2029.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         },
         "executive": {
-          "lastElection": {
-            "date": "2024-07",
-            "type": "Presidential (indirect, parliament)",
-            "notes": "Droupadi Murmu re-confirmed via parliamentary vote."
-          },
           "nextElection": {
             "date": "2029",
             "type": "Presidential (indirect)",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Five-year presidential term expires in July 2029.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         }
       }
     },
@@ -410,16 +377,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-02-08",
             "type": "General election",
-            "notes": "PTI-backed independents won most seats; PML-N formed coalition government."
+            "notes": "PTI-backed independents won most seats; PML-N formed coalition government.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -427,12 +399,16 @@
           "lastElection": {
             "date": "2024-03",
             "type": "Presidential (indirect)",
-            "notes": "Asif Ali Zardari elected president by parliament."
+            "notes": "Asif Ali Zardari elected president by parliament.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential (indirect)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -551,16 +527,21 @@
         "nonCompetitiveReason": "One-party state. The Chinese Communist Party holds a monopoly on political power. National People's Congress 'elections' are uncontested single-party votes.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2023-03",
             "type": "NPC delegate selection (non-competitive)",
-            "notes": "NPC delegates selected through party-controlled process. Not a competitive election."
+            "notes": "NPC delegates selected through party-controlled process. Not a competitive election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "NPC delegate selection (non-competitive)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -568,12 +549,16 @@
           "lastElection": {
             "date": "2023-03",
             "type": "NPC presidential confirmation (non-competitive)",
-            "notes": "Xi Jinping confirmed for third term by NPC; no opposition candidates permitted."
+            "notes": "Xi Jinping confirmed for third term by NPC; no opposition candidates permitted.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "NPC confirmation (non-competitive)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -697,16 +682,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-07-04",
             "type": "General election",
-            "notes": "Labour won a landslide majority (412/650 seats). Keir Starmer became PM."
+            "notes": "Labour won a landslide majority (412/650 seats). Keir Starmer became PM.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
-            "notes": "Due by January 2029 under the Dissolution and Calling of Parliament Act 2022."
+            "notes": "Due by January 2029 under the Dissolution and Calling of Parliament Act 2022.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -714,12 +704,16 @@
           "lastElection": {
             "date": "2024-07-04",
             "type": "General election (parliamentary selection of PM)",
-            "notes": "PM is appointed after winning a parliamentary majority."
+            "notes": "PM is appointed after winning a parliamentary majority.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -843,16 +837,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2025-02-23",
             "type": "Federal election (Bundestag)",
-            "notes": "CDU/CSU won 28.5%; SPD 16.4%. AfD came second with 20.8%. Merz formed CDU/CSU-SPD grand coalition."
+            "notes": "CDU/CSU won 28.5%; SPD 16.4%. AfD came second with 20.8%. Merz formed CDU/CSU-SPD grand coalition.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election (Bundestag)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -860,12 +859,16 @@
           "lastElection": {
             "date": "2025-02-23",
             "type": "Federal election (Chancellor selected by Bundestag)",
-            "notes": "Chancellor is elected by the Bundestag following federal elections."
+            "notes": "Chancellor is elected by the Bundestag following federal elections.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -985,16 +988,21 @@
         "nonCompetitiveReason": "Federal constitutional monarchy. Executive positions are hereditary. The Federal National Council is half-appointed, half indirectly elected via a limited electorate.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2023-10-07",
             "type": "Federal National Council (limited indirect election)",
-            "notes": "Only half of the 40-seat FNC is indirectly elected by an appointed electorate of ~300,000. The body is advisory only."
+            "notes": "Only half of the 40-seat FNC is indirectly elected by an appointed electorate of ~300,000. The body is advisory only.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027",
             "type": "Federal National Council (limited indirect)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -1119,6 +1127,7 @@
         "nonCompetitiveReason": "Absolute monarchy with no national elections for executive or legislative positions. The Consultative Assembly (Majlis al-Shura) is fully appointed by royal decree.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": null,
           "nextElection": null,
@@ -1244,16 +1253,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2022-11-01",
             "type": "Parliamentary (Knesset)",
-            "notes": "Netanyahu's Likud-led bloc won 64/120 seats."
+            "notes": "Netanyahu's Likud-led bloc won 64/120 seats.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-10-27",
             "type": "Parliamentary (Knesset)",
-            "notes": "Legal deadline. Netanyahu may call snap elections earlier (as early as mid-2026)."
+            "notes": "Legal deadline. Netanyahu may call snap elections earlier (as early as mid-2026).",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -1261,12 +1275,16 @@
           "lastElection": {
             "date": "2022-11-01",
             "type": "Parliamentary (PM selected by Knesset majority)",
-            "notes": "PM emerges from parliamentary coalition formation after elections."
+            "notes": "PM emerges from parliamentary coalition formation after elections.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-10-27",
             "type": "Parliamentary",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -1390,11 +1408,14 @@
         "nonCompetitiveReason": "No elections held since 2006 (legislative) and 2005 (presidential). Mahmoud Abbas rules by decree; Hamas controls Gaza. Elections indefinitely postponed.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2006-01-25",
             "type": "Legislative Council",
-            "notes": "Hamas won 74/132 seats. No elections held since; council suspended."
+            "notes": "Hamas won 74/132 seats. No elections held since; council suspended.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -1403,7 +1424,9 @@
           "lastElection": {
             "date": "2005-01-09",
             "type": "Presidential",
-            "notes": "Mahmoud Abbas elected. No subsequent presidential election held."
+            "notes": "Mahmoud Abbas elected. No subsequent presidential election held.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -1528,16 +1551,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-06-02",
             "type": "Congressional (Chamber of Deputies)",
-            "notes": "Morena coalition won supermajority (364/500 seats in Chamber)."
+            "notes": "Morena coalition won supermajority (364/500 seats in Chamber).",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027",
             "type": "Midterm (Chamber of Deputies)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -1545,12 +1573,16 @@
           "lastElection": {
             "date": "2024-06-02",
             "type": "Presidential",
-            "notes": "Claudia Sheinbaum won with ~59% of vote."
+            "notes": "Claudia Sheinbaum won with ~59% of vote.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": "Mexico has a single 6-year term (sexenio) with no re-election."
+            "notes": "Mexico has a single 6-year term (sexenio) with no re-election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -1672,16 +1704,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2022-10-02",
             "type": "Congressional",
-            "notes": "PL (Bolsonaro's party) won most Chamber seats despite Lula winning presidency."
+            "notes": "PL (Bolsonaro's party) won most Chamber seats despite Lula winning presidency.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-10-04",
             "type": "Congressional + Presidential",
-            "notes": "October 4, 2026 first round (congressional + presidential). Presidential runoff October 25 if needed."
+            "notes": "October 4, 2026 first round. Congressional seats decided by proportional rep; presidential runoff October 25 if needed.",
+            "runoffDate": "2026-10-25",
+            "runoffCondition": "if no presidential candidate wins >50% of valid votes in round 1"
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -1689,12 +1726,16 @@
           "lastElection": {
             "date": "2022-10-30",
             "type": "Presidential (runoff)",
-            "notes": "Lula defeated Bolsonaro 50.9% to 49.1% in a runoff."
+            "notes": "Lula defeated Bolsonaro 50.9% to 49.1% in a runoff.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-10-04",
             "type": "Presidential",
-            "notes": "October 4 first round; runoff October 25 if needed. Lula eligible for re-election."
+            "notes": "October 4 first round; Lula eligible for re-election.",
+            "runoffDate": "2026-10-25",
+            "runoffCondition": "if no candidate wins >50% of valid votes in round 1"
           },
           "source": "static_ground_truth"
         }
@@ -1819,16 +1860,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2025-04-28",
             "type": "Federal election",
-            "notes": "Liberals won 169/343 seats (minority). Carney's Liberals won amid Trump tariff tensions."
+            "notes": "Liberals won 169/343 seats (minority). Carney's Liberals won amid Trump tariff tensions.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election",
-            "notes": "Due by October 2029 at latest; minority government makes earlier election possible."
+            "notes": "Due by October 2029 at latest; minority government makes earlier election possible.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -1836,12 +1882,16 @@
           "lastElection": {
             "date": "2025-04-28",
             "type": "Federal election (PM selected by House majority)",
-            "notes": "PM is appointed following federal election result."
+            "notes": "PM is appointed following federal election result.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -1959,35 +2009,23 @@
       },
       "dataAvailability": null,
       "elections": {
-        "competitiveElections": true,
-        "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
         "legislative": {
-          "lastElection": {
-            "date": "2023-02-25",
-            "type": "General election",
-            "notes": "APC retained majorities in both chambers."
-          },
           "nextElection": {
             "date": "2027",
             "type": "General election",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Next general elections for National Assembly scheduled for 2027.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         },
         "executive": {
-          "lastElection": {
-            "date": "2023-02-25",
-            "type": "Presidential",
-            "notes": "Tinubu won with 36.6% in a fractured three-way race."
-          },
           "nextElection": {
             "date": "2027",
             "type": "Presidential",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Next presidential election scheduled for 2027.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         }
       }
     },
@@ -2110,16 +2148,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2026-02-08",
             "type": "Snap election (House of Representatives)",
-            "notes": "LDP won historic supermajority of 316/465 seats. First snap election called by Takaichi as PM."
+            "notes": "LDP won historic supermajority of 316/465 seats. First snap election called by Takaichi as PM.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2030",
             "type": "General election (House of Representatives)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -2127,12 +2170,16 @@
           "lastElection": {
             "date": "2026-02-08",
             "type": "Snap election (PM selected by supermajority)",
-            "notes": "PM emerges from the parliamentary majority. Takaichi confirmed."
+            "notes": "PM emerges from the parliamentary majority. Takaichi confirmed.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2030",
             "type": "General election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -2252,16 +2299,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-03-01",
             "type": "Parliamentary (Majlis, round 1)",
-            "notes": "Conservatives/Principlists won majority in low-turnout election (~41%). Second round April 2024."
+            "notes": "Conservatives/Principlists won majority in low-turnout election (~41%). Second round April 2024.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Parliamentary (Majlis)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -2269,12 +2321,16 @@
           "lastElection": {
             "date": "2024-07-05",
             "type": "Presidential",
-            "notes": "Masoud Pezeshkian (reformist) won snap election after Raisi's death in helicopter crash."
+            "notes": "Masoud Pezeshkian (reformist) won snap election after Raisi's death in helicopter crash.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential",
-            "notes": "Assembly of Experts will also elect a new Supreme Leader — timeline uncertain."
+            "notes": "Assembly of Experts will also elect a new Supreme Leader — timeline uncertain.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -2394,11 +2450,14 @@
         "nonCompetitiveReason": "Transitional authority following Assad's fall (December 2024). No elections scheduled; country is governed by interim administration (Hayat Tahrir al-Sham).",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-07-15",
             "type": "Assad-era parliamentary election (discredited)",
-            "notes": "Final Assad-era election, held during civil war. Not recognised as legitimate."
+            "notes": "Final Assad-era election, held during civil war. Not recognised as legitimate.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -2528,16 +2587,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-07-07",
             "type": "Snap legislative election (round 2)",
-            "notes": "Left-wing NFP won most seats but no majority. Macron's Ensemble third. Hung parliament."
+            "notes": "Left-wing NFP won most seats but no majority. Macron's Ensemble third. Hung parliament.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Legislative",
-            "notes": "Next statutory election due 2029. Snap election possible if government falls again."
+            "notes": "Next statutory election due 2029. Snap election possible if government falls again.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -2545,12 +2609,16 @@
           "lastElection": {
             "date": "2022-04-24",
             "type": "Presidential (runoff)",
-            "notes": "Macron defeated Le Pen 58.5% to 41.5%."
+            "notes": "Macron defeated Le Pen 58.5% to 41.5%.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027-04",
             "type": "Presidential",
-            "notes": "Macron is term-limited; cannot run again."
+            "notes": "Macron is term-limited; cannot run again. Exact April date TBD.",
+            "runoffDate": "2027-05",
+            "runoffCondition": "standard French two-round system; runoff between top 2 candidates ~2 weeks after round 1"
           },
           "source": "static_ground_truth"
         }
@@ -2670,16 +2738,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2023-05-14",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "AKP and allies retained parliamentary majority."
+            "notes": "AKP and allies retained parliamentary majority.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Parliamentary + Presidential",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -2687,12 +2760,16 @@
           "lastElection": {
             "date": "2023-05-28",
             "type": "Presidential (runoff)",
-            "notes": "Erdoğan defeated Kılıçdaroğlu 52% to 48% in runoff."
+            "notes": "Erdoğan defeated Kılıçdaroğlu 52% to 48% in runoff.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential",
-            "notes": "Constitutional two-term limit — Erdoğan may seek a third term via snap election reset."
+            "notes": "Constitutional two-term limit — Erdoğan may seek a third term via snap election reset.",
+            "runoffDate": null,
+            "runoffCondition": "two-round system if no candidate wins majority in round 1"
           },
           "source": "static_ground_truth"
         }
@@ -2811,11 +2888,14 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2020-12-06",
             "type": "Parliamentary",
-            "notes": "Opposition boycotted. PSUV won 253/277 seats in discredited election."
+            "notes": "Opposition boycotted. PSUV won 253/277 seats in discredited election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth + electionguide enrichment"
@@ -2824,12 +2904,16 @@
           "lastElection": {
             "date": "2024-07-28",
             "type": "Presidential",
-            "notes": "Maduro declared winner; results internationally disputed. Opposition's González widely recognised as actual winner."
+            "notes": "Maduro declared winner; results internationally disputed. Opposition's González widely recognised as actual winner.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": "If current government holds power; legitimacy deeply contested."
+            "notes": "If current government holds power; legitimacy deeply contested.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -2948,16 +3032,21 @@
         "nonCompetitiveReason": "One-party socialist republic. The Communist Party of Vietnam controls all state institutions. National Assembly candidates are vetted by the party.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2021-05-23",
             "type": "National Assembly (non-competitive)",
-            "notes": "All candidates vetted by Vietnam Fatherland Front (CPV body). 99.6% voter turnout reported."
+            "notes": "All candidates vetted by Vietnam Fatherland Front (CPV body). 99.6% voter turnout reported.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-05",
             "type": "National Assembly (non-competitive)",
-            "notes": "Scheduled May 2026."
+            "notes": "Scheduled May 2026.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -2965,12 +3054,16 @@
           "lastElection": {
             "date": "2021-07",
             "type": "Presidential (indirect, National Assembly)",
-            "notes": "President elected by National Assembly on CPV nomination."
+            "notes": "President elected by National Assembly on CPV nomination.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026",
             "type": "Presidential (indirect)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -3097,16 +3190,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-01-13",
             "type": "Legislative Yuan",
-            "notes": "DPP lost its majority. KMT won most seats; TPP holds balance of power."
+            "notes": "DPP lost its majority. KMT won most seats; TPP holds balance of power.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Legislative Yuan",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -3114,12 +3212,16 @@
           "lastElection": {
             "date": "2024-01-13",
             "type": "Presidential",
-            "notes": "Lai Ching-te won with 40.1% in three-way race."
+            "notes": "Lai Ching-te won with 40.1% in three-way race.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -3239,16 +3341,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-04-10",
             "type": "Parliamentary",
-            "notes": "Democratic Party won 175/300 seats (majority). Strong rebuke of Yoon government."
+            "notes": "Democratic Party won 175/300 seats (majority). Strong rebuke of Yoon government.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Parliamentary",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -3256,12 +3363,16 @@
           "lastElection": {
             "date": "2025-06-03",
             "type": "Snap presidential election",
-            "notes": "Lee Jae-myung won after Yoon Suk-yeol's impeachment for declaring martial law in December 2024."
+            "notes": "Lee Jae-myung won after Yoon Suk-yeol's impeachment for declaring martial law in December 2024.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": "South Korea has a single 5-year presidential term with no re-election."
+            "notes": "South Korea has a single 5-year presidential term with no re-election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -3383,16 +3494,21 @@
         "nonCompetitiveReason": "Totalitarian single-party state. Supreme People's Assembly elections feature a single Korean Workers' Party-approved candidate per seat with near-100% reported turnout.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-01-07",
             "type": "SPA election (non-competitive)",
-            "notes": "Single-party slate with a single candidate per constituency. 99.9% turnout reported. Not a competitive election."
+            "notes": "Single-party slate with a single candidate per constituency. 99.9% turnout reported. Not a competitive election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "SPA election (non-competitive)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -3522,16 +3638,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-02-14",
             "type": "General election (DPR + Presidential simultaneous)",
-            "notes": "Golkar, Gerindra and PDI-P led in DPR seats. Simultaneous with presidential vote."
+            "notes": "Golkar, Gerindra and PDI-P led in DPR seats. Simultaneous with presidential vote.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -3539,12 +3660,16 @@
           "lastElection": {
             "date": "2024-02-14",
             "type": "Presidential",
-            "notes": "Prabowo won 58.6% in a three-candidate race."
+            "notes": "Prabowo won 58.6% in a three-candidate race.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential",
-            "notes": "Indonesia has a two-term limit; Prabowo eligible for one more term."
+            "notes": "Indonesia has a two-term limit; Prabowo eligible for one more term.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -3664,11 +3789,14 @@
         "nonCompetitiveReason": "Military junta (State Administration Council) since the February 2021 coup. The elected NLD government operates in exile as the National Unity Government.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2020-11-08",
             "type": "General election (pre-coup)",
-            "notes": "NLD won landslide (396/476 seats). Military nullified results and staged coup on 1 Feb 2021."
+            "notes": "NLD won landslide (396/476 seats). Military nullified results and staged coup on 1 Feb 2021.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth + electionguide enrichment"
@@ -3677,7 +3805,9 @@
           "lastElection": {
             "date": "2020-11-08",
             "type": "General election (pre-coup)",
-            "notes": "Last legitimate election before coup."
+            "notes": "Last legitimate election before coup.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -3796,16 +3926,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2021-06-20",
             "type": "Snap parliamentary election",
-            "notes": "Civil Contract won 54% and majority. Called after post-war protests."
+            "notes": "Civil Contract won 54% and majority. Called after post-war protests.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-06-07",
             "type": "Parliamentary",
-            "notes": "Due by 2026. Pashinyan may call snap election following Armenia-Azerbaijan peace deal controversy."
+            "notes": "Due by 2026. Pashinyan may call snap election following Armenia-Azerbaijan peace deal controversy.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -3813,12 +3948,16 @@
           "lastElection": {
             "date": "2022-03-03",
             "type": "Presidential (indirect, National Assembly)",
-            "notes": "Vahagn Khachaturyan elected by National Assembly. Ceremonial role."
+            "notes": "Vahagn Khachaturyan elected by National Assembly. Ceremonial role.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027",
             "type": "Presidential (indirect)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -3935,16 +4074,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-09-01",
             "type": "Snap parliamentary election",
-            "notes": "New Azerbaijan Party won 68/100 seats. OSCE reported significant irregularities."
+            "notes": "New Azerbaijan Party won 68/100 seats. OSCE reported significant irregularities.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Parliamentary",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -3952,12 +4096,16 @@
           "lastElection": {
             "date": "2024-02-07",
             "type": "Snap presidential election",
-            "notes": "Aliyev won 92.1%. No meaningful opposition permitted."
+            "notes": "Aliyev won 92.1%. No meaningful opposition permitted.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2031",
             "type": "Presidential",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -4081,16 +4229,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2021-09-08",
             "type": "Parliamentary",
-            "notes": "RNI won 102/395 seats and formed a coalition government."
+            "notes": "RNI won 102/395 seats and formed a coalition government.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-09-23",
             "type": "Parliamentary",
-            "notes": "Due September 2026."
+            "notes": "Due September 2026.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -4217,35 +4370,14 @@
         "worldBankGovernance": "Somalia governance data based on limited external assessments due to conflict."
       },
       "elections": {
-        "competitiveElections": true,
-        "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
-        "legislative": {
-          "lastElection": {
-            "date": "2021-10",
-            "type": "Indirect parliamentary election",
-            "notes": "Indirect clan-delegate system. No universal suffrage. Process completed late 2021 / early 2022."
-          },
-          "nextElection": {
-            "date": "2026-12-31",
-            "type": "Indirect parliamentary election",
-            "notes": "Expected 2025–2026. A move towards direct universal suffrage elections has been discussed but not implemented."
-          },
-          "source": "static_ground_truth + electionguide enrichment"
-        },
         "executive": {
-          "lastElection": {
-            "date": "2022-05-15",
-            "type": "Presidential (indirect, parliament)",
-            "notes": "Hassan Sheikh Mohamud elected by parliament, 214/328 votes."
-          },
           "nextElection": {
-            "date": "2026",
+            "date": "2027",
             "type": "Presidential (indirect)",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Expected in 2027, as presidential terms are typically 4 years from the May 2022 election.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         }
       }
     },
@@ -4364,11 +4496,14 @@
         "nonCompetitiveReason": "Civil war. Two parallel governments (Houthi/Ansar Allah in the north; Presidential Leadership Council in the south). No elections possible.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2003-04-27",
             "type": "Parliamentary",
-            "notes": "Last parliamentary election before civil war. Parliament technically still in session but non-functional."
+            "notes": "Last parliamentary election before civil war. Parliament technically still in session but non-functional.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -4377,7 +4512,9 @@
           "lastElection": {
             "date": "2012-02-21",
             "type": "Presidential (single-candidate transition)",
-            "notes": "Abd Rabbuh Mansur Hadi won uncontested election during Arab Spring transition. Replaced by Presidential Leadership Council in 2022."
+            "notes": "Abd Rabbuh Mansur Hadi won uncontested election during Arab Spring transition. Replaced by Presidential Leadership Council in 2022.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -4504,11 +4641,14 @@
         "nonCompetitiveReason": "Divided state with two rival governments. Elections scheduled for 2021 were never held. No current electoral process.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2014-06-25",
             "type": "Parliamentary",
-            "notes": "Low turnout (18%). Led to political split and parallel governments."
+            "notes": "Low turnout (18%). Led to political split and parallel governments.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -4632,35 +4772,14 @@
       },
       "dataAvailability": null,
       "elections": {
-        "competitiveElections": true,
-        "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
-        "legislative": {
-          "lastElection": {
-            "date": "2020-10-24",
-            "type": "Parliamentary",
-            "notes": "Nation's Future Party and pro-Sisi independents won overwhelmingly. Opposition largely excluded."
-          },
-          "nextElection": {
-            "date": "2026",
-            "type": "Parliamentary",
-            "notes": "Due 2025-2026. Sisi extended parliament's term; election timing uncertain."
-          },
-          "source": "static_ground_truth + electionguide enrichment"
-        },
         "executive": {
-          "lastElection": {
-            "date": "2023-12-10",
-            "type": "Presidential",
-            "notes": "Sisi won 89.6% in a tightly controlled election. No meaningful opposition."
-          },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Sisi's third six-year term runs until 2030. Constitutional amendments in 2019 extended presidential terms.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         }
       }
     },
@@ -4780,16 +4899,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2021-06-12",
             "type": "Parliamentary",
-            "notes": "FLN and allies won majority in low-turnout election (~23%)."
+            "notes": "FLN and allies won majority in low-turnout election (~23%).",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027",
             "type": "Parliamentary",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -4797,12 +4921,16 @@
           "lastElection": {
             "date": "2024-09-07",
             "type": "Presidential",
-            "notes": "Tebboune re-elected with 94.7% in a low-turnout election."
+            "notes": "Tebboune re-elected with 94.7% in a low-turnout election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -4925,16 +5053,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2025-10-26",
             "type": "Congressional midterm",
-            "notes": "Half of Chamber renewed. Milei's LLA won ~38% and gained ~30 seats, strengthening his minority position."
+            "notes": "Half of Chamber renewed. Milei's LLA won ~38% and gained ~30 seats, strengthening his minority position.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027-10",
             "type": "Congressional midterm",
-            "notes": "Next midterm due October 2027. October 2025 midterm already held; Milei's LLA gained seats, improving his legislative position."
+            "notes": "Next midterm due October 2027. October 2025 midterm already held; Milei's LLA gained seats, improving his legislative position.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -4942,12 +5075,16 @@
           "lastElection": {
             "date": "2023-11-19",
             "type": "Presidential (runoff)",
-            "notes": "Milei defeated Massa (Peronist) 55.7% to 44.3%."
+            "notes": "Milei defeated Massa (Peronist) 55.7% to 44.3%.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027",
             "type": "Presidential",
-            "notes": "Argentina has a 4-year term with one re-election permitted."
+            "notes": "Argentina has a 4-year term with one re-election permitted.",
+            "runoffDate": null,
+            "runoffCondition": "runoff required unless winner gets >45% or leads by 10+ points with >40%"
           },
           "source": "static_ground_truth"
         }
@@ -5071,16 +5208,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2025-11-16",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "First round held 16 Nov 2025. Boric term-limited; right-wing Chile Vamos led in congressional seats."
+            "notes": "First round held 16 Nov 2025. Boric term-limited; right-wing Chile Vamos led in congressional seats.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029-11",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -5088,12 +5230,16 @@
           "lastElection": {
             "date": "2025-12-07",
             "type": "Presidential (runoff)",
-            "notes": "Runoff held Dec 2025. Boric was term-limited; new president took office March 2026."
+            "notes": "Runoff held Dec 2025. Boric was term-limited; new president took office March 2026.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029-11",
             "type": "Presidential",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -5214,16 +5360,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2021-04-11",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "Highly fragmented result. No party won more than 15% of seats."
+            "notes": "Highly fragmented result. No party won more than 15% of seats.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-04-12",
             "type": "Parliamentary + Presidential (simultaneous)",
-            "notes": "April 12, 2026. Presidential runoff June 7 if no majority. Boluarte term ended; José María Balcázar serving as interim president."
+            "notes": "April 12, 2026. Boluarte term ended; José María Balcázar serving as interim president.",
+            "runoffDate": "2026-06-07",
+            "runoffCondition": "presidential runoff if no candidate wins >50% of valid votes in round 1"
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -5231,12 +5382,16 @@
           "lastElection": {
             "date": "2021-06-06",
             "type": "Presidential (runoff)",
-            "notes": "Castillo defeated Fujimori 50.1% to 49.9%. Castillo impeached Dec 2022; Boluarte assumed presidency."
+            "notes": "Castillo defeated Fujimori 50.1% to 49.9%. Castillo impeached Dec 2022; Boluarte assumed presidency.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-04-12",
             "type": "Presidential",
-            "notes": "April 12 first round; runoff June 7 if needed. Boluarte cannot run (completing prior term, not her own)."
+            "notes": "April 12 first round. Boluarte cannot run (completing prior term, not her own).",
+            "runoffDate": "2026-06-07",
+            "runoffCondition": "if no candidate wins >50% of valid votes in round 1"
           },
           "source": "static_ground_truth"
         }
@@ -5354,16 +5509,21 @@
         "nonCompetitiveReason": "One-party socialist republic. The Communist Party of Cuba is the only legal party. National Assembly candidates are pre-approved.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2023-03-26",
             "type": "National Assembly (non-competitive)",
-            "notes": "Single-slate election. All 470 candidates pre-approved by Communist Party."
+            "notes": "Single-slate election. All 470 candidates pre-approved by Communist Party.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "National Assembly (non-competitive)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -5371,12 +5531,16 @@
           "lastElection": {
             "date": "2023-04",
             "type": "Presidential (indirect, National Assembly, non-competitive)",
-            "notes": "Díaz-Canel re-confirmed by National Assembly."
+            "notes": "Díaz-Canel re-confirmed by National Assembly.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential (indirect, non-competitive)",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -5498,16 +5662,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2026-03-08",
             "type": "Congressional",
-            "notes": "March 8, 2026. Fragmented result; Paloma Valencia's center-right coalition performed strongly. Petro's Historic Pact suffered losses."
+            "notes": "March 8, 2026. Fragmented result; Paloma Valencia's center-right coalition performed strongly. Petro's Historic Pact suffered losses.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-05-31",
             "type": "Presidential",
-            "notes": "Presidential first round May 31, 2026; runoff June 21 if needed. Congressional election already held March 8, 2026."
+            "notes": "Presidential first round May 31, 2026; runoff June 21 if needed. Congressional election already held March 8, 2026.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth + electionguide enrichment"
         },
@@ -5515,12 +5684,16 @@
           "lastElection": {
             "date": "2022-06-19",
             "type": "Presidential (runoff)",
-            "notes": "Petro defeated Hernández 50.4% to 47.3%. First left-wing president in Colombia's history."
+            "notes": "Petro defeated Hernández 50.4% to 47.3%. First left-wing president in Colombia's history.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2026-05-31",
             "type": "Presidential",
-            "notes": "May 31 first round; runoff June 21 if needed. Petro term-limited; cannot run again."
+            "notes": "May 31 first round. Petro term-limited; cannot run again.",
+            "runoffDate": "2026-06-21",
+            "runoffCondition": "if no candidate wins >50% of valid votes in round 1"
           },
           "source": "static_ground_truth"
         }
@@ -5638,16 +5811,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-05-05",
             "type": "General election",
-            "notes": "Fragmented result. Mulino's party won plurality in Assembly."
+            "notes": "Fragmented result. Mulino's party won plurality in Assembly.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -5655,12 +5833,16 @@
           "lastElection": {
             "date": "2024-05-05",
             "type": "Presidential",
-            "notes": "Mulino won with 34.3% in a six-candidate race. Contested but upheld."
+            "notes": "Mulino won with 34.3% in a six-candidate race. Contested but upheld.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential",
-            "notes": "Panama has a single 5-year term with no re-election."
+            "notes": "Panama has a single 5-year term with no re-election.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -5779,16 +5961,21 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2024-02-04",
             "type": "Presidential + Legislative (simultaneous)",
-            "notes": "New Ideas won 54/60 seats (supermajority). Bukele re-elected with ~85%."
+            "notes": "New Ideas won 54/60 seats (supermajority). Bukele re-elected with ~85%.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2027",
             "type": "Legislative midterm",
-            "notes": null
+            "notes": null,
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         },
@@ -5796,12 +5983,16 @@
           "lastElection": {
             "date": "2024-02-04",
             "type": "Presidential",
-            "notes": "Bukele won ~85% in a non-competitive race after sidelining opposition."
+            "notes": "Bukele won ~85% in a non-competitive race after sidelining opposition.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": "Constitutional status of future terms uncertain given court rulings on term limits."
+            "notes": "Constitutional status of future terms uncertain given court rulings on term limits.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "source": "static_ground_truth"
         }
@@ -5917,35 +6108,15 @@
         "executive": "King Frederik X succeeded Queen Margrethe II on 14 January 2024. PM Frederiksen called a snap election for 24 March 2026, capitalising on popularity from her stance against Trump's Greenland threats."
       },
       "elections": {
-        "competitiveElections": true,
-        "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2026-03-24",
             "type": "Snap parliamentary election",
-            "notes": "Held 24 March 2026. Frederiksen called snap election on Greenland sovereignty platform. Results still being tallied as of March 28 2026."
-          },
-          "nextElection": {
-            "date": "2030",
-            "type": "Parliamentary",
-            "notes": null
-          },
-          "source": "static_ground_truth + electionguide enrichment"
-        },
-        "executive": {
-          "lastElection": {
-            "date": "2022-11-01",
-            "type": "Parliamentary (PM selected by Folketing majority)",
-            "notes": "PM emerges from parliamentary majority formation."
-          },
-          "nextElection": {
-            "date": "2030",
-            "type": "Parliamentary",
-            "notes": null
-          },
-          "source": "static_ground_truth"
+            "notes": "Snap election held 24 March 2026 called by PM Frederiksen. Results would typically be finalized within days of the election date.",
+            "runoffDate": null,
+            "runoffCondition": null
+          }
         }
       }
     },
@@ -6065,6 +6236,7 @@
         "nonCompetitiveReason": "Military junta. Sudan is under Sudanese Armed Forces (SAF) control amid civil war with the RSF. No elections scheduled or possible under current conditions.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": null,
           "nextElection": null,
@@ -6191,11 +6363,14 @@
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2019-07-21",
             "type": "Parliamentary",
-            "notes": "Servant of the People won supermajority (254/450 seats). Elections suspended under martial law since 2022."
+            "notes": "Servant of the People won supermajority (254/450 seats). Elections suspended under martial law since 2022.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -6204,7 +6379,9 @@
           "lastElection": {
             "date": "2019-04-21",
             "type": "Presidential (runoff)",
-            "notes": "Zelensky defeated Poroshenko 73% to 25%. Elections suspended under martial law; term extended by parliament."
+            "notes": "Zelensky defeated Poroshenko 73% to 25%. Elections suspended under martial law; term extended by parliament.",
+            "runoffDate": null,
+            "runoffCondition": null
           },
           "nextElection": null,
           "source": "static_ground_truth"
@@ -6213,9 +6390,9 @@
     }
   ],
   "sources": {
-    "executives": "static_ground_truth (Wikipedia-verified, March 2026)",
-    "legislature": "static_ground_truth (March 2026)",
-    "elections": "static_ground_truth + IPU Parline + ElectionGuide (adaptive enrichment)",
+    "executives": "static_ground_truth + wikipedia_adaptive + claude_enriched (smart diff)",
+    "legislature": "static_ground_truth + claude_enriched (smart diff)",
+    "elections": "static_ground_truth + IPU Parline + ElectionGuide + claude_enriched (adaptive)",
     "wikipedia_adaptive": "https://en.wikipedia.org/w/api.php",
     "world_bank_base": "https://api.worldbank.org/v2",
     "ipu_parline": "https://data.ipu.org/api",
