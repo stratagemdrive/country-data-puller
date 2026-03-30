@@ -2339,6 +2339,273 @@ def build_country(name: str, iso2: str, prev_by_iso2: Dict[str, Any]) -> Dict[st
         "elections": elections,
     }
 
+
+# ── CLAUDE API ENRICHMENT (smart diff) ────────────────────────────────────────
+#
+# Strategy: after all free scrapers have run, compare the freshly-built country
+# block against the previous snapshot.  Only call Claude when a genuine signal
+# of staleness or change exists:
+#
+#   TRIGGER 1 — executive changed: Wikipedia returned a different name than prev
+#   TRIGGER 2 — election fired:    a nextElection date has passed since last run
+#   TRIGGER 3 — no previous data:  first run for this country
+#   TRIGGER 4 — forced refresh:    CLAUDE_FORCE_REFRESH env var set to "1"
+#
+# Claude is given only the current scraped data + previous snapshot for that
+# country — never the full 44-country payload.  Output is a structured JSON
+# patch that gets merged back into the country block.
+#
+# Notes are generated only for genuinely new/changed elections.
+# Previously-written notes are preserved unchanged to avoid token waste.
+
+import os
+
+ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
+CLAUDE_MODEL      = "claude-sonnet-4-20250514"
+CLAUDE_MAX_TOKENS = 1200
+
+# Env var: set ANTHROPIC_API_KEY in GitHub Actions secrets
+# Env var: set CLAUDE_FORCE_REFRESH=1 to force a full refresh pass
+CLAUDE_FORCE_REFRESH = os.environ.get("CLAUDE_FORCE_REFRESH", "").strip() == "1"
+
+CLAUDE_SYSTEM_PROMPT = """You are a political data analyst updating a structured JSON dataset of country leadership and elections. You will be given:
+1. The current scraped data for one country (may be stale or incomplete)
+2. The previous snapshot for that country (for comparison)
+
+Your job is to return ONLY a JSON object with corrections/additions. Rules:
+- Only include fields that need changing — omit fields that are already correct
+- Be factual and conservative — if uncertain, preserve the existing value
+- Notes should be 1-2 sentences, factual, no editorializing
+- Dates must be ISO format: YYYY-MM-DD, YYYY-MM, or YYYY
+- partyOrGroup should be the official party name in English
+- For non-competitive/transitional states, be accurate about who actually holds power
+- If the executive data looks correct and current, return an empty object {}
+
+Return ONLY valid JSON, no explanation, no markdown fences."""
+
+def _should_trigger_claude(
+    iso2: str,
+    current: Dict[str, Any],
+    prev: Optional[Dict[str, Any]],
+) -> Tuple[bool, str]:
+    """
+    Decide whether to call Claude for this country.
+    Returns (should_call, reason_string).
+    """
+    if CLAUDE_FORCE_REFRESH:
+        return True, "forced_refresh"
+
+    if prev is None:
+        return True, "no_previous_snapshot"
+
+    # Trigger 1: executive name changed vs previous snapshot
+    prev_hos = (prev.get("executive") or {}).get("headOfState") or {}
+    prev_hog = (prev.get("executive") or {}).get("headOfGovernment") or {}
+    curr_hos = (current.get("executive") or {}).get("headOfState") or {}
+    curr_hog = (current.get("executive") or {}).get("headOfGovernment") or {}
+
+    if (curr_hos.get("name") != prev_hos.get("name") or
+            curr_hog.get("name") != prev_hog.get("name")):
+        return True, "executive_name_changed"
+
+    # Trigger 2: a nextElection date has now passed
+    today = datetime.now(timezone.utc).date()
+
+    def _date_passed(election_obj: Optional[Dict]) -> bool:
+        if not election_obj:
+            return False
+        d = str(election_obj.get("date", ""))
+        try:
+            if len(d) == 10:
+                return datetime.strptime(d, "%Y-%m-%d").date() < today
+            if len(d) == 7:
+                y, m = d.split("-")
+                return datetime(int(y), int(m), 28).date() < today
+            if len(d) == 4:
+                return int(d) < today.year
+        except (ValueError, AttributeError):
+            pass
+        return False
+
+    prev_elec = prev.get("elections") or {}
+    prev_leg_next  = (prev_elec.get("legislative") or {}).get("nextElection")
+    prev_exec_next = (prev_elec.get("executive")   or {}).get("nextElection")
+
+    if _date_passed(prev_leg_next) or _date_passed(prev_exec_next):
+        return True, "election_date_passed"
+
+    # Trigger 3: elections block has null notes on a competitive country
+    curr_elec = current.get("elections") or {}
+    if curr_elec.get("competitiveElections"):
+        leg_next  = (curr_elec.get("legislative") or {}).get("nextElection")
+        exec_next = (curr_elec.get("executive")   or {}).get("nextElection")
+        if (leg_next and not leg_next.get("notes")) or (exec_next and not exec_next.get("notes")):
+            return True, "missing_election_notes"
+
+    return False, ""
+
+
+def _build_claude_prompt(
+    country_name: str,
+    iso2: str,
+    current: Dict[str, Any],
+    prev: Optional[Dict[str, Any]],
+    trigger_reason: str,
+) -> str:
+    """Build the user prompt for Claude."""
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    prompt_parts = [
+        f"Country: {country_name} ({iso2})",
+        f"Today\'s date: {today}",
+        f"Trigger reason: {trigger_reason}",
+        "",
+        "=== CURRENT SCRAPED DATA ===",
+        json.dumps({
+            "executive": current.get("executive"),
+            "legislature": current.get("legislature"),
+            "elections": current.get("elections"),
+            "politicalSystem": current.get("politicalSystem"),
+        }, ensure_ascii=False, indent=2),
+    ]
+
+    if prev:
+        prompt_parts += [
+            "",
+            "=== PREVIOUS SNAPSHOT (for comparison) ===",
+            json.dumps({
+                "executive": prev.get("executive"),
+                "legislature": prev.get("legislature"),
+                "elections": prev.get("elections"),
+            }, ensure_ascii=False, indent=2),
+        ]
+
+    prompt_parts += [
+        "",
+        "Return a JSON patch object with ONLY the fields that need updating.",
+        "Preserve existing notes unless they are factually wrong.",
+        "If nothing needs changing, return {}",
+        "",
+        "Possible top-level keys you may return:",
+        "  executive.headOfState.name",
+        "  executive.headOfState.partyOrGroup",
+        "  executive.headOfGovernment.name",
+        "  executive.headOfGovernment.partyOrGroup",
+        "  legislature (full array if changed)",
+        "  elections.legislative.lastElection (full object)",
+        "  elections.legislative.nextElection (full object)",
+        "  elections.executive.lastElection (full object)",
+        "  elections.executive.nextElection (full object)",
+        "  dataAvailability.executive (string note if leadership changed)",
+    ]
+
+    return "\n".join(prompt_parts)
+
+
+def _apply_claude_patch(country: Dict[str, Any], patch: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Deep-merge a Claude patch into the country dict.
+    Supports dot-notation keys like \"executive.headOfState.name\".
+    """
+    if not patch:
+        return country
+
+    import copy
+    result = copy.deepcopy(country)
+
+    for key, value in patch.items():
+        parts = key.split(".")
+        obj = result
+        try:
+            for part in parts[:-1]:
+                if part not in obj or not isinstance(obj[part], dict):
+                    obj[part] = {}
+                obj = obj[part]
+            obj[parts[-1]] = value
+        except (KeyError, TypeError):
+            # If path doesn't exist, skip this patch key
+            pass
+
+    return result
+
+
+def claude_enrich(
+    country_name: str,
+    iso2: str,
+    current: Dict[str, Any],
+    prev: Optional[Dict[str, Any]],
+) -> Dict[str, Any]:
+    """
+    Main entry point. Returns the country dict, possibly enriched by Claude.
+    If no trigger fires or the API key is missing, returns current unchanged.
+    """
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not api_key:
+        return current  # Silent no-op if key not configured
+
+    should_call, reason = _should_trigger_claude(iso2, current, prev)
+    if not should_call:
+        return current
+
+    print(f"  [{iso2}] 🤖 Claude enrichment triggered: {reason}")
+
+    prompt = _build_claude_prompt(country_name, iso2, current, prev, reason)
+
+    try:
+        resp = requests.post(
+            ANTHROPIC_API_URL,
+            headers={
+                "x-api-key":         api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type":      "application/json",
+            },
+            json={
+                "model":      CLAUDE_MODEL,
+                "max_tokens": CLAUDE_MAX_TOKENS,
+                "system":     CLAUDE_SYSTEM_PROMPT,
+                "messages":   [{"role": "user", "content": prompt}],
+            },
+            timeout=45,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        raw = ""
+        for block in data.get("content", []):
+            if block.get("type") == "text":
+                raw += block.get("text", "")
+
+        raw = raw.strip()
+        # Strip markdown fences if model included them
+        raw = re.sub(r"^```(?:json)?\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw)
+
+        patch = json.loads(raw)
+        if not isinstance(patch, dict):
+            raise ValueError(f"Claude returned non-dict: {type(patch)}")
+
+        if patch:
+            print(f"  [{iso2}] ✅ Claude patch applied: {list(patch.keys())}")
+            current = _apply_claude_patch(current, patch)
+            # Mark enriched fields so source is traceable
+            if current.get("executive"):
+                for role in ("headOfState", "headOfGovernment"):
+                    node = (current["executive"].get(role) or {})
+                    if node.get("name") and node.get("source", "").startswith("static"):
+                        node["source"] = f"claude_enriched ({reason})"
+        else:
+            print(f"  [{iso2}] ✅ Claude: no changes needed")
+
+    except json.JSONDecodeError as e:
+        print(f"  [{iso2}] ⚠️  Claude returned invalid JSON: {e}. Raw: {raw[:200]}")
+    except requests.HTTPError as e:
+        print(f"  [{iso2}] ⚠️  Claude API HTTP error: {e}")
+    except Exception as e:
+        print(f"  [{iso2}] ⚠️  Claude enrichment failed: {e}")
+
+    return current
+
+
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main() -> None:
@@ -2356,9 +2623,9 @@ def main() -> None:
         "worldBankYearRule":  "latest_non_null_per_indicator",
         "countries":          [],
         "sources": {
-            "executives":            "static_ground_truth (Wikipedia-verified, March 2026)",
-            "legislature":           "static_ground_truth (March 2026)",
-            "elections":             "static_ground_truth + IPU Parline + ElectionGuide (adaptive enrichment)",
+            "executives":            "static_ground_truth + wikipedia_adaptive + claude_enriched (smart diff)",
+            "legislature":           "static_ground_truth + claude_enriched (smart diff)",
+            "elections":             "static_ground_truth + IPU Parline + ElectionGuide + claude_enriched (adaptive)",
             "wikipedia_adaptive":    WIKIPEDIA_API,
             "world_bank_base":       WORLD_BANK_BASE,
             "ipu_parline":           f"{IPU_API_BASE}/api",
@@ -2379,7 +2646,10 @@ def main() -> None:
 
     for c in COUNTRIES:
         print(f"\n▶ {c['country']} ({c['iso2']})")
-        out["countries"].append(build_country(c["country"], c["iso2"], prev))
+        country_data = build_country(c["country"], c["iso2"], prev)
+        # Smart diff: only call Claude if a trigger fires (name change, election passed, etc.)
+        country_data = claude_enrich(c["country"], c["iso2"], country_data, prev.get(c["iso2"]))
+        out["countries"].append(country_data)
         time.sleep(0.25)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
