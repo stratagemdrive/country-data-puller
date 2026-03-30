@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T23:00:48.613054Z",
+  "generatedAt": "2026-03-30T23:10:31.013280Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -2389,7 +2389,7 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Mojtaba Khamenei was elected Supreme Leader by Assembly of Experts on March 8, 2026, following his father Ali Khamenei's assassination in U.S.-Israeli strikes on February 28, 2026. Iran is currently engaged in active warfare with U.S. and Israel. The new Supreme Leader holds ultimate authority over President Pezeshkian and all government institutions in Iran's theocratic system."
+        "executive": "Mojtaba Khamenei became Supreme Leader (head of state) on March 9, 2026, after his father Ali Khamenei was assassinated February 28, 2026 in US-Israeli strikes. Iran is currently at war with US and Israel. The new Supreme Leader holds ultimate authority in Iran's theocratic system, while President Pezeshkian serves as head of government."
       },
       "elections": {
         "competitiveElections": true,
@@ -2436,7 +2436,7 @@
           "source": "claude (executive_name_changed ('Mojtaba Khamenei' → 'Supreme Leader – Mojtaba Khamenei'))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T23:01:42.021179Z"
+      "lastClaudeUpdate": "2026-03-30T23:11:07.084764Z"
     },
     {
       "country": "Syria",
