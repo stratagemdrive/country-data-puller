@@ -127,6 +127,7 @@ jobs:
           else
             TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
             git commit -m "chore: auto-update countries_snapshot.json [${TIMESTAMP}]"
+            git pull --rebase origin main
             git push
           fi
 
