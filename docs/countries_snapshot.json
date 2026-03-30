@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T22:13:43.027638Z",
+  "generatedAt": "2026-03-30T22:31:02.005037Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -26,18 +26,18 @@
           "presidential republic",
           "federal state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-09-30))"
       },
       "executive": {
         "headOfState": {
           "name": "Vladimir Putin",
           "partyOrGroup": "United Russia",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-09-30))"
         },
         "headOfGovernment": {
           "name": "Mikhail Mishustin",
           "partyOrGroup": "United Russia",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-09-30))"
         },
         "executiveInPower": {
           "leader": "Mikhail Mishustin",
@@ -50,15 +50,15 @@
           {
             "name": "State Duma",
             "inControl": "United Russia",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-09-30))"
           },
           {
             "name": "Federation Council",
             "inControl": "United Russia",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-09-30))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-09-30))"
       },
       "worldBankGovernance": {
         "overallPercentile": 15.58,
@@ -115,16 +115,51 @@
       },
       "dataAvailability": null,
       "elections": {
+        "competitiveElections": false,
+        "nonCompetitiveReason": "Systematic restrictions on opposition candidates and media access limit genuine competition",
+        "electionsSuspended": false,
+        "suspensionReason": null,
+        "electionToday": false,
+        "legislative": {
+          "lastElection": {
+            "date": "2021-09-19",
+            "type": "State Duma",
+            "notes": "United Russia retained majority control with approximately 324 of 450 seats.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "nextElection": {
+            "date": "2026-09-30",
+            "type": "State Duma",
+            "notes": "Regular five-year parliamentary elections for all 450 seats.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (eg_date_changed (2026-09-30)) + electionguide"
+        },
         "executive": {
+          "lastElection": {
+            "date": "2024-03-17",
+            "type": "Presidential",
+            "notes": "Vladimir Putin re-elected for fourth presidential term with over 87% of vote.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
             "notes": "Next presidential election scheduled for 2030 under current six-year term.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (eg_date_changed (2026-09-30))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:10.025952Z"
     },
     {
       "country": "India",
@@ -151,18 +186,18 @@
         "values": [
           "federal parliamentary democratic republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Droupadi Murmu",
           "partyOrGroup": "Bharatiya Janata Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Narendra Modi",
           "partyOrGroup": "Bharatiya Janata Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Narendra Modi",
@@ -175,15 +210,15 @@
           {
             "name": "Lok Sabha (lower house)",
             "inControl": "BJP-led National Democratic Alliance",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Rajya Sabha (upper house)",
             "inControl": "BJP-led National Democratic Alliance",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 47.59,
@@ -240,25 +275,37 @@
       },
       "dataAvailability": null,
       "elections": {
+        "competitiveElections": true,
+        "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
+          "lastElection": null,
           "nextElection": {
             "date": "2029",
             "type": "General election (Lok Sabha)",
             "notes": "Constitutional maximum five-year term expires by May 2029.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (stale_999d)"
         },
         "executive": {
+          "lastElection": null,
           "nextElection": {
             "date": "2029",
             "type": "Presidential (indirect)",
             "notes": "Five-year presidential term expires in July 2029.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:15.605592Z"
     },
     {
       "country": "Pakistan",
@@ -284,18 +331,18 @@
         "values": [
           "federal parliamentary constitutional republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Asif Ali Zardari",
           "partyOrGroup": "Pakistan Peoples Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Shehbaz Sharif",
           "partyOrGroup": "Pakistan Muslim League (N)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Shehbaz Sharif",
@@ -308,15 +355,15 @@
           {
             "name": "National Assembly",
             "inControl": "PML-N-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "Coalition government",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 20.04,
@@ -384,16 +431,18 @@
             "type": "General election",
             "notes": "PTI-backed independents won most seats; PML-N formed coalition government.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -401,18 +450,21 @@
             "type": "Presidential (indirect)",
             "notes": "Asif Ali Zardari elected president by parliament.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential (indirect)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:21.851397Z"
     },
     {
       "country": "China",
@@ -437,18 +489,18 @@
         "values": [
           "one-party socialist state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
       },
       "executive": {
         "headOfState": {
           "name": "Xi Jinping",
           "partyOrGroup": "Chinese Communist Party",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
         },
         "headOfGovernment": {
           "name": "Li Qiang",
           "partyOrGroup": "Chinese Communist Party",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
         },
         "executiveInPower": {
           "leader": "Li Qiang",
@@ -461,10 +513,10 @@
           {
             "name": "National People's Congress",
             "inControl": "Chinese Communist Party",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
       },
       "worldBankGovernance": {
         "overallPercentile": 41.97,
@@ -519,9 +571,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Xi Jinping holds supreme authority as General Secretary of the CCP and CMC Chairman. Li Qiang is Premier (head of government)."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "One-party state. The Chinese Communist Party holds a monopoly on political power. National People's Congress 'elections' are uncontested single-party votes.",
@@ -534,16 +584,18 @@
             "type": "NPC delegate selection (non-competitive)",
             "notes": "NPC delegates selected through party-controlled process. Not a competitive election.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "NPC delegate selection (non-competitive)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
         },
         "executive": {
           "lastElection": {
@@ -551,18 +603,21 @@
             "type": "NPC presidential confirmation (non-competitive)",
             "notes": "Xi Jinping confirmed for third term by NPC; no opposition candidates permitted.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "NPC confirmation (non-competitive)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:27.377559Z"
     },
     {
       "country": "United Kingdom",
@@ -589,18 +644,18 @@
           "parliamentary democracy",
           "unitary state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-05-07))"
       },
       "executive": {
         "headOfState": {
           "name": "Charles III",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-05-07))"
         },
         "headOfGovernment": {
           "name": "Keir Starmer",
           "partyOrGroup": "Labour Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-05-07))"
         },
         "executiveInPower": {
           "leader": "Keir Starmer",
@@ -613,15 +668,15 @@
           {
             "name": "House of Commons",
             "inControl": "Labour Party",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-05-07))"
           },
           {
             "name": "House of Lords",
             "inControl": "Cross-bench (appointed, non-elected)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-05-07))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-05-07))"
       },
       "worldBankGovernance": {
         "overallPercentile": 84.89,
@@ -676,7 +731,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Scottish Parliament election scheduled for 2026-05-07, but this data focuses on UK-wide governance."
+      },
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -689,16 +746,18 @@
             "type": "General election",
             "notes": "Labour won a landslide majority (412/650 seats). Keir Starmer became PM.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
             "notes": "Due by January 2029 under the Dissolution and Calling of Parliament Act 2022.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (eg_date_changed (2026-05-07)) + electionguide"
         },
         "executive": {
           "lastElection": {
@@ -706,18 +765,21 @@
             "type": "General election (parliamentary selection of PM)",
             "notes": "PM is appointed after winning a parliamentary majority.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (eg_date_changed (2026-05-07))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:33.660658Z"
     },
     {
       "country": "Germany",
@@ -742,18 +804,18 @@
         "values": [
           "federal parliamentary republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Frank-Walter Steinmeier",
           "partyOrGroup": "Social Democratic Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Friedrich Merz",
           "partyOrGroup": "Christian Democratic Union",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Friedrich Merz",
@@ -766,15 +828,15 @@
           {
             "name": "Bundestag",
             "inControl": "CDU/CSU-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Bundesrat",
             "inControl": "State governments (non-partisan body)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 87.6,
@@ -829,9 +891,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "CDU/CSU won the February 2025 snap election; Merz became Chancellor in April 2025 after coalition negotiations."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -844,16 +904,18 @@
             "type": "Federal election (Bundestag)",
             "notes": "CDU/CSU won 28.5%; SPD 16.4%. AfD came second with 20.8%. Merz formed CDU/CSU-SPD grand coalition.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election (Bundestag)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -861,18 +923,21 @@
             "type": "Federal election (Chancellor selected by Bundestag)",
             "notes": "Chancellor is elected by the Bundestag following federal elections.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:39.754209Z"
     },
     {
       "country": "UAE",
@@ -898,18 +963,18 @@
           "federal constitutional monarchy",
           "absolute monarchy"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Sheikh Mohamed bin Zayed Al Nahyan",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Sheikh Mohammed bin Rashid Al Maktoum",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Sheikh Mohammed bin Rashid Al Maktoum",
@@ -922,10 +987,10 @@
           {
             "name": "Federal National Council",
             "inControl": "Non-partisan (advisory body; half appointed, half indirectly elected)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 71.24,
@@ -980,9 +1045,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "UAE is a federal monarchy; executive positions are hereditary. No public elections for president or PM."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Federal constitutional monarchy. Executive positions are hereditary. The Federal National Council is half-appointed, half indirectly elected via a limited electorate.",
@@ -995,23 +1058,26 @@
             "type": "Federal National Council (limited indirect election)",
             "notes": "Only half of the 40-seat FNC is indirectly elected by an appointed electorate of ~300,000. The body is advisory only.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027",
             "type": "Federal National Council (limited indirect)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:44.998068Z"
     },
     {
       "country": "Saudi Arabia",
@@ -1037,18 +1103,18 @@
           "absolute monarchy",
           "theocratic state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Salman",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Mohammed bin Salman",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Mohammed bin Salman",
@@ -1061,10 +1127,10 @@
           {
             "name": "Consultative Assembly (Majlis al-Shura)",
             "inControl": "Royal appointments (no elections)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 54.25,
@@ -1119,9 +1185,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "King Salman is head of state; Crown Prince Mohammed bin Salman (MBS) serves as Prime Minister and is de facto ruler."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Absolute monarchy with no national elections for executive or legislative positions. The Consultative Assembly (Majlis al-Shura) is fully appointed by royal decree.",
@@ -1131,14 +1195,15 @@
         "legislative": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:49.522771Z"
     },
     {
       "country": "Israel",
@@ -1165,18 +1230,18 @@
           "parliamentary democracy",
           "unitary republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Isaac Herzog",
           "partyOrGroup": "Non-partisan (ceremonial president)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Benjamin Netanyahu",
           "partyOrGroup": "Likud",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Benjamin Netanyahu",
@@ -1189,10 +1254,10 @@
           {
             "name": "Knesset",
             "inControl": "Likud-led right-wing coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 67.19,
@@ -1260,16 +1325,18 @@
             "type": "Parliamentary (Knesset)",
             "notes": "Netanyahu's Likud-led bloc won 64/120 seats.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-10-27",
             "type": "Parliamentary (Knesset)",
             "notes": "Legal deadline. Netanyahu may call snap elections earlier (as early as mid-2026).",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d) + electionguide"
         },
         "executive": {
           "lastElection": {
@@ -1277,18 +1344,21 @@
             "type": "Parliamentary (PM selected by Knesset majority)",
             "notes": "PM emerges from parliamentary coalition formation after elections.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-10-27",
             "type": "Parliamentary",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:31:55.030429Z"
     },
     {
       "country": "Palestine",
@@ -1316,18 +1386,18 @@
           "semi-presidential republic",
           "disputed/occupied territory"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Mahmoud Abbas",
           "partyOrGroup": "Fatah",
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Mohammad Mustafa",
           "partyOrGroup": "Fatah",
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Mohammad Mustafa",
@@ -1340,10 +1410,10 @@
           {
             "name": "Palestinian Legislative Council",
             "inControl": "Suspended (no elections since 2006)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 21.66,
@@ -1398,11 +1468,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Mahmoud Abbas rules by decree since elections were last held in 2006 (legislative) and 2005 (presidential). PM Mohammad Mustafa was appointed March 2024.",
-        "worldBankGovernance": "World Bank data for Palestine is limited due to its political status.",
-        "elections": "No elections since 2006 (legislative) and 2005 (presidential). Mahmoud Abbas rules by decree."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "No elections held since 2006 (legislative) and 2005 (presidential). Mahmoud Abbas rules by decree; Hamas controls Gaza. Elections indefinitely postponed.",
@@ -1415,10 +1481,11 @@
             "type": "Legislative Council",
             "notes": "Hamas won 74/132 seats. No elections held since; council suspended.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -1426,12 +1493,14 @@
             "type": "Presidential",
             "notes": "Mahmoud Abbas elected. No subsequent presidential election held.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:00.186453Z"
     },
     {
       "country": "Mexico",
@@ -1456,23 +1525,23 @@
         "values": [
           "federal presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Claudia Sheinbaum",
           "partyOrGroup": "Morena",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -1480,15 +1549,15 @@
           {
             "name": "Chamber of Deputies",
             "inControl": "Morena-led coalition (supermajority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "Morena-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 32.67,
@@ -1543,9 +1612,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Mexico has a presidential system. Sheinbaum became Mexico's first elected female president in October 2024."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -1558,16 +1625,18 @@
             "type": "Congressional (Chamber of Deputies)",
             "notes": "Morena coalition won supermajority (364/500 seats in Chamber).",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027",
             "type": "Midterm (Chamber of Deputies)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -1575,18 +1644,21 @@
             "type": "Presidential",
             "notes": "Claudia Sheinbaum won with ~59% of vote.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
             "notes": "Mexico has a single 6-year term (sexenio) with no re-election.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:06.322773Z"
     },
     {
       "country": "Brazil",
@@ -1611,23 +1683,23 @@
         "values": [
           "federal presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Luiz Inácio Lula da Silva",
           "partyOrGroup": "Workers' Party (PT)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Luiz Inácio Lula da Silva",
           "partyOrGroup": "Workers' Party (PT)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Luiz Inácio Lula da Silva",
           "partyOrGroup": "Workers' Party (PT)",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -1635,15 +1707,15 @@
           {
             "name": "Chamber of Deputies",
             "inControl": "Centre-right coalition (PL largest party)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Federal Senate",
             "inControl": "Coalition government (PSD largest bloc)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 39.47,
@@ -1711,16 +1783,18 @@
             "type": "Congressional",
             "notes": "PL (Bolsonaro's party) won most Chamber seats despite Lula winning presidency.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-10-04",
             "type": "Congressional + Presidential",
             "notes": "October 4, 2026 first round. Congressional seats decided by proportional rep; presidential runoff October 25 if needed.",
             "runoffDate": "2026-10-25",
-            "runoffCondition": "if no presidential candidate wins >50% of valid votes in round 1"
+            "runoffCondition": "if no presidential candidate wins >50% of valid votes in round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d) + electionguide"
         },
         "executive": {
           "lastElection": {
@@ -1728,18 +1802,21 @@
             "type": "Presidential (runoff)",
             "notes": "Lula defeated Bolsonaro 50.9% to 49.1% in a runoff.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-10-04",
             "type": "Presidential",
             "notes": "October 4 first round; Lula eligible for re-election.",
             "runoffDate": "2026-10-25",
-            "runoffCondition": "if no candidate wins >50% of valid votes in round 1"
+            "runoffCondition": "if no candidate wins >50% of valid votes in round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:12.689283Z"
     },
     {
       "country": "Canada",
@@ -1765,18 +1842,18 @@
         "values": [
           "federal parliamentary constitutional monarchy"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Charles III",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Mark Carney",
           "partyOrGroup": "Liberal Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Mark Carney",
@@ -1789,15 +1866,15 @@
           {
             "name": "House of Commons",
             "inControl": "Liberal Party (minority government, 169/343 seats)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "Non-partisan (Independent Senators Group largest bloc)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 90.52,
@@ -1852,9 +1929,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Mark Carney became PM on 14 March 2025 after Trudeau's resignation. Liberals won the 28 April 2025 election with a minority (169 seats)."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -1867,16 +1942,18 @@
             "type": "Federal election",
             "notes": "Liberals won 169/343 seats (minority). Carney's Liberals won amid Trump tariff tensions.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election",
             "notes": "Due by October 2029 at latest; minority government makes earlier election possible.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -1884,18 +1961,21 @@
             "type": "Federal election (PM selected by House majority)",
             "notes": "PM is appointed following federal election result.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Federal election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:18.422347Z"
     },
     {
       "country": "Nigeria",
@@ -1920,23 +2000,23 @@
         "values": [
           "federal presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Bola Tinubu",
           "partyOrGroup": "All Progressives Congress",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Bola Tinubu",
           "partyOrGroup": "All Progressives Congress",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Bola Tinubu",
           "partyOrGroup": "All Progressives Congress",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -1944,15 +2024,15 @@
           {
             "name": "House of Representatives",
             "inControl": "All Progressives Congress",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "All Progressives Congress",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 19.08,
@@ -2009,25 +2089,37 @@
       },
       "dataAvailability": null,
       "elections": {
+        "competitiveElections": true,
+        "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
+        "electionToday": false,
         "legislative": {
+          "lastElection": null,
           "nextElection": {
             "date": "2027",
             "type": "General election",
             "notes": "Next general elections for National Assembly scheduled for 2027.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (stale_999d)"
         },
         "executive": {
+          "lastElection": null,
           "nextElection": {
             "date": "2027",
             "type": "Presidential",
             "notes": "Next presidential election scheduled for 2027.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:23.650617Z"
     },
     {
       "country": "Japan",
@@ -2053,18 +2145,18 @@
           "constitutional monarchy",
           "parliamentary democracy"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Emperor Naruhito",
+          "name": "Naruhito",
           "partyOrGroup": "Non-partisan (imperial household)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
         },
         "headOfGovernment": {
           "name": "Sanae Takaichi",
           "partyOrGroup": "Liberal Democratic Party",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
         },
         "executiveInPower": {
           "leader": "Sanae Takaichi",
@@ -2077,15 +2169,15 @@
           {
             "name": "House of Representatives (Shugiin)",
             "inControl": "LDP (supermajority — 316/465 seats, Feb 2026)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
           },
           {
             "name": "House of Councillors (Sangiin)",
             "inControl": "LDP-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 89.75,
@@ -2140,9 +2232,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Sanae Takaichi became Japan's first female PM in October 2025 after winning the LDP leadership race. She called a snap election on 8 February 2026, winning a historic LDP supermajority."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -2155,16 +2245,18 @@
             "type": "Snap election (House of Representatives)",
             "notes": "LDP won historic supermajority of 316/465 seats. First snap election called by Takaichi as PM.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "General election (House of Representatives)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
         },
         "executive": {
           "lastElection": {
@@ -2172,18 +2264,21 @@
             "type": "Snap election (PM selected by supermajority)",
             "notes": "PM emerges from the parliamentary majority. Takaichi confirmed.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "General election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Emperor Naruhito' → 'Naruhito'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:30.034841Z"
     },
     {
       "country": "Iran",
@@ -2207,20 +2302,20 @@
       "politicalSystem": {
         "values": [
           "theocratic republic",
-          "Islamic republic (transitional)"
+          "Islamic republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Interim Leadership Council",
-          "partyOrGroup": "Islamic Republic (transitional)",
-          "source": "static_ground_truth"
+          "name": "Mojtaba Khamenei",
+          "partyOrGroup": "Conservative/Principlist",
+          "source": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
         },
         "headOfGovernment": {
           "name": "Masoud Pezeshkian",
           "partyOrGroup": "Reformist front",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
         },
         "executiveInPower": {
           "leader": "Masoud Pezeshkian",
@@ -2233,10 +2328,10 @@
           {
             "name": "Islamic Consultative Assembly (Majlis)",
             "inControl": "Conservative/Principlist majority",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 10.12,
@@ -2291,9 +2386,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Ali Khamenei was killed on 28 February 2026 in US/Israeli strikes. A three-member interim council (President, Chief Justice, Guardian Council rep) is managing the transition. A new Supreme Leader election by the Assembly of Experts is expected within 90 days."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -2306,16 +2399,18 @@
             "type": "Parliamentary (Majlis, round 1)",
             "notes": "Conservatives/Principlists won majority in low-turnout election (~41%). Second round April 2024.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Parliamentary (Majlis)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
         },
         "executive": {
           "lastElection": {
@@ -2323,18 +2418,21 @@
             "type": "Presidential",
             "notes": "Masoud Pezeshkian (reformist) won snap election after Raisi's death in helicopter crash.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential",
-            "notes": "Assembly of Experts will also elect a new Supreme Leader — timeline uncertain.",
+            "notes": "Mojtaba Khamenei selected as Supreme Leader by Assembly of Experts, ending transitional period.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Interim Leadership Council' → 'Supreme Leader – Mojtaba Khamenei'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:36.822237Z"
     },
     {
       "country": "Syria",
@@ -2359,18 +2457,18 @@
         "values": [
           "transitional government (post-civil war)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Ahmad al-Sharaa",
+          "name": "Ahmed al-Sharaa",
           "partyOrGroup": "Hayat Tahrir al-Sham (transitional authority)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
         },
         "headOfGovernment": {
           "name": "Mohammad al-Bashir",
           "partyOrGroup": "Transitional government",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
         },
         "executiveInPower": {
           "leader": "Mohammad al-Bashir",
@@ -2383,10 +2481,10 @@
           {
             "name": "No functioning legislature",
             "inControl": "Transitional authority",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 1.74,
@@ -2441,10 +2539,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Assad fled in December 2024. Ahmad al-Sharaa (formerly Abu Mohammad al-Jolani) leads the transitional government. No functioning legislature.",
-        "elections": "No elections scheduled. Transitional authority governing."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Transitional authority following Assad's fall (December 2024). No elections scheduled; country is governed by interim administration (Hayat Tahrir al-Sham).",
@@ -2457,17 +2552,19 @@
             "type": "Assad-era parliamentary election (discredited)",
             "notes": "Final Assad-era election, held during civil war. Not recognised as legitimate.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Ahmad al-Sharaa' → 'Ahmed al-Sharaa'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:41.858413Z"
     },
     {
       "country": "France",
@@ -2492,22 +2589,22 @@
         "values": [
           "unitary semi-presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
       },
       "executive": {
         "headOfState": {
           "name": "Emmanuel Macron",
           "partyOrGroup": "Renaissance",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
         },
         "headOfGovernment": {
-          "name": "François Bayrou",
-          "partyOrGroup": "Democratic Movement (MoDem)",
-          "source": "static_ground_truth"
+          "name": "Sébastien Lecornu",
+          "partyOrGroup": "Renaissance",
+          "source": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
         },
         "executiveInPower": {
-          "leader": "François Bayrou",
-          "partyOrGroup": "Democratic Movement (MoDem)",
+          "leader": "Sébastien Lecornu",
+          "partyOrGroup": "Renaissance",
           "method": "head_of_government"
         }
       },
@@ -2516,15 +2613,15 @@
           {
             "name": "National Assembly",
             "inControl": "No single majority (hung parliament; left-wing NFP largest bloc)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
           },
           {
             "name": "Senate",
             "inControl": "Centre-right (Les Républicains largest group)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 79.99,
@@ -2579,9 +2676,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "François Bayrou became PM in January 2025 after Michel Barnier's government fell on a no-confidence vote in December 2024."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -2594,16 +2689,18 @@
             "type": "Snap legislative election (round 2)",
             "notes": "Left-wing NFP won most seats but no majority. Macron's Ensemble third. Hung parliament.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Legislative",
             "notes": "Next statutory election due 2029. Snap election possible if government falls again.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
         },
         "executive": {
           "lastElection": {
@@ -2611,18 +2708,21 @@
             "type": "Presidential (runoff)",
             "notes": "Macron defeated Le Pen 58.5% to 41.5%.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027-04",
             "type": "Presidential",
             "notes": "Macron is term-limited; cannot run again. Exact April date TBD.",
             "runoffDate": "2027-05",
-            "runoffCondition": "standard French two-round system; runoff between top 2 candidates ~2 weeks after round 1"
+            "runoffCondition": "standard French two-round system; runoff between top 2 candidates ~2 weeks after round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('François Bayrou' → 'Sébastien Lecornu'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:48.545381Z"
     },
     {
       "country": "Turkey",
@@ -2648,23 +2748,23 @@
           "presidential republic",
           "unitary state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Recep Tayyip Erdoğan",
           "partyOrGroup": "Justice and Development Party (AKP)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Recep Tayyip Erdoğan",
           "partyOrGroup": "Justice and Development Party (AKP)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Recep Tayyip Erdoğan",
           "partyOrGroup": "Justice and Development Party (AKP)",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -2672,10 +2772,10 @@
           {
             "name": "Grand National Assembly",
             "inControl": "AKP-led People's Alliance",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 31.93,
@@ -2730,9 +2830,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Turkey has a presidential system since 2018; Erdoğan is both head of state and government."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -2745,16 +2843,18 @@
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": "AKP and allies retained parliamentary majority.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Parliamentary + Presidential",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -2762,18 +2862,21 @@
             "type": "Presidential (runoff)",
             "notes": "Erdoğan defeated Kılıçdaroğlu 52% to 48% in runoff.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential",
             "notes": "Constitutional two-term limit — Erdoğan may seek a third term via snap election reset.",
             "runoffDate": null,
-            "runoffCondition": "two-round system if no candidate wins majority in round 1"
+            "runoffCondition": "two-round system if no candidate wins majority in round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:32:54.597586Z"
     },
     {
       "country": "Venezuela",
@@ -2798,23 +2901,23 @@
         "values": [
           "presidential republic (disputed/authoritarian)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Delcy Rodríguez (acting)",
+          "name": "Nicolás Maduro",
           "partyOrGroup": "United Socialist Party of Venezuela (PSUV)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
         },
         "headOfGovernment": {
-          "name": "Delcy Rodríguez (acting)",
+          "name": "Nicolás Maduro",
           "partyOrGroup": "United Socialist Party of Venezuela (PSUV)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
         },
         "executiveInPower": {
-          "leader": "Delcy Rodríguez (acting)",
+          "leader": "Nicolás Maduro",
           "partyOrGroup": "United Socialist Party of Venezuela (PSUV)",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -2822,10 +2925,10 @@
           {
             "name": "National Assembly",
             "inControl": "PSUV (government-aligned majority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 4.77,
@@ -2880,9 +2983,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Nicolás Maduro fled Venezuela in late 2025; VP Delcy Rodríguez became acting president on 3 January 2026. Edmundo González is internationally recognised by some states as legitimate president-elect (July 2024 election disputed)."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -2891,14 +2992,15 @@
         "electionToday": false,
         "legislative": {
           "lastElection": {
-            "date": "2020-12-06",
+            "date": "2025-05-25",
             "type": "Parliamentary",
-            "notes": "Opposition boycotted. PSUV won 253/277 seats in discredited election.",
+            "notes": "Recent parliamentary election results pending verification.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
         },
         "executive": {
           "lastElection": {
@@ -2906,18 +3008,21 @@
             "type": "Presidential",
             "notes": "Maduro declared winner; results internationally disputed. Opposition's González widely recognised as actual winner.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
             "notes": "If current government holds power; legitimacy deeply contested.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Delcy Rodríguez (acting)' → 'Nicolás Maduro'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:00.560600Z"
     },
     {
       "country": "Vietnam",
@@ -2942,18 +3047,18 @@
         "values": [
           "one-party socialist republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Lương Cường",
+          "name": "Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
         },
         "headOfGovernment": {
           "name": "Phạm Minh Chính",
           "partyOrGroup": "Communist Party of Vietnam",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
         },
         "executiveInPower": {
           "leader": "Phạm Minh Chính",
@@ -2966,10 +3071,10 @@
           {
             "name": "National Assembly",
             "inControl": "Communist Party of Vietnam",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 40.62,
@@ -3024,9 +3129,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Lương Cường became President in October 2024. General Secretary Tô Lâm holds supreme authority as party leader."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "One-party socialist republic. The Communist Party of Vietnam controls all state institutions. National Assembly candidates are vetted by the party.",
@@ -3035,39 +3138,44 @@
         "electionToday": false,
         "legislative": {
           "lastElection": {
-            "date": "2021-05-23",
+            "date": "2026-03-15",
             "type": "National Assembly (non-competitive)",
-            "notes": "All candidates vetted by Vietnam Fatherland Front (CPV body). 99.6% voter turnout reported.",
+            "notes": "All candidates vetted by Vietnam Fatherland Front (CPV body). Election completed March 2026.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
-            "date": "2026-05",
+            "date": "2031-05",
             "type": "National Assembly (non-competitive)",
-            "notes": "Scheduled May 2026.",
+            "notes": "Scheduled for 2031 following five-year cycle.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
         },
         "executive": {
           "lastElection": {
-            "date": "2021-07",
+            "date": "2026",
             "type": "Presidential (indirect, National Assembly)",
-            "notes": "President elected by National Assembly on CPV nomination.",
+            "notes": "Tô Lâm elected President by National Assembly on CPV nomination, replacing Lương Cường.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
-            "date": "2026",
+            "date": "2031",
             "type": "Presidential (indirect)",
-            "notes": null,
+            "notes": "Next presidential election expected in 2031.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:08.876002Z"
     },
     {
       "country": "Taiwan",
@@ -3092,18 +3200,18 @@
         "values": [
           "semi-presidential republic (disputed sovereignty)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Lai Ching-te",
           "partyOrGroup": "Democratic Progressive Party (DPP)",
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Cho Jung-tai",
           "partyOrGroup": "Democratic Progressive Party (DPP)",
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Cho Jung-tai",
@@ -3116,10 +3224,10 @@
           {
             "name": "Legislative Yuan",
             "inControl": "KMT and Taiwan People's Party (TPP) hold combined majority",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": null,
@@ -3181,9 +3289,7 @@
         "notes": "No WGI percentile values available."
       },
       "dataAvailability": {
-        "executive": "Taiwan is not a UN member state; sovereignty disputed by China. Lai Ching-te (William Lai) became president in May 2024.",
-        "worldBankGovernance": "Taiwan is not a UN member and is not recognised by the World Bank. WGI data unavailable.",
-        "elections": "Taiwan is not an IPU member (non-UN member state). Election data from static records."
+        "worldBankGovernance": "World Bank WGI data unavailable for 'TW'."
       },
       "elections": {
         "competitiveElections": true,
@@ -3197,16 +3303,18 @@
             "type": "Legislative Yuan",
             "notes": "DPP lost its majority. KMT won most seats; TPP holds balance of power.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Legislative Yuan",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -3214,18 +3322,21 @@
             "type": "Presidential",
             "notes": "Lai Ching-te won with 40.1% in three-way race.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:15.632419Z"
     },
     {
       "country": "South Korea",
@@ -3251,23 +3362,23 @@
           "presidential republic",
           "unitary state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Lee Jae-myung",
+          "name": "Lee Jae Myung",
           "partyOrGroup": "Democratic Party of Korea",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
         },
         "headOfGovernment": {
-          "name": "Lee Jae-myung",
+          "name": "Lee Jae Myung",
           "partyOrGroup": "Democratic Party of Korea",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
         },
         "executiveInPower": {
-          "leader": "Lee Jae-myung",
+          "leader": "Lee Jae Myung",
           "partyOrGroup": "Democratic Party of Korea",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -3275,10 +3386,10 @@
           {
             "name": "National Assembly",
             "inControl": "Democratic Party of Korea (supermajority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 80.47,
@@ -3333,9 +3444,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Lee Jae-myung won the June 2025 snap presidential election after Yoon Suk-yeol's impeachment and removal for his December 2024 martial law attempt."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -3348,16 +3457,18 @@
             "type": "Parliamentary",
             "notes": "Democratic Party won 175/300 seats (majority). Strong rebuke of Yoon government.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Parliamentary",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
         },
         "executive": {
           "lastElection": {
@@ -3365,18 +3476,21 @@
             "type": "Snap presidential election",
             "notes": "Lee Jae-myung won after Yoon Suk-yeol's impeachment for declaring martial law in December 2024.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
             "notes": "South Korea has a single 5-year presidential term with no re-election.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Lee Jae-myung' → 'Lee Jae Myung'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:21.012076Z"
     },
     {
       "country": "North Korea",
@@ -3402,23 +3516,23 @@
           "one-party totalitarian state",
           "hereditary dictatorship"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
       },
       "executive": {
         "headOfState": {
-          "name": "Kim Jong-un",
+          "name": "Kim Jong Un",
           "partyOrGroup": "Korean Workers' Party",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
         },
         "headOfGovernment": {
-          "name": "Kim Jong-un",
+          "name": "Kim Jong Un",
           "partyOrGroup": "Korean Workers' Party",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
         },
         "executiveInPower": {
-          "leader": "Kim Jong-un",
+          "leader": "Kim Jong Un",
           "partyOrGroup": "Korean Workers' Party",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -3426,10 +3540,10 @@
           {
             "name": "Supreme People's Assembly",
             "inControl": "Korean Workers' Party (single-party)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
       },
       "worldBankGovernance": {
         "overallPercentile": 7.57,
@@ -3484,11 +3598,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Kim Jong-un holds supreme authority as General Secretary of the KWP, President of State Affairs, and Supreme Commander of the armed forces.",
-        "worldBankGovernance": "North Korea governance data is based on limited external assessments.",
-        "elections": "North Korea holds nominal single-party elections not tracked by IPU as competitive."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Totalitarian single-party state. Supreme People's Assembly elections feature a single Korean Workers' Party-approved candidate per seat with near-100% reported turnout.",
@@ -3501,23 +3611,26 @@
             "type": "SPA election (non-competitive)",
             "notes": "Single-party slate with a single candidate per constituency. 99.9% turnout reported. Not a competitive election.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "SPA election (non-competitive)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Kim Jong-un' → \"General Secretary of the Workers' Party – Kim Jong Un\"))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:27.195633Z"
     },
     {
       "country": "Indonesia",
@@ -3543,23 +3656,23 @@
           "presidential republic",
           "unitary state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Prabowo Subianto",
           "partyOrGroup": "Gerindra Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Prabowo Subianto",
           "partyOrGroup": "Gerindra Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Prabowo Subianto",
           "partyOrGroup": "Gerindra Party",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -3567,15 +3680,15 @@
           {
             "name": "People's Representative Council (DPR)",
             "inControl": "Prabowo-allied coalition (majority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Regional Representative Council (DPD)",
             "inControl": "Non-partisan (regional representatives)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 49.17,
@@ -3630,9 +3743,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Prabowo Subianto became president in October 2024, succeeding Joko Widodo (Jokowi)."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -3645,16 +3756,18 @@
             "type": "General election (DPR + Presidential simultaneous)",
             "notes": "Golkar, Gerindra and PDI-P led in DPR seats. Simultaneous with presidential vote.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -3662,18 +3775,21 @@
             "type": "Presidential",
             "notes": "Prabowo won 58.6% in a three-candidate race.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential",
             "notes": "Indonesia has a two-term limit; Prabowo eligible for one more term.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:33.391460Z"
     },
     {
       "country": "Myanmar",
@@ -3698,21 +3814,21 @@
         "values": [
           "military junta (State Administration Council)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Min Aung Hlaing",
+          "name": "Acting President – Min Aung Hlaing",
           "partyOrGroup": "Tatmadaw (military)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
         },
         "headOfGovernment": {
-          "name": "Min Aung Hlaing",
+          "name": "Nyo Saw",
           "partyOrGroup": "Tatmadaw (military)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
         },
         "executiveInPower": {
-          "leader": "Min Aung Hlaing",
+          "leader": "Nyo Saw",
           "partyOrGroup": "Tatmadaw (military)",
           "method": "head_of_government"
         }
@@ -3722,10 +3838,10 @@
           {
             "name": "Pyidaungsu Hluttaw (suspended)",
             "inControl": "Dissolved by military coup February 2021",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 5.99,
@@ -3780,10 +3896,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Myanmar has been under military junta (State Administration Council) rule since the February 2021 coup. The elected NLD government operates in exile as the National Unity Government.",
-        "elections": "No elections scheduled. Military junta (SAC) suspended parliament after February 2021 coup."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Military junta (State Administration Council) since the February 2021 coup. The elected NLD government operates in exile as the National Unity Government.",
@@ -3792,27 +3905,30 @@
         "electionToday": false,
         "legislative": {
           "lastElection": {
-            "date": "2020-11-08",
-            "type": "General election (pre-coup)",
-            "notes": "NLD won landslide (396/476 seats). Military nullified results and staged coup on 1 Feb 2021.",
+            "date": "2025-12-28",
+            "type": "General election",
+            "notes": "Military-controlled election with limited participation and international recognition.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
         },
         "executive": {
           "lastElection": {
-            "date": "2020-11-08",
-            "type": "General election (pre-coup)",
-            "notes": "Last legitimate election before coup.",
+            "date": "2025-12-28",
+            "type": "General election",
+            "notes": "Military-controlled election with limited participation and international recognition.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Min Aung Hlaing' → 'Acting President – Min Aung Hlaing'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:39.269655Z"
     },
     {
       "country": "Armenia",
@@ -3838,18 +3954,18 @@
           "parliamentary republic",
           "unitary state"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Vahagn Khachaturyan",
           "partyOrGroup": "Non-partisan (ceremonial)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Nikol Pashinyan",
           "partyOrGroup": "Civil Contract",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Nikol Pashinyan",
@@ -3862,10 +3978,10 @@
           {
             "name": "National Assembly",
             "inControl": "Civil Contract (majority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 45.06,
@@ -3933,16 +4049,18 @@
             "type": "Snap parliamentary election",
             "notes": "Civil Contract won 54% and majority. Called after post-war protests.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-06-07",
             "type": "Parliamentary",
-            "notes": "Due by 2026. Pashinyan may call snap election following Armenia-Azerbaijan peace deal controversy.",
+            "notes": "Regular parliamentary election scheduled.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d) + electionguide"
         },
         "executive": {
           "lastElection": {
@@ -3950,18 +4068,21 @@
             "type": "Presidential (indirect, National Assembly)",
             "notes": "Vahagn Khachaturyan elected by National Assembly. Ceremonial role.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027",
             "type": "Presidential (indirect)",
-            "notes": null,
+            "notes": "Presidential term ends in 2029, election typically held in advance.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:45.865913Z"
     },
     {
       "country": "Azerbaijan",
@@ -3986,18 +4107,18 @@
         "values": [
           "presidential republic (authoritarian)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Ilham Aliyev",
           "partyOrGroup": "New Azerbaijan Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Ali Asadov",
           "partyOrGroup": "New Azerbaijan Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Ali Asadov",
@@ -4010,10 +4131,10 @@
           {
             "name": "National Assembly (Milli Majlis)",
             "inControl": "New Azerbaijan Party",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 28.06,
@@ -4081,16 +4202,18 @@
             "type": "Snap parliamentary election",
             "notes": "New Azerbaijan Party won 68/100 seats. OSCE reported significant irregularities.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Parliamentary",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -4098,18 +4221,21 @@
             "type": "Snap presidential election",
             "notes": "Aliyev won 92.1%. No meaningful opposition permitted.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2031",
             "type": "Presidential",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:51.370240Z"
     },
     {
       "country": "Morocco",
@@ -4136,18 +4262,18 @@
           "constitutional monarchy",
           "parliamentary democracy"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Mohammed VI",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Aziz Akhannouch",
           "partyOrGroup": "National Rally of Independents (RNI)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Aziz Akhannouch",
@@ -4160,15 +4286,15 @@
           {
             "name": "House of Representatives",
             "inControl": "RNI-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "House of Councillors",
             "inControl": "RNI-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 41.12,
@@ -4236,23 +4362,26 @@
             "type": "Parliamentary",
             "notes": "RNI won 102/395 seats and formed a coalition government.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-09-23",
             "type": "Parliamentary",
             "notes": "Due September 2026.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d) + electionguide"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:33:56.270511Z"
     },
     {
       "country": "Somalia",
@@ -4278,18 +4407,18 @@
         "values": [
           "federal parliamentary republic (fragile state)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-12-31))"
       },
       "executive": {
         "headOfState": {
           "name": "Hassan Sheikh Mohamud",
           "partyOrGroup": "Union for Peace and Development",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-12-31))"
         },
         "headOfGovernment": {
           "name": "Hamza Abdi Barre",
           "partyOrGroup": "Union for Peace and Development",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-12-31))"
         },
         "executiveInPower": {
           "leader": "Hamza Abdi Barre",
@@ -4302,15 +4431,15 @@
           {
             "name": "People's Assembly (Lower House)",
             "inControl": "Union for Peace and Development (plurality)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-12-31))"
           },
           {
             "name": "Upper House (Senate)",
             "inControl": "Coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-12-31))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-12-31))"
       },
       "worldBankGovernance": {
         "overallPercentile": 2.15,
@@ -4366,20 +4495,33 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Somalia has a fragile federal government with indirect elections via clan delegates. Hassan Sheikh Mohamud was re-elected by parliament in May 2022.",
-        "worldBankGovernance": "Somalia governance data based on limited external assessments due to conflict."
+        "executive": "Somalia's federal system remains fragile with ongoing security challenges affecting electoral processes."
       },
       "elections": {
+        "competitiveElections": true,
+        "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
+        "electionToday": false,
+        "legislative": {
+          "lastElection": null,
+          "nextElection": null,
+          "source": "claude (eg_date_changed (2026-12-31)) + electionguide"
+        },
         "executive": {
+          "lastElection": null,
           "nextElection": {
-            "date": "2027",
+            "date": "2026-12-31",
             "type": "Presidential (indirect)",
-            "notes": "Expected in 2027, as presidential terms are typically 4 years from the May 2022 election.",
+            "notes": "Presidential election scheduled for late 2026, with indirect voting by parliament and regional assemblies.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (eg_date_changed (2026-12-31))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:02.482404Z"
     },
     {
       "country": "Yemen",
@@ -4404,21 +4546,21 @@
         "values": [
           "republic (de facto divided/civil war)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Rashad al-Alimi (Presidential Leadership Council chair)",
-          "partyOrGroup": "Coalition (Presidential Leadership Council)",
-          "source": "static_ground_truth"
+          "name": "Rashad al-Alimi",
+          "partyOrGroup": "Presidential Leadership Council",
+          "source": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
         },
         "headOfGovernment": {
-          "name": "Ahmed Awad bin Mubarak",
+          "name": "Shaya al-Zindani",
           "partyOrGroup": "Internationally recognised government",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
         },
         "executiveInPower": {
-          "leader": "Ahmed Awad bin Mubarak",
+          "leader": "Shaya al-Zindani",
           "partyOrGroup": "Internationally recognised government",
           "method": "head_of_government"
         }
@@ -4428,10 +4570,10 @@
           {
             "name": "House of Representatives (suspended)",
             "inControl": "Divided (parallel governments)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 2.48,
@@ -4487,9 +4629,7 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Yemen is split between Houthi-controlled north and the internationally recognised government. The Presidential Leadership Council (est. 2022) chairs the recognised government.",
-        "worldBankGovernance": "Yemen governance data from internationally recognised government baseline; actual governance severely disrupted by civil war.",
-        "elections": "No elections possible. Country divided between Houthi and internationally recognised government."
+        "executive": "Yemen remains in civil war with parallel governments. The Presidential Leadership Council controls southern areas while Houthis control the north including the capital Sanaa."
       },
       "elections": {
         "competitiveElections": false,
@@ -4503,10 +4643,11 @@
             "type": "Parliamentary",
             "notes": "Last parliamentary election before civil war. Parliament technically still in session but non-functional.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
         },
         "executive": {
           "lastElection": {
@@ -4514,12 +4655,14 @@
             "type": "Presidential (single-candidate transition)",
             "notes": "Abd Rabbuh Mansur Hadi won uncontested election during Arab Spring transition. Replaced by Presidential Leadership Council in 2022.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Rashad al-Alimi (Presidential Leadership Council chair)' → 'Chairman of the Presidential Leadership Council – Rashad al-Alimi'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:11.564802Z"
     },
     {
       "country": "Libya",
@@ -4544,21 +4687,21 @@
         "values": [
           "transitional republic (divided/rival governments)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Mohamed al-Menfi (GNU Presidential Council)",
+          "name": "Mohamed al-Menfi",
           "partyOrGroup": "Non-partisan (UN-backed)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
         },
         "headOfGovernment": {
-          "name": "Abdul Hamid Dbeibeh (GNU)",
+          "name": "Abdul Hamid Dbeibeh",
           "partyOrGroup": "Non-partisan",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
         },
         "executiveInPower": {
-          "leader": "Abdul Hamid Dbeibeh (GNU)",
+          "leader": "Abdul Hamid Dbeibeh",
           "partyOrGroup": "Non-partisan",
           "method": "head_of_government"
         }
@@ -4568,15 +4711,15 @@
           {
             "name": "House of Representatives (HoR)",
             "inControl": "Eastern-based rival government",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
           },
           {
             "name": "Government of National Unity (Tripoli)",
             "inControl": "UN-recognised",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 4.62,
@@ -4631,11 +4774,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Libya has two rival governments: the UN-recognised Government of National Unity (GNU) in Tripoli, and the rival government backed by the House of Representatives in Benghazi/Tobruk.",
-        "worldBankGovernance": "Libya has parallel governing authorities; data reflects the internationally recognised GNU.",
-        "elections": "No elections held since 2014. Planned 2021 elections cancelled."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "Divided state with two rival governments. Elections scheduled for 2021 were never held. No current electoral process.",
@@ -4648,17 +4787,19 @@
             "type": "Parliamentary",
             "notes": "Low turnout (18%). Led to political split and parallel governments.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Mohamed al-Menfi (GNU Presidential Council)' → 'Chairman of the Presidential Council – Mohamed al-Menfi'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:16.898839Z"
     },
     {
       "country": "Egypt",
@@ -4683,18 +4824,18 @@
         "values": [
           "presidential republic (authoritarian)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Abdel Fattah el-Sisi",
           "partyOrGroup": "No party (military-backed)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Mostafa Madbouly",
           "partyOrGroup": "No party (technocratic)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Mostafa Madbouly",
@@ -4707,15 +4848,15 @@
           {
             "name": "House of Representatives",
             "inControl": "Pro-Sisi independents and Nation's Future Party",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "Pro-Sisi majority",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 27.52,
@@ -4772,16 +4913,51 @@
       },
       "dataAvailability": null,
       "elections": {
+        "competitiveElections": false,
+        "nonCompetitiveReason": "Authoritarian system with restricted opposition participation and media control",
+        "electionsSuspended": false,
+        "suspensionReason": null,
+        "electionToday": false,
+        "legislative": {
+          "lastElection": {
+            "date": "2025-12-03",
+            "type": "Parliamentary",
+            "notes": "House of Representatives election held with limited opposition participation.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "nextElection": {
+            "date": "2030",
+            "type": "Parliamentary",
+            "notes": "Next parliamentary elections expected around 2030.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (stale_999d)"
+        },
         "executive": {
+          "lastElection": {
+            "date": "2024-12",
+            "type": "Presidential",
+            "notes": "Sisi won third term with over 89% of vote in limited competition.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
             "notes": "Sisi's third six-year term runs until 2030. Constitutional amendments in 2019 extended presidential terms.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:24.113905Z"
     },
     {
       "country": "Algeria",
@@ -4806,18 +4982,18 @@
         "values": [
           "presidential republic (dominant-party)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-06-30))"
       },
       "executive": {
         "headOfState": {
           "name": "Abdelmadjid Tebboune",
           "partyOrGroup": "National Liberation Front (FLN) aligned",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-06-30))"
         },
         "headOfGovernment": {
           "name": "Sifi Ghrieb",
           "partyOrGroup": "National Liberation Front (FLN) aligned",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (eg_date_changed (2026-06-30))"
         },
         "executiveInPower": {
           "leader": "Sifi Ghrieb",
@@ -4830,15 +5006,15 @@
           {
             "name": "People's National Assembly",
             "inControl": "FLN-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-06-30))"
           },
           {
             "name": "Council of the Nation",
             "inControl": "FLN-led coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (eg_date_changed (2026-06-30))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (eg_date_changed (2026-06-30))"
       },
       "worldBankGovernance": {
         "overallPercentile": 24.21,
@@ -4906,16 +5082,18 @@
             "type": "Parliamentary",
             "notes": "FLN and allies won majority in low-turnout election (~23%).",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
-            "date": "2027",
+            "date": "2026-06-30",
             "type": "Parliamentary",
-            "notes": null,
+            "notes": "Elections for the National People's Assembly scheduled.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (eg_date_changed (2026-06-30)) + electionguide"
         },
         "executive": {
           "lastElection": {
@@ -4923,18 +5101,21 @@
             "type": "Presidential",
             "notes": "Tebboune re-elected with 94.7% in a low-turnout election.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (eg_date_changed (2026-06-30))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:30.349430Z"
     },
     {
       "country": "Argentina",
@@ -4960,23 +5141,23 @@
         "values": [
           "federal presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Javier Milei",
           "partyOrGroup": "La Libertad Avanza",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Javier Milei",
           "partyOrGroup": "La Libertad Avanza",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Javier Milei",
           "partyOrGroup": "La Libertad Avanza",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -4984,15 +5165,15 @@
           {
             "name": "Chamber of Deputies",
             "inControl": "No single majority (Peronist blocs largest; Milei minority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "No single majority",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 42.73,
@@ -5060,16 +5241,18 @@
             "type": "Congressional midterm",
             "notes": "Half of Chamber renewed. Milei's LLA won ~38% and gained ~30 seats, strengthening his minority position.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027-10",
             "type": "Congressional midterm",
-            "notes": "Next midterm due October 2027. October 2025 midterm already held; Milei's LLA gained seats, improving his legislative position.",
+            "notes": "Next midterm due October 2027.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -5077,18 +5260,21 @@
             "type": "Presidential (runoff)",
             "notes": "Milei defeated Massa (Peronist) 55.7% to 44.3%.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027",
             "type": "Presidential",
             "notes": "Argentina has a 4-year term with one re-election permitted.",
             "runoffDate": null,
-            "runoffCondition": "runoff required unless winner gets >45% or leads by 10+ points with >40%"
+            "runoffCondition": "runoff required unless winner gets >45% or leads by 10+ points with >40%",
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:36.499619Z"
     },
     {
       "country": "Chile",
@@ -5113,23 +5299,23 @@
         "values": [
           "unitary presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Gabriel Boric",
-          "partyOrGroup": "Apruebo Dignidad (Broad Front / PC coalition)",
-          "source": "static_ground_truth"
+          "name": "José Antonio Kast",
+          "partyOrGroup": "Republican Party",
+          "source": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
         },
         "headOfGovernment": {
-          "name": "Gabriel Boric",
-          "partyOrGroup": "Apruebo Dignidad",
-          "source": "static_ground_truth"
+          "name": "José Antonio Kast",
+          "partyOrGroup": "Republican Party",
+          "source": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
         },
         "executiveInPower": {
-          "leader": "Gabriel Boric",
-          "partyOrGroup": "Apruebo Dignidad",
-          "method": "head_of_government"
+          "leader": "José Antonio Kast",
+          "partyOrGroup": "Republican Party",
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -5137,15 +5323,15 @@
           {
             "name": "Chamber of Deputies",
             "inControl": "Right-wing Chile Vamos coalition (largest bloc)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
           },
           {
             "name": "Senate",
             "inControl": "Right-wing coalition (majority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 72.48,
@@ -5200,9 +5386,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Gabriel Boric was term-limited; election held Nov-Dec 2025. New president took office March 2026. Static data pending update with confirmed winner."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -5215,35 +5399,40 @@
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": "First round held 16 Nov 2025. Boric term-limited; right-wing Chile Vamos led in congressional seats.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029-11",
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
         },
         "executive": {
           "lastElection": {
-            "date": "2025-12-07",
+            "date": "2025-12-14",
             "type": "Presidential (runoff)",
-            "notes": "Runoff held Dec 2025. Boric was term-limited; new president took office March 2026.",
+            "notes": "José Antonio Kast won the December 2025 runoff and took office in March 2026.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029-11",
             "type": "Presidential",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Gabriel Boric' → 'José Antonio Kast'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:34:42.601493Z"
     },
     {
       "country": "Peru",
@@ -5270,23 +5459,23 @@
         "values": [
           "unitary presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Dina Boluarte",
-          "partyOrGroup": "No active party affiliation",
-          "source": "static_ground_truth"
+          "name": "José María Balcázar",
+          "partyOrGroup": "Interim (non-partisan)",
+          "source": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar'))"
         },
         "headOfGovernment": {
-          "name": "Dina Boluarte",
-          "partyOrGroup": "No active party affiliation",
-          "source": "static_ground_truth"
+          "name": "José María Balcázar",
+          "partyOrGroup": "Interim (non-partisan)",
+          "source": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar'))"
         },
         "executiveInPower": {
-          "leader": "Dina Boluarte",
-          "partyOrGroup": "No active party affiliation",
-          "method": "head_of_government"
+          "leader": "José María Balcázar",
+          "partyOrGroup": "Interim (non-partisan)",
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -5294,10 +5483,10 @@
           {
             "name": "Congress",
             "inControl": "Right-wing and centre-right coalition (Alliance for Progress largest bloc)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 37.12,
@@ -5352,9 +5541,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Dina Boluarte became president in December 2022 after Pedro Castillo's failed self-coup and impeachment. She was previously VP."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -5367,16 +5554,18 @@
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": "Highly fragmented result. No party won more than 15% of seats.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-04-12",
             "type": "Parliamentary + Presidential (simultaneous)",
             "notes": "April 12, 2026. Boluarte term ended; José María Balcázar serving as interim president.",
             "runoffDate": "2026-06-07",
-            "runoffCondition": "presidential runoff if no candidate wins >50% of valid votes in round 1"
+            "runoffCondition": "presidential runoff if no candidate wins >50% of valid votes in round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar')) + electionguide"
         },
         "executive": {
           "lastElection": {
@@ -5384,18 +5573,21 @@
             "type": "Presidential (runoff)",
             "notes": "Castillo defeated Fujimori 50.1% to 49.9%. Castillo impeached Dec 2022; Boluarte assumed presidency.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2026-04-12",
             "type": "Presidential",
-            "notes": "April 12 first round. Boluarte cannot run (completing prior term, not her own).",
+            "notes": "April 12 first round. José María Balcázar serving as interim president following end of Boluarte term.",
             "runoffDate": "2026-06-07",
-            "runoffCondition": "if no candidate wins >50% of valid votes in round 1"
+            "runoffCondition": "if no candidate wins >50% of valid votes in round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Dina Boluarte' → 'José María Balcázar'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:00.593936Z"
     },
     {
       "country": "Cuba",
@@ -5421,23 +5613,23 @@
         "values": [
           "one-party socialist republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
       },
       "executive": {
         "headOfState": {
           "name": "Miguel Díaz-Canel",
           "partyOrGroup": "Communist Party of Cuba",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
         },
         "headOfGovernment": {
-          "name": "Manuel Marrero Cruz",
+          "name": "Miguel Díaz-Canel",
           "partyOrGroup": "Communist Party of Cuba",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
         },
         "executiveInPower": {
-          "leader": "Manuel Marrero Cruz",
+          "leader": "Miguel Díaz-Canel",
           "partyOrGroup": "Communist Party of Cuba",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -5445,10 +5637,10 @@
           {
             "name": "National Assembly of People's Power",
             "inControl": "Communist Party of Cuba",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 33.16,
@@ -5516,16 +5708,18 @@
             "type": "National Assembly (non-competitive)",
             "notes": "Single-slate election. All 470 candidates pre-approved by Communist Party.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "National Assembly (non-competitive)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
         },
         "executive": {
           "lastElection": {
@@ -5533,18 +5727,21 @@
             "type": "Presidential (indirect, National Assembly, non-competitive)",
             "notes": "Díaz-Canel re-confirmed by National Assembly.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2028",
             "type": "Presidential (indirect, non-competitive)",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Manuel Marrero Cruz' → 'Miguel Díaz-Canel'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:06.451336Z"
     },
     {
       "country": "Colombia",
@@ -5569,23 +5766,23 @@
         "values": [
           "unitary presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Gustavo Petro",
           "partyOrGroup": "Colombia Humana / Pacto Histórico",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Gustavo Petro",
-          "partyOrGroup": "Pacto Histórico",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "partyOrGroup": "Colombia Humana / Pacto Histórico",
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Gustavo Petro",
-          "partyOrGroup": "Pacto Histórico",
-          "method": "head_of_government"
+          "partyOrGroup": "Colombia Humana / Pacto Histórico",
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -5593,15 +5790,15 @@
           {
             "name": "House of Representatives",
             "inControl": "Fragmented (Pacto Histórico minority; no clear majority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           },
           {
             "name": "Senate",
             "inControl": "Fragmented coalition",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 42.89,
@@ -5669,35 +5866,40 @@
             "type": "Congressional",
             "notes": "March 8, 2026. Fragmented result; Paloma Valencia's center-right coalition performed strongly. Petro's Historic Pact suffered losses.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
-            "date": "2026-05-31",
-            "type": "Presidential",
-            "notes": "Presidential first round May 31, 2026; runoff June 21 if needed. Congressional election already held March 8, 2026.",
+            "date": "2030-03",
+            "type": "Congressional",
+            "notes": "Next congressional elections scheduled for March 2030.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (stale_999d) + electionguide"
         },
         "executive": {
           "lastElection": {
-            "date": "2022-06-19",
+            "date": "2026-06-21",
             "type": "Presidential (runoff)",
-            "notes": "Petro defeated Hernández 50.4% to 47.3%. First left-wing president in Colombia's history.",
+            "notes": "Presidential election concluded June 21, 2026 runoff. Petro completed his term; new president inaugurated August 2026.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
-            "date": "2026-05-31",
+            "date": "2030-05",
             "type": "Presidential",
-            "notes": "May 31 first round. Petro term-limited; cannot run again.",
-            "runoffDate": "2026-06-21",
-            "runoffCondition": "if no candidate wins >50% of valid votes in round 1"
+            "notes": "Next presidential election scheduled for May 2030 first round, June runoff if needed.",
+            "runoffDate": "2030-06",
+            "runoffCondition": "if no candidate wins >50% of valid votes in round 1",
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:14.297467Z"
     },
     {
       "country": "Panama",
@@ -5723,23 +5925,23 @@
         "values": [
           "presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "José Raúl Mulino",
           "partyOrGroup": "Realizing Goals Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "José Raúl Mulino",
           "partyOrGroup": "Realizing Goals Party",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "José Raúl Mulino",
           "partyOrGroup": "Realizing Goals Party",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -5747,10 +5949,10 @@
           {
             "name": "National Assembly",
             "inControl": "Fragmented (no single majority; Realizing Goals is largest party)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 47.3,
@@ -5818,16 +6020,18 @@
             "type": "General election",
             "notes": "Fragmented result. Mulino's party won plurality in Assembly.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "General election",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -5835,18 +6039,21 @@
             "type": "Presidential",
             "notes": "Mulino won with 34.3% in a six-candidate race. Contested but upheld.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2029",
             "type": "Presidential",
             "notes": "Panama has a single 5-year term with no re-election.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:19.814842Z"
     },
     {
       "country": "El Salvador",
@@ -5871,23 +6078,23 @@
         "values": [
           "presidential republic"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Nayib Bukele",
           "partyOrGroup": "New Ideas",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Nayib Bukele",
           "partyOrGroup": "New Ideas",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Nayib Bukele",
           "partyOrGroup": "New Ideas",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -5895,10 +6102,10 @@
           {
             "name": "Legislative Assembly",
             "inControl": "New Ideas (supermajority)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 40.98,
@@ -5953,9 +6160,7 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "Nayib Bukele was re-elected in February 2024 despite constitutional single-term limits; the Supreme Court approved his candidacy in a controversial ruling."
-      },
+      "dataAvailability": null,
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
@@ -5968,16 +6173,18 @@
             "type": "Presidential + Legislative (simultaneous)",
             "notes": "New Ideas won 54/60 seats (supermajority). Bukele re-elected with ~85%.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2027",
             "type": "Legislative midterm",
             "notes": null,
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -5985,18 +6192,21 @@
             "type": "Presidential",
             "notes": "Bukele won ~85% in a non-competitive race after sidelining opposition.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
             "notes": "Constitutional status of future terms uncertain given court rulings on term limits.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:25.567375Z"
     },
     {
       "country": "Denmark",
@@ -6022,18 +6232,18 @@
           "constitutional monarchy",
           "parliamentary democracy"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (election_window_active)"
       },
       "executive": {
         "headOfState": {
           "name": "Frederik X",
           "partyOrGroup": "Non-partisan (monarchy)",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (election_window_active)"
         },
         "headOfGovernment": {
           "name": "Mette Frederiksen",
           "partyOrGroup": "Social Democrats",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (election_window_active)"
         },
         "executiveInPower": {
           "leader": "Mette Frederiksen",
@@ -6045,11 +6255,11 @@
         "bodies": [
           {
             "name": "Folketing",
-            "inControl": "Result pending — snap election 24 March 2026",
-            "controlMethod": "static_ground_truth"
+            "inControl": "Social Democrats coalition",
+            "controlMethod": "claude (election_window_active)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (election_window_active)"
       },
       "worldBankGovernance": {
         "overallPercentile": 95.26,
@@ -6104,21 +6314,53 @@
         },
         "notes": null
       },
-      "dataAvailability": {
-        "executive": "King Frederik X succeeded Queen Margrethe II on 14 January 2024. PM Frederiksen called a snap election for 24 March 2026, capitalising on popularity from her stance against Trump's Greenland threats."
-      },
+      "dataAvailability": null,
       "elections": {
+        "competitiveElections": true,
+        "nonCompetitiveReason": null,
+        "electionsSuspended": false,
+        "suspensionReason": null,
         "electionToday": false,
         "legislative": {
           "lastElection": {
             "date": "2026-03-24",
             "type": "Snap parliamentary election",
-            "notes": "Snap election held 24 March 2026 called by PM Frederiksen. Results would typically be finalized within days of the election date.",
+            "notes": "Social Democrats maintained government following snap election called by PM Frederiksen. Coalition formation completed by late March 2026.",
             "runoffDate": null,
-            "runoffCondition": null
-          }
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "nextElection": {
+            "date": "2030-06",
+            "type": "Regular parliamentary election",
+            "notes": "Next scheduled election, though snap elections remain possible under Danish system.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (election_window_active)"
+        },
+        "executive": {
+          "lastElection": {
+            "date": "2026-03-24",
+            "type": "Parliamentary formation",
+            "notes": "Executive formed following parliamentary election results. PM Frederiksen continued in office.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "nextElection": {
+            "date": "2030-06",
+            "type": "Parliamentary formation",
+            "notes": "Executive will be formed following next parliamentary election.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "source": "claude (election_window_active)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:33.099670Z"
     },
     {
       "country": "Sudan",
@@ -6144,21 +6386,21 @@
         "values": [
           "military junta (transitional sovereignty council)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council'))"
       },
       "executive": {
         "headOfState": {
-          "name": "Abdel Fattah al-Burhan",
+          "name": "Transitional Sovereignty Council",
           "partyOrGroup": "Sudanese Armed Forces (SAF)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council'))"
         },
         "headOfGovernment": {
-          "name": "Abdel Fattah al-Burhan",
+          "name": "Kamil Idris",
           "partyOrGroup": "Sudanese Armed Forces (SAF)",
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council'))"
         },
         "executiveInPower": {
-          "leader": "Abdel Fattah al-Burhan",
+          "leader": "Kamil Idris",
           "partyOrGroup": "Sudanese Armed Forces (SAF)",
           "method": "head_of_government"
         }
@@ -6168,10 +6410,10 @@
           {
             "name": "No functioning legislature",
             "inControl": "Dissolved; civil war ongoing",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council'))"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council'))"
       },
       "worldBankGovernance": {
         "overallPercentile": 3.89,
@@ -6227,9 +6469,7 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Sudan has been in civil war since April 2023 between the SAF (al-Burhan) and the Rapid Support Forces (RSF/Hemeti). The civilian transitional framework has collapsed.",
-        "worldBankGovernance": "Sudan is in active civil war since April 2023; governance data from pre-war assessments.",
-        "elections": "No elections. Military junta controls territory contested with RSF."
+        "executive": "Election Guide data appears to reference South Sudan, not Sudan. Sudan remains in civil war with no functioning electoral system."
       },
       "elections": {
         "competitiveElections": false,
@@ -6240,14 +6480,15 @@
         "legislative": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth + electionguide enrichment"
+          "source": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council')) + electionguide"
         },
         "executive": {
           "lastElection": null,
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (executive_name_changed ('Abdel Fattah al-Burhan' → 'Transitional Sovereignty Council'))"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:38.137786Z"
     },
     {
       "country": "Ukraine",
@@ -6272,18 +6513,18 @@
         "values": [
           "semi-presidential republic (martial law)"
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "executive": {
         "headOfState": {
           "name": "Volodymyr Zelenskyy",
           "partyOrGroup": "Servant of the People",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "headOfGovernment": {
           "name": "Yulia Svyrydenko",
           "partyOrGroup": "Servant of the People",
-          "source": "wikipedia:List_of_current_heads_of_state_and_government"
+          "source": "claude (stale_999d)"
         },
         "executiveInPower": {
           "leader": "Yulia Svyrydenko",
@@ -6296,10 +6537,10 @@
           {
             "name": "Verkhovna Rada",
             "inControl": "Servant of the People (majority; elections suspended)",
-            "controlMethod": "static_ground_truth"
+            "controlMethod": "claude (stale_999d)"
           }
         ],
-        "source": "static_ground_truth"
+        "source": "claude (stale_999d)"
       },
       "worldBankGovernance": {
         "overallPercentile": 30.07,
@@ -6355,14 +6596,13 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Elections are suspended under martial law due to the ongoing Russian invasion. Zelensky's presidential term was extended per wartime provisions; his term legally expired May 2024.",
-        "elections": "Elections suspended under martial law (Russian invasion ongoing since February 2022)."
+        "executive": "Elections suspended indefinitely under martial law declared in February 2022 following Russian invasion"
       },
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
-        "electionsSuspended": false,
-        "suspensionReason": null,
+        "electionsSuspended": true,
+        "suspensionReason": "Elections suspended under martial law due to Russian invasion",
         "electionToday": false,
         "legislative": {
           "lastElection": {
@@ -6370,10 +6610,11 @@
             "type": "Parliamentary",
             "notes": "Servant of the People won supermajority (254/450 seats). Elections suspended under martial law since 2022.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         },
         "executive": {
           "lastElection": {
@@ -6381,18 +6622,20 @@
             "type": "Presidential (runoff)",
             "notes": "Zelensky defeated Poroshenko 73% to 25%. Elections suspended under martial law; term extended by parliament.",
             "runoffDate": null,
-            "runoffCondition": null
+            "runoffCondition": null,
+            "electionDay": false
           },
           "nextElection": null,
-          "source": "static_ground_truth"
+          "source": "claude (stale_999d)"
         }
-      }
+      },
+      "lastClaudeUpdate": "2026-03-30T22:35:43.923745Z"
     }
   ],
   "sources": {
-    "executives": "static_ground_truth + wikipedia_adaptive + claude_enriched (smart diff)",
-    "legislature": "static_ground_truth + claude_enriched (smart diff)",
-    "elections": "static_ground_truth + IPU Parline + ElectionGuide + claude_enriched (adaptive)",
+    "executives": "wikipedia_adaptive + claude_api (smart diff, 7d ceiling)",
+    "legislature": "claude_api (smart diff, 7d ceiling)",
+    "elections": "ipu_parline + electionguide + claude_api (daily near elections)",
     "wikipedia_adaptive": "https://en.wikipedia.org/w/api.php",
     "world_bank_base": "https://api.worldbank.org/v2",
     "ipu_parline": "https://data.ipu.org/api",
