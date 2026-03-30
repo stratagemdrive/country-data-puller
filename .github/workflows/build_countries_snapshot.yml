@@ -2,6 +2,10 @@ name: Build Countries Snapshot
 
 on:
   schedule:
+    # Runs daily at 02:00 UTC.
+    # Election-window countries (election within 7 days) fire every day.
+    # Full 44-country weekly refresh fires on Tuesdays — logic is in Python,
+    # not here, so the daily schedule must stay to catch Tuesday runs.
     - cron: "0 2 * * *"
   workflow_dispatch:
   push:
