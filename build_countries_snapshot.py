@@ -2133,12 +2133,6 @@ def build_elections_block(iso2: str, static: Dict,
         "source": leg_source,
     }
 
-    executive = {
-        "lastElection": static_exec_last,
-        "nextElection": static_exec_next,
-        "source": "static_ground_truth",
-    }
-
     # ── Today detection ──────────────────────────────────────────────────────
     today_str = datetime.now(timezone.utc).date().isoformat()
 
@@ -2149,7 +2143,7 @@ def build_elections_block(iso2: str, static: Dict,
         return d == today_str
 
     def _flag_today(election_obj: Optional[Dict]) -> Optional[Dict]:
-        """If the election date is today, add a note to the object."""
+        """If the election date is today, prepend a note to the object."""
         if not election_obj or not _is_today(election_obj):
             return election_obj
         obj = dict(election_obj)
@@ -2158,12 +2152,18 @@ def build_elections_block(iso2: str, static: Dict,
         obj["notes"] = (f"⚡ ELECTION DAY ({today_str}). " + existing_notes).strip()
         return obj
 
-    exec_next   = _flag_today(exec_next)
-    leg_next    = _flag_today(leg_next)
-    exec_last   = static_exec_last  # last elections don't need today flagging
-    leg_last    = static_leg_last
+    # Flag today BEFORE building the executive/legislative dicts so the
+    # flagged versions are what end up in the output.
+    static_exec_next = _flag_today(static_exec_next)
+    leg_next         = _flag_today(leg_next)
 
-    election_today = _is_today(leg_next) or _is_today(exec_next)
+    election_today = _is_today(leg_next) or _is_today(static_exec_next)
+
+    executive = {
+        "lastElection": static_exec_last,
+        "nextElection": static_exec_next,
+        "source": "static_ground_truth",
+    }
 
     return {
         "competitiveElections": not is_non_competitive,
