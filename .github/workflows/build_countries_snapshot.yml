@@ -56,6 +56,10 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           OUTPUT_DIR: "docs"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Set CLAUDE_FORCE_REFRESH=1 to force Claude to re-verify all 44 countries
+          # Useful after major world events. Costs ~$0.12 for the full pass.
+          CLAUDE_FORCE_REFRESH: ${{ vars.CLAUDE_FORCE_REFRESH || '' }}
 
       # ── 6. Verify output ──────────────────────────────────────────────────────
       - name: Verify output file
