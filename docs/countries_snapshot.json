@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T22:45:29.987947Z",
+  "generatedAt": "2026-03-30T22:52:35.779428Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -572,7 +572,7 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "<cite index=\"1-1,2-12\">Xi Jinping serves as both President (head of state) and General Secretary of the Chinese Communist Party (CCP) and Chairman of the Central Military Commission since 2012-2013</cite>. <cite index=\"3-28\">The presidency is ceremonial with real power concentrated in the party leadership positions</cite>. <cite index=\"3-21,3-22\">Term limits were removed in 2018 allowing Xi to serve indefinitely</cite>. <cite index=\"11-15\">Li Qiang serves as Premier (head of government) and second-ranking member of the Politburo Standing Committee</cite>."
+        "executive": "One-party state context: Xi Jinping serves as President (head of state) and General Secretary of CCP (supreme power holder). Li Qiang serves as Premier (head of government). All elections are non-competitive within CCP framework."
       },
       "elections": {
         "competitiveElections": false,
@@ -619,7 +619,7 @@
           "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:45:55.115707Z"
+      "lastClaudeUpdate": "2026-03-30T22:53:01.920291Z"
     },
     {
       "country": "United Kingdom",
@@ -2389,7 +2389,7 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Major political transition occurred in March 2026: <cite index=\"1-1,2-11\">Supreme Leader Ali Khamenei was assassinated on February 28, 2026, during U.S.-Israeli strikes, and his son Mojtaba Khamenei was elected by the Assembly of Experts as the new supreme leader on March 9</cite>. <cite index=\"13-3,15-1,15-3\">An interim leadership council consisting of President Pezeshkian, Chief Justice Mohseni-Ejei, and Guardian Council member Alireza Arafi temporarily governed during the succession process</cite>. <cite index=\"2-13,6-7\">The new supreme leader is considered more hardline than his father and represents continued conservative control</cite>. <cite index=\"4-2,11-1\">Iran is currently engaged in active warfare with the U.S. and Israel, which began with the February 28 strikes</cite>."
+        "executive": "Major political disruption: Supreme Leader Ali Khamenei was assassinated in U.S.-Israeli strikes on February 28, 2026, during ongoing war. His son Mojtaba Khamenei was elected by Assembly of Experts on March 9, 2026, amid disputed circumstances and IRGC pressure. The new Supreme Leader holds ultimate authority above the elected president in Iran's theocratic system. Iran is currently at war with the U.S. and Israel as of March 2026."
       },
       "elections": {
         "competitiveElections": true,
@@ -2436,7 +2436,7 @@
           "source": "claude (executive_name_changed ('Mojtaba Khamenei' → 'Supreme Leader – Mojtaba Khamenei'))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:46:34.753971Z"
+      "lastClaudeUpdate": "2026-03-30T22:53:34.916437Z"
     },
     {
       "country": "Syria",
@@ -4416,30 +4416,30 @@
       "executive": {
         "headOfState": {
           "name": "Hassan Sheikh Mohamud",
-          "partyOrGroup": "Union for Peace and Development",
+          "partyOrGroup": "Justice and Solidarity Party",
           "source": "claude (eg_date_changed (2026-12-31))"
         },
         "headOfGovernment": {
           "name": "Hamza Abdi Barre",
-          "partyOrGroup": "Union for Peace and Development",
+          "partyOrGroup": "Justice and Solidarity Party",
           "source": "claude (eg_date_changed (2026-12-31))"
         },
         "executiveInPower": {
           "leader": "Hamza Abdi Barre",
-          "partyOrGroup": "Union for Peace and Development",
+          "partyOrGroup": "Justice and Solidarity Party",
           "method": "head_of_government"
         }
       },
       "legislature": {
         "bodies": [
           {
-            "name": "People's Assembly (Lower House)",
-            "inControl": "Union for Peace and Development (plurality)",
+            "name": "House of the People",
+            "inControl": "Coalition of parties supporting Hassan Sheikh Mohamud",
             "controlMethod": "claude (eg_date_changed (2026-12-31))"
           },
           {
-            "name": "Upper House (Senate)",
-            "inControl": "Coalition",
+            "name": "Senate",
+            "inControl": "Coalition of parties supporting Hassan Sheikh Mohamud",
             "controlMethod": "claude (eg_date_changed (2026-12-31))"
           }
         ],
@@ -4499,7 +4499,7 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Somalia's federal system remains fragile with ongoing security challenges affecting electoral processes."
+        "executive": "<cite index=\"2-2,2-5,2-6\">President Hassan Sheikh Mohamud's constitutional mandate was originally set to end May 15, 2026</cite>, but <cite index=\"2-13,15-3\">constitutional amendments passed March 8, 2026 extended terms from four to five years</cite>. <cite index=\"2-14,2-17,2-18\">Several federal member states including Puntland, Jubaland, and Southwest have suspended cooperation with the federal government over these constitutional changes</cite>. <cite index=\"7-1\">Hassan Sheikh launched the Justice and Solidarity Party in May 2025 ahead of the 2026 elections</cite>. The political situation remains highly contested with <cite index=\"11-21\">opposition viewing constitutional changes as attempts to centralize power and extend time in office</cite>."
       },
       "elections": {
         "competitiveElections": true,
@@ -4508,16 +4508,37 @@
         "suspensionReason": null,
         "electionToday": false,
         "legislative": {
-          "lastElection": null,
-          "nextElection": null,
+          "lastElection": {
+            "date": "2021-11-01",
+            "type": "Parliamentary (indirect)",
+            "notes": "Parliamentary elections held through indirect clan-based voting concluded March 2022, with 255 of 275 House seats and 54 Senate seats filled.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
+          "nextElection": {
+            "date": "2026-12-31",
+            "type": "Parliamentary",
+            "notes": "Parliamentary elections scheduled for May 2026, though constitutional amendments passed in March 2026 extended mandates to five years and shifted timeline to late 2026.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
           "source": "claude (eg_date_changed (2026-12-31)) + electionguide"
         },
         "executive": {
-          "lastElection": null,
+          "lastElection": {
+            "date": "2022-05-15",
+            "type": "Presidential (indirect)",
+            "notes": "Hassan Sheikh Mohamud defeated incumbent Mohamed Abdullahi Mohamed in third round with over 165 votes from parliament.",
+            "runoffDate": null,
+            "runoffCondition": null,
+            "electionDay": false
+          },
           "nextElection": {
             "date": "2026-12-31",
             "type": "Presidential (indirect)",
-            "notes": "Presidential election scheduled for late 2026, with indirect voting by parliament and regional assemblies.",
+            "notes": "Presidential election scheduled for late 2026 following constitutional amendments extending presidential term to five years. President would continue to be elected by parliament.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
@@ -4525,7 +4546,7 @@
           "source": "claude (eg_date_changed (2026-12-31))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:34:02.482404Z"
+      "lastClaudeUpdate": "2026-03-30T22:54:22.219579Z"
     },
     {
       "country": "Yemen",
