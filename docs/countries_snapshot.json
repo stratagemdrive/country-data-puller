@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T05:40:37.093812Z",
+  "generatedAt": "2026-03-31T05:58:29.739532Z",
   "lastFullSweepDate": "2026-03-31T05:15:08.096403Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -6026,18 +6026,18 @@
         "values": [
           "presidential republic"
         ],
-        "source": "claude (stale_999d)"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
       "executive": {
         "headOfState": {
           "name": "José Raúl Mulino",
           "partyOrGroup": "Realizing Goals Party",
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "headOfGovernment": {
           "name": "José Raúl Mulino",
           "partyOrGroup": "Realizing Goals Party",
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executiveInPower": {
           "leader": "José Raúl Mulino",
@@ -6049,13 +6049,30 @@
         "bodies": [
           {
             "name": "National Assembly",
-            "inControl": "Fragmented (no single majority; Realizing Goals is largest party)",
-            "controlMethod": "claude (stale_999d)"
+            "inControl": "Coalition led by Realizing Goals (44 seats including allies PRD, CD, Alliance Party, MOLIRENA, Panameñista, and People's Party)",
+            "controlMethod": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
           }
         ],
-        "source": "claude (stale_999d)"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
-      "partyProfiles": null,
+      "partyProfiles": {
+        "Realizing Goals Party": {
+          "politicalOrientation": "Centre-Right",
+          "ideologyTags": [
+            "populism",
+            "economic nationalism",
+            "pro-business"
+          ],
+          "keyPlatforms": [
+            "Economic growth through infrastructure investment",
+            "Closing Darien Gap migration route",
+            "Strong ties with United States",
+            "Anti-corruption measures",
+            "Social security reform"
+          ],
+          "lastUpdated": "2026-03-31T06:00:05.954118Z"
+        }
+      },
       "worldBankGovernance": {
         "overallPercentile": 47.3,
         "band": "Medium",
@@ -6109,53 +6126,60 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Mulino's government coalition controls National Assembly through alliance with multiple parties totaling 44 of 71 seats, with Dana Castañeda as Assembly President. Strong relationship with former President Martinelli despite his legal issues. Mulino has maintained 78% approval rating after 100 days in office as of October 2024."
+      },
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "lastCompetitivenessCheck": "2026-03-31",
+        "ipu_not_applicable": false,
+        "ipu_not_applicable_reason": null,
         "electionToday": false,
+        "electionWatchActive": false,
+        "electionWatchReason": "Election concluded with clear winner confirmed and government transferred power on July 1, 2024",
         "legislative": {
           "lastElection": {
             "date": "2024-05-05",
             "type": "General election",
-            "notes": "Fragmented result. Mulino's party won plurality in Assembly.",
+            "notes": "Fragmented result with no single-party majority. Independents won 20 seats, making them the largest single bloc.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
           "nextElection": {
-            "date": "2029",
+            "date": "2029-05-05",
             "type": "General election",
-            "notes": null,
+            "notes": "Based on 5-year term cycle.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executive": {
           "lastElection": {
             "date": "2024-05-05",
             "type": "Presidential",
-            "notes": "Mulino won with 34.3% in a six-candidate race. Contested but upheld.",
+            "notes": "Mulino won with 34.2% in single-round election. Originally Martinelli's running mate, became candidate after Martinelli's disqualification.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
           "nextElection": {
-            "date": "2029",
+            "date": "2029-05-05",
             "type": "Presidential",
-            "notes": "Panama has a single 5-year term with no re-election.",
+            "notes": "Panama prohibits consecutive presidential terms; elections held every 5 years.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:35:19.814842Z"
+      "lastClaudeUpdate": "2026-03-31T06:00:05.954135Z"
     },
     {
       "country": "El Salvador",
