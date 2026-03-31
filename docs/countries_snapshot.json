@@ -3079,23 +3079,23 @@
         "values": [
           "one-party socialist republic"
         ],
-        "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+        "source": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
       },
       "executive": {
         "headOfState": {
           "name": "Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+          "source": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
         },
         "headOfGovernment": {
-          "name": "Phạm Minh Chính",
+          "name": "Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+          "source": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
         },
         "executiveInPower": {
-          "leader": "Phạm Minh Chính",
+          "leader": "Tô Lâm",
           "partyOrGroup": "Communist Party of Vietnam",
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -3103,10 +3103,10 @@
           {
             "name": "National Assembly",
             "inControl": "Communist Party of Vietnam",
-            "controlMethod": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+            "controlMethod": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
           }
         ],
-        "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+        "source": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
       },
       "partyProfiles": null,
       "worldBankGovernance": {
@@ -3162,18 +3162,22 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Tô Lâm serves as both CPV General Secretary and is expected to be confirmed as President by the 16th National Assembly convening April 6, 2026, concentrating power in a departure from Vietnam's traditional collective leadership. Lê Minh Hưng has been endorsed by the Politburo as Prime Minister designate, pending National Assembly confirmation. Current Cabinet members remain in power until formal transitions occur."
+      },
       "elections": {
         "competitiveElections": false,
         "nonCompetitiveReason": "One-party socialist republic. The Communist Party of Vietnam controls all state institutions. National Assembly candidates are vetted by the party.",
         "electionsSuspended": false,
         "suspensionReason": null,
         "electionToday": false,
+        "electionWatchActive": true,
+        "electionWatchReason": "16th National Assembly convening April 6, 2026 to confirm new President and Prime Minister appointments. Leadership transition pending formal ratification.",
         "legislative": {
           "lastElection": {
             "date": "2026-03-15",
             "type": "National Assembly (non-competitive)",
-            "notes": "All candidates vetted by Vietnam Fatherland Front (CPV body). Election completed March 2026.",
+            "notes": "All candidates vetted by Vietnam Fatherland Front (CPV body). Results announced March 21, 2026.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
@@ -3186,13 +3190,13 @@
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+          "source": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
         },
         "executive": {
           "lastElection": {
-            "date": "2026",
-            "type": "Presidential (indirect, National Assembly)",
-            "notes": "Tô Lâm elected President by National Assembly on CPV nomination, replacing Lương Cường.",
+            "date": "2026-01-23",
+            "type": "Party General Secretary (internal CPV)",
+            "notes": "Tô Lâm reelected unanimously by 14th National Congress. Expected to also assume presidency.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
@@ -3205,10 +3209,10 @@
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (executive_name_changed ('Lương Cường' → 'Tô Lâm'))"
+          "source": "claude (executive_name_changed ('Phạm Minh Chính' → 'Tô Lâm'))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:33:08.876002Z"
+      "lastClaudeUpdate": "2026-03-31T05:14:07.255689Z"
     },
     {
       "country": "Taiwan",
