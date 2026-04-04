@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T06:52:10.185168Z",
+  "generatedAt": "2026-04-04T06:15:18.941893Z",
   "lastFullSweepDate": "2026-03-31T05:15:08.096403Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -529,18 +529,18 @@
         "values": [
           "one-party socialist state"
         ],
-        "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
       "executive": {
         "headOfState": {
           "name": "Xi Jinping",
           "partyOrGroup": "Chinese Communist Party",
-          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "headOfGovernment": {
           "name": "Li Qiang",
           "partyOrGroup": "Chinese Communist Party",
-          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executiveInPower": {
           "leader": "Li Qiang",
@@ -553,10 +553,10 @@
           {
             "name": "National People's Congress",
             "inControl": "Chinese Communist Party",
-            "controlMethod": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+            "controlMethod": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
           }
         ],
-        "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
       "partyProfiles": null,
       "worldBankGovernance": {
@@ -613,21 +613,24 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Xi Jinping serves as President, General Secretary of the Chinese Communist Party, and Chairman of the Central Military Commission, concentrating all executive power. Li Qiang serves as Premier (head of government) under Xi's authority. The CCP maintains absolute control over all political processes in this one-party state system."
+        "executive": "General Secretary Xi Jinping holds supreme power as leader of the Chinese Communist Party, though formally serves as President. The political system is a one-party state where the CCP exercises control over all government institutions including the National People's Congress."
       },
       "elections": {
         "competitiveElections": false,
-        "nonCompetitiveReason": "One-party state. The Chinese Communist Party holds a monopoly on political power. National People's Congress 'elections' are uncontested single-party votes.",
+        "nonCompetitiveReason": "One-party state. The Chinese Communist Party holds a monopoly on political power. National People's Congress delegate selection is controlled by the party.",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "lastCompetitivenessCheck": "2026-04-04",
+        "ipu_not_applicable": true,
+        "ipu_not_applicable_reason": "One-party state where electoral processes are non-competitive and controlled by the Chinese Communist Party",
         "electionToday": false,
         "electionWatchActive": false,
-        "electionWatchReason": "No upcoming elections or power transitions expected",
+        "electionWatchReason": "No upcoming competitive elections or power transitions expected in one-party system",
         "legislative": {
           "lastElection": {
             "date": "2023-03",
             "type": "NPC delegate selection (non-competitive)",
-            "notes": "NPC delegates selected through party-controlled process. No competitive election.",
+            "notes": "14th National People's Congress delegates selected through party-controlled process from October 2022 to February 2023. First session held March 5-13, 2023.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
@@ -635,18 +638,18 @@
           "nextElection": {
             "date": "2028",
             "type": "NPC delegate selection (non-competitive)",
-            "notes": "Expected party-controlled delegate selection process for next NPC session.",
+            "notes": "Expected party-controlled delegate selection process for 15th NPC session.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executive": {
           "lastElection": {
-            "date": "2023-03",
+            "date": "2023-03-10",
             "type": "NPC presidential confirmation (non-competitive)",
-            "notes": "Xi Jinping confirmed for third term by NPC; no opposition candidates permitted.",
+            "notes": "Xi Jinping unanimously confirmed for third term as President by NPC. Li Qiang confirmed as Premier.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
@@ -654,15 +657,15 @@
           "nextElection": {
             "date": "2028",
             "type": "NPC confirmation (non-competitive)",
-            "notes": "Expected NPC confirmation process for next presidential term.",
+            "notes": "Expected NPC confirmation process for next presidential and premier terms.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (executive_name_changed ('Xi Jinping' → \"People's Republic of China\"))"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         }
       },
-      "lastClaudeUpdate": "2026-03-31T05:15:29.715821Z"
+      "lastClaudeUpdate": "2026-04-04T06:16:05.802545Z"
     },
     {
       "country": "United Kingdom",
@@ -2567,7 +2570,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 1.74,
+        "overallPercentile": 1.99,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
@@ -2604,9 +2607,10 @@
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
-            "percentile": 0.471698105335236,
-            "label": "Very low control of corruption",
-            "year": 2023
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           }
         },
         "sources": {
@@ -3483,9 +3487,9 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 78.45,
-        "band": "High",
-        "bandLabel": "High governance overall",
+        "overallPercentile": 80.47,
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
@@ -3502,10 +3506,9 @@
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 90.5660400390625,
+            "label": "Very high government effectiveness",
+            "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
@@ -4955,18 +4958,18 @@
         "values": [
           "presidential republic (authoritarian)"
         ],
-        "source": "claude (stale_999d)"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
       "executive": {
         "headOfState": {
           "name": "Abdel Fattah el-Sisi",
           "partyOrGroup": "No party (military-backed)",
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "headOfGovernment": {
           "name": "Mostafa Madbouly",
           "partyOrGroup": "No party (technocratic)",
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executiveInPower": {
           "leader": "Mostafa Madbouly",
@@ -4978,18 +4981,49 @@
         "bodies": [
           {
             "name": "House of Representatives",
-            "inControl": "Pro-Sisi independents and Nation's Future Party",
-            "controlMethod": "claude (stale_999d)"
+            "inControl": "Nation's Future Party and pro-Sisi coalition",
+            "controlMethod": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
           },
           {
             "name": "Senate",
-            "inControl": "Pro-Sisi majority",
-            "controlMethod": "claude (stale_999d)"
+            "inControl": "National List for Egypt (pro-Sisi coalition)",
+            "controlMethod": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
           }
         ],
-        "source": "claude (stale_999d)"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
-      "partyProfiles": null,
+      "partyProfiles": {
+        "Nation's Future Party": {
+          "politicalOrientation": "Authoritarian",
+          "ideologyTags": [
+            "pro-regime",
+            "security-focused",
+            "state capitalism"
+          ],
+          "keyPlatforms": [
+            "Supporting Sisi administration",
+            "Economic megaprojects",
+            "National security priorities",
+            "State-led development"
+          ],
+          "lastUpdated": "2026-04-04T06:18:28.529196Z"
+        },
+        "Homeland Defenders Party": {
+          "politicalOrientation": "Authoritarian",
+          "ideologyTags": [
+            "pro-regime",
+            "nationalist",
+            "military-aligned"
+          ],
+          "keyPlatforms": [
+            "Defense of regime policies",
+            "Nationalist rhetoric",
+            "Security apparatus support",
+            "Anti-opposition stance"
+          ],
+          "lastUpdated": "2026-04-04T06:18:28.529212Z"
+        }
+      },
       "worldBankGovernance": {
         "overallPercentile": 27.52,
         "band": "Low",
@@ -5043,37 +5077,44 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Egypt operates as an authoritarian system under President Sisi with systematic repression of genuine opposition. The 2025 parliamentary elections were marred by widespread violations, candidate disqualifications, and low genuine competition, leading to multiple annulments and reruns. Recent protests in 2024 led to mass arrests. Current regional tensions with Iran war affecting energy prices and economic policy. Parliament serves largely as rubber-stamp institution."
+      },
       "elections": {
         "competitiveElections": false,
-        "nonCompetitiveReason": "Authoritarian system with restricted opposition participation and media control",
+        "nonCompetitiveReason": "Authoritarian system with systematic repression of opposition, limited candidate access, media control, and widespread electoral violations",
         "electionsSuspended": false,
         "suspensionReason": null,
+        "lastCompetitivenessCheck": "2026-04-04",
+        "ipu_not_applicable": false,
+        "ipu_not_applicable_reason": null,
         "electionToday": false,
+        "electionWatchActive": false,
+        "electionWatchReason": "Parliamentary elections concluded January 2026 with results finalized, new parliament formed",
         "legislative": {
           "lastElection": {
-            "date": "2025-12-03",
+            "date": "2025-11-10",
             "type": "Parliamentary",
-            "notes": "House of Representatives election held with limited opposition participation.",
+            "notes": "House of Representatives elections held in phases with multiple runoffs due to widespread violations. Nation's Future Party won approximately 227 seats, Homeland Defenders Party 87 seats. Elections marked by low genuine competition and numerous annulments.",
             "runoffDate": null,
-            "runoffCondition": null,
+            "runoffCondition": "Multiple runoff elections held through January 2026 in constituencies where initial results were annulled",
             "electionDay": false
           },
           "nextElection": {
             "date": "2030",
             "type": "Parliamentary",
-            "notes": "Next parliamentary elections expected around 2030.",
+            "notes": "Next House of Representatives elections expected around 2030 based on five-year term.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executive": {
           "lastElection": {
-            "date": "2024-12",
+            "date": "2023-12-10",
             "type": "Presidential",
-            "notes": "Sisi won third term with over 89% of vote in limited competition.",
+            "notes": "Sisi won third term with 89.6% of vote in limited competition against three marginal candidates. Turnout 66.8%.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
@@ -5081,15 +5122,15 @@
           "nextElection": {
             "date": "2030",
             "type": "Presidential",
-            "notes": "Sisi's third six-year term runs until 2030. Constitutional amendments in 2019 extended presidential terms.",
+            "notes": "Sisi's third six-year term runs until 2030. Constitutional amendments allow potential further term extensions.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:34:24.113905Z"
+      "lastClaudeUpdate": "2026-04-04T06:18:28.529218Z"
     },
     {
       "country": "Algeria",
@@ -6113,7 +6154,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 47.3,
+        "overallPercentile": 48.74,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2023,
@@ -6144,9 +6185,10 @@
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
-            "percentile": 40.0943412780762,
-            "label": "Moderate rule of law",
-            "year": 2023
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
@@ -6274,9 +6316,9 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 40.98,
-        "band": "Medium",
-        "bandLabel": "Moderate governance overall",
+        "overallPercentile": 38.42,
+        "band": "Low",
+        "bandLabel": "Low governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
@@ -6293,9 +6335,10 @@
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
-            "percentile": 53.7735862731934,
-            "label": "Moderate government effectiveness",
-            "year": 2023
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
