@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T06:47:53.163913Z",
+  "generatedAt": "2026-04-06T08:14:10.782999Z",
   "lastFullSweepDate": "2026-03-31T05:15:08.096403Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -858,18 +858,18 @@
         "values": [
           "federal parliamentary republic"
         ],
-        "source": "claude (stale_999d)"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
       "executive": {
         "headOfState": {
           "name": "Frank-Walter Steinmeier",
           "partyOrGroup": "Social Democratic Party",
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "headOfGovernment": {
           "name": "Friedrich Merz",
           "partyOrGroup": "Christian Democratic Union",
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executiveInPower": {
           "leader": "Friedrich Merz",
@@ -881,16 +881,16 @@
         "bodies": [
           {
             "name": "Bundestag",
-            "inControl": "CDU/CSU-led coalition",
-            "controlMethod": "claude (stale_999d)"
+            "inControl": "CDU/CSU-SPD grand coalition",
+            "controlMethod": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
           },
           {
             "name": "Bundesrat",
             "inControl": "State governments (non-partisan body)",
-            "controlMethod": "claude (stale_999d)"
+            "controlMethod": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
           }
         ],
-        "source": "claude (stale_999d)"
+        "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
       },
       "partyProfiles": null,
       "worldBankGovernance": {
@@ -946,53 +946,60 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "executive": "Germany maintains competitive multi-party democracy with functioning grand coalition government between CDU/CSU and SPD since May 2025. AfD remains second-largest party but excluded from government formation by other parties' firewall policy."
+      },
       "elections": {
         "competitiveElections": true,
         "nonCompetitiveReason": null,
         "electionsSuspended": false,
         "suspensionReason": null,
+        "lastCompetitivenessCheck": "2026-04-06",
+        "ipu_not_applicable": false,
+        "ipu_not_applicable_reason": null,
         "electionToday": false,
+        "electionWatchActive": false,
+        "electionWatchReason": "Coalition government formed and functioning since May 2025",
         "legislative": {
           "lastElection": {
             "date": "2025-02-23",
             "type": "Federal election (Bundestag)",
-            "notes": "CDU/CSU won 28.5%; SPD 16.4%. AfD came second with 20.8%. Merz formed CDU/CSU-SPD grand coalition.",
+            "notes": "CDU/CSU won 28.5%; AfD 20.8%; SPD 16.4%. Coalition formed between CDU/CSU and SPD.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
           "nextElection": {
-            "date": "2029",
+            "date": "2029-03-25",
             "type": "Federal election (Bundestag)",
-            "notes": null,
+            "notes": "Regular election before this date as required by Basic Law.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "executive": {
           "lastElection": {
             "date": "2025-02-23",
             "type": "Federal election (Chancellor selected by Bundestag)",
-            "notes": "Chancellor is elected by the Bundestag following federal elections.",
+            "notes": "Friedrich Merz elected Chancellor by Bundestag on 6 May 2025 in second round with 325 votes.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
           "nextElection": {
-            "date": "2029",
+            "date": "2029-03-25",
             "type": "Federal election",
-            "notes": null,
+            "notes": "Chancellor selected by new Bundestag following federal election.",
             "runoffDate": null,
             "runoffCondition": null,
             "electionDay": false
           },
-          "source": "claude (stale_999d)"
+          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         }
       },
-      "lastClaudeUpdate": "2026-03-30T22:31:39.754209Z"
+      "lastClaudeUpdate": "2026-04-06T08:14:50.987368Z"
     },
     {
       "country": "UAE",
@@ -2100,7 +2107,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 18.84,
+        "overallPercentile": 19.08,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
@@ -2119,10 +2126,9 @@
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 20.2830181121826,
+            "label": "Low government effectiveness",
+            "year": 2023
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
@@ -2265,7 +2271,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 89.68,
+        "overallPercentile": 89.75,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2023,
@@ -2302,10 +2308,9 @@
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 90.0943374633789,
+            "label": "Very high control of corruption",
+            "year": 2023
           }
         },
         "sources": {
@@ -2584,7 +2589,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 1.99,
+        "overallPercentile": 1.74,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
@@ -2621,10 +2626,9 @@
           },
           "controlOfCorruption": {
             "indicator": "CC.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 0.471698105335236,
+            "label": "Very low control of corruption",
+            "year": 2023
           }
         },
         "sources": {
@@ -2723,9 +2727,9 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 84.81,
-        "band": "Very High",
-        "bandLabel": "Very high governance overall",
+        "overallPercentile": 79.99,
+        "band": "High",
+        "bandLabel": "High governance overall",
         "year": 2023,
         "components": {
           "voiceAccountability": {
@@ -2736,10 +2740,9 @@
           },
           "politicalStability": {
             "indicator": "PV.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 55.9241714477539,
+            "label": "Moderate political stability",
+            "year": 2023
           },
           "governmentEffectiveness": {
             "indicator": "GE.PER.RNK",
@@ -3033,7 +3036,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 4.77,
+        "overallPercentile": 5.35,
         "band": "Very Low",
         "bandLabel": "Very low governance overall",
         "year": 2023,
@@ -3058,9 +3061,10 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": 1.88679242134094,
-            "label": "Very low regulatory quality",
-            "year": 2023
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
@@ -3180,7 +3184,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 41.1,
+        "overallPercentile": 40.62,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2023,
@@ -3205,10 +3209,9 @@
           },
           "regulatoryQuality": {
             "indicator": "RQ.PER.RNK",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 38.2075462341309,
+            "label": "Low regulatory quality",
+            "year": 2023
           },
           "ruleOfLaw": {
             "indicator": "RL.PER.RNK",
