@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T13:46:33.081307Z",
+  "generatedAt": "2026-06-01T08:34:21.573891Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 6,
+  "weeklyBucket": 7,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -843,7 +843,7 @@
         "languages": [
           "English"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -937,7 +937,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GB/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GB/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Starmer faces significant political challenges including poor polling numbers, internal party discontent, and leadership speculation from within Labour ranks. Recent by-election losses to Green Party indicate declining government support. Multiple reports suggest potential leadership challenge discussions among Labour MPs, though Starmer remains defiant about continuing as PM."
@@ -1013,7 +1013,7 @@
         "languages": [
           "German"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -1105,7 +1105,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/DE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Germany maintains competitive multi-party democracy with functioning grand coalition government between CDU/CSU and SPD since May 2025. AfD remains second-largest party but excluded from government formation by other parties' firewall policy."
@@ -3452,7 +3452,7 @@
         "languages": [
           "Vietnamese"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -3539,7 +3539,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/VN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "One-party socialist republic where General Secretary Tô Lâm holds supreme power as both Communist Party leader and State President. Prime Minister Lê Minh Hưng heads the government under party leadership."
@@ -3595,7 +3595,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:46:20.010305Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -3615,7 +3615,7 @@
         "languages": [
           "Chinese"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -3702,7 +3702,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TWN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TWN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Taiwan is a self-governing democracy not recognized as a sovereign state by most UN members and is not a UN or IPU member due to contested sovereignty status. The government operates as a full democracy with competitive elections, peaceful transfers of power, and civil liberties protections. Current political situation features divided government with DPP controlling presidency and KMT-TPP coalition controlling Legislative Yuan, leading to budget gridlock and institutional confrontation. The Constitutional Court is currently paralyzed due to opposition blocking new justice nominations. The recall movement in 2025 against 31 KMT legislators failed across all attempts. Local elections scheduled for November 2026 will be a key test for both parties."
@@ -6168,7 +6168,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 49.58,
+        "overallPercentile": 49.85,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -6199,9 +6199,10 @@
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 48.2599686,
-            "label": "Moderate rule of law",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
@@ -6295,7 +6296,7 @@
         "languages": [
           "Spanish"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -6382,7 +6383,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CU/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CU/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Cuba operates as a one-party socialist republic where Miguel Díaz-Canel serves as both President and First Secretary of the Communist Party since 2021, making him the supreme leader. Manuel Marrero Cruz has been Prime Minister since December 2019. The Communist Party controls all aspects of governance including candidate selection for elections. The 2023 National Assembly election saw record abstention rates of over 24%, indicating growing discontent, but the system remains non-competitive. Current severe economic crisis includes widespread power outages and fuel shortages exacerbated by U.S. energy blockade following Venezuela situation."
@@ -6438,7 +6439,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T00:21:58.255329Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -6458,7 +6459,7 @@
         "languages": [
           "Spanish"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -6550,7 +6551,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Gustavo Petro remains president as of April 2026, serving his constitutionally limited single term until August 2026. His approval rating has fluctuated significantly, reaching lows of 26% in 2023 but rebounding to 54% by March 2026. Colombia faces ongoing tensions with the US under Trump administration, with investigations into Petro's alleged drug ties strongly denied by his government."
@@ -6606,7 +6607,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-12T05:32:47.097962Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -8970,7 +8971,7 @@
           "Italian",
           "Romansh"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -9051,7 +9052,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": null,
       "elections": {
@@ -9077,7 +9078,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -9097,7 +9098,7 @@
         "languages": [
           "Dutch"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -9128,7 +9129,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 83.21,
+        "overallPercentile": 85.22,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -9141,9 +9142,10 @@
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 73.2073612,
-            "label": "High political stability",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
@@ -9178,7 +9180,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NL/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NL/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": null,
       "elections": {
@@ -9204,7 +9206,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -11680,7 +11682,7 @@
         "languages": [
           "Latvian"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -11817,7 +11819,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LV/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LV/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Latvia is a stable parliamentary democracy with competitive elections. President Rinkēvičs became the first openly gay head of state in the EU upon taking office in July 2023. Current government formed September 2023 under PM Siliņa after resignation of previous PM Kariņš. Coalition holds 52 out of 100 seats in Saeima. Next parliamentary election scheduled for October 2026."
@@ -11873,7 +11875,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:08:56.620661Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -11893,7 +11895,7 @@
         "languages": [
           "Estonian"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -11998,7 +12000,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Estonia operates as a stable parliamentary republic with competitive multi-party elections. The current government is a two-party coalition between the Reform Party and Estonia 200, formed after the Social Democratic Party was expelled from the coalition in March 2025. President Karis is considering running for a second term in the 2026 presidential election. Estonia maintains strong democratic institutions with regular free and fair elections, including pioneering e-voting systems where over 50% of votes are now cast electronically."
@@ -14467,7 +14469,7 @@
         "languages": [
           "Arabic"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -14548,7 +14550,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": null,
       "elections": {
@@ -14574,7 +14576,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -14594,7 +14596,7 @@
         "languages": [
           "Arabic"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -14675,7 +14677,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/OM/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/OM/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": null,
       "elections": {
@@ -14701,7 +14703,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -16553,7 +16555,7 @@
         "languages": [
           "Lao"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -16634,7 +16636,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": null,
       "elections": {
@@ -16660,7 +16662,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -16680,7 +16682,7 @@
         "languages": [
           "Bengali"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -16711,17 +16713,16 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 37.22,
+        "overallPercentile": 37.1,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 36.5322872,
+            "label": "Low voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
@@ -16762,7 +16763,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BD/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BD/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": null,
       "elections": {
@@ -16788,7 +16789,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -18613,7 +18614,7 @@
         "languages": [
           "Amharic"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -18695,7 +18696,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/ET/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ET/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": null,
       "elections": {
@@ -18721,7 +18722,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -18741,7 +18742,7 @@
         "languages": [
           "English"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -18822,7 +18823,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": null,
       "elections": {
@@ -20667,7 +20668,7 @@
           "English",
           "Swahili"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -20748,7 +20749,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": null,
       "elections": {
@@ -20774,7 +20775,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -20795,7 +20796,7 @@
           "French",
           "Malagasy"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -20876,7 +20877,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MG/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MG/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": null,
       "elections": {
@@ -22721,7 +22722,7 @@
         "languages": [
           "Spanish"
         ],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -22830,7 +22831,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/UY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Uruguay is a stable multi-party democracy with compulsory voting. President Yamandú Orsi and Vice President Carolina Cosse took office March 1, 2025, after winning the November 24, 2024 runoff election. The fragmented parliament requires consensus-building as no coalition holds a majority in the Chamber of Representatives."
@@ -22906,7 +22907,7 @@
         "languages": [
           "English"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -22987,7 +22988,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": null,
       "elections": {
