@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T16:50:54.880115Z",
+  "generatedAt": "2026-06-04T07:24:09.435814Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 7,
   "weeklyBucketTotal": 16,
@@ -4428,7 +4428,7 @@
         "languages": [
           "Armenian"
         ],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -4516,7 +4516,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AM/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AM/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Armenia holds competitive multi-party elections. The 2021 parliamentary election was observed by international missions including OSCE/ODIHR and deemed generally free and fair. The upcoming 2026 election is expected to be highly competitive with multiple opposition forces consolidating around candidates like Samvel Karapetyan's Strong Armenia alliance, while Civil Contract under Pashinyan seeks to maintain power."
@@ -4572,7 +4572,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:49:31.964217Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
