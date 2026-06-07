@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T07:04:59.377528Z",
+  "generatedAt": "2026-06-07T13:54:41.197067Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 7,
   "weeklyBucketTotal": 16,
@@ -7008,7 +7008,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 88.64,
+        "overallPercentile": 88.08,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -7033,10 +7033,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 85.3127667,
+            "label": "Very high regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
