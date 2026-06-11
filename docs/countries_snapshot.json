@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T15:39:40.539902Z",
+  "generatedAt": "2026-06-11T08:02:45.712544Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 8,
   "weeklyBucketTotal": 16,
@@ -1168,19 +1168,15 @@
       "country": "UAE",
       "iso2": "AE",
       "metadata": {
-        "officialName": "United Arab Emirates",
-        "capital": "Abu Dhabi",
-        "population": 11294243,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇦🇪",
-        "flagPng": "https://flagcdn.com/w320/ae.png",
-        "currencies": [
-          "United Arab Emirates dirham"
-        ],
-        "languages": [
-          "Arabic"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -1272,7 +1268,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "The UAE operates as a federal constitutional monarchy where the president is elected by the Federal Supreme Council (comprising the seven emirate rulers) every five years, and the prime minister is appointed by the president. Both positions are effectively hereditary within the Al Nahyan and Al Maktoum ruling families respectively. The Federal National Council serves only in an advisory capacity with limited powers."
+        "executive": "The UAE operates as a federal constitutional monarchy where the president is elected by the Federal Supreme Council (comprising the seven emirate rulers) every five years, and the prime minister is appointed by the president. Both positions are effectively hereditary within the Al Nahyan and Al Maktoum ruling families respectively. The Federal National Council serves only in an advisory capacity with limited powers.",
+        "metadata": "REST Countries API returned no data for 'AE'."
       },
       "elections": {
         "competitiveElections": false,
@@ -2107,20 +2104,15 @@
       "country": "Canada",
       "iso2": "CA",
       "metadata": {
-        "officialName": "Canada",
-        "capital": "Ottawa",
-        "population": 41651653,
-        "region": "Americas",
-        "subregion": "North America",
-        "flag": "🇨🇦",
-        "flagPng": "https://flagcdn.com/w320/ca.png",
-        "currencies": [
-          "Canadian dollar"
-        ],
-        "languages": [
-          "English",
-          "French"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -2216,7 +2208,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Election watch active as April 13, 2026 by-elections concluded but official winners not yet declared. These three by-elections are critical as Liberal victories in two or more could secure majority government (currently at 171 seats, need 172+ for majority). Terrebonne by-election ordered after Supreme Court annulled 2025 result due to mail-in ballot errors. Other vacancies from Freeland resignation (Ukraine advisor role) and Blair resignation (UK High Commissioner appointment)."
+        "executive": "Election watch active as April 13, 2026 by-elections concluded but official winners not yet declared. These three by-elections are critical as Liberal victories in two or more could secure majority government (currently at 171 seats, need 172+ for majority). Terrebonne by-election ordered after Supreme Court annulled 2025 result due to mail-in ballot errors. Other vacancies from Freeland resignation (Ukraine advisor role) and Blair resignation (UK High Commissioner appointment).",
+        "metadata": "REST Countries API returned no data for 'CA'."
       },
       "elections": {
         "competitiveElections": true,
@@ -2950,19 +2943,15 @@
       "country": "France",
       "iso2": "FR",
       "metadata": {
-        "officialName": "French Republic",
-        "capital": "Paris",
-        "population": 66351959,
-        "region": "Europe",
-        "subregion": "Western Europe",
-        "flag": "🇫🇷",
-        "flagPng": "https://flagcdn.com/w320/fr.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "French"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -3058,7 +3047,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "<cite index=\"1-11,11-1,11-15,13-1,15-2,15-7\">Sébastien Lecornu currently serves as Prime Minister of France, appointed on 9 September 2025, resigned on 6 October 2025, but was reappointed on 10 October 2025.</cite> <cite index=\"4-16,4-17,11-10,11-11,11-12,11-13\">His government survived no-confidence votes in January 2026 and successfully passed the 2026 budget through Article 49.3 with Socialist Party support after making concessions on social housing and student meal subsidies.</cite> <cite index=\"21-1,26-9,26-10,29-1,30-3\">The 2026 municipal elections held in March saw significant political shifts with far-right gains in some cities but defeats in major targets like Marseille and Toulon.</cite> Political landscape remains highly fragmented with ongoing instability despite current government functioning."
+        "executive": "<cite index=\"1-11,11-1,11-15,13-1,15-2,15-7\">Sébastien Lecornu currently serves as Prime Minister of France, appointed on 9 September 2025, resigned on 6 October 2025, but was reappointed on 10 October 2025.</cite> <cite index=\"4-16,4-17,11-10,11-11,11-12,11-13\">His government survived no-confidence votes in January 2026 and successfully passed the 2026 budget through Article 49.3 with Socialist Party support after making concessions on social housing and student meal subsidies.</cite> <cite index=\"21-1,26-9,26-10,29-1,30-3\">The 2026 municipal elections held in March saw significant political shifts with far-right gains in some cities but defeats in major targets like Marseille and Toulon.</cite> Political landscape remains highly fragmented with ongoing instability despite current government functioning.",
+        "metadata": "REST Countries API returned no data for 'FR'."
       },
       "elections": {
         "competitiveElections": true,
@@ -3764,19 +3754,15 @@
       "country": "South Korea",
       "iso2": "KR",
       "metadata": {
-        "officialName": "Republic of Korea",
-        "capital": "Seoul",
-        "population": 51159889,
-        "region": "Asia",
-        "subregion": "Eastern Asia",
-        "flag": "🇰🇷",
-        "flagPng": "https://flagcdn.com/w320/kr.png",
-        "currencies": [
-          "South Korean won"
-        ],
-        "languages": [
-          "Korean"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -3868,7 +3854,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Lee Jae-myung serves as both head of state and government under South Korea's presidential system. His administration has focused on improving relations with China while maintaining ties with the US and Japan. South Korea remains a competitive democracy with regular transfers of power between conservative and progressive parties. The Democratic Party controls 175 out of 300 National Assembly seats following the April 2024 legislative elections."
+        "executive": "Lee Jae-myung serves as both head of state and government under South Korea's presidential system. His administration has focused on improving relations with China while maintaining ties with the US and Japan. South Korea remains a competitive democracy with regular transfers of power between conservative and progressive parties. The Democratic Party controls 175 out of 300 National Assembly seats following the April 2024 legislative elections.",
+        "metadata": "REST Countries API returned no data for 'KR'."
       },
       "elections": {
         "competitiveElections": true,
@@ -4897,20 +4884,15 @@
       "country": "Somalia",
       "iso2": "SO",
       "metadata": {
-        "officialName": "Federal Republic of Somalia",
-        "capital": "Mogadishu",
-        "population": 19655000,
-        "region": "Africa",
-        "subregion": "Eastern Africa",
-        "flag": "🇸🇴",
-        "flagPng": "https://flagcdn.com/w320/so.png",
-        "currencies": [
-          "Somali shilling"
-        ],
-        "languages": [
-          "Arabic",
-          "Somali"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -5006,7 +4988,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Deep constitutional crisis over mandate legitimacy. Federal Parliament passed constitutional amendments in March 2026 extending presidential and legislative terms from four to five years, moving elections from May 2026 to 2027. Opposition groups, former presidents, and federal member states Puntland and Jubaland have rejected these changes as illegitimate power grabs. The Council for the Future of Somalia threatens parallel governance if federal government exceeds May 15, 2026 constitutional deadline. Three federal member states have withdrawn from federal cooperation as of April 2026. Security situation remains precarious with Al-Shabaab controlling territory and conducting attacks near Mogadishu."
+        "executive": "Deep constitutional crisis over mandate legitimacy. Federal Parliament passed constitutional amendments in March 2026 extending presidential and legislative terms from four to five years, moving elections from May 2026 to 2027. Opposition groups, former presidents, and federal member states Puntland and Jubaland have rejected these changes as illegitimate power grabs. The Council for the Future of Somalia threatens parallel governance if federal government exceeds May 15, 2026 constitutional deadline. Three federal member states have withdrawn from federal cooperation as of April 2026. Security situation remains precarious with Al-Shabaab controlling territory and conducting attacks near Mogadishu.",
+        "metadata": "REST Countries API returned no data for 'SO'."
       },
       "elections": {
         "competitiveElections": true,
@@ -5215,19 +5198,15 @@
       "country": "Libya",
       "iso2": "LY",
       "metadata": {
-        "officialName": "State of Libya",
-        "capital": "Tripoli",
-        "population": 7459000,
-        "region": "Africa",
-        "subregion": "Northern Africa",
-        "flag": "🇱🇾",
-        "flagPng": "https://flagcdn.com/w320/ly.png",
-        "currencies": [
-          "Libyan dinar"
-        ],
-        "languages": [
-          "Arabic"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -5339,7 +5318,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Libya remains divided between two rival governments since 2014. The UN-recognised Government of National Unity based in Tripoli controls western Libya, while the eastern Government of National Stability in Tobruk is backed by Haftar's Libyan National Army. Mohamed al-Menfi serves as Chairman of the Presidential Council, a three-member collegial body that exercises head of state functions. The country has been without national elections since 2014, with 2021 elections postponed indefinitely due to political deadlock. Current election preparations for April 2026 face significant challenges including disputes over electoral laws, candidate eligibility requirements, and whether to form a unified interim government before voting."
+        "executive": "Libya remains divided between two rival governments since 2014. The UN-recognised Government of National Unity based in Tripoli controls western Libya, while the eastern Government of National Stability in Tobruk is backed by Haftar's Libyan National Army. Mohamed al-Menfi serves as Chairman of the Presidential Council, a three-member collegial body that exercises head of state functions. The country has been without national elections since 2014, with 2021 elections postponed indefinitely due to political deadlock. Current election preparations for April 2026 face significant challenges including disputes over electoral laws, candidate eligibility requirements, and whether to form a unified interim government before voting.",
+        "metadata": "REST Countries API returned no data for 'LY'."
       },
       "elections": {
         "competitiveElections": false,
@@ -6115,21 +6095,15 @@
       "country": "Peru",
       "iso2": "PE",
       "metadata": {
-        "officialName": "Republic of Peru",
-        "capital": "Lima",
-        "population": 34350244,
-        "region": "Americas",
-        "subregion": "South America",
-        "flag": "🇵🇪",
-        "flagPng": "https://flagcdn.com/w320/pe.png",
-        "currencies": [
-          "Peruvian sol"
-        ],
-        "languages": [
-          "Aymara",
-          "Quechua",
-          "Spanish"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -6220,7 +6194,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "José María Balcázar became Peru's eighth president in a decade in February 2026 after Congress removed José Jerí over corruption allegations. At age 83, Balcázar is Peru's oldest president and serves as interim leader until July 28, 2026. He is a former judge and Supreme Court magistrate who was removed from the judiciary in 2011. Congress has maintained dominant control over Peru's government since 2023 when the Constitutional Court removed judicial oversight of the legislature. Far-right parties have held majority control since 2021."
+        "executive": "José María Balcázar became Peru's eighth president in a decade in February 2026 after Congress removed José Jerí over corruption allegations. At age 83, Balcázar is Peru's oldest president and serves as interim leader until July 28, 2026. He is a former judge and Supreme Court magistrate who was removed from the judiciary in 2011. Congress has maintained dominant control over Peru's government since 2023 when the Constitutional Court removed judicial oversight of the legislature. Far-right parties have held majority control since 2021.",
+        "metadata": "REST Countries API returned no data for 'PE'."
       },
       "elections": {
         "competitiveElections": true,
@@ -6444,19 +6419,15 @@
       "country": "Colombia",
       "iso2": "CO",
       "metadata": {
-        "officialName": "Republic of Colombia",
-        "capital": "Bogotá",
-        "population": 53057212,
-        "region": "Americas",
-        "subregion": "South America",
-        "flag": "🇨🇴",
-        "flagPng": "https://flagcdn.com/w320/co.png",
-        "currencies": [
-          "Colombian peso"
-        ],
-        "languages": [
-          "Spanish"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -6552,7 +6523,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Gustavo Petro remains president as of April 2026, serving his constitutionally limited single term until August 2026. His approval rating has fluctuated significantly, reaching lows of 26% in 2023 but rebounding to 54% by March 2026. Colombia faces ongoing tensions with the US under Trump administration, with investigations into Petro's alleged drug ties strongly denied by his government."
+        "executive": "Gustavo Petro remains president as of April 2026, serving his constitutionally limited single term until August 2026. His approval rating has fluctuated significantly, reaching lows of 26% in 2023 but rebounding to 54% by March 2026. Colombia faces ongoing tensions with the US under Trump administration, with investigations into Petro's alleged drug ties strongly denied by his government.",
+        "metadata": "REST Countries API returned no data for 'CO'."
       },
       "elections": {
         "competitiveElections": true,
@@ -6956,19 +6928,15 @@
       "country": "Denmark",
       "iso2": "DK",
       "metadata": {
-        "officialName": "Kingdom of Denmark",
-        "capital": "Copenhagen",
-        "population": 6011488,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇩🇰",
-        "flagPng": "https://flagcdn.com/w320/dk.png",
-        "currencies": [
-          "Danish krone"
-        ],
-        "languages": [
-          "Danish"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -7060,7 +7028,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Mette Frederiksen is serving in caretaker capacity after submitting resignation on March 25, 2026. Coalition talks are ongoing with the Moderates holding kingmaker position with 14 seats. As of April 10, 2026, the Moderates leader Lars Lokke Rasmussen had blocked further negotiations involving a center-left government dependent on the Red-Green Alliance."
+        "executive": "Mette Frederiksen is serving in caretaker capacity after submitting resignation on March 25, 2026. Coalition talks are ongoing with the Moderates holding kingmaker position with 14 seats. As of April 10, 2026, the Moderates leader Lars Lokke Rasmussen had blocked further negotiations involving a center-left government dependent on the Red-Green Alliance.",
+        "metadata": "REST Countries API returned no data for 'DK'."
       },
       "elections": {
         "competitiveElections": true,
@@ -9210,21 +9179,15 @@
       "country": "Belgium",
       "iso2": "BE",
       "metadata": {
-        "officialName": "Kingdom of Belgium",
-        "capital": "Brussels",
-        "population": 11825551,
-        "region": "Europe",
-        "subregion": "Western Europe",
-        "flag": "🇧🇪",
-        "flagPng": "https://flagcdn.com/w320/be.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "German",
-          "French",
-          "Dutch"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -9308,7 +9271,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'BE'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -10369,19 +10334,15 @@
       "country": "Bulgaria",
       "iso2": "BG",
       "metadata": {
-        "officialName": "Republic of Bulgaria",
-        "capital": "Sofia",
-        "population": 6437360,
-        "region": "Europe",
-        "subregion": "Southeast Europe",
-        "flag": "🇧🇬",
-        "flagPng": "https://flagcdn.com/w320/bg.png",
-        "currencies": [
-          "Bulgarian lev"
-        ],
-        "languages": [
-          "Bulgarian"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -10473,7 +10434,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Iliana Iotova became Bulgaria's first female president in January 2026 following Rumen Radev's resignation. She assumed office constitutionally as Vice President. Andrey Gyurov serves as acting Prime Minister leading caretaker government appointed February 2026. Bulgaria faces prolonged political crisis with eighth parliamentary election since 2021 scheduled for April 19, 2026. Former President Radev formed Progressive Bulgaria party and leads polls at approximately 33% ahead of the election."
+        "executive": "Iliana Iotova became Bulgaria's first female president in January 2026 following Rumen Radev's resignation. She assumed office constitutionally as Vice President. Andrey Gyurov serves as acting Prime Minister leading caretaker government appointed February 2026. Bulgaria faces prolonged political crisis with eighth parliamentary election since 2021 scheduled for April 19, 2026. Former President Radev formed Progressive Bulgaria party and leads polls at approximately 33% ahead of the election.",
+        "metadata": "REST Countries API returned no data for 'BG'."
       },
       "elections": {
         "competitiveElections": true,
@@ -11287,19 +11249,15 @@
       "country": "Slovenia",
       "iso2": "SI",
       "metadata": {
-        "officialName": "Republic of Slovenia",
-        "capital": "Ljubljana",
-        "population": 2130638,
-        "region": "Europe",
-        "subregion": "Central Europe",
-        "flag": "🇸🇮",
-        "flagPng": "https://flagcdn.com/w320/si.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "Slovene"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -11408,7 +11366,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "President Pirc Musar is an independent candidate not formally affiliated with any political party but received support from centre-left parties in 2022. Coalition talks are ongoing after the March 2026 parliamentary elections produced a fragmented result with no clear majority. Prime Minister Golob remains as caretaker until new government is formed. New parliament was inaugurated April 10, 2026 with Zoran Stevanovic of Resni.ca party elected as speaker, complicating coalition negotiations."
+        "executive": "President Pirc Musar is an independent candidate not formally affiliated with any political party but received support from centre-left parties in 2022. Coalition talks are ongoing after the March 2026 parliamentary elections produced a fragmented result with no clear majority. Prime Minister Golob remains as caretaker until new government is formed. New parliament was inaugurated April 10, 2026 with Zoran Stevanovic of Resni.ca party elected as speaker, complicating coalition negotiations.",
+        "metadata": "REST Countries API returned no data for 'SI'."
       },
       "elections": {
         "competitiveElections": true,
@@ -12060,19 +12019,15 @@
       "country": "North Macedonia",
       "iso2": "MK",
       "metadata": {
-        "officialName": "Republic of North Macedonia",
-        "capital": "Skopje",
-        "population": 1822612,
-        "region": "Europe",
-        "subregion": "Southeast Europe",
-        "flag": "🇲🇰",
-        "flagPng": "https://flagcdn.com/w320/mk.png",
-        "currencies": [
-          "denar"
-        ],
-        "languages": [
-          "Macedonian"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -12183,7 +12138,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "North Macedonia held competitive parliamentary and presidential elections in May 2024. VMRO-DPMNE won decisively with 58 seats out of 120, forming coalition with VLEN (14 seats) and ZNAM (6 seats). The new government has taken a more nationalist stance on issues like the country name and constitutional changes required by EU. Both President Siljanovska-Davkova and PM Mickoski have controversially referred to the country as Macedonia rather than North Macedonia in some contexts, creating tensions with Greece. The government coalition holds 78 seats providing stable majority control."
+        "executive": "North Macedonia held competitive parliamentary and presidential elections in May 2024. VMRO-DPMNE won decisively with 58 seats out of 120, forming coalition with VLEN (14 seats) and ZNAM (6 seats). The new government has taken a more nationalist stance on issues like the country name and constitutional changes required by EU. Both President Siljanovska-Davkova and PM Mickoski have controversially referred to the country as Macedonia rather than North Macedonia in some contexts, creating tensions with Greece. The government coalition holds 78 seats providing stable majority control.",
+        "metadata": "REST Countries API returned no data for 'MK'."
       },
       "elections": {
         "competitiveElections": true,
@@ -13491,20 +13447,15 @@
       "country": "Kosovo",
       "iso2": "XK",
       "metadata": {
-        "officialName": "Republic of Kosovo",
-        "capital": "Pristina",
-        "population": 1585566,
-        "region": "Europe",
-        "subregion": "Southeast Europe",
-        "flag": "🇽🇰",
-        "flagPng": "https://flagcdn.com/w320/xk.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "Albanian",
-          "Serbian"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -13615,7 +13566,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Kosovo declared independence from Serbia in 2008 and is recognized by roughly 100 UN member states (including the US and most EU members) but not by Serbia, Russia, China, or the UN as a whole. Kosovo is not a UN or IPU member. Currently experiencing presidential transition - Vjosa Osmani's five-year term ended April 4, 2026, with Speaker Albulena Haxhiu serving as Acting President pending parliamentary election of new president by Constitutional Court deadline of April 28, 2026."
+        "executive": "Kosovo declared independence from Serbia in 2008 and is recognized by roughly 100 UN member states (including the US and most EU members) but not by Serbia, Russia, China, or the UN as a whole. Kosovo is not a UN or IPU member. Currently experiencing presidential transition - Vjosa Osmani's five-year term ended April 4, 2026, with Speaker Albulena Haxhiu serving as Acting President pending parliamentary election of new president by Constitutional Court deadline of April 28, 2026.",
+        "metadata": "REST Countries API returned no data for 'XK'."
       },
       "elections": {
         "competitiveElections": true,
@@ -13887,21 +13839,15 @@
       "country": "Iraq",
       "iso2": "IQ",
       "metadata": {
-        "officialName": "Republic of Iraq",
-        "capital": "Baghdad",
-        "population": 46118793,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇮🇶",
-        "flagPng": "https://flagcdn.com/w320/iq.png",
-        "currencies": [
-          "Iraqi dinar"
-        ],
-        "languages": [
-          "Arabic",
-          "Aramaic",
-          "Sorani"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -14011,7 +13957,8 @@
         "notes": null
       },
       "dataAvailability": {
-        "executive": "Mohammed Shia' al-Sudani remains caretaker Prime Minister pending government formation. New President Nizar Amidi elected April 11, 2026, ending five-month deadlock. Coordination Framework (Shia majority coalition) nominated former PM Nouri al-Maliki for premiership despite strong U.S. opposition and Trump threats to withdraw support. Government formation process ongoing with 15-day constitutional deadline for PM designation. Political tensions high due to U.S.-Iran proxy competition over Iraq's leadership direction."
+        "executive": "Mohammed Shia' al-Sudani remains caretaker Prime Minister pending government formation. New President Nizar Amidi elected April 11, 2026, ending five-month deadlock. Coordination Framework (Shia majority coalition) nominated former PM Nouri al-Maliki for premiership despite strong U.S. opposition and Trump threats to withdraw support. Government formation process ongoing with 15-day constitutional deadline for PM designation. Political tensions high due to U.S.-Iran proxy competition over Iraq's leadership direction.",
+        "metadata": "REST Countries API returned no data for 'IQ'."
       },
       "elections": {
         "competitiveElections": true,
@@ -14707,19 +14654,15 @@
       "country": "Qatar",
       "iso2": "QA",
       "metadata": {
-        "officialName": "State of Qatar",
-        "capital": "Doha",
-        "population": 3173024,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇶🇦",
-        "flagPng": "https://flagcdn.com/w320/qa.png",
-        "currencies": [
-          "Qatari riyal"
-        ],
-        "languages": [
-          "Arabic"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -14803,7 +14746,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'QA'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -16792,19 +16737,15 @@
       "country": "Nepal",
       "iso2": "NP",
       "metadata": {
-        "officialName": "Federal Democratic Republic of Nepal",
-        "capital": "Kathmandu",
-        "population": 29911840,
-        "region": "Asia",
-        "subregion": "Southern Asia",
-        "flag": "🇳🇵",
-        "flagPng": "https://flagcdn.com/w320/np.png",
-        "currencies": [
-          "Nepalese rupee"
-        ],
-        "languages": [
-          "Nepali"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -16888,7 +16829,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'NP'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -18210,23 +18153,15 @@
       "country": "DRC",
       "iso2": "CD",
       "metadata": {
-        "officialName": "Democratic Republic of the Congo",
-        "capital": "Kinshasa",
-        "population": 112832000,
-        "region": "Africa",
-        "subregion": "Middle Africa",
-        "flag": "🇨🇩",
-        "flagPng": "https://flagcdn.com/w320/cd.png",
-        "currencies": [
-          "Congolese franc"
-        ],
-        "languages": [
-          "French",
-          "Kikongo",
-          "Lingala",
-          "Tshiluba",
-          "Swahili"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -18310,7 +18245,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'CD'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -18341,21 +18278,15 @@
       "country": "Congo",
       "iso2": "CG",
       "metadata": {
-        "officialName": "Republic of the Congo",
-        "capital": "Brazzaville",
-        "population": 6142180,
-        "region": "Africa",
-        "subregion": "Middle Africa",
-        "flag": "🇨🇬",
-        "flagPng": "https://flagcdn.com/w320/cg.png",
-        "currencies": [
-          "Central African CFA franc"
-        ],
-        "languages": [
-          "French",
-          "Kikongo",
-          "Lingala"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -18439,7 +18370,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'CG'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -18852,19 +18785,15 @@
       "country": "Ivory Coast",
       "iso2": "CI",
       "metadata": {
-        "officialName": "Republic of Côte d'Ivoire",
-        "capital": "Yamoussoukro",
-        "population": 31719275,
-        "region": "Africa",
-        "subregion": "Western Africa",
-        "flag": "🇨🇮",
-        "flagPng": "https://flagcdn.com/w320/ci.png",
-        "currencies": [
-          "West African CFA franc"
-        ],
-        "languages": [
-          "French"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -18948,7 +18877,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'CI'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -20906,19 +20837,15 @@
       "country": "South Sudan",
       "iso2": "SS",
       "metadata": {
-        "officialName": "Republic of South Sudan",
-        "capital": "Juba",
-        "population": 15786898,
-        "region": "Africa",
-        "subregion": "Middle Africa",
-        "flag": "🇸🇸",
-        "flagPng": "https://flagcdn.com/w320/ss.png",
-        "currencies": [
-          "South Sudanese pound"
-        ],
-        "languages": [
-          "English"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -21002,7 +20929,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'SS'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -23017,19 +22946,15 @@
       "country": "Dominican Republic",
       "iso2": "DO",
       "metadata": {
-        "officialName": "Dominican Republic",
-        "capital": "Santo Domingo",
-        "population": 10771504,
-        "region": "Americas",
-        "subregion": "Caribbean",
-        "flag": "🇩🇴",
-        "flagPng": "https://flagcdn.com/w320/do.png",
-        "currencies": [
-          "Dominican peso"
-        ],
-        "languages": [
-          "Spanish"
-        ],
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
         "source": "restcountries"
       },
       "politicalSystem": {
@@ -23061,7 +22986,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 57.26,
+        "overallPercentile": 57.09,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -23086,9 +23011,10 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 58.132649,
-            "label": "Moderate regulatory quality",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -23113,7 +23039,9 @@
         },
         "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'DO'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
