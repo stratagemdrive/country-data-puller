@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T14:04:48.429026Z",
+  "generatedAt": "2026-06-15T09:21:23.935445Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 8,
+  "weeklyBucket": 9,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -1177,7 +1177,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -1265,7 +1265,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "The UAE operates as a federal constitutional monarchy where the president is elected by the Federal Supreme Council (comprising the seven emirate rulers) every five years, and the prime minister is appointed by the president. Both positions are effectively hereditary within the Al Nahyan and Al Maktoum ruling families respectively. The Federal National Council serves only in an advisory capacity with limited powers.",
@@ -1315,20 +1315,16 @@
       "country": "Saudi Arabia",
       "iso2": "SA",
       "metadata": {
-        "officialName": "Kingdom of Saudi Arabia",
-        "capital": "Riyadh",
-        "population": 35300280,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇸🇦",
-        "flagPng": "https://flagcdn.com/w320/sa.png",
-        "currencies": [
-          "Saudi riyal"
-        ],
-        "languages": [
-          "Arabic"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -1416,10 +1412,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "King Salman remains the formal head of state but Crown Prince Mohammed bin Salman has consolidated de facto power as Prime Minister since 2022. Municipal elections have been postponed indefinitely under Vision 2030. The Consultative Assembly consists of 150 appointed members with advisory functions only."
+        "executive": "King Salman remains the formal head of state but Crown Prince Mohammed bin Salman has consolidated de facto power as Prime Minister since 2022. Municipal elections have been postponed indefinitely under Vision 2030. The Consultative Assembly consists of 150 appointed members with advisory functions only.",
+        "metadata": "REST Countries API returned no data for 'SA'."
       },
       "elections": {
         "competitiveElections": false,
@@ -3763,7 +3760,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -3851,7 +3848,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Lee Jae-myung serves as both head of state and government under South Korea's presidential system. His administration has focused on improving relations with China while maintaining ties with the US and Japan. South Korea remains a competitive democracy with regular transfers of power between conservative and progressive parties. The Democratic Party controls 175 out of 300 National Assembly seats following the April 2024 legislative elections.",
@@ -3915,20 +3912,16 @@
       "country": "North Korea",
       "iso2": "KP",
       "metadata": {
-        "officialName": "Democratic People's Republic of Korea",
-        "capital": "Pyongyang",
-        "population": 25950000,
-        "region": "Asia",
-        "subregion": "Eastern Asia",
-        "flag": "🇰🇵",
-        "flagPng": "https://flagcdn.com/w320/kp.png",
-        "currencies": [
-          "North Korean won"
-        ],
-        "languages": [
-          "Korean"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -4016,10 +4009,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KP/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KP/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Kim Jong Un holds multiple top positions: General Secretary of the Korean Workers' Party (re-elected February 2026), President of the State Affairs Commission (reappointed March 2026), and Supreme Leader. South Korean intelligence suggests his daughter Kim Ju Ae may be positioned as potential successor. North Korea remains a totalitarian one-party state with no competitive elections, pervasive surveillance, and severe human rights abuses according to Freedom House and Human Rights Watch assessments."
+        "executive": "Kim Jong Un holds multiple top positions: General Secretary of the Korean Workers' Party (re-elected February 2026), President of the State Affairs Commission (reappointed March 2026), and Supreme Leader. South Korean intelligence suggests his daughter Kim Ju Ae may be positioned as potential successor. North Korea remains a totalitarian one-party state with no competitive elections, pervasive surveillance, and severe human rights abuses according to Freedom House and Human Rights Watch assessments.",
+        "metadata": "REST Countries API returned no data for 'KP'."
       },
       "elections": {
         "competitiveElections": false,
@@ -4058,7 +4052,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:47:55.294793Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -6428,7 +6422,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -6520,7 +6514,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Gustavo Petro remains president as of April 2026, serving his constitutionally limited single term until August 2026. His approval rating has fluctuated significantly, reaching lows of 26% in 2023 but rebounding to 54% by March 2026. Colombia faces ongoing tensions with the US under Trump administration, with investigations into Petro's alleged drug ties strongly denied by his government.",
@@ -6577,28 +6571,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-12T05:32:47.097962Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Panama",
       "iso2": "PA",
       "metadata": {
-        "officialName": "Republic of Panama",
-        "capital": "Panama City",
-        "population": 4064780,
-        "region": "Americas",
-        "subregion": "Central America",
-        "flag": "🇵🇦",
-        "flagPng": "https://flagcdn.com/w320/pa.png",
-        "currencies": [
-          "Panamanian balboa",
-          "United States dollar"
-        ],
-        "languages": [
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -6702,10 +6691,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Mulino's government coalition controls National Assembly through alliance with multiple parties totaling 44 of 71 seats, with Dana Castañeda as Assembly President. Strong relationship with former President Martinelli despite his legal issues. Mulino has maintained 78% approval rating after 100 days in office as of October 2024."
+        "executive": "Mulino's government coalition controls National Assembly through alliance with multiple parties totaling 44 of 71 seats, with Dana Castañeda as Assembly President. Strong relationship with former President Martinelli despite his legal issues. Mulino has maintained 78% approval rating after 100 days in office as of October 2024.",
+        "metadata": "REST Countries API returned no data for 'PA'."
       },
       "elections": {
         "competitiveElections": true,
@@ -9188,7 +9178,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -9269,7 +9259,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BE'."
@@ -9297,28 +9287,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Ireland",
       "iso2": "IE",
       "metadata": {
-        "officialName": "Republic of Ireland",
-        "capital": "Dublin",
-        "population": 5458600,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇮🇪",
-        "flagPng": "https://flagcdn.com/w320/ie.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "English",
-          "Irish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -9399,9 +9384,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/IE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'IE'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -9425,7 +9412,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -12028,7 +12015,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -12135,7 +12122,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MK/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MK/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "North Macedonia held competitive parliamentary and presidential elections in May 2024. VMRO-DPMNE won decisively with 58 seats out of 120, forming coalition with VLEN (14 seats) and ZNAM (6 seats). The new government has taken a more nationalist stance on issues like the country name and constitutional changes required by EU. Both President Siljanovska-Davkova and PM Mickoski have controversially referred to the country as Macedonia rather than North Macedonia in some contexts, creating tensions with Greece. The government coalition holds 78 seats providing stable majority control.",
@@ -12199,22 +12186,16 @@
       "country": "Bosnia and Herzegovina",
       "iso2": "BA",
       "metadata": {
-        "officialName": "Bosnia and Herzegovina",
-        "capital": "Sarajevo",
-        "population": 3422000,
-        "region": "Europe",
-        "subregion": "Southeast Europe",
-        "flag": "🇧🇦",
-        "flagPng": "https://flagcdn.com/w320/ba.png",
-        "currencies": [
-          "Bosnia and Herzegovina convertible mark"
-        ],
-        "languages": [
-          "Bosnian",
-          "Croatian",
-          "Serbian"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -12308,10 +12289,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Bosnia and Herzegovina operates a complex consociational system established by the 1995 Dayton Agreement. The country has a three-member rotating presidency (Bosniak, Croat, Serb) serving as collective head of state, with chairmanship rotating every 8 months. Denis Bećirović currently serves as chairman since March 2026. The head of government is the Chairman of the Council of Ministers, currently Borjana Krišto, who was appointed following coalition talks after the 2022 elections. The High Representative Christian Schmidt maintains oversight powers under the Dayton framework. Recent political tensions involved the removal of Republika Srpska president Milorad Dodik following court conviction, with his ally Siniša Karan winning replacement election in November 2025."
+        "executive": "Bosnia and Herzegovina operates a complex consociational system established by the 1995 Dayton Agreement. The country has a three-member rotating presidency (Bosniak, Croat, Serb) serving as collective head of state, with chairmanship rotating every 8 months. Denis Bećirović currently serves as chairman since March 2026. The head of government is the Chairman of the Council of Ministers, currently Borjana Krišto, who was appointed following coalition talks after the 2022 elections. The High Representative Christian Schmidt maintains oversight powers under the Dayton framework. Recent political tensions involved the removal of Republika Srpska president Milorad Dodik following court conviction, with his ally Siniša Karan winning replacement election in November 2025.",
+        "metadata": "REST Countries API returned no data for 'BA'."
       },
       "elections": {
         "competitiveElections": true,
@@ -12364,7 +12346,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:10:51.525477Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -14663,7 +14645,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -14744,7 +14726,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/QA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/QA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'QA'."
@@ -14772,29 +14754,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Afghanistan",
       "iso2": "AF",
       "metadata": {
-        "officialName": "Islamic Republic of Afghanistan",
-        "capital": "Kabul",
-        "population": 43844000,
-        "region": "Asia",
-        "subregion": "Southern Asia",
-        "flag": "🇦🇫",
-        "flagPng": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
-        "currencies": [
-          "Afghan afghani"
-        ],
-        "languages": [
-          "Dari",
-          "Pashto",
-          "Turkmen"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -14875,9 +14851,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AF/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AF/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'AF'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -14901,7 +14879,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -16746,7 +16724,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -16827,7 +16805,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NP/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NP/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'NP'."
@@ -16855,28 +16833,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Sri Lanka",
       "iso2": "LK",
       "metadata": {
-        "officialName": "Democratic Socialist Republic of Sri Lanka",
-        "capital": "Sri Jayawardenepura Kotte",
-        "population": 21763170,
-        "region": "Asia",
-        "subregion": "Southern Asia",
-        "flag": "🇱🇰",
-        "flagPng": "https://flagcdn.com/w320/lk.png",
-        "currencies": [
-          "Sri Lankan rupee"
-        ],
-        "languages": [
-          "Sinhala",
-          "Tamil"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -16957,9 +16930,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LK/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LK/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'LK'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -16983,7 +16958,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -18193,7 +18168,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 27.41,
+        "overallPercentile": 25.97,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
@@ -18218,9 +18193,10 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 34.5989483,
-            "label": "Low regulatory quality",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -18794,7 +18770,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -18875,7 +18851,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CI/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CI/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'CI'."
@@ -18910,20 +18886,16 @@
       "country": "Senegal",
       "iso2": "SN",
       "metadata": {
-        "officialName": "Republic of Senegal",
-        "capital": "Dakar",
-        "population": 18593258,
-        "region": "Africa",
-        "subregion": "Western Africa",
-        "flag": "🇸🇳",
-        "flagPng": "https://flagcdn.com/w320/sn.png",
-        "currencies": [
-          "West African CFA franc"
-        ],
-        "languages": [
-          "French"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -19004,9 +18976,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'SN'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -19030,7 +19004,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -20846,7 +20820,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -20927,7 +20901,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SS/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SS/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'SS'."
@@ -20955,29 +20929,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Eritrea",
       "iso2": "ER",
       "metadata": {
-        "officialName": "State of Eritrea",
-        "capital": "Asmara",
-        "population": 3607000,
-        "region": "Africa",
-        "subregion": "Eastern Africa",
-        "flag": "🇪🇷",
-        "flagPng": "https://flagcdn.com/w320/er.png",
-        "currencies": [
-          "Eritrean nakfa"
-        ],
-        "languages": [
-          "Arabic",
-          "English",
-          "Tigrinya"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -21058,9 +21026,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/ER/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ER/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'ER'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -22955,7 +22925,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -23036,7 +23006,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/DO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'DO'."
@@ -23071,20 +23041,16 @@
       "country": "Guatemala",
       "iso2": "GT",
       "metadata": {
-        "officialName": "Republic of Guatemala",
-        "capital": "Guatemala City",
-        "population": 18079810,
-        "region": "Americas",
-        "subregion": "Central America",
-        "flag": "🇬🇹",
-        "flagPng": "https://flagcdn.com/w320/gt.png",
-        "currencies": [
-          "Guatemalan quetzal"
-        ],
-        "languages": [
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -23165,9 +23131,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GT/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GT/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'GT'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
