@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T07:11:12.298623Z",
+  "generatedAt": "2026-07-01T14:37:54.643472Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 11,
   "weeklyBucketTotal": 16,
@@ -6944,7 +6944,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 88.64,
+        "overallPercentile": 88.08,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -6969,10 +6969,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 85.3127667,
+            "label": "Very high regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -17088,7 +17087,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 67.16,
+        "overallPercentile": 67.44,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
@@ -17113,10 +17112,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 68.85143,
+            "label": "High regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -18121,7 +18119,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 26.95,
+        "overallPercentile": 27.41,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
@@ -18134,10 +18132,9 @@
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 29.6954723,
+            "label": "Low political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
