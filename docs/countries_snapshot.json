@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T14:02:39.726192Z",
+  "generatedAt": "2026-07-03T06:31:58.619593Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 11,
   "weeklyBucketTotal": 16,
@@ -5559,7 +5559,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -5651,7 +5651,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/DZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Algeria maintains competitive elections but with significant military influence over the political system. The ruling establishment, centered on the FLN and aligned parties, dominates through institutional advantages and state resources. Opposition participation is increasingly coerced through new party laws that threaten dissolution for boycotting parties. President Tebboune was appointed Prime Minister Sifi Ghrieb in September 2025, replacing Nadir Larbaoui. The 2021 parliamentary elections saw record low turnout amid opposition boycotts but resulted in no single party majority, requiring coalition governance.",
@@ -5708,7 +5708,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:52:24.838413Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
