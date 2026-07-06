@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-05T13:40:50.406584Z",
+  "generatedAt": "2026-07-06T07:11:54.973123Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 11,
+  "weeklyBucket": 12,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -1618,7 +1618,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -1706,7 +1706,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PS/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PS/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Abbas continues to serve as president despite his term expiring in 2009, ruling by decree since dismissing the Hamas-led legislature in 2007. Gaza operates under a fragile ceasefire with Israeli forces controlling over half the territory and Hamas retaining weapons. The Trump Gaza peace plan Phase Two established a Palestinian National Committee for the Administration of Gaza under international oversight, but Hamas has not disarmed and political control remains divided. Only local elections are scheduled for April 25, 2026, not national elections. The Palestinian Authority controls parts of the West Bank while Israel maintains security control over most areas.",
@@ -1756,20 +1756,16 @@
       "country": "Mexico",
       "iso2": "MX",
       "metadata": {
-        "officialName": "United Mexican States",
-        "capital": "Mexico City",
-        "population": 130575786,
-        "region": "Americas",
-        "subregion": "North America",
-        "flag": "🇲🇽",
-        "flagPng": "https://flagcdn.com/w320/mx.png",
-        "currencies": [
-          "Mexican peso"
-        ],
-        "languages": [
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -1861,10 +1857,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MX/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MX/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "President Claudia Sheinbaum serves as both head of state and head of government in Mexico's presidential system. The Morena-led coalition secured supermajorities in both chambers following the 2024 elections, with 364 of 500 seats in the Chamber of Deputies and eventually achieved a supermajority in the Senate through party defections. Sheinbaum has been actively pursuing electoral and constitutional reforms during her presidency."
+        "executive": "President Claudia Sheinbaum serves as both head of state and head of government in Mexico's presidential system. The Morena-led coalition secured supermajorities in both chambers following the 2024 elections, with 364 of 500 seats in the Chamber of Deputies and eventually achieved a supermajority in the Senate through party defections. Sheinbaum has been actively pursuing electoral and constitutional reforms during her presidency.",
+        "metadata": "REST Countries API returned no data for 'MX'."
       },
       "elections": {
         "competitiveElections": true,
@@ -4225,7 +4222,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -4330,7 +4327,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MM/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MM/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Myanmar is under military junta control following the February 2021 coup that overthrew the elected National League for Democracy government. Min Aung Hlaing transitioned from military commander-in-chief to civilian president in April 2026 following controlled elections widely rejected as illegitimate by the UN, ASEAN, and Western governments. The National Unity Government operates as a shadow government and claims legitimacy as the elected authority. Ongoing civil war limits territorial control and election participation.",
@@ -4380,20 +4377,16 @@
       "country": "Armenia",
       "iso2": "AM",
       "metadata": {
-        "officialName": "Republic of Armenia",
-        "capital": "Yerevan",
-        "population": 3076200,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇦🇲",
-        "flagPng": "https://flagcdn.com/w320/am.png",
-        "currencies": [
-          "Armenian dram"
-        ],
-        "languages": [
-          "Armenian"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -4481,10 +4474,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AM/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AM/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Armenia holds competitive multi-party elections. The 2021 parliamentary election was observed by international missions including OSCE/ODIHR and deemed generally free and fair. The upcoming 2026 election is expected to be highly competitive with multiple opposition forces consolidating around candidates like Samvel Karapetyan's Strong Armenia alliance, while Civil Contract under Pashinyan seeks to maintain power."
+        "executive": "Armenia holds competitive multi-party elections. The 2021 parliamentary election was observed by international missions including OSCE/ODIHR and deemed generally free and fair. The upcoming 2026 election is expected to be highly competitive with multiple opposition forces consolidating around candidates like Samvel Karapetyan's Strong Armenia alliance, while Civil Contract under Pashinyan seeks to maintain power.",
+        "metadata": "REST Countries API returned no data for 'AM'."
       },
       "elections": {
         "competitiveElections": true,
@@ -7058,21 +7052,16 @@
       "country": "Sudan",
       "iso2": "SD",
       "metadata": {
-        "officialName": "Republic of the Sudan",
-        "capital": "Khartoum",
-        "population": 51662000,
-        "region": "Africa",
-        "subregion": "Northern Africa",
-        "flag": "🇸🇩",
-        "flagPng": "https://flagcdn.com/w320/sd.png",
-        "currencies": [
-          "Sudanese pound"
-        ],
-        "languages": [
-          "Arabic",
-          "English"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -7159,10 +7148,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SD/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SD/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Sudan has been engulfed in civil war since April 15, 2023, between the Sudanese Armed Forces led by Abdel Fattah al-Burhan and the Rapid Support Forces led by Mohamed Hamdan Dagalo. The Transitional Sovereignty Council under al-Burhan's chairmanship represents the internationally recognized government. Prime Minister Kamil Idris was appointed in May 2025 to lead a civilian technocratic cabinet. The SAF regained control of much of Khartoum in early 2026 and the government returned from Port Sudan in January 2026. However, the RSF continues to control most of Darfur and parts of Kordofan. The conflict has displaced over 14 million people and created the world's worst humanitarian crisis. Over 100,000 people have been killed according to estimates. The war has made any form of democratic elections impossible and the country remains effectively partitioned between the two military factions."
+        "executive": "Sudan has been engulfed in civil war since April 15, 2023, between the Sudanese Armed Forces led by Abdel Fattah al-Burhan and the Rapid Support Forces led by Mohamed Hamdan Dagalo. The Transitional Sovereignty Council under al-Burhan's chairmanship represents the internationally recognized government. Prime Minister Kamil Idris was appointed in May 2025 to lead a civilian technocratic cabinet. The SAF regained control of much of Khartoum in early 2026 and the government returned from Port Sudan in January 2026. However, the RSF continues to control most of Darfur and parts of Kordofan. The conflict has displaced over 14 million people and created the world's worst humanitarian crisis. Over 100,000 people have been killed according to estimates. The war has made any form of democratic elections impossible and the country remains effectively partitioned between the two military factions.",
+        "metadata": "REST Countries API returned no data for 'SD'."
       },
       "elections": {
         "competitiveElections": false,
@@ -9620,7 +9610,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -9713,7 +9703,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Belarus is an authoritarian state under Alexander Lukashenko since 1994. While elections are held regularly, they are widely considered non-competitive due to systematic exclusion of genuine opposition candidates, restrictions on media and civil society, and documented irregularities. The 2025 presidential election was condemned as a sham by Western governments, with only token pro-government candidates on the ballot. Over 1,200 political prisoners remain in custody following the 2020 protests. Parliament is dominated by pro-government parties and independents. Despite his formal title being President, Lukashenko also serves as Chairman of the All-Belarusian People's Assembly, a new constitutional body established in 2024.",
@@ -9770,27 +9760,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:02:29.870414Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Hungary",
       "iso2": "HU",
       "metadata": {
-        "officialName": "Hungary",
-        "capital": "Budapest",
-        "population": 9539502,
-        "region": "Europe",
-        "subregion": "Central Europe",
-        "flag": "🇭🇺",
-        "flagPng": "https://flagcdn.com/w320/hu.png",
-        "currencies": [
-          "Hungarian forint"
-        ],
-        "languages": [
-          "Hungarian"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -9897,10 +9883,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/HU/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HU/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Hungary experienced a historic political shift with the April 12, 2026 parliamentary election ending Viktor Orbán's 16-year rule. Péter Magyar's Tisza Party won an overwhelming two-thirds majority (138/199 seats) with record voter turnout of nearly 80%. President Tamás Sulyok, appointed by the previous Fidesz government, faces calls from Magyar to resign. The election was considered free and fair by international observers, with Orbán conceding defeat the same evening. This marks the end of Hungary's increasingly authoritarian period under Fidesz rule since 2010."
+        "executive": "Hungary experienced a historic political shift with the April 12, 2026 parliamentary election ending Viktor Orbán's 16-year rule. Péter Magyar's Tisza Party won an overwhelming two-thirds majority (138/199 seats) with record voter turnout of nearly 80%. President Tamás Sulyok, appointed by the previous Fidesz government, faces calls from Magyar to resign. The election was considered free and fair by international observers, with Orbán conceding defeat the same evening. This marks the end of Hungary's increasingly authoritarian period under Fidesz rule since 2010.",
+        "metadata": "REST Countries API returned no data for 'HU'."
       },
       "elections": {
         "competitiveElections": true,
@@ -12514,7 +12501,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -12603,7 +12590,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LU/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LU/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Grand Duke Henri abdicated on October 3, 2025, and his son Guillaume V ascended to the throne as Grand Duke of Luxembourg. Guillaume had been serving as Lieutenant-Representative since October 2024 as part of the transition process. Luxembourg is a constitutional monarchy with the Grand Duke as ceremonial head of state and the Prime Minister as head of government. The current government is a coalition between CSV (Christian Social People's Party) and DP (Democratic Party) led by Prime Minister Luc Frieden since November 2023.",
@@ -12653,20 +12640,16 @@
       "country": "Iceland",
       "iso2": "IS",
       "metadata": {
-        "officialName": "Iceland",
-        "capital": "Reykjavik",
-        "population": 391810,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇮🇸",
-        "flagPng": "https://flagcdn.com/w320/is.png",
-        "currencies": [
-          "Icelandic króna"
-        ],
-        "languages": [
-          "Icelandic"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -12799,10 +12782,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/IS/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IS/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Iceland operates as a stable parliamentary democracy with competitive multi-party elections. President serves largely ceremonial role while Prime Minister exercises executive power. The November 2024 snap election resulted in a historic outcome with all three governing party leaders being women, marking the first time Iceland has had women leading all coalition parties simultaneously. The Social Democratic Alliance's victory ended seven years of center-right rule and brought a center-left coalition to power for the first time since 2013."
+        "executive": "Iceland operates as a stable parliamentary democracy with competitive multi-party elections. President serves largely ceremonial role while Prime Minister exercises executive power. The November 2024 snap election resulted in a historic outcome with all three governing party leaders being women, marking the first time Iceland has had women leading all coalition parties simultaneously. The Social Democratic Alliance's victory ended seven years of center-right rule and brought a center-left coalition to power for the first time since 2013.",
+        "metadata": "REST Countries API returned no data for 'IS'."
       },
       "elections": {
         "competitiveElections": true,
@@ -12855,7 +12839,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:12:41.982323Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -15021,7 +15005,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -15102,7 +15086,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'KZ'."
@@ -15130,28 +15114,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Uzbekistan",
       "iso2": "UZ",
       "metadata": {
-        "officialName": "Republic of Uzbekistan",
-        "capital": "Tashkent",
-        "population": 37859698,
-        "region": "Asia",
-        "subregion": "Central Asia",
-        "flag": "🇺🇿",
-        "flagPng": "https://flagcdn.com/w320/uz.png",
-        "currencies": [
-          "Uzbekistani soʻm"
-        ],
-        "languages": [
-          "Russian",
-          "Uzbek"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -15232,9 +15211,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/UZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'UZ'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -15258,7 +15239,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -17056,7 +17037,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -17137,7 +17118,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BN'."
@@ -17165,28 +17146,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Timor-Leste",
       "iso2": "TL",
       "metadata": {
-        "officialName": "Democratic Republic of Timor-Leste",
-        "capital": "Dili",
-        "population": 1391221,
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
-        "flag": "🇹🇱",
-        "flagPng": "https://flagcdn.com/w320/tl.png",
-        "currencies": [
-          "United States dollar"
-        ],
-        "languages": [
-          "Portuguese",
-          "Tetum"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -17217,7 +17193,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 53.49,
+        "overallPercentile": 50.22,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -17236,10 +17212,9 @@
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 33.8688152,
+            "label": "Low government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
@@ -17268,9 +17243,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TL/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TL/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'TL'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -17294,7 +17271,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -19095,7 +19072,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -19176,7 +19153,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/UG/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UG/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'UG'."
@@ -19204,41 +19181,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Zimbabwe",
       "iso2": "ZW",
       "metadata": {
-        "officialName": "Republic of Zimbabwe",
-        "capital": "Harare",
-        "population": 17073087,
-        "region": "Africa",
-        "subregion": "Southern Africa",
-        "flag": "🇿🇼",
-        "flagPng": "https://flagcdn.com/w320/zw.png",
-        "currencies": [
-          "Zimbabwean dollar"
-        ],
-        "languages": [
-          "Chibarwe",
-          "English",
-          "Kalanga",
-          "Khoisan",
-          "Ndau",
-          "Northern Ndebele",
-          "Chewa",
-          "Shona",
-          "Sotho",
-          "Tonga",
-          "Tswana",
-          "Tsonga",
-          "Venda",
-          "Xhosa",
-          "Zimbabwean Sign Language"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -19319,9 +19278,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/ZW/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ZW/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'ZW'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -19345,7 +19306,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -21138,7 +21099,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -21219,7 +21180,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'MR'."
@@ -21247,27 +21208,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Liberia",
       "iso2": "LR",
       "metadata": {
-        "officialName": "Republic of Liberia",
-        "capital": "Monrovia",
-        "population": 5248621,
-        "region": "Africa",
-        "subregion": "Western Africa",
-        "flag": "🇱🇷",
-        "flagPng": "https://flagcdn.com/w320/lr.png",
-        "currencies": [
-          "Liberian dollar"
-        ],
-        "languages": [
-          "English"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -21298,7 +21255,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 42.38,
+        "overallPercentile": 45.43,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -21317,9 +21274,10 @@
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 27.1075325,
-            "label": "Low government effectiveness",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
@@ -21348,9 +21306,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'LR'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -23238,7 +23198,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -23319,7 +23279,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NI/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NI/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'NI'."
@@ -23354,20 +23314,16 @@
       "country": "Costa Rica",
       "iso2": "CR",
       "metadata": {
-        "officialName": "Republic of Costa Rica",
-        "capital": "San José",
-        "population": 5309625,
-        "region": "Americas",
-        "subregion": "Central America",
-        "flag": "🇨🇷",
-        "flagPng": "https://flagcdn.com/w320/cr.png",
-        "currencies": [
-          "Costa Rican colón"
-        ],
-        "languages": [
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -23448,9 +23404,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'CR'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -23474,7 +23432,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
