@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T06:29:07.426909Z",
+  "generatedAt": "2026-07-27T14:35:32.850428Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 15,
   "weeklyBucketTotal": 16,
@@ -2352,7 +2352,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NG/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NG/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Nigeria maintains competitive multi-party elections despite concerns over electoral integrity, voter apathy, and opposition defections to the ruling party. The 2023 elections were highly competitive with multiple viable candidates, though marked by technical failures in electronic transmission of results. Recent analysis indicates growing centralization of power and weakening of democratic institutions ahead of 2027. INEC has revised the 2027 election schedule, moving presidential and legislative elections from February to January 16, 2027.",
@@ -6925,7 +6925,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 88.08,
+        "overallPercentile": 88.64,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -6950,9 +6950,10 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 85.3127667,
-            "label": "Very high regulatory quality",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -7678,7 +7679,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PL/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PL/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Poland maintains competitive elections with high turnout (71.6% in 2025 presidential election). President Karol Nawrocki inaugurated August 6, 2025, serves alongside Prime Minister Donald Tusk's coalition government that took power December 2023. Ongoing political tensions between eurosceptic president and pro-EU government, with president using veto powers to block key reforms including EU defense loans and wind energy legislation. Poland's democracy score has improved since 2024 following change in government, though institutional conflicts continue between executive branches.",
@@ -10294,17 +10295,16 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 54.53,
+        "overallPercentile": 59.03,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 60.5840325,
+            "label": "High voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
@@ -10320,10 +10320,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 59.4055004,
+            "label": "Moderate regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -10333,9 +10332,10 @@
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 42.9964948,
-            "label": "Moderate control of corruption",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           }
         },
         "sources": {
@@ -11228,7 +11228,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 72.22,
+        "overallPercentile": 71.47,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
@@ -11247,17 +11247,15 @@
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 72.521532,
+            "label": "High government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 67.4509563,
+            "label": "High regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -19543,7 +19541,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 36.45,
+        "overallPercentile": 36.35,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
@@ -19556,10 +19554,9 @@
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 35.8615679,
+            "label": "Low political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
