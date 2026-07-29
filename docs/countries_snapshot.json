@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:07:46.685263Z",
+  "generatedAt": "2026-07-29T05:51:32.281362Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 15,
   "weeklyBucketTotal": 16,
@@ -11751,20 +11751,16 @@
       "country": "Estonia",
       "iso2": "EE",
       "metadata": {
-        "officialName": "Republic of Estonia",
-        "capital": "Tallinn",
-        "population": 1369995,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇪🇪",
-        "flagPng": "https://flagcdn.com/w320/ee.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "Estonian"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -11819,9 +11815,9 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 79.52,
-        "band": "High",
-        "bandLabel": "High governance overall",
+        "overallPercentile": 80.11,
+        "band": "Very High",
+        "bandLabel": "Very high governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
@@ -11838,9 +11834,10 @@
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 76.5591936,
-            "label": "High government effectiveness",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
@@ -11869,10 +11866,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Estonia operates as a stable parliamentary republic with competitive multi-party elections. The current government is a two-party coalition between the Reform Party and Estonia 200, formed after the Social Democratic Party was expelled from the coalition in March 2025. President Karis is considering running for a second term in the 2026 presidential election. Estonia maintains strong democratic institutions with regular free and fair elections, including pioneering e-voting systems where over 50% of votes are now cast electronically."
+        "executive": "Estonia operates as a stable parliamentary republic with competitive multi-party elections. The current government is a two-party coalition between the Reform Party and Estonia 200, formed after the Social Democratic Party was expelled from the coalition in March 2025. President Karis is considering running for a second term in the 2026 presidential election. Estonia maintains strong democratic institutions with regular free and fair elections, including pioneering e-voting systems where over 50% of votes are now cast electronically.",
+        "metadata": "REST Countries API returned no data for 'EE'."
       },
       "elections": {
         "competitiveElections": true,
@@ -11925,7 +11923,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:09:34.688149Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -19539,17 +19537,16 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 35.77,
+        "overallPercentile": 36.35,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 39.2482884,
+            "label": "Low voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
