@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:07:43.190498Z",
+  "generatedAt": "2026-08-01T05:53:33.239527Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 15,
   "weeklyBucketTotal": 16,
@@ -2187,7 +2187,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
       },
       "dataAvailability": {
         "executive": "Election watch active as April 13, 2026 by-elections concluded but official winners not yet declared. These three by-elections are critical as Liberal victories in two or more could secure majority government (currently at 171 seats, need 172+ for majority). Terrebonne by-election ordered after Supreme Court annulled 2025 result due to mail-in ballot errors. Other vacancies from Freeland resignation (Ukraine advisor role) and Blair resignation (UK High Commissioner appointment).",
@@ -2352,7 +2352,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NG/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NG/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
       },
       "dataAvailability": {
         "executive": "Nigeria maintains competitive multi-party elections despite concerns over electoral integrity, voter apathy, and opposition defections to the ruling party. The 2023 elections were highly competitive with multiple viable candidates, though marked by technical failures in electronic transmission of results. Recent analysis indicates growing centralization of power and weakening of democratic institutions ahead of 2027. INEC has revised the 2027 election schedule, moving presidential and legislative elections from February to January 16, 2027.",
@@ -2973,22 +2973,24 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 72.11,
+        "overallPercentile": 73.49,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 76.9537832,
-            "label": "High voice & accountability",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 61.771486,
-            "label": "High political stability",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
@@ -4895,7 +4897,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 21.37,
+        "overallPercentile": 21.85,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
@@ -4926,9 +4928,10 @@
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 19.0073717,
-            "label": "Very low rule of law",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
@@ -6098,7 +6101,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 49.58,
+        "overallPercentile": 49.85,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -6129,9 +6132,10 @@
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 48.2599686,
-            "label": "Moderate rule of law",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
@@ -6925,7 +6929,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 88.08,
+        "overallPercentile": 89.9,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -6938,9 +6942,10 @@
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 79.0280276,
-            "label": "High political stability",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
@@ -11815,16 +11820,17 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 79.52,
+        "overallPercentile": 79.1,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 81.6064996,
-            "label": "Very high voice & accountability",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
