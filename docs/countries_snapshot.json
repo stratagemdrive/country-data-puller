@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-09T12:51:23.271061Z",
+  "generatedAt": "2026-08-10T04:29:11.020980Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 16,
+  "weeklyBucket": 1,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -10,20 +10,16 @@
       "country": "Ukraine",
       "iso2": "UA",
       "metadata": {
-        "officialName": "Ukraine",
-        "capital": "Kyiv",
-        "population": 32862000,
-        "region": "Europe",
-        "subregion": "Eastern Europe",
-        "flag": "🇺🇦",
-        "flagPng": "https://flagcdn.com/w320/ua.png",
-        "currencies": [
-          "Ukrainian hryvnia"
-        ],
-        "languages": [
-          "Ukrainian"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -110,10 +106,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/UA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Ukraine remains under martial law since February 2022, extended until May 4, 2026. Constitution allows extension of presidential and parliamentary terms during martial law. All major parties agreed in 2023 to postpone elections until after war ends. Peace negotiations are ongoing but have not yielded breakthrough. Zelensky indicates readiness for elections if security guaranteed by allies within 60-90 days, but this remains contingent on ceasefire agreement. Prime Minister Svyrydenko appointed July 2025, replacing Denys Shmyhal as part of government reshuffle focused on wartime economic management and weapons production."
+        "executive": "Ukraine remains under martial law since February 2022, extended until May 4, 2026. Constitution allows extension of presidential and parliamentary terms during martial law. All major parties agreed in 2023 to postpone elections until after war ends. Peace negotiations are ongoing but have not yielded breakthrough. Zelensky indicates readiness for elections if security guaranteed by allies within 60-90 days, but this remains contingent on ceasefire agreement. Prime Minister Svyrydenko appointed July 2025, replacing Denys Shmyhal as part of government reshuffle focused on wartime economic management and weapons production.",
+        "metadata": "REST Countries API returned no data for 'UA'."
       },
       "elections": {
         "competitiveElections": true,
@@ -152,7 +149,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-03T06:55:46.944527Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -2425,7 +2422,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -2518,7 +2515,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/JP/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/JP/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "LDP achieved historic two-thirds supermajority in House of Representatives (316/465 seats) in February 2026 snap election, but remains minority in House of Councillors following 2025 defeat. Coalition partner Japan Innovation Party holds 36 seats. Next upper house election scheduled for July 2028.",
@@ -2575,27 +2572,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-05T06:51:48.883913Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Iran",
       "iso2": "IR",
       "metadata": {
-        "officialName": "Islamic Republic of Iran",
-        "capital": "Tehran",
-        "population": 85961000,
-        "region": "Asia",
-        "subregion": "Southern Asia",
-        "flag": "🇮🇷",
-        "flagPng": "https://flagcdn.com/w320/ir.png",
-        "currencies": [
-          "Iranian rial"
-        ],
-        "languages": [
-          "Persian (Farsi)"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -2683,10 +2676,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/IR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Major leadership transition following assassination of Supreme Leader Ali Khamenei on February 28, 2026, in Israeli-US strikes during 2026 Iran war. His son Mojtaba Khamenei was selected as new Supreme Leader by Assembly of Experts on March 9, 2026. Mojtaba Khamenei holds supreme power in the theocratic system, with close ties to the Islamic Revolutionary Guard Corps. Iran remains under severe US sanctions and recently concluded ceasefire negotiations with the US and Israel following intensive bombing campaign. President Pezeshkian continues to serve but his authority is limited by the Supreme Leader and IRGC influence. Elections are not competitive due to extensive Guardian Council vetting that eliminates most opposition candidates."
+        "executive": "Major leadership transition following assassination of Supreme Leader Ali Khamenei on February 28, 2026, in Israeli-US strikes during 2026 Iran war. His son Mojtaba Khamenei was selected as new Supreme Leader by Assembly of Experts on March 9, 2026. Mojtaba Khamenei holds supreme power in the theocratic system, with close ties to the Islamic Revolutionary Guard Corps. Iran remains under severe US sanctions and recently concluded ceasefire negotiations with the US and Israel following intensive bombing campaign. President Pezeshkian continues to serve but his authority is limited by the Supreme Leader and IRGC influence. Elections are not competitive due to extensive Guardian Council vetting that eliminates most opposition candidates.",
+        "metadata": "REST Countries API returned no data for 'IR'."
       },
       "elections": {
         "competitiveElections": false,
@@ -2739,7 +2733,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:43:42.722016Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -5015,7 +5009,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -5102,7 +5096,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/YE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/YE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Yemen remains divided by civil war since 2015. The internationally recognized Presidential Leadership Council controls southern/eastern areas while Iran-backed Houthis control northern/western Yemen including capital Sanaa. Shaya al-Zindani was appointed Prime Minister in January 2026 following resignation of Salem bin Breik. The Southern Transitional Council was expelled from the PLC in January 2026 after attempting territorial expansion. Current PLC government operates from Saudi Arabia with limited territorial control.",
@@ -5145,7 +5139,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:51:11.050428Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -6092,7 +6086,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 52.85,
+        "overallPercentile": 49.58,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -6129,10 +6123,9 @@
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 33.2730365,
+            "label": "Low control of corruption",
+            "year": 2024
           }
         },
         "sources": {
@@ -6920,24 +6913,22 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 88.53,
+        "overallPercentile": 88.08,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 90.0154146,
+            "label": "Very high voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 79.0280276,
+            "label": "High political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
@@ -6947,24 +6938,21 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 85.3127667,
+            "label": "Very high regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 91.4603795,
+            "label": "Very high rule of law",
+            "year": 2024
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 94.1568337,
+            "label": "Very high control of corruption",
+            "year": 2024
           }
         },
         "sources": {
@@ -7751,7 +7739,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -7890,7 +7878,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PT/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PT/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Portugal is a stable parliamentary democracy. President Seguro took office March 9, 2026 following landslide runoff victory. Prime Minister Montenegro leads minority government requiring cross-party support. Political landscape increasingly fragmented with Chega's rise as second-largest parliamentary force after May 2025 elections. System maintains competitive elections with regular transfers of power between center-left PS and center-right PSD/AD coalitions.",
@@ -7947,28 +7935,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:57:50.194976Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Czech Republic",
       "iso2": "CZ",
       "metadata": {
-        "officialName": "Czech Republic",
-        "capital": "Prague",
-        "population": 10882341,
-        "region": "Europe",
-        "subregion": "Central Europe",
-        "flag": "🇨🇿",
-        "flagPng": "https://flagcdn.com/w320/cz.png",
-        "currencies": [
-          "Czech koruna"
-        ],
-        "languages": [
-          "Czech",
-          "Slovak"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -8092,10 +8075,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "President Petr Pavel ran as independent in 2023 but was endorsed by the centre-right SPOLU coalition. Prime Minister Andrej Babiš leads ANO 2011 and was sworn in December 2025 following coalition formation with SPD and Motorists. The coalition faces some tensions, including recent no-confidence vote over dispute with President Pavel regarding ministerial appointments. Senate remains controlled by opposition SPOLU coalition despite ANO gains in 2024 partial elections."
+        "executive": "President Petr Pavel ran as independent in 2023 but was endorsed by the centre-right SPOLU coalition. Prime Minister Andrej Babiš leads ANO 2011 and was sworn in December 2025 following coalition formation with SPD and Motorists. The coalition faces some tensions, including recent no-confidence vote over dispute with President Pavel regarding ministerial appointments. Senate remains controlled by opposition SPOLU coalition despite ANO gains in 2024 partial elections.",
+        "metadata": "REST Countries API returned no data for 'CZ'."
       },
       "elections": {
         "competitiveElections": true,
@@ -8148,7 +8132,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:58:30.851143Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -10296,7 +10280,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 58.49,
+        "overallPercentile": 56.35,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -10309,24 +10293,21 @@
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 66.5764069,
+            "label": "High political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 52.1730773,
+            "label": "Moderate government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 59.4055004,
+            "label": "Moderate regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -10336,10 +10317,9 @@
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 42.9964948,
+            "label": "Moderate control of corruption",
+            "year": 2024
           }
         },
         "sources": {
@@ -10423,7 +10403,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -10531,7 +10511,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MD/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MD/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Moldova is a parliamentary republic where the president serves as largely ceremonial head of state while the prime minister leads government. The separatist region of Transnistria remains outside central government control with Russian troops present. Moldova withdrew from the Commonwealth of Independent States in April 2026. The country has EU candidate status since 2022 and is pursuing accession negotiations.",
@@ -10588,27 +10568,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:04:51.675944Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Greece",
       "iso2": "GR",
       "metadata": {
-        "officialName": "Hellenic Republic",
-        "capital": "Athens",
-        "population": 10400720,
-        "region": "Europe",
-        "subregion": "Southern Europe",
-        "flag": "🇬🇷",
-        "flagPng": "https://flagcdn.com/w320/gr.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "Greek"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -10714,10 +10690,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Greece is a stable parliamentary republic with competitive multiparty elections. President is largely ceremonial head of state elected by parliament; Prime Minister is head of government. The June 2023 elections used a majority bonus system giving the winning party up to 50 additional seats to ensure stable government formation. Current government has faced criticism over rule of law issues including surveillance scandals and press freedom concerns, though democratic institutions remain functional."
+        "executive": "Greece is a stable parliamentary republic with competitive multiparty elections. President is largely ceremonial head of state elected by parliament; Prime Minister is head of government. The June 2023 elections used a majority bonus system giving the winning party up to 50 additional seats to ensure stable government formation. Current government has faced criticism over rule of law issues including surveillance scandals and press freedom concerns, though democratic institutions remain functional.",
+        "metadata": "REST Countries API returned no data for 'GR'."
       },
       "elections": {
         "competitiveElections": true,
@@ -10770,7 +10747,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:05:37.715205Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -11233,31 +11210,28 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 67.59,
+        "overallPercentile": 71.47,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 75.3519851,
+            "label": "High voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 78.2087684,
+            "label": "High political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 72.521532,
+            "label": "High government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
@@ -13405,7 +13379,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 54.15,
+        "overallPercentile": 53.68,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -13430,10 +13404,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 51.3465962,
+            "label": "Moderate regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -13520,21 +13493,16 @@
       "country": "Hong Kong",
       "iso2": "HK",
       "metadata": {
-        "officialName": "Hong Kong Special Administrative Region of the People's Republic of China",
-        "capital": "City of Victoria",
-        "population": 7527500,
-        "region": "Asia",
-        "subregion": "Eastern Asia",
-        "flag": "🇭🇰",
-        "flagPng": "https://flagcdn.com/w320/hk.png",
-        "currencies": [
-          "Hong Kong dollar"
-        ],
-        "languages": [
-          "English",
-          "Chinese"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -13669,10 +13637,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/HK/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HK/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Hong Kong is a Special Administrative Region of China under the 'one country, two systems' framework with its own Chief Executive and Legislative Council, but Beijing controls foreign policy, defense, and increasingly domestic politics through national security laws. The December 2025 Legislative Council election operated under a 'patriots only' system with candidate vetting by Beijing. The pro-democracy camp has been effectively eliminated - the Democratic Party dissolved in 2025 and the League of Social Democrats disbanded in June 2025. Only 20 of 90 Legislative Council seats are directly elected. John Lee serves as Chief Executive while Xi Jinping as PRC President holds ultimate authority over Hong Kong."
+        "executive": "Hong Kong is a Special Administrative Region of China under the 'one country, two systems' framework with its own Chief Executive and Legislative Council, but Beijing controls foreign policy, defense, and increasingly domestic politics through national security laws. The December 2025 Legislative Council election operated under a 'patriots only' system with candidate vetting by Beijing. The pro-democracy camp has been effectively eliminated - the Democratic Party dissolved in 2025 and the League of Social Democrats disbanded in June 2025. Only 20 of 90 Legislative Council seats are directly elected. John Lee serves as Chief Executive while Xi Jinping as PRC President holds ultimate authority over Hong Kong.",
+        "metadata": "REST Countries API returned no data for 'HK'."
       },
       "elections": {
         "competitiveElections": false,
@@ -13725,7 +13694,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:15:50.593472Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -15593,7 +15562,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -15675,7 +15644,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'NZ'."
@@ -15703,30 +15672,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Singapore",
       "iso2": "SG",
       "metadata": {
-        "officialName": "Republic of Singapore",
-        "capital": "Singapore",
-        "population": 6110200,
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
-        "flag": "🇸🇬",
-        "flagPng": "https://flagcdn.com/w320/sg.png",
-        "currencies": [
-          "Singapore dollar"
-        ],
-        "languages": [
-          "English",
-          "Chinese",
-          "Malay",
-          "Tamil"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -15807,9 +15769,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SG/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SG/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'SG'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -15833,7 +15797,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -17614,7 +17578,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -17695,7 +17659,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'AO'."
@@ -17723,37 +17687,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "South Africa",
       "iso2": "ZA",
       "metadata": {
-        "officialName": "Republic of South Africa",
-        "capital": "Pretoria",
-        "population": 63100945,
-        "region": "Africa",
-        "subregion": "Southern Africa",
-        "flag": "🇿🇦",
-        "flagPng": "https://flagcdn.com/w320/za.png",
-        "currencies": [
-          "South African rand"
-        ],
-        "languages": [
-          "Afrikaans",
-          "English",
-          "Southern Ndebele",
-          "Northern Sotho",
-          "Southern Sotho",
-          "Swazi",
-          "Tswana",
-          "Tsonga",
-          "Venda",
-          "Xhosa",
-          "Zulu"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -17834,9 +17784,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/ZA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ZA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'ZA'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -17860,7 +17812,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -19638,7 +19590,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -19721,7 +19673,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BF/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BF/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BF'."
@@ -19749,27 +19701,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Niger",
       "iso2": "NE",
       "metadata": {
-        "officialName": "Republic of Niger",
-        "capital": "Niamey",
-        "population": 26312034,
-        "region": "Africa",
-        "subregion": "Western Africa",
-        "flag": "🇳🇪",
-        "flagPng": "https://flagcdn.com/w320/ne.png",
-        "currencies": [
-          "West African CFA franc"
-        ],
-        "languages": [
-          "French"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -19850,9 +19798,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'NE'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -19876,7 +19826,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -21661,7 +21611,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -21742,7 +21692,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'SZ'."
@@ -21770,29 +21720,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Lesotho",
       "iso2": "LS",
       "metadata": {
-        "officialName": "Kingdom of Lesotho",
-        "capital": "Maseru",
-        "population": 2116427,
-        "region": "Africa",
-        "subregion": "Southern Africa",
-        "flag": "🇱🇸",
-        "flagPng": "https://flagcdn.com/w320/ls.png",
-        "currencies": [
-          "Lesotho loti",
-          "South African rand"
-        ],
-        "languages": [
-          "English",
-          "Sotho"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -21873,9 +21817,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LS/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LS/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'LS'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -23740,7 +23686,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -23823,7 +23769,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BS/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BS/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BS'."
