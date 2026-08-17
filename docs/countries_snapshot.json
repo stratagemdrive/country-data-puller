@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T03:48:42.380656Z",
+  "generatedAt": "2026-08-17T12:43:16.643949Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 2,
   "weeklyBucketTotal": 16,
@@ -5396,7 +5396,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 40.03,
+        "overallPercentile": 41.6,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
@@ -5415,10 +5415,9 @@
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 49.4532828,
+            "label": "Moderate government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
@@ -8197,7 +8196,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 90.62,
+        "overallPercentile": 86.4,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -8210,38 +8209,33 @@
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 81.3235982,
+            "label": "Very high political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 87.1769157,
+            "label": "Very high government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 81.2082198,
+            "label": "Very high regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 90.5162003,
+            "label": "Very high rule of law",
+            "year": 2024
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 87.5486488,
+            "label": "Very high control of corruption",
+            "year": 2024
           }
         },
         "sources": {
@@ -10859,7 +10853,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/HR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Croatia operates as a parliamentary democracy where the Prime Minister holds executive power while the President serves largely ceremonially as head of state. The 2024 parliamentary election resulted in HDZ forming a coalition with the right-wing Homeland Movement after failing to secure an outright majority. President Milanović, backed by the opposition SDP, won a landslide re-election victory in January 2025 with record-high 74.7% support, creating ongoing tensions with Prime Minister Plenković's government. The Croatian Parliament (Sabor) is unicameral with 151 members elected for four-year terms.",
@@ -13368,16 +13362,17 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 53.68,
+        "overallPercentile": 52.49,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 59.6424284,
-            "label": "Moderate voice & accountability",
-            "year": 2024
+            "percentile": null,
+            "label": null,
+            "year": null,
+            "notes": "Failed to fetch WB indicator."
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
@@ -15883,7 +15878,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'PH'."
@@ -17895,7 +17890,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'KE'."
@@ -19906,7 +19901,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TD/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TD/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'TD'."
@@ -21922,7 +21917,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MW/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MW/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: No WGI percentile values available."
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'MW'."
