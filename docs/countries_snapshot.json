@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T12:46:41.762613Z",
+  "generatedAt": "2026-08-19T03:44:42.115268Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 2,
   "weeklyBucketTotal": 16,
@@ -2131,7 +2131,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 81.56,
+        "overallPercentile": 80.69,
         "band": "Very High",
         "bandLabel": "Very high governance overall",
         "year": 2024,
@@ -2156,10 +2156,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 76.3468072,
+            "label": "High regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -2959,7 +2958,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 71.6,
+        "overallPercentile": 72.11,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
@@ -2978,10 +2977,9 @@
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 74.6869309,
+            "label": "High government effectiveness",
+            "year": 2024
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
@@ -5398,17 +5396,16 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 44.15,
+        "overallPercentile": 41.6,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 28.8341534,
+            "label": "Low voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
@@ -11196,7 +11193,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 72.28,
+        "overallPercentile": 71.47,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
@@ -11221,10 +11218,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 67.4509563,
+            "label": "High regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -21870,24 +21866,22 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 43.01,
+        "overallPercentile": 47.73,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
         "year": 2024,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 54.933872,
+            "label": "Moderate voice & accountability",
+            "year": 2024
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 59.3998253,
+            "label": "Moderate political stability",
+            "year": 2024
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
