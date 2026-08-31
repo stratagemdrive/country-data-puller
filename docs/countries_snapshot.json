@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-30T16:11:41.373349Z",
+  "generatedAt": "2026-08-31T09:21:05.433440Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 3,
+  "weeklyBucket": 4,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -331,7 +331,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -423,7 +423,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/IN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Modi sworn in for third consecutive term June 9, 2024, becoming second PM after Nehru to serve three consecutive terms. For first time since 2014, BJP lacks outright majority and governs through coalition with key partners Telugu Desam Party (16 seats) and Janata Dal United (12 seats). NDA controls both houses of parliament with 293 of 543 Lok Sabha seats.",
@@ -480,28 +480,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-01T08:06:11.552877Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Pakistan",
       "iso2": "PK",
       "metadata": {
-        "officialName": "Islamic Republic of Pakistan",
-        "capital": "Islamabad",
-        "population": 241499431,
-        "region": "Asia",
-        "subregion": "Southern Asia",
-        "flag": "🇵🇰",
-        "flagPng": "https://flagcdn.com/w320/pk.png",
-        "currencies": [
-          "Pakistani rupee"
-        ],
-        "languages": [
-          "English",
-          "Urdu"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -593,10 +588,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PK/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PK/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "PML-N leads coalition government with PPP, MQM-P, and other smaller parties controlling over two-thirds majority in National Assembly. PTI-backed independents form largest opposition bloc but many joined Sunni Ittehad Council for reserved seats allocation. Pakistan's military establishment continues to wield significant behind-the-scenes influence over political process."
+        "executive": "PML-N leads coalition government with PPP, MQM-P, and other smaller parties controlling over two-thirds majority in National Assembly. PTI-backed independents form largest opposition bloc but many joined Sunni Ittehad Council for reserved seats allocation. Pakistan's military establishment continues to wield significant behind-the-scenes influence over political process.",
+        "metadata": "REST Countries API returned no data for 'PK'."
       },
       "elections": {
         "competitiveElections": true,
@@ -649,7 +645,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-03T06:52:42.827161Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -3067,20 +3063,16 @@
       "country": "Turkey",
       "iso2": "TR",
       "metadata": {
-        "officialName": "Republic of Turkey",
-        "capital": "Ankara",
-        "population": 85664944,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇹🇷",
-        "flagPng": "https://flagcdn.com/w320/tr.png",
-        "currencies": [
-          "Turkish lira"
-        ],
-        "languages": [
-          "Turkish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -3168,10 +3160,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Turkey maintains competitive elections but with significant restrictions on opposition parties and media freedom. Recent polling shows opposition CHP leading AKP, though AKP retains parliamentary control through People's Alliance coalition. Erdoğan seeking path to third term through early election mechanism requiring 360 parliamentary votes. Democratic quality has deteriorated significantly under Erdoğan's rule with PolitPro Democracy Index score of only 19/100. Elections described as 'partially free and fair, primarily serving to secure government power'."
+        "executive": "Turkey maintains competitive elections but with significant restrictions on opposition parties and media freedom. Recent polling shows opposition CHP leading AKP, though AKP retains parliamentary control through People's Alliance coalition. Erdoğan seeking path to third term through early election mechanism requiring 360 parliamentary votes. Democratic quality has deteriorated significantly under Erdoğan's rule with PolitPro Democracy Index score of only 19/100. Elections described as 'partially free and fair, primarily serving to secure government power'.",
+        "metadata": "REST Countries API returned no data for 'TR'."
       },
       "elections": {
         "competitiveElections": true,
@@ -3224,7 +3217,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:45:25.959756Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -5514,7 +5507,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -5606,7 +5599,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/DZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Algeria maintains competitive elections but with significant military influence over the political system. The ruling establishment, centered on the FLN and aligned parties, dominates through institutional advantages and state resources. Opposition participation is increasingly coerced through new party laws that threaten dissolution for boycotting parties. President Tebboune was appointed Prime Minister Sifi Ghrieb in September 2025, replacing Nadir Larbaoui. The 2021 parliamentary elections saw record low turnout amid opposition boycotts but resulted in no single party majority, requiring coalition governance.",
@@ -5663,28 +5656,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:52:24.838413Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Argentina",
       "iso2": "AR",
       "metadata": {
-        "officialName": "Argentine Republic",
-        "capital": "Buenos Aires",
-        "population": 46735004,
-        "region": "Americas",
-        "subregion": "South America",
-        "flag": "🇦🇷",
-        "flagPng": "https://flagcdn.com/w320/ar.png",
-        "currencies": [
-          "Argentine peso"
-        ],
-        "languages": [
-          "Guaraní",
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -5776,10 +5764,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Argentina continues under Milei's libertarian presidency with strong performance in 2025 midterm elections. La Libertad Avanza became largest bloc in Chamber of Deputies but still lacks outright majority. Opposition Fuerza Patria retains control of Senate. Milei has implemented major economic reforms and maintained stable governance despite controversy over cryptocurrency involvement allegations."
+        "executive": "Argentina continues under Milei's libertarian presidency with strong performance in 2025 midterm elections. La Libertad Avanza became largest bloc in Chamber of Deputies but still lacks outright majority. Opposition Fuerza Patria retains control of Senate. Milei has implemented major economic reforms and maintained stable governance despite controversy over cryptocurrency involvement allegations.",
+        "metadata": "REST Countries API returned no data for 'AR'."
       },
       "elections": {
         "competitiveElections": true,
@@ -5832,7 +5821,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:52:57.392922Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -8300,7 +8289,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -8412,7 +8401,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/RO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/RO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Romania experienced significant political turbulence in 2024-2025 with the annulment of the November 2024 presidential election due to Russian interference allegations. The May 2025 rerun election saw pro-European candidate Nicușor Dan defeat far-right candidate George Simion. Current government is a grand coalition of PSD, PNL, USR, and UDMR formed after the December 2024 parliamentary elections, where far-right parties (AUR, SOS Romania, POT) collectively won about one-third of votes. President Dan serves as head of state with foreign policy leadership, while PM Bolojan leads the government under Romania's semi-presidential system.",
@@ -8469,27 +8458,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:59:38.526729Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Sweden",
       "iso2": "SE",
       "metadata": {
-        "officialName": "Kingdom of Sweden",
-        "capital": "Stockholm",
-        "population": 10605098,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇸🇪",
-        "flagPng": "https://flagcdn.com/w320/se.png",
-        "currencies": [
-          "Swedish krona"
-        ],
-        "languages": [
-          "Swedish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -8642,10 +8627,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Sweden is a constitutional monarchy with King Carl XVI Gustaf as ceremonial head of state since 1973. Prime Minister Ulf Kristersson leads a minority coalition government of Moderates, Christian Democrats, and Liberals with confidence and supply support from the Sweden Democrats under the Tido Agreement since October 2022. The current government has 176 seats versus opposition's 173 seats in the 349-member Riksdag following the September 2022 election."
+        "executive": "Sweden is a constitutional monarchy with King Carl XVI Gustaf as ceremonial head of state since 1973. Prime Minister Ulf Kristersson leads a minority coalition government of Moderates, Christian Democrats, and Liberals with confidence and supply support from the Sweden Democrats under the Tido Agreement since October 2022. The current government has 176 seats versus opposition's 173 seats in the 349-member Riksdag following the September 2022 election.",
+        "metadata": "REST Countries API returned no data for 'SE'."
       },
       "elections": {
         "competitiveElections": true,
@@ -8684,7 +8670,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:00:19.530682Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -10918,7 +10904,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -11054,7 +11040,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SK/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SK/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Slovakia is a stable parliamentary democracy with competitive elections and peaceful transfers of power. The current government is led by PM Robert Fico (Smer-SD) in coalition with Hlas and Slovak National Party, formed after September 2023 elections. President Peter Pellegrini was elected in April 2024. Political tensions exist over the government's pro-Russian foreign policy stance, including halting military aid to Ukraine and criticism of EU sanctions on Russia. The opposition remains fragmented but active, with regular protests against government policies. Press freedom and rule of law concerns have emerged under the current government.",
@@ -11111,7 +11097,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:07:02.258115Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -13861,7 +13847,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -13942,7 +13928,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/JO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/JO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'JO'."
@@ -13970,28 +13956,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Lebanon",
       "iso2": "LB",
       "metadata": {
-        "officialName": "Lebanese Republic",
-        "capital": "Beirut",
-        "population": 5490000,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇱🇧",
-        "flagPng": "https://flagcdn.com/w320/lb.png",
-        "currencies": [
-          "Lebanese pound"
-        ],
-        "languages": [
-          "Arabic",
-          "French"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -14072,9 +14053,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LB/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LB/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'LB'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -14098,7 +14081,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -15908,7 +15891,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -15989,7 +15972,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'MY'."
@@ -16017,27 +16000,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Thailand",
       "iso2": "TH",
       "metadata": {
-        "officialName": "Kingdom of Thailand",
-        "capital": "Bangkok",
-        "population": 65859640,
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
-        "flag": "🇹🇭",
-        "flagPng": "https://flagcdn.com/w320/th.png",
-        "currencies": [
-          "Thai baht"
-        ],
-        "languages": [
-          "Thai"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -16118,9 +16097,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'TH'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -16144,7 +16125,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -19928,7 +19909,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -20009,7 +19990,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'GN'."
@@ -20037,27 +20018,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Mali",
       "iso2": "ML",
       "metadata": {
-        "officialName": "Republic of Mali",
-        "capital": "Bamako",
-        "population": 22395489,
-        "region": "Africa",
-        "subregion": "Western Africa",
-        "flag": "🇲🇱",
-        "flagPng": "https://flagcdn.com/w320/ml.png",
-        "currencies": [
-          "West African CFA franc"
-        ],
-        "languages": [
-          "French"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -20138,9 +20115,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/ML/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ML/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'ML'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -20164,7 +20143,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -21942,7 +21921,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -22023,7 +22002,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BO'."
@@ -22051,27 +22030,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Ecuador",
       "iso2": "EC",
       "metadata": {
-        "officialName": "Republic of Ecuador",
-        "capital": "Quito",
-        "population": 18103660,
-        "region": "Americas",
-        "subregion": "South America",
-        "flag": "🇪🇨",
-        "flagPng": "https://flagcdn.com/w320/ec.png",
-        "currencies": [
-          "United States dollar"
-        ],
-        "languages": [
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -22152,9 +22127,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/EC/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EC/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'EC'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -22178,7 +22155,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
