@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:02:49.850944Z",
+  "generatedAt": "2026-09-10T07:53:10.757905Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 5,
   "weeklyBucketTotal": 16,
@@ -8465,7 +8465,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -8618,7 +8618,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Sweden is a constitutional monarchy with King Carl XVI Gustaf as ceremonial head of state since 1973. Prime Minister Ulf Kristersson leads a minority coalition government of Moderates, Christian Democrats, and Liberals with confidence and supply support from the Sweden Democrats under the Tido Agreement since October 2022. The current government has 176 seats versus opposition's 173 seats in the 349-member Riksdag following the September 2022 election.",
@@ -8661,7 +8661,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:00:19.530682Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
