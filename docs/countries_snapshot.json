@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-13T15:44:06.236764Z",
+  "generatedAt": "2026-09-14T08:34:31.472616Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 5,
+  "weeklyBucket": 6,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -661,7 +661,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -748,7 +748,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "General Secretary Xi Jinping holds supreme power as leader of the Chinese Communist Party, though formally serves as President. The political system is a one-party state where the CCP exercises control over all government institutions including the National People's Congress.",
@@ -805,27 +805,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-04T06:16:05.802545Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "United Kingdom",
       "iso2": "GB",
       "metadata": {
-        "officialName": "United Kingdom of Great Britain and Northern Ireland",
-        "capital": "London",
-        "population": 69281437,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇬🇧",
-        "flagPng": "https://flagcdn.com/w320/gb.png",
-        "currencies": [
-          "British pound"
-        ],
-        "languages": [
-          "English"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -919,10 +915,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GB/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GB/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Starmer faces significant political challenges including poor polling numbers, internal party discontent, and leadership speculation from within Labour ranks. Recent by-election losses to Green Party indicate declining government support. Multiple reports suggest potential leadership challenge discussions among Labour MPs, though Starmer remains defiant about continuing as PM."
+        "executive": "Starmer faces significant political challenges including poor polling numbers, internal party discontent, and leadership speculation from within Labour ranks. Recent by-election losses to Green Party indicate declining government support. Multiple reports suggest potential leadership challenge discussions among Labour MPs, though Starmer remains defiant about continuing as PM.",
+        "metadata": "REST Countries API returned no data for 'GB'."
       },
       "elections": {
         "competitiveElections": true,
@@ -975,7 +972,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-05T06:48:28.551564Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -3230,7 +3227,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -3317,7 +3314,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/VE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "On January 3, 2026, US forces captured President Nicolás Maduro and his wife in a military operation. Acting President Delcy Rodríguez was sworn in January 5, 2026, initially for 90 days but has remained in power past the constitutional deadline. The Supreme Court declared Maduro's absence temporary rather than permanent, avoiding the constitutional requirement for new elections within 30 days. The National Assembly is controlled by PSUV with Jorge Rodríguez (Delcy's brother) as President. No new presidential elections have been scheduled despite constitutional requirements and international calls. The US has recognized Rodríguez as acting head of state and lifted sanctions on her while Maduro faces narco-terrorism charges in New York. Venezuela remains under authoritarian rule with systematic electoral manipulation and opposition exclusion, though some political prisoners have been released under an amnesty law.",
@@ -3367,27 +3364,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:45:59.788770Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Vietnam",
       "iso2": "VN",
       "metadata": {
-        "officialName": "Socialist Republic of Vietnam",
-        "capital": "Hanoi",
-        "population": 101343800,
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
-        "flag": "🇻🇳",
-        "flagPng": "https://flagcdn.com/w320/vn.png",
-        "currencies": [
-          "Vietnamese đồng"
-        ],
-        "languages": [
-          "Vietnamese"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -3474,10 +3467,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/VN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "One-party socialist republic where General Secretary Tô Lâm holds supreme power as both Communist Party leader and State President. Prime Minister Lê Minh Hưng heads the government under party leadership."
+        "executive": "One-party socialist republic where General Secretary Tô Lâm holds supreme power as both Communist Party leader and State President. Prime Minister Lê Minh Hưng heads the government under party leadership.",
+        "metadata": "REST Countries API returned no data for 'VN'."
       },
       "elections": {
         "competitiveElections": false,
@@ -3530,7 +3524,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:46:20.010305Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -5831,7 +5825,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -5942,7 +5936,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CL/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CL/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "José Antonio Kast was inaugurated as President on March 11, 2026, following his victory in the December 2025 runoff election with 58% of the vote. His Republican Party expanded significantly in the 2025 congressional elections, winning 31 seats in the Chamber of Deputies. The Senate remains evenly split 25-25 between left and right blocs. Kast campaigned on security, immigration control, and economic recovery, marking Chile's rightward shift since the end of dictatorship in 1990. His presidency represents the most conservative government since Pinochet, though he operates within democratic institutions and faces divided Congress that may constrain some proposals.",
@@ -5999,7 +5993,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:53:34.508159Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -8465,7 +8459,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -8618,7 +8612,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Sweden is a constitutional monarchy with King Carl XVI Gustaf as ceremonial head of state since 1973. Prime Minister Ulf Kristersson leads a minority coalition government of Moderates, Christian Democrats, and Liberals with confidence and supply support from the Sweden Democrats under the Tido Agreement since October 2022. The current government has 176 seats versus opposition's 173 seats in the 349-member Riksdag following the September 2022 election.",
@@ -8661,7 +8655,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:00:19.530682Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -8677,7 +8671,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -8758,7 +8752,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/FI/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/FI/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'FI'."
@@ -8786,30 +8780,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Switzerland",
       "iso2": "CH",
       "metadata": {
-        "officialName": "Swiss Confederation",
-        "capital": "Bern",
-        "population": 9082848,
-        "region": "Europe",
-        "subregion": "Western Europe",
-        "flag": "🇨🇭",
-        "flagPng": "https://flagcdn.com/w320/ch.png",
-        "currencies": [
-          "Swiss franc"
-        ],
-        "languages": [
-          "French",
-          "Swiss German",
-          "Italian",
-          "Romansh"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -8890,9 +8877,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'CH'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -8916,7 +8905,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -11279,7 +11268,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -11401,7 +11390,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LT/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LT/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Lithuania is a stable parliamentary democracy with competitive multi-party elections. Current government led by PM Inga Ruginienė was formed in September 2025 after coalition negotiations following October 2024 parliamentary election victory by Social Democrats. President Nausėda serves as independent head of state with significant foreign policy authority. Coalition includes Social Democrats, Dawn of Nemunas, Union of Democrats For Lithuania, and Farmers and Greens Union with 86-seat parliamentary majority.",
@@ -11458,27 +11447,23 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:08:22.402759Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Latvia",
       "iso2": "LV",
       "metadata": {
-        "officialName": "Republic of Latvia",
-        "capital": "Riga",
-        "population": 1829000,
-        "region": "Europe",
-        "subregion": "Northern Europe",
-        "flag": "🇱🇻",
-        "flagPng": "https://flagcdn.com/w320/lv.png",
-        "currencies": [
-          "euro"
-        ],
-        "languages": [
-          "Latvian"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -11564,7 +11549,7 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 71.83,
+        "overallPercentile": 71.9,
         "band": "High",
         "bandLabel": "High governance overall",
         "year": 2024,
@@ -11589,10 +11574,9 @@
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 72.2084716,
+            "label": "High regulatory quality",
+            "year": 2024
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
@@ -11615,10 +11599,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LV/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LV/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Latvia is a stable parliamentary democracy with competitive elections. President Rinkēvičs became the first openly gay head of state in the EU upon taking office in July 2023. Current government formed September 2023 under PM Siliņa after resignation of previous PM Kariņš. Coalition holds 52 out of 100 seats in Saeima. Next parliamentary election scheduled for October 2026."
+        "executive": "Latvia is a stable parliamentary democracy with competitive elections. President Rinkēvičs became the first openly gay head of state in the EU upon taking office in July 2023. Current government formed September 2023 under PM Siliņa after resignation of previous PM Kariņš. Coalition holds 52 out of 100 seats in Saeima. Next parliamentary election scheduled for October 2026.",
+        "metadata": "REST Countries API returned no data for 'LV'."
       },
       "elections": {
         "competitiveElections": true,
@@ -11671,7 +11656,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:08:56.620661Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -14082,7 +14067,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -14163,7 +14148,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KW/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KW/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'KW'."
@@ -14191,27 +14176,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Bahrain",
       "iso2": "BH",
       "metadata": {
-        "officialName": "Kingdom of Bahrain",
-        "capital": "Manama",
-        "population": 1594654,
-        "region": "Asia",
-        "subregion": "Western Asia",
-        "flag": "🇧🇭",
-        "flagPng": "https://flagcdn.com/w320/bh.png",
-        "currencies": [
-          "Bahraini dinar"
-        ],
-        "languages": [
-          "Arabic"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -14292,9 +14273,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'BH'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -14318,7 +14301,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -16124,7 +16107,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -16205,7 +16188,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'KH'."
@@ -16233,27 +16216,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Laos",
       "iso2": "LA",
       "metadata": {
-        "officialName": "Lao People's Democratic Republic",
-        "capital": "Vientiane",
-        "population": 7647000,
-        "region": "Asia",
-        "subregion": "South-Eastern Asia",
-        "flag": "🇱🇦",
-        "flagPng": "https://flagcdn.com/w320/la.png",
-        "currencies": [
-          "Lao kip"
-        ],
-        "languages": [
-          "Lao"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -16334,9 +16313,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/LA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'LA'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -16360,7 +16341,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -18128,7 +18109,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -18209,7 +18190,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'TN'."
@@ -18237,27 +18218,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Ethiopia",
       "iso2": "ET",
       "metadata": {
-        "officialName": "Federal Democratic Republic of Ethiopia",
-        "capital": "Addis Ababa",
-        "population": 111652998,
-        "region": "Africa",
-        "subregion": "Eastern Africa",
-        "flag": "🇪🇹",
-        "flagPng": "https://flagcdn.com/w320/et.png",
-        "currencies": [
-          "Ethiopian birr"
-        ],
-        "languages": [
-          "Amharic"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -18288,7 +18265,7 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 37.64,
+        "overallPercentile": 37.87,
         "band": "Low",
         "bandLabel": "Low governance overall",
         "year": 2024,
@@ -18325,10 +18302,9 @@
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": null,
-            "label": null,
-            "year": null,
-            "notes": "Failed to fetch WB indicator."
+            "percentile": 38.9918024,
+            "label": "Low control of corruption",
+            "year": 2024
           }
         },
         "sources": {
@@ -18339,9 +18315,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/ET/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ET/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'ET'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -18365,7 +18343,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -20137,7 +20115,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -20218,7 +20196,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BW/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BW/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BW'."
@@ -20246,28 +20224,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Tanzania",
       "iso2": "TZ",
       "metadata": {
-        "officialName": "United Republic of Tanzania",
-        "capital": "Dodoma",
-        "population": 68153004,
-        "region": "Africa",
-        "subregion": "Eastern Africa",
-        "flag": "🇹🇿",
-        "flagPng": "https://flagcdn.com/w320/tz.png",
-        "currencies": [
-          "Tanzanian shilling"
-        ],
-        "languages": [
-          "English",
-          "Swahili"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -20348,9 +20321,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TZ/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TZ/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
-      "dataAvailability": null,
+      "dataAvailability": {
+        "metadata": "REST Countries API returned no data for 'TZ'."
+      },
       "elections": {
         "competitiveElections": null,
         "nonCompetitiveReason": null,
@@ -20374,7 +20349,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -22146,7 +22121,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -22227,7 +22202,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/PY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'PY'."
@@ -22255,27 +22230,23 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
       "country": "Uruguay",
       "iso2": "UY",
       "metadata": {
-        "officialName": "Oriental Republic of Uruguay",
-        "capital": "Montevideo",
-        "population": 3499451,
-        "region": "Americas",
-        "subregion": "South America",
-        "flag": "🇺🇾",
-        "flagPng": "https://flagcdn.com/w320/uy.png",
-        "currencies": [
-          "Uruguayan peso"
-        ],
-        "languages": [
-          "Spanish"
-        ],
-        "source": "carried_forward"
+        "officialName": null,
+        "capital": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "flag": null,
+        "flagPng": null,
+        "currencies": [],
+        "languages": [],
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -22384,10 +22355,11 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/UY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
-        "executive": "Uruguay is a stable multi-party democracy with compulsory voting. President Yamandú Orsi and Vice President Carolina Cosse took office March 1, 2025, after winning the November 24, 2024 runoff election. The fragmented parliament requires consensus-building as no coalition holds a majority in the Chamber of Representatives."
+        "executive": "Uruguay is a stable multi-party democracy with compulsory voting. President Yamandú Orsi and Vice President Carolina Cosse took office March 1, 2025, after winning the November 24, 2024 runoff election. The fragmented parliament requires consensus-building as no coalition holds a majority in the Chamber of Representatives.",
+        "metadata": "REST Countries API returned no data for 'UY'."
       },
       "elections": {
         "competitiveElections": true,
@@ -22440,7 +22412,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T00:30:11.851836Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
