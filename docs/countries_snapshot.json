@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T16:15:58.726589Z",
+  "generatedAt": "2026-09-24T08:09:31.786407Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
   "weeklyBucket": 7,
   "weeklyBucketTotal": 16,
@@ -4656,7 +4656,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -4749,7 +4749,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Morocco is a constitutional monarchy where King Mohammed VI holds substantial powers including appointing the prime minister and controlling strategic ministries. Prime Minister Akhannouch announced in January 2026 that he will not seek a third term as RNI party president, stepping down at the February 2026 party congress, though he remains PM. The monarch retains final authority over government appointments and policy in key areas including security, defense, and foreign affairs. Elections are competitive with multiple parties participating in a proportional representation system.",
@@ -4792,7 +4792,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:50:04.133895Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
