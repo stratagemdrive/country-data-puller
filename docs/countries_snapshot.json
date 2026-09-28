@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T16:32:23.398822Z",
+  "generatedAt": "2026-09-28T09:23:25.126759Z",
   "lastFullSweepDate": "2026-04-14T01:43:40.414511Z",
-  "weeklyBucket": 7,
+  "weeklyBucket": 8,
   "weeklyBucketTotal": 16,
   "worldBankYearRule": "latest_non_null_per_indicator",
   "sentinelSeenIds": [],
@@ -988,7 +988,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -1080,7 +1080,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/DE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Germany maintains competitive multi-party democracy with functioning grand coalition government between CDU/CSU and SPD since May 2025. AfD remains second-largest party but excluded from government formation by other parties' firewall policy.",
@@ -1137,7 +1137,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-06T08:14:50.987368Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -1153,7 +1153,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -1191,46 +1191,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 67.8,
+        "overallPercentile": 68.03,
         "band": "High",
         "bandLabel": "High governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 41.9065122,
-            "label": "Moderate voice & accountability",
-            "year": 2024
+            "percentile": 38.0821221,
+            "label": "Low voice & accountability",
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 79.3661459,
-            "label": "High political stability",
-            "year": 2024
+            "percentile": 80.0735345,
+            "label": "Very high political stability",
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 75.8392807,
+            "percentile": 75.4452228,
             "label": "High government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 72.6169592,
+            "percentile": 75.7111549,
             "label": "High regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 65.5157588,
+            "percentile": 67.5860974,
             "label": "High rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 71.5418396,
+            "percentile": 71.2855181,
             "label": "High control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -1241,7 +1241,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/AE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "The UAE operates as a federal constitutional monarchy where the president is elected by the Federal Supreme Council (comprising the seven emirate rulers) every five years, and the prime minister is appointed by the president. Both positions are effectively hereditary within the Al Nahyan and Al Maktoum ruling families respectively. The Federal National Council serves only in an advisory capacity with limited powers.",
@@ -1284,7 +1284,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-07T08:00:18.544767Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -3537,7 +3537,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -3624,7 +3624,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/TWN/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TWN/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Taiwan is a self-governing democracy not recognized as a sovereign state by most UN members and is not a UN or IPU member due to contested sovereignty status. The government operates as a full democracy with competitive elections, peaceful transfers of power, and civil liberties protections. Current political situation features divided government with DPP controlling presidency and KMT-TPP coalition controlling Legislative Yuan, leading to budget gridlock and institutional confrontation. The Constitutional Court is currently paralyzed due to opposition blocking new justice nominations. The recall movement in 2025 against 31 KMT legislators failed across all attempts. Local elections scheduled for November 2026 will be a key test for both parties.",
@@ -3681,7 +3681,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:46:58.915799Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -3697,7 +3697,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -3735,46 +3735,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 73.36,
+        "overallPercentile": 76.06,
         "band": "High",
         "bandLabel": "High governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 70.987799,
+            "percentile": 73.7907215,
             "label": "High voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 76.8155059,
-            "label": "High political stability",
-            "year": 2024
+            "percentile": 81.6826033,
+            "label": "Very high political stability",
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 80.2483639,
+            "percentile": 83.1058196,
             "label": "Very high government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 70.8498709,
+            "percentile": 72.7594617,
             "label": "High regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 76.19689,
+            "percentile": 78.3294223,
             "label": "High rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 65.0511972,
+            "percentile": 66.6784146,
             "label": "High control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -3785,7 +3785,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/KR/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KR/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Lee Jae-myung serves as both head of state and government under South Korea's presidential system. His administration has focused on improving relations with China while maintaining ties with the US and Japan. South Korea remains a competitive democracy with regular transfers of power between conservative and progressive parties. The Democratic Party controls 175 out of 300 National Assembly seats following the April 2024 legislative elections.",
@@ -3842,7 +3842,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T05:47:29.300594Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -6163,7 +6163,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -6250,7 +6250,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CU/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CU/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Cuba operates as a one-party socialist republic where Miguel Díaz-Canel serves as both President and First Secretary of the Communist Party since 2021, making him the supreme leader. Manuel Marrero Cruz has been Prime Minister since December 2019. The Communist Party controls all aspects of governance including candidate selection for elections. The 2023 National Assembly election saw record abstention rates of over 24%, indicating growing discontent, but the system remains non-competitive. Current severe economic crisis includes widespread power outages and fuel shortages exacerbated by U.S. energy blockade following Venezuela situation.",
@@ -6307,7 +6307,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T00:21:58.255329Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -6323,7 +6323,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -6365,46 +6365,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 50.04,
+        "overallPercentile": 50.01,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 57.4541954,
+            "percentile": 58.5038192,
             "label": "Moderate voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 49.3103253,
+            "percentile": 48.9109961,
             "label": "Moderate political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 49.1802654,
+            "percentile": 50.4306866,
             "label": "Moderate government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 55.0740059,
+            "percentile": 52.0988682,
             "label": "Moderate regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 47.3311328,
+            "percentile": 48.2793409,
             "label": "Moderate rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 41.90949,
+            "percentile": 41.8189955,
             "label": "Moderate control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -6415,7 +6415,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "Gustavo Petro remains president as of April 2026, serving his constitutionally limited single term until August 2026. His approval rating has fluctuated significantly, reaching lows of 26% in 2023 but rebounding to 54% by March 2026. Colombia faces ongoing tensions with the US under Trump administration, with investigations into Petro's alleged drug ties strongly denied by his government.",
@@ -6472,7 +6472,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-12T05:32:47.097962Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -8911,7 +8911,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -8992,7 +8992,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NL/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NL/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'NL'."
@@ -9020,7 +9020,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -9036,7 +9036,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -9067,46 +9067,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 76.12,
+        "overallPercentile": 77.21,
         "band": "High",
         "bandLabel": "High governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 83.0542039,
+            "percentile": 83.9092316,
             "label": "Very high voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 67.9689981,
+            "percentile": 68.6350103,
             "label": "High political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 74.5710173,
+            "percentile": 79.3147266,
             "label": "High government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 74.4753152,
+            "percentile": 76.3367664,
             "label": "High regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 79.0425834,
+            "percentile": 79.4927188,
             "label": "High rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 77.5852129,
+            "percentile": 75.5563463,
             "label": "High control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -9117,7 +9117,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BE'."
@@ -9145,7 +9145,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -11660,7 +11660,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -11765,7 +11765,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "executive": "Estonia operates as a stable parliamentary republic with competitive multi-party elections. The current government is a two-party coalition between the Reform Party and Estonia 200, formed after the Social Democratic Party was expelled from the coalition in March 2025. President Karis is considering running for a second term in the 2026 presidential election. Estonia maintains strong democratic institutions with regular free and fair elections, including pioneering e-voting systems where over 50% of votes are now cast electronically.",
@@ -11822,7 +11822,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:09:34.688149Z",
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -11838,7 +11838,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -11895,46 +11895,46 @@
         }
       },
       "worldBankGovernance": {
-        "overallPercentile": 55.13,
+        "overallPercentile": 58.58,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 58.1398502,
-            "label": "Moderate voice & accountability",
-            "year": 2024
+            "percentile": 61.2771957,
+            "label": "High voice & accountability",
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 68.5558552,
+            "percentile": 72.18233,
             "label": "High political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 50.7116064,
+            "percentile": 56.3697589,
             "label": "Moderate government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 59.0627717,
-            "label": "Moderate regulatory quality",
-            "year": 2024
+            "percentile": 63.3163608,
+            "label": "High regulatory quality",
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 53.0935121,
+            "percentile": 56.2958412,
             "label": "Moderate rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 41.1908811,
+            "percentile": 42.0355852,
             "label": "Moderate control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -11945,7 +11945,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MK/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MK/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "executive": "North Macedonia held competitive parliamentary and presidential elections in May 2024. VMRO-DPMNE won decisively with 58 seats out of 120, forming coalition with VLEN (14 seats) and ZNAM (6 seats). The new government has taken a more nationalist stance on issues like the country name and constitutional changes required by EU. Both President Siljanovska-Davkova and PM Mickoski have controversially referred to the country as Macedonia rather than North Macedonia in some contexts, creating tensions with Greece. The government coalition holds 78 seats providing stable majority control.",
@@ -12002,7 +12002,7 @@
         }
       },
       "lastClaudeUpdate": "2026-04-13T06:10:17.596790Z",
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -14305,7 +14305,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -14386,7 +14386,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/OM/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/OM/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'OM'."
@@ -14414,7 +14414,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -14430,7 +14430,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -14461,46 +14461,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 66.01,
+        "overallPercentile": 66.15,
         "band": "High",
         "bandLabel": "High governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 40.1452752,
-            "label": "Moderate voice & accountability",
-            "year": 2024
+            "percentile": 33.9221418,
+            "label": "Low voice & accountability",
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 82.1419879,
+            "percentile": 83.8552895,
             "label": "Very high political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 73.395251,
+            "percentile": 72.7286741,
             "label": "High government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 70.1032913,
+            "percentile": 72.6729079,
             "label": "High regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 67.1120206,
+            "percentile": 67.9099314,
             "label": "High rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 63.1337308,
+            "percentile": 65.8120577,
             "label": "High control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -14511,7 +14511,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/QA/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/QA/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'QA'."
@@ -14539,7 +14539,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -16343,7 +16343,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -16424,7 +16424,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/BD/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BD/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'BD'."
@@ -16452,7 +16452,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -16468,7 +16468,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -16499,46 +16499,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 46.95,
+        "overallPercentile": 46.56,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 55.8031944,
+            "percentile": 54.6350361,
             "label": "Moderate voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 58.8121329,
+            "percentile": 57.8431732,
             "label": "Moderate political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 34.1416692,
+            "percentile": 36.5901914,
             "label": "Low government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 46.1517079,
+            "percentile": 44.2484904,
             "label": "Moderate regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 51.7386218,
+            "percentile": 53.5844843,
             "label": "Moderate rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 35.0499922,
+            "percentile": 32.4500344,
             "label": "Low control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -16549,7 +16549,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/NP/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NP/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'NP'."
@@ -16577,7 +16577,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -18343,7 +18343,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -18424,7 +18424,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GH/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GH/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'GH'."
@@ -18452,7 +18452,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -18468,7 +18468,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -18499,46 +18499,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 47.34,
+        "overallPercentile": 48.86,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 46.0558972,
+            "percentile": 47.7631049,
             "label": "Moderate voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 51.4803735,
+            "percentile": 53.0715713,
             "label": "Moderate political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 45.2016572,
+            "percentile": 47.1405454,
             "label": "Moderate government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 52.2296396,
+            "percentile": 52.6210228,
             "label": "Moderate regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 47.0144438,
+            "percentile": 50.0372752,
             "label": "Moderate rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 42.0850347,
+            "percentile": 42.520434,
             "label": "Moderate control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -18549,7 +18549,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/CI/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CI/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'CI'."
@@ -18577,7 +18577,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -20347,7 +20347,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -20428,7 +20428,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/MG/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MG/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'MG'."
@@ -20456,7 +20456,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -20472,7 +20472,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -20503,46 +20503,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 21.13,
+        "overallPercentile": 20.38,
         "band": "Low",
         "bandLabel": "Low governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 23.7406403,
+            "percentile": 23.4354468,
             "label": "Low voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 40.4488488,
-            "label": "Moderate political stability",
-            "year": 2024
+            "percentile": 39.0588227,
+            "label": "Low political stability",
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 9.0916193,
+            "percentile": 6.2695237,
             "label": "Very low government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 24.4315487,
+            "percentile": 22.4949699,
             "label": "Low regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 23.0160749,
+            "percentile": 25.2569084,
             "label": "Low rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 6.061704,
+            "percentile": 5.7638155,
             "label": "Very low control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -20553,7 +20553,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/SS/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SS/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'SS'."
@@ -20581,7 +20581,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
@@ -22407,7 +22407,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "restcountries"
+        "source": "carried_forward"
       },
       "politicalSystem": {
         "values": [
@@ -22488,7 +22488,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/GY/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GY/indicator/GOV_WGI_CC.SC"
         },
-        "notes": null
+        "notes": "Kept previous values; latest fetch failed: None"
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'GY'."
@@ -22516,7 +22516,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": true,
+      "claudeAttemptedWithNoData": false,
       "claudeDeferred": false
     },
     {
@@ -22532,7 +22532,7 @@
         "flagPng": null,
         "currencies": [],
         "languages": [],
-        "source": "carried_forward"
+        "source": "restcountries"
       },
       "politicalSystem": {
         "values": [
@@ -22563,46 +22563,46 @@
       },
       "partyProfiles": null,
       "worldBankGovernance": {
-        "overallPercentile": 57.26,
+        "overallPercentile": 59.5,
         "band": "Medium",
         "bandLabel": "Moderate governance overall",
-        "year": 2024,
+        "year": 2025,
         "components": {
           "voiceAccountability": {
             "indicator": "GOV_WGI_VA.SC",
-            "percentile": 60.3698685,
+            "percentile": 64.0120325,
             "label": "High voice & accountability",
-            "year": 2024
+            "year": 2025
           },
           "politicalStability": {
             "indicator": "GOV_WGI_PV.SC",
-            "percentile": 75.9612671,
+            "percentile": 76.249089,
             "label": "High political stability",
-            "year": 2024
+            "year": 2025
           },
           "governmentEffectiveness": {
             "indicator": "GOV_WGI_GE.SC",
-            "percentile": 52.7919493,
+            "percentile": 53.2240822,
             "label": "Moderate government effectiveness",
-            "year": 2024
+            "year": 2025
           },
           "regulatoryQuality": {
             "indicator": "GOV_WGI_RQ.SC",
-            "percentile": 58.132649,
+            "percentile": 58.6570501,
             "label": "Moderate regulatory quality",
-            "year": 2024
+            "year": 2025
           },
           "ruleOfLaw": {
             "indicator": "GOV_WGI_RL.SC",
-            "percentile": 53.8278428,
+            "percentile": 56.5972573,
             "label": "Moderate rule of law",
-            "year": 2024
+            "year": 2025
           },
           "controlOfCorruption": {
             "indicator": "GOV_WGI_CC.SC",
-            "percentile": 42.4808681,
+            "percentile": 48.2323259,
             "label": "Moderate control of corruption",
-            "year": 2024
+            "year": 2025
           }
         },
         "sources": {
@@ -22613,7 +22613,7 @@
           "ruleOfLaw": "https://api.worldbank.org/v2/country/DO/indicator/GOV_WGI_RL.SC",
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DO/indicator/GOV_WGI_CC.SC"
         },
-        "notes": "Kept previous values; latest fetch failed: None"
+        "notes": null
       },
       "dataAvailability": {
         "metadata": "REST Countries API returned no data for 'DO'."
@@ -22641,7 +22641,7 @@
         }
       },
       "lastClaudeUpdate": null,
-      "claudeAttemptedWithNoData": false,
+      "claudeAttemptedWithNoData": true,
       "claudeDeferred": false
     },
     {
