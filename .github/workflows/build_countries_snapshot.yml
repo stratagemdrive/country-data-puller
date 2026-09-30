@@ -2,22 +2,10 @@ name: Build Countries Snapshot
 
 on:
   schedule:
-    # ── Two daily runs to spread the deferred-country backlog across the day ──
-    #
-    # Run A — 03:00 UTC: Priority-1 countries (election watch, sentinel alerts)
-    #   + up to MAX_CLAUDE_CALLS_PER_RUN hard Claude calls.
-    # Run B — 12:00 UTC: Same logic; picks up any countries that were deferred
-    #   (claudeDeferred=true in snapshot) by Run A.
-    #
-    # Together the two runs effectively double the daily Claude call capacity
-    # without exceeding the Tier-1 per-minute rate limit, because each run
-    # sleeps CLAUDE_SLEEP_SECONDS between calls and the two runs are 9 hours apart.
     - cron: "0 3 * * *"
-    - cron: "0 12 * * *"
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - "build_countries_snapshot.py"
       - ".github/workflows/build_countries_snapshot.yml"
@@ -30,165 +18,65 @@ permissions:
 
 concurrency:
   group: "snapshot-build"
-  cancel-in-progress: false   # Never cancel — a running build carries real state
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 120       # Increased to 2 hours to accommodate sleep delays
-
+    timeout-minutes: 30
     steps:
-      # ── 1. Checkout ───────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      # ── 2. Python setup ───────────────────────────────────────────────────────
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      # ── 3. Install dependencies ───────────────────────────────────────────────
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+          pip install requests
 
-      # ── 4. Ensure output directory exists ─────────────────────────────────────
       - name: Create docs/ directory
         run: mkdir -p docs
 
-      # ── 5. Run the snapshot builder ───────────────────────────────────────────
       - name: Build countries_snapshot.json
         run: python build_countries_snapshot.py
         env:
           PYTHONUNBUFFERED: "1"
-          OUTPUT_DIR: "docs"
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESTCOUNTRIES_API_KEY: ${{ secrets.RESTCOUNTRIES_API_KEY }}
 
-          # ── Rate-limit tuning (override via GitHub repo Variables) ────────────
-          #
-          # MAX_CLAUDE_CALLS_PER_RUN: hard cap on Claude API calls per execution.
-          #   With two daily runs at cap=25, you get up to 50 hard pulls per day.
-          #   Priority-1 triggers (election_watch, sentinel_alert) are never deferred.
-          #   Default: 25. Raise carefully — Tier 1 has a ~50 req/day token limit.
-          MAX_CLAUDE_CALLS_PER_RUN: ${{ vars.MAX_CLAUDE_CALLS_PER_RUN || '25' }}
-
-          # CLAUDE_SLEEP_SECONDS: pause between Sonnet (high-stakes) calls.
-          #   20s gives ~180 Sonnet calls per hour maximum, well within Tier-1 RPM.
-          #   Default: 20.
-          CLAUDE_SLEEP_SECONDS: ${{ vars.CLAUDE_SLEEP_SECONDS || '20' }}
-
-          # CLAUDE_SLEEP_HAIKU_SECONDS: pause between Haiku (low-stakes) calls.
-          #   Haiku has much higher Tier-1 RPM limits; 8s is conservative.
-          #   Default: 8.
-          CLAUDE_SLEEP_HAIKU_SECONDS: ${{ vars.CLAUDE_SLEEP_HAIKU_SECONDS || '8' }}
-
-          # CLAUDE_FORCE_REFRESH: set to "1" in GitHub repo Variables to force
-          #   all countries to get a hard Claude pull. Ignores the cap.
-          #   Useful after major world events or a schema change.
-          CLAUDE_FORCE_REFRESH: ${{ vars.CLAUDE_FORCE_REFRESH || '' }}
-
-      # ── 6. Verify output ──────────────────────────────────────────────────────
       - name: Verify output file
         run: |
-          if [ ! -f docs/countries_snapshot.json ]; then
-            echo "ERROR: docs/countries_snapshot.json was not created"
-            exit 1
-          fi
-          SIZE=$(wc -c < docs/countries_snapshot.json)
-          echo "Output file size: ${SIZE} bytes"
-          if [ "$SIZE" -lt 10000 ]; then
-            echo "ERROR: Output file suspiciously small (${SIZE} bytes)"
-            exit 1
-          fi
-          python -c "
+          test -f docs/countries_snapshot.json || { echo "ERROR: snapshot not created"; exit 1; }
+          python - <<'PY'
           import json, sys
+          d = json.load(open('docs/countries_snapshot.json'))
+          cs = d.get('countries', [])
+          no_meta = [c['iso2'] for c in cs if not c['metadata'].get('capital') and not c['metadata'].get('population')]
+          no_wgi  = [c['iso2'] for c in cs if c['worldBankGovernance'].get('overallPercentile') is None]
+          no_exec = [c['iso2'] for c in cs if not c['executive']['executiveInPower'].get('leader')]
+          print(f"Countries: {len(cs)}  generatedAt: {d.get('generatedAt')}")
+          print(f"Missing metadata: {len(no_meta)} {no_meta}")
+          print(f"Missing WGI:      {len(no_wgi)} {no_wgi}")
+          print(f"Missing leader:   {len(no_exec)} {no_exec}")
+          if len(cs) < 150 or len(no_meta) > 20:
+              print("ERROR: output looks broken"); sys.exit(1)
+          PY
 
-          with open('docs/countries_snapshot.json') as f:
-              data = json.load(f)
-
-          countries = data.get('countries', [])
-          print(f'Country count:         {len(countries)}')
-          print(f'Generated at:          {data.get(\"generatedAt\")}')
-          print(f'Last full sweep date:  {data.get(\"lastFullSweepDate\")}')
-          print(f'Sentinel seen IDs:     {len(data.get(\"sentinelSeenIds\", []))}')
-
-          rl = data.get('rateLimitConfig', {})
-          print(f'Rate-limit cap:        {rl.get(\"maxClaudeCallsPerRun\")}')
-          print(f'Sleep (Sonnet/Haiku):  {rl.get(\"sleepSecondsSonnet\")}s / {rl.get(\"sleepSecondsHaiku\")}s')
-
-          non_competitive_count = 0
-          election_watch_count  = 0
-          sentinel_alerts       = 0
-          deferred_count        = 0
-          missing_leg_next      = []
-          special_status        = []
-
-          SPECIAL_STATUS_CODES = {'TW', 'HK', 'XK'}
-
-          for c in countries:
-              iso2 = c.get('iso2', '?')
-              name = c.get('country', '?')
-              elec = c.get('elections', {})
-
-              if iso2 in SPECIAL_STATUS_CODES:
-                  special_status.append(f'{name} ({iso2})')
-
-              if c.get('claudeDeferred'):
-                  deferred_count += 1
-
-              if elec.get('competitiveElections') is False:
-                  non_competitive_count += 1
-              else:
-                  leg = elec.get('legislative', {})
-                  if not leg.get('nextElection'):
-                      missing_leg_next.append(f'{name} ({iso2})')
-
-              if elec.get('electionWatchActive'):
-                  election_watch_count += 1
-                  print(f'  ⚡ ELECTION WATCH ACTIVE: {name} ({iso2}) — {elec.get(\"electionWatchReason\", \"\")}')
-
-              if c.get('changeInPowerAlert') and not c['changeInPowerAlert'].get('resolved'):
-                  sentinel_alerts += 1
-                  print(f'  ⚠️  SENTINEL ALERT: {name} ({iso2}) — {c[\"changeInPowerAlert\"][\"alert\"]}')
-
-          print(f'Non-competitive countries:     {non_competitive_count}')
-          print(f'Election watch active:         {election_watch_count}')
-          print(f'Unresolved sentinel alerts:    {sentinel_alerts}')
-          print(f'Deferred (cap reached):        {deferred_count}')
-          print(f'Competitive missing nextElec:  {len(missing_leg_next)}')
-          print(f'Special-status entries:        {len(special_status)} ({\", \".join(special_status)})')
-          for m in missing_leg_next:
-              print(f'  - {m}')
-
-          first = countries[0]
-          print()
-          print(f'Spot-check: {first[\"country\"]} ({first[\"iso2\"]})')
-          print(f'  headOfState: {first.get(\"executive\", {}).get(\"headOfState\", {}).get(\"name\")}')
-          print(f'  competitiveElections: {first.get(\"elections\", {}).get(\"competitiveElections\")}')
-          leg = first.get('elections', {}).get('legislative', {})
-          last_e = leg.get('lastElection') or {}
-          nxt_e  = leg.get('nextElection') or {}
-          print(f'  lastElection: {last_e.get(\"date\")} ({last_e.get(\"type\")})')
-          print(f'  nextElection: {nxt_e.get(\"date\")} ({nxt_e.get(\"type\")})')
-          print('Verification passed.')
-          "
-
-      # ── 7. Commit snapshot back to main ──────────────────────────────────────
       - name: Commit updated snapshot to repository
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/countries_snapshot.json
           if git diff --cached --quiet; then
-            echo "No changes to commit — snapshot unchanged."
+            echo "No changes to commit."
           else
-            TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-            git commit -m "chore: auto-update countries_snapshot.json [${TIMESTAMP}]"
+            git commit -m "chore: auto-update countries_snapshot.json [$(date -u +%Y-%m-%dT%H:%M:%SZ)]"
             git fetch origin main
             git merge -X ours origin/main --no-edit || {
               git merge --abort 2>/dev/null || true
@@ -198,13 +86,11 @@ jobs:
             git push origin main
           fi
 
-      # ── 8. Upload artifact for GitHub Pages ──────────────────────────────────
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/
 
-  # ── 9. Deploy to GitHub Pages ─────────────────────────────────────────────────
   deploy:
     needs: build-and-deploy
     runs-on: ubuntu-latest
