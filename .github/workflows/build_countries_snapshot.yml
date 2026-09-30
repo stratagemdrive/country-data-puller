@@ -64,7 +64,7 @@ jobs:
           print(f"Missing metadata: {len(no_meta)} {no_meta}")
           print(f"Missing WGI:      {len(no_wgi)} {no_wgi}")
           print(f"Missing leader:   {len(no_exec)} {no_exec}")
-          if len(cs) < 150 or len(no_meta) > 20:
+          if len(cs) < 190 or len(no_meta) > 20:
               print("ERROR: output looks broken"); sys.exit(1)
           PY
 
