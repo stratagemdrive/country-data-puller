@@ -63,7 +63,7 @@ WB_ISO2_OVERRIDES = {"XK": "XKX", "TW": "TWN"}
 
 _C = [
     "Ukraine:UA", "Russia:RU", "India:IN", "Pakistan:PK", "China:CN", "United Kingdom:GB",
-    "Germany:DE", "UAE:AE", "Saudi Arabia:SA", "Israel:IL", "Palestine:PS", "Mexico:MX",
+    "Germany:DE", "United Arab Emirates:AE", "Saudi Arabia:SA", "Israel:IL", "Palestine:PS", "Mexico:MX",
     "Brazil:BR", "Canada:CA", "Nigeria:NG", "Japan:JP", "Iran:IR", "Syria:SY", "France:FR",
     "Turkey:TR", "Venezuela:VE", "Vietnam:VN", "Taiwan:TW", "South Korea:KR", "North Korea:KP",
     "Indonesia:ID", "Myanmar:MM", "Armenia:AM", "Azerbaijan:AZ", "Morocco:MA", "Somalia:SO",
@@ -81,7 +81,7 @@ _C = [
     "Singapore:SG", "Philippines:PH", "Malaysia:MY", "Thailand:TH", "Cambodia:KH", "Laos:LA",
     "Bangladesh:BD", "Nepal:NP", "Sri Lanka:LK", "Mongolia:MN", "Brunei:BN", "Timor-Leste:TL",
     "Maldives:MV", "Bhutan:BT", "Papua New Guinea:PG", "Angola:AO", "South Africa:ZA",
-    "Kenya:KE", "DRC:CD", "Congo:CG", "Tunisia:TN", "Ethiopia:ET", "Ghana:GH", "Ivory Coast:CI",
+    "Kenya:KE", "Democratic Republic of the Congo:CD", "Congo:CG", "Tunisia:TN", "Ethiopia:ET", "Ghana:GH", "Ivory Coast:CI",
     "Senegal:SN", "Rwanda:RW", "Uganda:UG", "Zimbabwe:ZW", "Zambia:ZM", "Cameroon:CM",
     "Mozambique:MZ", "Burkina Faso:BF", "Niger:NE", "Chad:TD", "Guinea:GN", "Mali:ML",
     "Botswana:BW", "Tanzania:TZ", "Madagascar:MG", "South Sudan:SS", "Eritrea:ER",
@@ -90,16 +90,55 @@ _C = [
     "Uruguay:UY", "Guyana:GY", "Dominican Republic:DO", "Guatemala:GT", "Honduras:HN",
     "Nicaragua:NI", "Costa Rica:CR", "Haiti:HT", "Trinidad and Tobago:TT", "Jamaica:JM",
     "Bahamas:BS",
+    # ── Remaining countries / microstates ──
+    "Andorra:AD",
+    "Antigua and Barbuda:AG",
+    "Barbados:BB",
+    "Belize:BZ",
+    "Benin:BJ",
+    "Burundi:BI",
+    "Cape Verde:CV",
+    "Central African Republic:CF",
+    "Comoros:KM",
+    "Dominica:DM",
+    "Equatorial Guinea:GQ",
+    "Fiji:FJ",
+    "Gambia:GM",
+    "Grenada:GD",
+    "Guinea-Bissau:GW",
+    "Kiribati:KI",
+    "Liechtenstein:LI",
+    "Marshall Islands:MH",
+    "Micronesia:FM",
+    "Monaco:MC",
+    "Nauru:NR",
+    "Palau:PW",
+    "Saint Kitts and Nevis:KN",
+    "Saint Lucia:LC",
+    "Saint Vincent and the Grenadines:VC",
+    "Samoa:WS",
+    "San Marino:SM",
+    "São Tomé and Príncipe:ST",
+    "Seychelles:SC",
+    "Solomon Islands:SB",
+    "Suriname:SR",
+    "Togo:TG",
+    "Tonga:TO",
+    "Tuvalu:TV",
+    "Vanuatu:VU",
+    "Vatican City:VA",
 ]
 COUNTRIES: List[Dict[str, str]] = [
     {"country": s.rsplit(":", 1)[0], "iso2": s.rsplit(":", 1)[1]} for s in _C
 ]
 
 # Wikipedia's spelling where it differs from our display name
-WIKI_ALIASES = {
-    "AE": "United Arab Emirates", "CD": "Democratic Republic of the Congo",
-    "CG": "Republic of the Congo", "CZ": "Czechia", "TR": "Türkiye",
-    "MK": "North Macedonia", "CI": "Ivory Coast", "TL": "East Timor",
+WIKI_ALIASES = {  # extra spellings Wikipedia may use, keyed by ISO2
+    "AE": ["United Arab Emirates"], "CD": ["Democratic Republic of the Congo", "DR Congo", "Congo, Democratic Republic of the"],
+    "CG": ["Republic of the Congo", "Congo, Republic of the"], "BS": ["Bahamas, The"], "GM": ["Gambia, The"], "CZ": ["Czechia"], "TR": ["Türkiye"],
+    "MK": ["North Macedonia"], "CI": ["Ivory Coast", "Côte d'Ivoire"], "TL": ["East Timor"],
+    "CV": ["Cabo Verde"], "FM": ["Federated States of Micronesia", "Micronesia, Federated States of"], "VA": ["Holy See"],
+    "ST": ["São Tomé and Príncipe", "Sao Tome and Principe"], "MM": ["Burma"], "SZ": ["Swaziland"],
 }
 
 SOVEREIGNTY_NOTES = {
@@ -116,11 +155,12 @@ def now_utc() -> datetime:
 def iso_z(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
-def req_json(url: str, params: Optional[dict] = None, label: str = "") -> Optional[Any]:
+def req_json(url: str, params: Optional[dict] = None, label: str = "",
+             headers: Optional[dict] = None) -> Optional[Any]:
     tag = label or url
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            r = requests.get(url, params=params, headers=HEADERS, timeout=TIMEOUT)
+            r = requests.get(url, params=params, headers={**HEADERS, **(headers or {})}, timeout=TIMEOUT)
             if r.status_code == 200:
                 return r.json()
             if r.status_code in (400, 404):
@@ -162,6 +202,7 @@ def _clean_wiki(s: Optional[str]) -> Optional[str]:
     if not s:
         return None
     s = _TITLE_RE.sub("", s)
+    s = re.sub(r"^[^\u2013\u2014]{1,200}\s[\u2013\u2014]\s", "", s)  # any leftover "Title – Name"
     s = re.sub(r"\s*\[\s*[^\]]*\]\s*", " ", s).strip()
     return s or None
 
@@ -209,7 +250,8 @@ class _TableParser(HTMLParser):
 _wiki_cache: Optional[Dict[str, Dict[str, Optional[str]]]] = None
 
 def _norm(s: str) -> str:
-    return re.sub(r"\s*\(.*?\)\s*", " ", s).strip().lower()
+    s = re.sub(r"\s*\(.*?\)\s*", " ", s).strip().lower()
+    return re.sub(r"^the\s+", "", s)
 
 def load_wiki_exec_cache() -> Dict[str, Dict[str, Optional[str]]]:
     global _wiki_cache
@@ -220,7 +262,9 @@ def load_wiki_exec_cache() -> Dict[str, Dict[str, Optional[str]]]:
     data = req_json(WIKIPEDIA_API, params={
         "action": "parse", "page": "List of current heads of state and government",
         "prop": "text", "format": "json", "formatversion": "2", "disableeditsection": "1",
-    }, label="Wikipedia HOS/HOG list")
+    }, label="Wikipedia HOS/HOG list",
+       # Wikimedia asks for a descriptive User-Agent; browser-spoofed ones get throttled
+       headers={"User-Agent": "countries-snapshot-bot/1.0 (GitHub Actions; personal data project)"})
     html_text = safe_get(data or {}, "parse", "text", default="")
     if not html_text:
         print("  [WIKI] Failed — executives will be carried forward")
@@ -229,8 +273,9 @@ def load_wiki_exec_cache() -> Dict[str, Dict[str, Optional[str]]]:
     rev: Dict[str, str] = {}
     for c in COUNTRIES:
         rev[_norm(c["country"])] = c["iso2"]
-    for iso2, name in WIKI_ALIASES.items():
-        rev[_norm(name)] = iso2
+    for iso2, names in WIKI_ALIASES.items():
+        for n in names:
+            rev[_norm(n)] = iso2
 
     def first(s: str) -> Optional[str]:
         parts = [p.strip() for p in s.split("|") if p.strip()]
@@ -246,6 +291,8 @@ def load_wiki_exec_cache() -> Dict[str, Dict[str, Optional[str]]]:
             continue
         hos = first(row[1])
         hog = first(row[2]) if len(row) > 2 else hos
+        if iso2 == "TW":  # Wikipedia's Taiwan row is malformed (HOS cell reads "China")
+            hos = hog
         _wiki_cache[iso2] = {"hosName": hos, "hogName": hog}
     print(f"  [WIKI] Parsed {len(_wiki_cache)} countries")
     return _wiki_cache
@@ -259,6 +306,7 @@ def fetch_rest_countries(iso2: str) -> Dict[str, Any]:
         print("    [REST] RESTCOUNTRIES_API_KEY not set — keeping previous metadata")
         return {}
     url = f"{REST_COUNTRIES_BASE}/codes.alpha_2/{iso2.upper()}"
+    time.sleep(0.6)  # stay under the free plan's 20 req / 10 s limit
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             r = requests.get(url, headers={"Authorization": f"Bearer {key}", "Accept": "application/json"},
@@ -370,6 +418,18 @@ def get_wgi(iso2: str, prev: Optional[Dict]) -> Dict[str, Any]:
     return {"overallPercentile": None, "band": "unknown", "bandLabel": None, "year": None,
             "components": {}, "sources": {}, "notes": new.get("notes")}
 
+META_REFRESH_DAYS = 30
+
+def _meta_is_fresh(meta: Dict, iso2: str) -> bool:
+    """Metadata rarely changes; refresh every ~30-39 days (staggered per country)."""
+    if not meta or not (meta.get("capital") or meta.get("population")) or not meta.get("fetchedAt"):
+        return False
+    try:
+        age = (now_utc() - datetime.fromisoformat(meta["fetchedAt"].replace("Z", "+00:00"))).days
+    except ValueError:
+        return False
+    return age < META_REFRESH_DAYS + (sum(map(ord, iso2)) % 10)
+
 # ── BUILD ONE COUNTRY ─────────────────────────────────────────────────────────
 
 def _executive(prev: Optional[Dict], wiki: Dict) -> Dict:
@@ -406,9 +466,14 @@ def _empty_elections() -> Dict:
 
 def build_country(name: str, iso2: str, prev: Optional[Dict], wiki_all: Dict) -> Dict[str, Any]:
     prev_meta = (prev or {}).get("metadata") or {}
-    meta = fetch_rest_countries(iso2)
-    if not meta:  # keep last good metadata if the API hiccups
-        meta = dict(prev_meta) if prev_meta else {}
+    if _meta_is_fresh(prev_meta, iso2):
+        meta = dict(prev_meta)
+    else:
+        meta = fetch_rest_countries(iso2)
+        if meta:
+            meta["fetchedAt"] = iso_z(now_utc())
+        else:  # keep last good metadata if the API hiccups
+            meta = dict(prev_meta) if prev_meta else {}
     wb_gov = get_wgi(iso2, prev)
 
     elections = dict((prev or {}).get("elections") or _empty_elections())
@@ -430,7 +495,7 @@ def build_country(name: str, iso2: str, prev: Optional[Dict], wiki_all: Dict) ->
         "iso2": iso2,
         "metadata": {k: meta.get(k) for k in (
             "officialName", "capital", "population", "region", "subregion",
-            "flag", "flagPng", "currencies", "languages", "source")},
+            "flag", "flagPng", "currencies", "languages", "source", "fetchedAt")},
         "politicalSystem": (prev or {}).get("politicalSystem") or {"values": ["unknown"], "source": "unknown"},
         "executive": _executive(prev, wiki_all.get(iso2, {})),
         "legislature": (prev or {}).get("legislature") or {"bodies": [], "source": "unknown"},
