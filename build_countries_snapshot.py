@@ -299,6 +299,26 @@ def load_wiki_exec_cache() -> Dict[str, Dict[str, Optional[str]]]:
 
 # ── REST COUNTRIES ────────────────────────────────────────────────────────────
 
+def _as_names(x: Any) -> List[str]:
+    """Extract display names from v5 fields that may be a dict, a list of dicts, or a list of strings."""
+    out: List[str] = []
+    if isinstance(x, dict):
+        items = list(x.values())
+    elif isinstance(x, list):
+        items = x
+    elif isinstance(x, str):
+        items = [x]
+    else:
+        items = []
+    for it in items:
+        if isinstance(it, str):
+            out.append(it)
+        elif isinstance(it, dict):
+            n = it.get("name") or it.get("common") or it.get("official")
+            if n:
+                out.append(str(n))
+    return out
+
 def fetch_rest_countries(iso2: str) -> Dict[str, Any]:
     """REST Countries v5 (v3.1 was shut down). Needs a free key in RESTCOUNTRIES_API_KEY."""
     key = os.environ.get("RESTCOUNTRIES_API_KEY", "").strip()
@@ -326,25 +346,30 @@ def fetch_rest_countries(iso2: str) -> Dict[str, Any]:
         return {}
     if not objs:
         return {}
-    d = objs[0]
-    names = d.get("names") or {}
-    caps = d.get("capitals") or []
-    primary = next((c for c in caps if (c.get("attributes") or {}).get("primary")), caps[0] if caps else None)
-    curr = d.get("currencies") or {}
-    langs = d.get("languages") or {}
-    flag = d.get("flag") or {}
-    return {
-        "officialName": names.get("official"),
-        "capital":      primary.get("name") if primary else None,
-        "population":   d.get("population"),
-        "region":       d.get("region"),
-        "subregion":    d.get("subregion"),
-        "flag":         flag.get("emoji"),
-        "flagPng":      flag.get("url_png"),
-        "currencies":   [v["name"] for v in curr.values() if isinstance(v, dict) and v.get("name")],
-        "languages":    list(langs.values()) if isinstance(langs, dict) else [],
-        "source":       "restcountries_v5",
-    }
+    try:
+        d = objs[0]
+        names = d.get("names") or {}
+        flag = d.get("flag") or {}
+        caps = _as_names(d.get("capitals") or d.get("capital"))
+        prim = None
+        if isinstance(d.get("capitals"), list):  # prefer the flagged-primary capital if present
+            prim = next((c.get("name") for c in d["capitals"]
+                         if isinstance(c, dict) and (c.get("attributes") or {}).get("primary")), None)
+        return {
+            "officialName": names.get("official") if isinstance(names, dict) else None,
+            "capital":      prim or (caps[0] if caps else None),
+            "population":   d.get("population"),
+            "region":       d.get("region"),
+            "subregion":    d.get("subregion"),
+            "flag":         flag.get("emoji") if isinstance(flag, dict) else (flag or None),
+            "flagPng":      flag.get("url_png") if isinstance(flag, dict) else None,
+            "currencies":   _as_names(d.get("currencies")),
+            "languages":    _as_names(d.get("languages")),
+            "source":       "restcountries_v5",
+        }
+    except Exception as exc:  # never let one odd response kill the whole run
+        print(f"    [REST] {iso2} → could not parse response ({exc}); keys={list(d) if isinstance(d, dict) else type(d)}")
+        return {}
 
 # ── WORLD BANK WGI ────────────────────────────────────────────────────────────
 
@@ -530,7 +555,12 @@ def main() -> None:
 
     for c in COUNTRIES:
         print(f"▶ {c['country']} ({c['iso2']})")
-        out["countries"].append(build_country(c["country"], c["iso2"], prev_by_iso2.get(c["iso2"]), wiki_all))
+        try:
+            out["countries"].append(build_country(c["country"], c["iso2"], prev_by_iso2.get(c["iso2"]), wiki_all))
+        except Exception as exc:  # keep the run alive; fall back to last snapshot entry
+            print(f"  ⚠️  {c['iso2']} failed ({exc!r}) — keeping previous entry")
+            if prev_by_iso2.get(c["iso2"]):
+                out["countries"].append(prev_by_iso2[c["iso2"]])
     
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
