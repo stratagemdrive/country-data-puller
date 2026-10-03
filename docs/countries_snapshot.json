@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T09:23:30.329789Z",
+  "generatedAt": "2026-10-03T08:53:00.198919Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -4683,13 +4683,13 @@
           "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "headOfGovernment": {
-          "name": "Aziz Akhannouch",
-          "partyOrGroup": "National Rally of Independents (RNI)",
-          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
+          "name": "Fatima Ezzahra El Mansouri",
+          "partyOrGroup": null,
+          "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Aziz Akhannouch",
-          "partyOrGroup": "National Rally of Independents (RNI)",
+          "leader": "Fatima Ezzahra El Mansouri",
+          "partyOrGroup": null,
           "method": "head_of_government"
         }
       },
@@ -9891,19 +9891,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Ana Brnabić",
+          "name": "Former President of Serbia - Aleksandar Vučić",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Đuro Macut",
+          "name": "Former President of Serbia - Aleksandar Vučić",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Đuro Macut",
+          "leader": "Former President of Serbia - Aleksandar Vučić",
           "partyOrGroup": null,
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -14244,12 +14244,12 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Prince Salman bin Hamad Al Khalifa",
+          "name": "Salman bin Hamad Al Khalifa",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Prince Salman bin Hamad Al Khalifa",
+          "leader": "Salman bin Hamad Al Khalifa",
           "partyOrGroup": null,
           "method": "head_of_government"
         }
@@ -27159,7 +27159,7 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Luca Beccari",
+          "name": "Gerardo Giovagnoli and William Casali",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
@@ -27171,7 +27171,7 @@
         "executiveInPower": {
           "leader": "Luca Beccari",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
