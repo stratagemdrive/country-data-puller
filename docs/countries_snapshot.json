@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T09:22:09.168027Z",
+  "generatedAt": "2026-10-05T10:02:08.793471Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -27159,19 +27159,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Gerardo Giovagnoli and William Casali",
+          "name": "Congress of State",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Luca Beccari",
+          "name": "Congress of State",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Luca Beccari",
+          "leader": "Congress of State",
           "partyOrGroup": null,
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
