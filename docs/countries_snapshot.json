@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:02:08.793471Z",
+  "generatedAt": "2026-10-06T09:48:16.281159Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -27159,7 +27159,7 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Congress of State",
+          "name": "Gerardo Giovagnoli and William Casali",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
@@ -27171,7 +27171,7 @@
         "executiveInPower": {
           "leader": "Congress of State",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
