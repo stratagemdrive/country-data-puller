@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T09:48:16.281159Z",
+  "generatedAt": "2026-10-07T09:51:27.834086Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -9891,19 +9891,19 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Ana Brnabić",
+          "name": "Former President of Serbia - Aleksandar Vučić",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Đuro Macut",
+          "name": "Former President of Serbia - Aleksandar Vučić",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Đuro Macut",
+          "leader": "Former President of Serbia - Aleksandar Vučić",
           "partyOrGroup": null,
-          "method": "head_of_government"
+          "method": "head_of_state"
         }
       },
       "legislature": {
@@ -13293,12 +13293,12 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Albulena Haxhiu",
+          "name": "Justina Pula",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Albulena Haxhiu",
+          "leader": "Justina Pula",
           "partyOrGroup": null,
           "method": "head_of_government"
         }
