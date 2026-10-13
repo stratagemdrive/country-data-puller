@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T10:16:04.282829Z",
+  "generatedAt": "2026-10-13T10:07:23.226902Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -11701,9 +11701,9 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Alar Karis",
-          "partyOrGroup": "Independent",
-          "source": "claude (competitiveness_refresh (competitiveness_never_assessed))"
+          "name": "Ülle Madise",
+          "partyOrGroup": null,
+          "source": "wikipedia"
         },
         "headOfGovernment": {
           "name": "Kristen Michal",
