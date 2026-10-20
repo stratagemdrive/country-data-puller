@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T08:30:20.228658Z",
+  "generatedAt": "2026-10-20T08:12:04.621279Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -3723,14 +3723,14 @@
           "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
         },
         "headOfGovernment": {
-          "name": "Lee Jae Myung",
-          "partyOrGroup": "Democratic Party of Korea",
-          "source": "claude (competitiveness_refresh (competitiveness_check_date_missing))"
+          "name": "Han Seong-sook",
+          "partyOrGroup": null,
+          "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Lee Jae Myung",
-          "partyOrGroup": "Democratic Party of Korea",
-          "method": "head_of_state"
+          "leader": "Han Seong-sook",
+          "partyOrGroup": null,
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -6033,14 +6033,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Keiko Fujimori",
+          "name": "Luis Galarreta",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Keiko Fujimori",
+          "leader": "Luis Galarreta",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -15168,14 +15168,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Sadyr Japarov",
+          "name": "Adylbek Kasymaliev",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Sadyr Japarov",
+          "leader": "Adylbek Kasymaliev",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -16690,14 +16690,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Anura Kumara Dissanayake",
+          "name": "Harini Amarasuriya",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Anura Kumara Dissanayake",
+          "leader": "Harini Amarasuriya",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -18983,14 +18983,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Yoweri Museveni",
+          "name": "Robinah Nabbanja",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Yoweri Museveni",
+          "leader": "Robinah Nabbanja",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -19503,14 +19503,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Daniel Chapo",
+          "name": "Maria Benvinda Levy",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Daniel Chapo",
+          "leader": "Maria Benvinda Levy",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -20134,14 +20134,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Assimi Goïta",
+          "name": "Abdoulaye Maiga",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Assimi Goïta",
+          "leader": "Abdoulaye Maiga",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -20388,14 +20388,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Samia Suluhu Hassan",
+          "name": "Mwigulu Nchemba",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Samia Suluhu Hassan",
+          "leader": "Mwigulu Nchemba",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -20896,14 +20896,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Ismaïl Omar Guelleh",
+          "name": "Abdoulkader Kamil Mohamed",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Ismaïl Omar Guelleh",
+          "leader": "Abdoulkader Kamil Mohamed",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -21535,14 +21535,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Netumbo Nandi-Ndaitwah",
+          "name": "Elijah Ngurare",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Netumbo Nandi-Ndaitwah",
+          "leader": "Elijah Ngurare",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -22608,14 +22608,14 @@
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Irfaan Ali",
+          "name": "Mark Phillips",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Irfaan Ali",
+          "leader": "Mark Phillips",
           "partyOrGroup": null,
-          "method": "head_of_state"
+          "method": "head_of_government"
         }
       },
       "legislature": {
@@ -24625,7 +24625,7 @@
       },
       "executive": {
         "headOfState": {
-          "name": "José Maria Neves",
+          "name": "Janira Hopffer Almada",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
