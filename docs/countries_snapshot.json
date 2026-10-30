@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T09:23:19.916834Z",
+  "generatedAt": "2026-10-30T09:37:36.272990Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -20,7 +20,7 @@
           "Ukrainian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:36.755017Z"
+        "fetchedAt": "2026-10-30T09:37:37.297197Z"
       },
       "politicalSystem": {
         "values": [
@@ -108,7 +108,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:37.459349Z"
+        "fetchedAt": "2026-10-30T09:37:38.994354Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -260,7 +260,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/RU/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:39.008340Z"
+        "fetchedAt": "2026-10-30T09:37:40.504682Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -427,7 +427,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:40.589544Z"
+        "fetchedAt": "2026-10-30T09:37:41.979602Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -593,7 +593,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PK/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:42.159389Z"
+        "fetchedAt": "2026-10-30T09:37:43.465041Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -753,7 +753,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:43.535887Z"
+        "fetchedAt": "2026-10-30T09:37:45.222917Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -920,7 +920,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GB/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:44.980737Z"
+        "fetchedAt": "2026-10-30T09:37:46.731226Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -1085,7 +1085,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:46.563381Z"
+        "fetchedAt": "2026-10-30T09:37:48.292107Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -1246,7 +1246,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:47.897492Z"
+        "fetchedAt": "2026-10-30T09:37:49.817740Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -1393,7 +1393,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:49.432089Z"
+        "fetchedAt": "2026-10-30T09:37:51.346175Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -1527,7 +1527,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:51.145732Z"
+        "fetchedAt": "2026-10-30T09:37:53.313747Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -1690,7 +1690,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:52.653201Z"
+        "fetchedAt": "2026-10-30T09:37:54.831668Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -1841,7 +1841,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MX/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:55:54.259531Z"
+        "fetchedAt": "2026-10-30T09:37:56.370592Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2006,7 +2006,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:02.054088Z"
+        "fetchedAt": "2026-10-30T09:37:57.808222Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2172,7 +2172,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:03.323823Z"
+        "fetchedAt": "2026-10-30T09:37:59.308424Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2337,7 +2337,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:04.750864Z"
+        "fetchedAt": "2026-10-30T09:38:00.813138Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2503,7 +2503,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/JP/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:05.886048Z"
+        "fetchedAt": "2026-10-30T09:38:02.330797Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2664,7 +2664,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:07.454054Z"
+        "fetchedAt": "2026-10-30T09:38:03.918668Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2841,7 +2841,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:08.857962Z"
+        "fetchedAt": "2026-10-30T09:38:05.366771Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -2999,7 +2999,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/FR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:10.133029Z"
+        "fetchedAt": "2026-10-30T09:38:06.801431Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -3160,7 +3160,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:11.679473Z"
+        "fetchedAt": "2026-10-30T09:38:08.460605Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -3320,7 +3320,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:13.192387Z"
+        "fetchedAt": "2026-10-30T09:38:09.960387Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -3473,7 +3473,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:14.577297Z"
+        "fetchedAt": "2026-10-30T09:38:11.529931Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -3633,7 +3633,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TWN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:15.974655Z"
+        "fetchedAt": "2026-10-30T09:38:13.008161Z"
       },
       "dataAvailability": {
         "executive": "Taiwan is a self-governing democracy not recognized as a sovereign state by most UN members."
@@ -3796,7 +3796,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:17.492708Z"
+        "fetchedAt": "2026-10-30T09:38:14.519032Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -3957,7 +3957,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KP/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:19.085094Z"
+        "fetchedAt": "2026-10-30T09:38:16.077732Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -4109,7 +4109,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ID/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:20.822901Z"
+        "fetchedAt": "2026-10-30T09:38:17.848295Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -4287,7 +4287,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:22.180747Z"
+        "fetchedAt": "2026-10-30T09:38:19.467013Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -4434,7 +4434,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:23.628844Z"
+        "fetchedAt": "2026-10-30T09:38:20.996521Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -4594,7 +4594,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:25.059163Z"
+        "fetchedAt": "2026-10-30T09:38:23.064930Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -4761,7 +4761,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:26.600720Z"
+        "fetchedAt": "2026-10-30T09:38:24.562353Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -4913,7 +4913,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:27.928947Z"
+        "fetchedAt": "2026-10-30T09:38:26.050566Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -5073,7 +5073,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/YE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:29.339029Z"
+        "fetchedAt": "2026-10-30T09:38:27.645147Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -5240,7 +5240,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:30.601465Z"
+        "fetchedAt": "2026-10-30T09:38:29.068586Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -5305,7 +5305,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:31.383295Z"
+        "fetchedAt": "2026-10-30T09:38:29.898449Z"
       },
       "politicalSystem": {
         "values": [
@@ -5429,7 +5429,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:31.993216Z"
+        "fetchedAt": "2026-10-30T09:38:31.367998Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -5594,7 +5594,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:33.422973Z"
+        "fetchedAt": "2026-10-30T09:38:32.813904Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -5760,7 +5760,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:34.849209Z"
+        "fetchedAt": "2026-10-30T09:38:34.271422Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -5944,7 +5944,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:36.289813Z"
+        "fetchedAt": "2026-10-30T09:38:35.741004Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -6106,7 +6106,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:37.556553Z"
+        "fetchedAt": "2026-10-30T09:38:37.255482Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -6266,7 +6266,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CU/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:38.961925Z"
+        "fetchedAt": "2026-10-30T09:38:38.763018Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -6431,7 +6431,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:40.338313Z"
+        "fetchedAt": "2026-10-30T09:38:40.279038Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -6609,7 +6609,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:41.717304Z"
+        "fetchedAt": "2026-10-30T09:38:41.991570Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -6769,7 +6769,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SV/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:43.187024Z"
+        "fetchedAt": "2026-10-30T09:38:43.618850Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -6930,7 +6930,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DK/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:44.450223Z"
+        "fetchedAt": "2026-10-30T09:38:45.690782Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -7091,7 +7091,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:45.907916Z"
+        "fetchedAt": "2026-10-30T09:38:47.990633Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -7234,7 +7234,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ES/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:47.356687Z"
+        "fetchedAt": "2026-10-30T09:38:51.032632Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -7454,7 +7454,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:48.987627Z"
+        "fetchedAt": "2026-10-30T09:38:53.021656Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -7639,7 +7639,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:50.511169Z"
+        "fetchedAt": "2026-10-30T09:38:54.516601Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -7846,7 +7846,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:52.065289Z"
+        "fetchedAt": "2026-10-30T09:38:55.963134Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -8044,7 +8044,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:53.436383Z"
+        "fetchedAt": "2026-10-30T09:38:57.374403Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -8228,7 +8228,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:54.859110Z"
+        "fetchedAt": "2026-10-30T09:38:59.023628Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -8399,7 +8399,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/RO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:56.262275Z"
+        "fetchedAt": "2026-10-30T09:39:00.500790Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -8625,7 +8625,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:57.724799Z"
+        "fetchedAt": "2026-10-30T09:39:01.890014Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -8766,7 +8766,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/FI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:56:59.090815Z"
+        "fetchedAt": "2026-10-30T09:39:03.374487Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -8895,7 +8895,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:00.535162Z"
+        "fetchedAt": "2026-10-30T09:39:05.204072Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9021,7 +9021,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:02.011088Z"
+        "fetchedAt": "2026-10-30T09:39:06.704431Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9149,7 +9149,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:03.296841Z"
+        "fetchedAt": "2026-10-30T09:39:08.311930Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9276,7 +9276,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:04.810355Z"
+        "fetchedAt": "2026-10-30T09:39:09.829899Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9461,7 +9461,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:06.213974Z"
+        "fetchedAt": "2026-10-30T09:39:11.330039Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9628,7 +9628,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:07.600186Z"
+        "fetchedAt": "2026-10-30T09:39:12.761852Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9808,7 +9808,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HU/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:09.142027Z"
+        "fetchedAt": "2026-10-30T09:39:14.381171Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -9986,7 +9986,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/RS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:10.681696Z"
+        "fetchedAt": "2026-10-30T09:39:16.137372Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -10148,7 +10148,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:12.110314Z"
+        "fetchedAt": "2026-10-30T09:39:17.574313Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -10295,7 +10295,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:13.317658Z"
+        "fetchedAt": "2026-10-30T09:39:19.064321Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -10472,7 +10472,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:14.847982Z"
+        "fetchedAt": "2026-10-30T09:39:20.470872Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -10651,7 +10651,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:16.180040Z"
+        "fetchedAt": "2026-10-30T09:39:22.190706Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -10828,7 +10828,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:17.746479Z"
+        "fetchedAt": "2026-10-30T09:39:24.055248Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -11037,7 +11037,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SK/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:19.083594Z"
+        "fetchedAt": "2026-10-30T09:39:25.560078Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -11215,7 +11215,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:20.319727Z"
+        "fetchedAt": "2026-10-30T09:39:26.936212Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -11287,7 +11287,7 @@
           "Lithuanian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:21.097380Z"
+        "fetchedAt": "2026-10-30T09:39:27.850392Z"
       },
       "politicalSystem": {
         "values": [
@@ -11410,7 +11410,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:21.698132Z"
+        "fetchedAt": "2026-10-30T09:39:29.351203Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -11619,7 +11619,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LV/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:23.095235Z"
+        "fetchedAt": "2026-10-30T09:39:30.925620Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -11797,7 +11797,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:24.528067Z"
+        "fetchedAt": "2026-10-30T09:39:32.412589Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -11977,7 +11977,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MK/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:25.842856Z"
+        "fetchedAt": "2026-10-30T09:39:34.029700Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -12146,7 +12146,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:27.425106Z"
+        "fetchedAt": "2026-10-30T09:39:35.548312Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -12326,7 +12326,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ME/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:28.860647Z"
+        "fetchedAt": "2026-10-30T09:39:37.155526Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -12490,7 +12490,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LU/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:30.224666Z"
+        "fetchedAt": "2026-10-30T09:39:38.796432Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -12682,7 +12682,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:31.707703Z"
+        "fetchedAt": "2026-10-30T09:39:40.282243Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -12846,7 +12846,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:33.106013Z"
+        "fetchedAt": "2026-10-30T09:39:41.724303Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -13025,7 +13025,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:34.557819Z"
+        "fetchedAt": "2026-10-30T09:39:43.165729Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -13097,7 +13097,7 @@
           "Georgian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:35.325437Z"
+        "fetchedAt": "2026-10-30T09:39:43.973338Z"
       },
       "politicalSystem": {
         "values": [
@@ -13203,7 +13203,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:36.514979Z"
+        "fetchedAt": "2026-10-30T09:39:45.402077Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -13384,7 +13384,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/XKX/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:37.770251Z"
+        "fetchedAt": "2026-10-30T09:39:46.806085Z"
       },
       "dataAvailability": {
         "executive": "Kosovo declared independence in 2008; recognised by roughly 100 UN members, not by Serbia, Russia or China."
@@ -13595,7 +13595,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HK/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:39.175445Z"
+        "fetchedAt": "2026-10-30T09:39:48.298990Z"
       },
       "dataAvailability": {
         "executive": "Hong Kong is a Special Administrative Region of China ('one country, two systems')."
@@ -13778,7 +13778,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/IQ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:40.405458Z"
+        "fetchedAt": "2026-10-30T09:39:49.676885Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -13932,7 +13932,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/JO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:42.194988Z"
+        "fetchedAt": "2026-10-30T09:39:51.119099Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14059,7 +14059,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LB/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:43.797384Z"
+        "fetchedAt": "2026-10-30T09:39:52.995185Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14185,7 +14185,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:45.238058Z"
+        "fetchedAt": "2026-10-30T09:39:54.438887Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14311,7 +14311,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:46.646214Z"
+        "fetchedAt": "2026-10-30T09:39:55.881485Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14437,7 +14437,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/OM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:48.045433Z"
+        "fetchedAt": "2026-10-30T09:39:57.308966Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14563,7 +14563,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/QA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:49.232306Z"
+        "fetchedAt": "2026-10-30T09:39:58.661055Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14691,7 +14691,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AF/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:50.639027Z"
+        "fetchedAt": "2026-10-30T09:40:00.077545Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14826,7 +14826,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:52.029427Z"
+        "fetchedAt": "2026-10-30T09:40:01.559507Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -14981,7 +14981,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:53.716885Z"
+        "fetchedAt": "2026-10-30T09:40:02.910501Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15108,7 +15108,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:55.159208Z"
+        "fetchedAt": "2026-10-30T09:40:04.448518Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15235,7 +15235,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:56.597798Z"
+        "fetchedAt": "2026-10-30T09:40:06.062474Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15362,7 +15362,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TJ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:57.950398Z"
+        "fetchedAt": "2026-10-30T09:40:07.483850Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15406,7 +15406,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:58.714848Z"
+        "fetchedAt": "2026-10-30T09:40:08.340862Z"
       },
       "politicalSystem": {
         "values": [
@@ -15488,7 +15488,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AU/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:57:59.431613Z"
+        "fetchedAt": "2026-10-30T09:40:09.877124Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15616,7 +15616,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:00.964719Z"
+        "fetchedAt": "2026-10-30T09:40:11.474178Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15745,7 +15745,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:02.478072Z"
+        "fetchedAt": "2026-10-30T09:40:12.975172Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15872,7 +15872,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:03.888138Z"
+        "fetchedAt": "2026-10-30T09:40:14.753828Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -15999,7 +15999,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:05.269195Z"
+        "fetchedAt": "2026-10-30T09:40:16.289530Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16125,7 +16125,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:06.620382Z"
+        "fetchedAt": "2026-10-30T09:40:17.819368Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16252,7 +16252,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:08.115349Z"
+        "fetchedAt": "2026-10-30T09:40:19.300769Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16378,7 +16378,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:09.692059Z"
+        "fetchedAt": "2026-10-30T09:40:20.937728Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16504,7 +16504,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:11.082783Z"
+        "fetchedAt": "2026-10-30T09:40:22.704230Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16630,7 +16630,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NP/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:12.322134Z"
+        "fetchedAt": "2026-10-30T09:40:24.315630Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16757,7 +16757,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LK/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:13.769569Z"
+        "fetchedAt": "2026-10-30T09:40:25.837805Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -16883,7 +16883,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:15.123329Z"
+        "fetchedAt": "2026-10-30T09:40:27.305204Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17010,7 +17010,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:16.439090Z"
+        "fetchedAt": "2026-10-30T09:40:28.742606Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17055,7 +17055,7 @@
           "Tetum"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:17.195280Z"
+        "fetchedAt": "2026-10-30T09:40:29.607366Z"
       },
       "politicalSystem": {
         "values": [
@@ -17137,7 +17137,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:17.797544Z"
+        "fetchedAt": "2026-10-30T09:40:31.100972Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17263,7 +17263,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MV/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:19.240459Z"
+        "fetchedAt": "2026-10-30T09:40:32.589922Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17308,7 +17308,7 @@
           "Dzongkha"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:19.989526Z"
+        "fetchedAt": "2026-10-30T09:40:33.542701Z"
       },
       "politicalSystem": {
         "values": [
@@ -17390,7 +17390,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:20.726559Z"
+        "fetchedAt": "2026-10-30T09:40:34.956227Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17518,7 +17518,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:22.231982Z"
+        "fetchedAt": "2026-10-30T09:40:36.651040Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17644,7 +17644,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:23.622597Z"
+        "fetchedAt": "2026-10-30T09:40:38.161362Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17780,7 +17780,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ZA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:25.084039Z"
+        "fetchedAt": "2026-10-30T09:40:39.604863Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -17907,7 +17907,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:26.657936Z"
+        "fetchedAt": "2026-10-30T09:40:41.509622Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18037,7 +18037,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:27.926633Z"
+        "fetchedAt": "2026-10-30T09:40:42.971920Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18165,7 +18165,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:29.283373Z"
+        "fetchedAt": "2026-10-30T09:40:44.455874Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18291,7 +18291,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:30.780480Z"
+        "fetchedAt": "2026-10-30T09:40:45.991449Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18417,7 +18417,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ET/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:32.117723Z"
+        "fetchedAt": "2026-10-30T09:40:47.439725Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18543,7 +18543,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:33.566473Z"
+        "fetchedAt": "2026-10-30T09:40:48.964226Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18587,7 +18587,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:34.327380Z"
+        "fetchedAt": "2026-10-30T09:40:49.815218Z"
       },
       "politicalSystem": {
         "values": [
@@ -18669,7 +18669,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:34.857259Z"
+        "fetchedAt": "2026-10-30T09:40:51.251850Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18795,7 +18795,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:36.694246Z"
+        "fetchedAt": "2026-10-30T09:40:53.498853Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -18923,7 +18923,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/RW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:38.205814Z"
+        "fetchedAt": "2026-10-30T09:40:54.988799Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19050,7 +19050,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:39.581124Z"
+        "fetchedAt": "2026-10-30T09:40:56.405143Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19191,7 +19191,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ZW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:40.969371Z"
+        "fetchedAt": "2026-10-30T09:40:57.802605Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19317,7 +19317,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ZM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:42.438742Z"
+        "fetchedAt": "2026-10-30T09:40:59.207800Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19444,7 +19444,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:43.828191Z"
+        "fetchedAt": "2026-10-30T09:41:00.689112Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19570,7 +19570,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:45.253753Z"
+        "fetchedAt": "2026-10-30T09:41:02.089922Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19696,7 +19696,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BF/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:46.738184Z"
+        "fetchedAt": "2026-10-30T09:41:03.531114Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19822,7 +19822,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NE/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:48.127863Z"
+        "fetchedAt": "2026-10-30T09:41:04.967249Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -19949,7 +19949,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:49.632501Z"
+        "fetchedAt": "2026-10-30T09:41:06.445955Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20075,7 +20075,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:51.365923Z"
+        "fetchedAt": "2026-10-30T09:41:07.867269Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20201,7 +20201,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ML/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:52.786596Z"
+        "fetchedAt": "2026-10-30T09:41:09.396338Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20328,7 +20328,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:54.149521Z"
+        "fetchedAt": "2026-10-30T09:41:10.917277Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20455,7 +20455,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:55.750671Z"
+        "fetchedAt": "2026-10-30T09:41:12.349662Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20582,7 +20582,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:57.095605Z"
+        "fetchedAt": "2026-10-30T09:41:13.798827Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20708,7 +20708,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:58:58.415273Z"
+        "fetchedAt": "2026-10-30T09:41:15.303025Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20836,7 +20836,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ER/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:00.011282Z"
+        "fetchedAt": "2026-10-30T09:41:16.759710Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -20963,7 +20963,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DJ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:01.530696Z"
+        "fetchedAt": "2026-10-30T09:41:18.212770Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21089,7 +21089,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:02.891764Z"
+        "fetchedAt": "2026-10-30T09:41:19.620770Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21215,7 +21215,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:04.396628Z"
+        "fetchedAt": "2026-10-30T09:41:21.007686Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21341,7 +21341,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SL/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:07.009164Z"
+        "fetchedAt": "2026-10-30T09:41:23.169773Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21467,7 +21467,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:08.456684Z"
+        "fetchedAt": "2026-10-30T09:41:24.576140Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21602,7 +21602,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NA/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:10.004983Z"
+        "fetchedAt": "2026-10-30T09:41:25.973381Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21730,7 +21730,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:11.461287Z"
+        "fetchedAt": "2026-10-30T09:41:27.498817Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21858,7 +21858,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:12.912384Z"
+        "fetchedAt": "2026-10-30T09:41:28.953738Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -21985,7 +21985,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:14.360364Z"
+        "fetchedAt": "2026-10-30T09:41:30.471078Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22114,7 +22114,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:15.676806Z"
+        "fetchedAt": "2026-10-30T09:41:31.948004Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22240,7 +22240,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/EC/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:17.108515Z"
+        "fetchedAt": "2026-10-30T09:41:33.377505Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22367,7 +22367,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:18.680993Z"
+        "fetchedAt": "2026-10-30T09:41:34.930709Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22521,7 +22521,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/UY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:20.111974Z"
+        "fetchedAt": "2026-10-30T09:41:36.399266Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22593,7 +22593,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:21.018045Z"
+        "fetchedAt": "2026-10-30T09:41:37.323090Z"
       },
       "politicalSystem": {
         "values": [
@@ -22675,7 +22675,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GY/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:21.855551Z"
+        "fetchedAt": "2026-10-30T09:41:38.757582Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22801,7 +22801,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:23.101782Z"
+        "fetchedAt": "2026-10-30T09:41:40.138511Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22927,7 +22927,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:24.554223Z"
+        "fetchedAt": "2026-10-30T09:41:41.544523Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -22971,7 +22971,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:25.318951Z"
+        "fetchedAt": "2026-10-30T09:41:42.350833Z"
       },
       "politicalSystem": {
         "values": [
@@ -23053,7 +23053,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:25.951049Z"
+        "fetchedAt": "2026-10-30T09:41:43.858230Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23179,7 +23179,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:27.344878Z"
+        "fetchedAt": "2026-10-30T09:41:45.305715Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23305,7 +23305,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:28.775283Z"
+        "fetchedAt": "2026-10-30T09:41:48.650367Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23432,7 +23432,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/HT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:30.151225Z"
+        "fetchedAt": "2026-10-30T09:41:50.090031Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23558,7 +23558,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TT/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:31.580275Z"
+        "fetchedAt": "2026-10-30T09:41:51.510985Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23685,7 +23685,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/JM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:32.930645Z"
+        "fetchedAt": "2026-10-30T09:41:53.441768Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23812,7 +23812,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:34.300682Z"
+        "fetchedAt": "2026-10-30T09:41:54.875427Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -23938,7 +23938,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:35.768284Z"
+        "fetchedAt": "2026-10-30T09:41:56.273599Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24064,7 +24064,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/AG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:37.230277Z"
+        "fetchedAt": "2026-10-30T09:41:57.818246Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24190,7 +24190,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BB/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:38.620065Z"
+        "fetchedAt": "2026-10-30T09:41:59.375167Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24318,7 +24318,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BZ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:40.011560Z"
+        "fetchedAt": "2026-10-30T09:42:00.815215Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24362,7 +24362,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:40.759293Z"
+        "fetchedAt": "2026-10-30T09:42:01.631971Z"
       },
       "politicalSystem": {
         "values": [
@@ -24444,7 +24444,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BJ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:41.353106Z"
+        "fetchedAt": "2026-10-30T09:42:03.041334Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24571,7 +24571,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/BI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:42.688536Z"
+        "fetchedAt": "2026-10-30T09:42:04.557168Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24697,7 +24697,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CV/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:44.038005Z"
+        "fetchedAt": "2026-10-30T09:42:05.936889Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24824,7 +24824,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/CF/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:45.424935Z"
+        "fetchedAt": "2026-10-30T09:42:07.407313Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -24952,7 +24952,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:46.826603Z"
+        "fetchedAt": "2026-10-30T09:42:08.951954Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25078,7 +25078,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/DM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:48.200570Z"
+        "fetchedAt": "2026-10-30T09:42:10.694366Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25206,7 +25206,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GQ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:49.566682Z"
+        "fetchedAt": "2026-10-30T09:42:12.102848Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25334,7 +25334,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/FJ/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:51.177155Z"
+        "fetchedAt": "2026-10-30T09:42:13.897742Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25460,7 +25460,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:52.544532Z"
+        "fetchedAt": "2026-10-30T09:42:15.377585Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25586,7 +25586,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GD/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:53.991855Z"
+        "fetchedAt": "2026-10-30T09:42:16.942569Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25713,7 +25713,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/GW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:55.382748Z"
+        "fetchedAt": "2026-10-30T09:42:18.411096Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25841,7 +25841,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:56.877566Z"
+        "fetchedAt": "2026-10-30T09:42:19.927496Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -25967,7 +25967,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LI/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:58.270617Z"
+        "fetchedAt": "2026-10-30T09:42:21.373479Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26094,7 +26094,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MH/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T02:59:59.827210Z"
+        "fetchedAt": "2026-10-30T09:42:23.723580Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26220,7 +26220,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/FM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:01.597736Z"
+        "fetchedAt": "2026-10-30T09:42:25.096315Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26346,7 +26346,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/MC/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:02.941618Z"
+        "fetchedAt": "2026-10-30T09:42:26.808207Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26376,7 +26376,7 @@
       "country": "Nauru",
       "iso2": "NR",
       "metadata": {
-        "officialName": "Republic of Nauru",
+        "officialName": "Republic of Naoero",
         "capital": "Yaren",
         "population": 11680,
         "region": "Oceania",
@@ -26391,7 +26391,7 @@
           "Nauruan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:03.696707Z"
+        "fetchedAt": "2026-10-30T09:42:27.628312Z"
       },
       "politicalSystem": {
         "values": [
@@ -26473,7 +26473,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/NR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:04.438923Z"
+        "fetchedAt": "2026-10-30T09:42:29.174838Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26600,7 +26600,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/PW/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:05.959917Z"
+        "fetchedAt": "2026-10-30T09:42:30.665195Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26726,7 +26726,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/KN/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:07.391327Z"
+        "fetchedAt": "2026-10-30T09:42:32.231236Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26852,7 +26852,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/LC/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:08.913955Z"
+        "fetchedAt": "2026-10-30T09:42:33.709754Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -26978,7 +26978,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VC/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:10.293985Z"
+        "fetchedAt": "2026-10-30T09:42:35.214818Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27023,7 +27023,7 @@
           "Samoan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:11.042762Z"
+        "fetchedAt": "2026-10-30T09:42:36.044386Z"
       },
       "politicalSystem": {
         "values": [
@@ -27105,7 +27105,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/WS/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:11.682505Z"
+        "fetchedAt": "2026-10-30T09:42:37.942676Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27149,7 +27149,7 @@
           "Italian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:12.422749Z"
+        "fetchedAt": "2026-10-30T09:42:38.776952Z"
       },
       "politicalSystem": {
         "values": [
@@ -27231,7 +27231,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SM/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:13.040910Z"
+        "fetchedAt": "2026-10-30T09:42:40.261090Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27357,7 +27357,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/ST/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:14.421088Z"
+        "fetchedAt": "2026-10-30T09:42:41.583978Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27403,7 +27403,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:15.175628Z"
+        "fetchedAt": "2026-10-30T09:42:42.349806Z"
       },
       "politicalSystem": {
         "values": [
@@ -27485,7 +27485,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SC/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:15.868676Z"
+        "fetchedAt": "2026-10-30T09:42:43.829952Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27611,7 +27611,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SB/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:17.315763Z"
+        "fetchedAt": "2026-10-30T09:42:45.395282Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27737,7 +27737,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/SR/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:18.753255Z"
+        "fetchedAt": "2026-10-30T09:42:46.722542Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27863,7 +27863,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TG/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:20.321008Z"
+        "fetchedAt": "2026-10-30T09:42:48.145022Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -27990,7 +27990,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TO/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:21.747746Z"
+        "fetchedAt": "2026-10-30T09:42:49.652531Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -28036,7 +28036,7 @@
           "Tuvaluan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:22.521967Z"
+        "fetchedAt": "2026-10-30T09:42:50.555219Z"
       },
       "politicalSystem": {
         "values": [
@@ -28118,7 +28118,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/TV/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:23.205243Z"
+        "fetchedAt": "2026-10-30T09:42:51.995595Z"
       },
       "dataAvailability": null,
       "elections": {
@@ -28246,7 +28246,7 @@
           "controlOfCorruption": "https://api.worldbank.org/v2/country/VU/indicator/GOV_WGI_CC.SC"
         },
         "notes": null,
-        "fetchedAt": "2026-09-30T03:00:24.599553Z"
+        "fetchedAt": "2026-10-30T09:42:53.489112Z"
       },
       "dataAvailability": null,
       "elections": {
