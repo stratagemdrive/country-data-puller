@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T09:17:45.300529Z",
+  "generatedAt": "2026-11-01T10:05:26.388342Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -2079,7 +2079,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:02.837363Z"
+        "fetchedAt": "2026-11-01T10:05:27.377815Z"
       },
       "politicalSystem": {
         "values": [
@@ -2736,7 +2736,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:08.218341Z"
+        "fetchedAt": "2026-11-01T10:05:28.297651Z"
       },
       "politicalSystem": {
         "values": [
@@ -2906,7 +2906,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:09.597663Z"
+        "fetchedAt": "2026-11-01T10:05:29.059146Z"
       },
       "politicalSystem": {
         "values": [
@@ -4345,7 +4345,7 @@
           "Armenian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:22.920036Z"
+        "fetchedAt": "2026-11-01T10:05:29.952430Z"
       },
       "politicalSystem": {
         "values": [
@@ -4667,7 +4667,7 @@
           "Standard Moroccan Tamazight"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:25.817928Z"
+        "fetchedAt": "2026-11-01T10:05:30.895811Z"
       },
       "politicalSystem": {
         "values": [
@@ -4820,7 +4820,7 @@
           "Somali"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:27.402681Z"
+        "fetchedAt": "2026-11-01T10:05:31.817947Z"
       },
       "politicalSystem": {
         "values": [
@@ -6178,7 +6178,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:38.327794Z"
+        "fetchedAt": "2026-11-01T10:05:32.578105Z"
       },
       "politicalSystem": {
         "values": [
@@ -7139,7 +7139,7 @@
           "Aranese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:46.652507Z"
+        "fetchedAt": "2026-11-01T10:05:33.327699Z"
       },
       "politicalSystem": {
         "values": [
@@ -8459,7 +8459,7 @@
       "metadata": {
         "officialName": "Kingdom of Sweden",
         "capital": "Stockholm",
-        "population": 10613531,
+        "population": 10621103,
         "region": "Europe",
         "subregion": "Northern Europe",
         "flag": "🇸🇪",
@@ -8471,7 +8471,7 @@
           "Swedish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:57.014155Z"
+        "fetchedAt": "2026-11-01T10:05:34.083925Z"
       },
       "politicalSystem": {
         "values": [
@@ -9194,7 +9194,7 @@
           "Irish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:04.059641Z"
+        "fetchedAt": "2026-11-01T10:05:34.845749Z"
       },
       "politicalSystem": {
         "values": [
@@ -11482,7 +11482,7 @@
           "Latvian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:22.466974Z"
+        "fetchedAt": "2026-11-01T10:05:35.751578Z"
       },
       "politicalSystem": {
         "values": [
@@ -11869,7 +11869,7 @@
           "Macedonian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:25.311846Z"
+        "fetchedAt": "2026-11-01T10:05:36.501589Z"
       },
       "politicalSystem": {
         "values": [
@@ -13977,7 +13977,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:42.971359Z"
+        "fetchedAt": "2026-11-01T10:05:37.244648Z"
       },
       "politicalSystem": {
         "values": [
@@ -14103,7 +14103,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:44.554100Z"
+        "fetchedAt": "2026-11-01T10:05:37.992575Z"
       },
       "politicalSystem": {
         "values": [
@@ -15790,7 +15790,7 @@
           "Filipino"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:03.232043Z"
+        "fetchedAt": "2026-11-01T10:05:38.754407Z"
       },
       "politicalSystem": {
         "values": [
@@ -18209,7 +18209,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:30.061920Z"
+        "fetchedAt": "2026-11-01T10:05:39.506089Z"
       },
       "politicalSystem": {
         "values": [
@@ -19867,7 +19867,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:48.890653Z"
+        "fetchedAt": "2026-11-01T10:05:40.281490Z"
       },
       "politicalSystem": {
         "values": [
@@ -20881,7 +20881,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:00.828682Z"
+        "fetchedAt": "2026-11-01T10:05:41.037497Z"
       },
       "politicalSystem": {
         "values": [
@@ -24108,7 +24108,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:37.980180Z"
+        "fetchedAt": "2026-11-01T10:05:41.779668Z"
       },
       "politicalSystem": {
         "values": [
@@ -24870,7 +24870,7 @@
           "Ngazidja Comorian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:46.193764Z"
+        "fetchedAt": "2026-11-01T10:05:42.581391Z"
       },
       "politicalSystem": {
         "values": [
@@ -25124,7 +25124,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:48.964980Z"
+        "fetchedAt": "2026-11-01T10:05:43.329245Z"
       },
       "politicalSystem": {
         "values": [
