@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T10:05:26.388342Z",
+  "generatedAt": "2026-11-02T10:34:01.309036Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -1601,7 +1601,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:51.895492Z"
+        "fetchedAt": "2026-11-02T10:34:02.299504Z"
       },
       "politicalSystem": {
         "values": [
@@ -5832,7 +5832,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:35.607845Z"
+        "fetchedAt": "2026-11-02T10:34:03.232112Z"
       },
       "politicalSystem": {
         "values": [
@@ -6829,7 +6829,7 @@
       "metadata": {
         "officialName": "Kingdom of Denmark",
         "capital": "Copenhagen",
-        "population": 6032304,
+        "population": 6038638,
         "region": "Europe",
         "subregion": "Northern Europe",
         "flag": "🇩🇰",
@@ -6841,7 +6841,7 @@
           "Danish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:43.935017Z"
+        "fetchedAt": "2026-11-02T10:34:04.137657Z"
       },
       "politicalSystem": {
         "values": [
@@ -8684,7 +8684,7 @@
           "Swedish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:58.480396Z"
+        "fetchedAt": "2026-11-02T10:34:05.095123Z"
       },
       "politicalSystem": {
         "values": [
@@ -10544,7 +10544,7 @@
           "Greek"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:15.597115Z"
+        "fetchedAt": "2026-11-02T10:34:05.906292Z"
       },
       "politicalSystem": {
         "values": [
@@ -13276,7 +13276,7 @@
           "Serbian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:37.275442Z"
+        "fetchedAt": "2026-11-02T10:34:06.815253Z"
       },
       "politicalSystem": {
         "values": [
@@ -13850,7 +13850,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:41.339051Z"
+        "fetchedAt": "2026-11-02T10:34:07.556533Z"
       },
       "politicalSystem": {
         "values": [
@@ -17181,7 +17181,7 @@
           "Divehi"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:18.549364Z"
+        "fetchedAt": "2026-11-02T10:34:08.434578Z"
       },
       "politicalSystem": {
         "values": [
@@ -18335,7 +18335,7 @@
           "Amharic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:31.529889Z"
+        "fetchedAt": "2026-11-02T10:34:09.362499Z"
       },
       "politicalSystem": {
         "values": [
@@ -18461,7 +18461,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:32.873939Z"
+        "fetchedAt": "2026-11-02T10:34:10.114540Z"
       },
       "politicalSystem": {
         "values": [
@@ -20119,7 +20119,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:52.128194Z"
+        "fetchedAt": "2026-11-02T10:34:10.867420Z"
       },
       "politicalSystem": {
         "values": [
@@ -20233,7 +20233,7 @@
       "metadata": {
         "officialName": "Republic of Botswana",
         "capital": "Gaborone",
-        "population": 2359609,
+        "population": 2515633,
         "region": "Africa",
         "subregion": "Southern Africa",
         "flag": "🇧🇼",
@@ -20246,7 +20246,7 @@
           "Tswana"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:53.547455Z"
+        "fetchedAt": "2026-11-02T10:34:11.623828Z"
       },
       "politicalSystem": {
         "values": [
@@ -21520,7 +21520,7 @@
           "Tswana"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:09.212906Z"
+        "fetchedAt": "2026-11-02T10:34:12.509623Z"
       },
       "politicalSystem": {
         "values": [
@@ -21648,7 +21648,7 @@
           "Swazi"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:10.749572Z"
+        "fetchedAt": "2026-11-02T10:34:13.251303Z"
       },
       "politicalSystem": {
         "values": [
@@ -23856,7 +23856,7 @@
           "Catalan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:35.093495Z"
+        "fetchedAt": "2026-11-02T10:34:13.995587Z"
       },
       "politicalSystem": {
         "values": [
@@ -24615,7 +24615,7 @@
           "Portuguese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:43.448149Z"
+        "fetchedAt": "2026-11-02T10:34:14.737133Z"
       },
       "politicalSystem": {
         "values": [
@@ -26644,7 +26644,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:06.703474Z"
+        "fetchedAt": "2026-11-02T10:34:15.487867Z"
       },
       "politicalSystem": {
         "values": [
@@ -26770,7 +26770,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:08.197072Z"
+        "fetchedAt": "2026-11-02T10:34:16.238190Z"
       },
       "politicalSystem": {
         "values": [
@@ -26896,7 +26896,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:09.662480Z"
+        "fetchedAt": "2026-11-02T10:34:16.978710Z"
       },
       "politicalSystem": {
         "values": [
@@ -27908,7 +27908,7 @@
           "Tongan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:21.086390Z"
+        "fetchedAt": "2026-11-02T10:34:17.728341Z"
       },
       "politicalSystem": {
         "values": [
