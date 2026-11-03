@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T10:34:01.309036Z",
+  "generatedAt": "2026-11-03T10:28:32.704199Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -1157,7 +1157,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:47.303221Z"
+        "fetchedAt": "2026-11-03T10:28:33.666897Z"
       },
       "politicalSystem": {
         "values": [
@@ -2409,7 +2409,7 @@
           "Japanese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:05.496291Z"
+        "fetchedAt": "2026-11-03T10:28:34.608813Z"
       },
       "politicalSystem": {
         "values": [
@@ -3385,7 +3385,7 @@
           "Vietnamese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:13.945817Z"
+        "fetchedAt": "2026-11-03T10:28:35.524676Z"
       },
       "politicalSystem": {
         "values": [
@@ -4181,7 +4181,7 @@
           "Burmese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:21.566901Z"
+        "fetchedAt": "2026-11-03T10:28:36.406276Z"
       },
       "politicalSystem": {
         "values": [
@@ -7711,7 +7711,7 @@
           "Portuguese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:51.473023Z"
+        "fetchedAt": "2026-11-03T10:28:37.154375Z"
       },
       "politicalSystem": {
         "values": [
@@ -8927,7 +8927,7 @@
       "metadata": {
         "officialName": "Kingdom of the Netherlands",
         "capital": "Amsterdam",
-        "population": 18153271,
+        "population": 18171612,
         "region": "Europe",
         "subregion": "Western Europe",
         "flag": "🇳🇱",
@@ -8939,7 +8939,7 @@
           "Dutch"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:01.276176Z"
+        "fetchedAt": "2026-11-03T10:28:37.913741Z"
       },
       "politicalSystem": {
         "values": [
@@ -10723,7 +10723,7 @@
           "Croatian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:16.939239Z"
+        "fetchedAt": "2026-11-03T10:28:38.802444Z"
       },
       "politicalSystem": {
         "values": [
@@ -13671,7 +13671,7 @@
           "Central Kurdish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:39.924624Z"
+        "fetchedAt": "2026-11-03T10:28:39.789648Z"
       },
       "politicalSystem": {
         "values": [
@@ -15663,7 +15663,7 @@
           "Tamil"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:01.780726Z"
+        "fetchedAt": "2026-11-03T10:28:40.552809Z"
       },
       "politicalSystem": {
         "values": [
@@ -16422,7 +16422,7 @@
           "Bengali"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:10.510343Z"
+        "fetchedAt": "2026-11-03T10:28:41.318185Z"
       },
       "politicalSystem": {
         "values": [
@@ -16928,7 +16928,7 @@
           "Malay"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:15.879208Z"
+        "fetchedAt": "2026-11-03T10:28:42.285907Z"
       },
       "politicalSystem": {
         "values": [
@@ -17562,7 +17562,7 @@
           "Portuguese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:22.988488Z"
+        "fetchedAt": "2026-11-03T10:28:43.047587Z"
       },
       "politicalSystem": {
         "values": [
@@ -17825,7 +17825,7 @@
           "Swahili"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:25.899192Z"
+        "fetchedAt": "2026-11-03T10:28:43.866021Z"
       },
       "politicalSystem": {
         "values": [
@@ -19362,7 +19362,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:43.186518Z"
+        "fetchedAt": "2026-11-03T10:28:44.633230Z"
       },
       "politicalSystem": {
         "values": [
@@ -20373,7 +20373,7 @@
           "Swahili"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:55.110048Z"
+        "fetchedAt": "2026-11-03T10:28:45.400103Z"
       },
       "politicalSystem": {
         "values": [
@@ -21903,7 +21903,7 @@
           "Chichewa"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:13.662900Z"
+        "fetchedAt": "2026-11-03T10:28:46.136159Z"
       },
       "politicalSystem": {
         "values": [
@@ -22411,7 +22411,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:19.450156Z"
+        "fetchedAt": "2026-11-03T10:28:46.897769Z"
       },
       "politicalSystem": {
         "values": [
@@ -25252,7 +25252,7 @@
           "Fiji Hindi"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:50.312996Z"
+        "fetchedAt": "2026-11-03T10:28:47.643561Z"
       },
       "politicalSystem": {
         "values": [
@@ -26264,7 +26264,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:02.345765Z"
+        "fetchedAt": "2026-11-03T10:28:48.396958Z"
       },
       "politicalSystem": {
         "values": [
