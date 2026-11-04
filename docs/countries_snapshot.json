@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:28:32.704199Z",
+  "generatedAt": "2026-11-04T10:29:59.566715Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -500,7 +500,7 @@
           "Urdu"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:41.482622Z"
+        "fetchedAt": "2026-11-04T10:30:00.544728Z"
       },
       "politicalSystem": {
         "values": [
@@ -665,7 +665,7 @@
           "Chinese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:42.908800Z"
+        "fetchedAt": "2026-11-04T10:30:01.462393Z"
       },
       "politicalSystem": {
         "values": [
@@ -1748,7 +1748,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:53.625707Z"
+        "fetchedAt": "2026-11-04T10:30:02.404873Z"
       },
       "politicalSystem": {
         "values": [
@@ -2575,7 +2575,7 @@
           "Persian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:06.637029Z"
+        "fetchedAt": "2026-11-04T10:30:03.317177Z"
       },
       "politicalSystem": {
         "values": [
@@ -3232,7 +3232,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:12.437245Z"
+        "fetchedAt": "2026-11-04T10:30:04.264071Z"
       },
       "politicalSystem": {
         "values": [
@@ -3868,7 +3868,7 @@
           "Korean"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:18.367171Z"
+        "fetchedAt": "2026-11-04T10:30:05.189218Z"
       },
       "politicalSystem": {
         "values": [
@@ -4506,7 +4506,7 @@
           "Azerbaijani"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:24.380728Z"
+        "fetchedAt": "2026-11-04T10:30:05.936153Z"
       },
       "politicalSystem": {
         "values": [
@@ -5131,7 +5131,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:30.085715Z"
+        "fetchedAt": "2026-11-04T10:30:06.676505Z"
       },
       "politicalSystem": {
         "values": [
@@ -6504,7 +6504,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:41.072984Z"
+        "fetchedAt": "2026-11-04T10:30:07.624100Z"
       },
       "politicalSystem": {
         "values": [
@@ -9067,7 +9067,7 @@
           "Dutch"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:02.754798Z"
+        "fetchedAt": "2026-11-04T10:30:08.399321Z"
       },
       "politicalSystem": {
         "values": [
@@ -9534,7 +9534,7 @@
           "Russian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:06.970154Z"
+        "fetchedAt": "2026-11-04T10:30:09.152089Z"
       },
       "politicalSystem": {
         "values": [
@@ -9880,7 +9880,7 @@
           "Serbian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:09.957700Z"
+        "fetchedAt": "2026-11-04T10:30:09.915343Z"
       },
       "politicalSystem": {
         "values": [
@@ -10367,7 +10367,7 @@
           "Romanian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:14.194345Z"
+        "fetchedAt": "2026-11-04T10:30:10.656591Z"
       },
       "politicalSystem": {
         "values": [
@@ -14609,7 +14609,7 @@
           "Turkmen"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:49.994800Z"
+        "fetchedAt": "2026-11-04T10:30:11.571292Z"
       },
       "politicalSystem": {
         "values": [
@@ -14886,7 +14886,7 @@
       "metadata": {
         "officialName": "Republic of Kazakhstan",
         "capital": "Astana",
-        "population": 20604819,
+        "population": 20618796,
         "region": "Asia",
         "subregion": "Central Asia",
         "flag": "🇰🇿",
@@ -14899,7 +14899,7 @@
           "Russian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:52.795518Z"
+        "fetchedAt": "2026-11-04T10:30:12.306501Z"
       },
       "politicalSystem": {
         "values": [
@@ -15026,7 +15026,7 @@
           "Uzbek"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:54.507487Z"
+        "fetchedAt": "2026-11-04T10:30:13.043992Z"
       },
       "politicalSystem": {
         "values": [
@@ -16801,7 +16801,7 @@
           "Mongolian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:14.541200Z"
+        "fetchedAt": "2026-11-04T10:30:13.790932Z"
       },
       "politicalSystem": {
         "values": [
@@ -17698,7 +17698,7 @@
           "Zulu"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:24.371085Z"
+        "fetchedAt": "2026-11-04T10:30:14.684236Z"
       },
       "politicalSystem": {
         "values": [
@@ -17955,7 +17955,7 @@
           "Swahili"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:27.417046Z"
+        "fetchedAt": "2026-11-04T10:30:15.438468Z"
       },
       "politicalSystem": {
         "values": [
@@ -22032,7 +22032,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:15.105724Z"
+        "fetchedAt": "2026-11-04T10:30:16.208047Z"
       },
       "politicalSystem": {
         "values": [
@@ -22845,7 +22845,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:23.867710Z"
+        "fetchedAt": "2026-11-04T10:30:16.969536Z"
       },
       "politicalSystem": {
         "values": [
@@ -24984,7 +24984,7 @@
       "metadata": {
         "officialName": "Commonwealth of Dominica",
         "capital": "Roseau",
-        "population": 65514,
+        "population": 65431,
         "region": "Americas",
         "subregion": "Caribbean",
         "flag": "🇩🇲",
@@ -24996,7 +24996,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:47.564867Z"
+        "fetchedAt": "2026-11-04T10:30:17.742882Z"
       },
       "politicalSystem": {
         "values": [
@@ -27655,7 +27655,7 @@
           "Dutch"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:18.069506Z"
+        "fetchedAt": "2026-11-04T10:30:18.479697Z"
       },
       "politicalSystem": {
         "values": [
@@ -27781,7 +27781,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:19.527690Z"
+        "fetchedAt": "2026-11-04T10:30:19.226139Z"
       },
       "politicalSystem": {
         "values": [
