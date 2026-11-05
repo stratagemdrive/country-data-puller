@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T10:29:59.566715Z",
+  "generatedAt": "2026-11-05T10:22:43.167678Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -3071,7 +3071,7 @@
           "Turkish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:11.037985Z"
+        "fetchedAt": "2026-11-05T10:22:44.124287Z"
       },
       "politicalSystem": {
         "values": [
@@ -6338,7 +6338,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:39.850164Z"
+        "fetchedAt": "2026-11-05T10:22:44.881314Z"
       },
       "politicalSystem": {
         "values": [
@@ -7526,7 +7526,7 @@
           "Polish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:49.734680Z"
+        "fetchedAt": "2026-11-05T10:22:45.646577Z"
       },
       "politicalSystem": {
         "values": [
@@ -11109,7 +11109,7 @@
           "Slovenian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:19.827148Z"
+        "fetchedAt": "2026-11-05T10:22:46.402927Z"
       },
       "politicalSystem": {
         "values": [
@@ -12218,7 +12218,7 @@
           "Montenegrin"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:28.187719Z"
+        "fetchedAt": "2026-11-05T10:22:47.319861Z"
       },
       "politicalSystem": {
         "values": [
@@ -12548,7 +12548,7 @@
           "Icelandic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:31.039144Z"
+        "fetchedAt": "2026-11-05T10:22:48.064333Z"
       },
       "politicalSystem": {
         "values": [
@@ -12919,7 +12919,7 @@
           "Turkish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:33.846800Z"
+        "fetchedAt": "2026-11-05T10:22:48.811885Z"
       },
       "politicalSystem": {
         "values": [
@@ -14355,7 +14355,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:47.403667Z"
+        "fetchedAt": "2026-11-05T10:22:49.556730Z"
       },
       "politicalSystem": {
         "values": [
@@ -14481,7 +14481,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:48.806513Z"
+        "fetchedAt": "2026-11-05T10:22:50.295857Z"
       },
       "politicalSystem": {
         "values": [
@@ -15153,7 +15153,7 @@
           "Russian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:55.920076Z"
+        "fetchedAt": "2026-11-05T10:22:51.021478Z"
       },
       "politicalSystem": {
         "values": [
@@ -15917,7 +15917,7 @@
           "Malay"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:04.643601Z"
+        "fetchedAt": "2026-11-05T10:22:51.777444Z"
       },
       "politicalSystem": {
         "values": [
@@ -16043,7 +16043,7 @@
           "Thai"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:06.034669Z"
+        "fetchedAt": "2026-11-05T10:22:52.517293Z"
       },
       "politicalSystem": {
         "values": [
@@ -18968,7 +18968,7 @@
           "Swahili"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:38.954446Z"
+        "fetchedAt": "2026-11-05T10:22:53.256770Z"
       },
       "politicalSystem": {
         "values": [
@@ -19614,7 +19614,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:46.024191Z"
+        "fetchedAt": "2026-11-05T10:22:54.012082Z"
       },
       "politicalSystem": {
         "values": [
@@ -20626,7 +20626,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:57.845717Z"
+        "fetchedAt": "2026-11-05T10:22:54.749798Z"
       },
       "politicalSystem": {
         "values": [
@@ -21385,7 +21385,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:07.762039Z"
+        "fetchedAt": "2026-11-05T10:22:55.474160Z"
       },
       "politicalSystem": {
         "values": [
@@ -22158,7 +22158,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:16.497507Z"
+        "fetchedAt": "2026-11-05T10:22:56.208779Z"
       },
       "politicalSystem": {
         "values": [
@@ -23350,7 +23350,7 @@
           "Haitian Creole"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:29.520820Z"
+        "fetchedAt": "2026-11-05T10:22:56.948495Z"
       },
       "politicalSystem": {
         "values": [
@@ -23982,7 +23982,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:36.522253Z"
+        "fetchedAt": "2026-11-05T10:22:57.679813Z"
       },
       "politicalSystem": {
         "values": [
@@ -24236,7 +24236,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:39.370468Z"
+        "fetchedAt": "2026-11-05T10:22:58.440515Z"
       },
       "politicalSystem": {
         "values": [
