@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:22:43.167678Z",
+  "generatedAt": "2026-11-06T10:24:38.811071Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -166,7 +166,7 @@
           "Russian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:38.388834Z"
+        "fetchedAt": "2026-11-06T10:24:39.827678Z"
       },
       "politicalSystem": {
         "values": [
@@ -825,7 +825,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:44.330942Z"
+        "fetchedAt": "2026-11-06T10:24:40.849259Z"
       },
       "politicalSystem": {
         "values": [
@@ -992,7 +992,7 @@
           "German"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:45.900253Z"
+        "fetchedAt": "2026-11-06T10:24:41.750140Z"
       },
       "politicalSystem": {
         "values": [
@@ -3707,7 +3707,7 @@
           "Korean"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:16.988738Z"
+        "fetchedAt": "2026-11-06T10:24:42.640599Z"
       },
       "politicalSystem": {
         "values": [
@@ -5667,7 +5667,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:34.175998Z"
+        "fetchedAt": "2026-11-06T10:24:43.565840Z"
       },
       "politicalSystem": {
         "values": [
@@ -7307,7 +7307,7 @@
           "Catalan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:48.314243Z"
+        "fetchedAt": "2026-11-06T10:24:44.310657Z"
       },
       "politicalSystem": {
         "values": [
@@ -7919,7 +7919,7 @@
           "Slovak"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:52.813432Z"
+        "fetchedAt": "2026-11-06T10:24:45.215823Z"
       },
       "politicalSystem": {
         "values": [
@@ -8120,7 +8120,7 @@
           "Southern Sami"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:54.228310Z"
+        "fetchedAt": "2026-11-06T10:24:46.021260Z"
       },
       "politicalSystem": {
         "values": [
@@ -9700,7 +9700,7 @@
           "Hungarian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:08.427715Z"
+        "fetchedAt": "2026-11-06T10:24:46.764757Z"
       },
       "politicalSystem": {
         "values": [
@@ -10206,7 +10206,7 @@
           "Bulgarian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:12.871690Z"
+        "fetchedAt": "2026-11-06T10:24:47.501015Z"
       },
       "politicalSystem": {
         "values": [
@@ -13459,7 +13459,7 @@
           "Chinese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:38.526094Z"
+        "fetchedAt": "2026-11-06T10:24:48.239588Z"
       },
       "politicalSystem": {
         "values": [
@@ -16170,7 +16170,7 @@
           "Khmer"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:07.465442Z"
+        "fetchedAt": "2026-11-06T10:24:48.981216Z"
       },
       "politicalSystem": {
         "values": [
@@ -19082,7 +19082,7 @@
       "metadata": {
         "officialName": "Republic of Zimbabwe",
         "capital": "Harare",
-        "population": 17073087,
+        "population": 16175966,
         "region": "Africa",
         "subregion": "Southern Africa",
         "flag": "🇿🇼",
@@ -19109,7 +19109,7 @@
           "Zimbabwean Sign Language"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:40.335589Z"
+        "fetchedAt": "2026-11-06T10:24:49.921423Z"
       },
       "politicalSystem": {
         "values": [
@@ -19235,7 +19235,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:41.725559Z"
+        "fetchedAt": "2026-11-06T10:24:50.669979Z"
       },
       "politicalSystem": {
         "values": [
@@ -19488,7 +19488,7 @@
           "Portuguese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:44.580320Z"
+        "fetchedAt": "2026-11-06T10:24:51.407336Z"
       },
       "politicalSystem": {
         "values": [
@@ -19740,7 +19740,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:47.485478Z"
+        "fetchedAt": "2026-11-06T10:24:52.153803Z"
       },
       "politicalSystem": {
         "values": [
@@ -22295,17 +22295,17 @@
       },
       "executive": {
         "headOfState": {
-          "name": "Santiago Peña",
+          "name": "Pedro Alliana",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "headOfGovernment": {
-          "name": "Santiago Peña",
+          "name": "Pedro Alliana",
           "partyOrGroup": null,
           "source": "wikipedia"
         },
         "executiveInPower": {
-          "leader": "Santiago Peña",
+          "leader": "Pedro Alliana",
           "partyOrGroup": null,
           "method": "head_of_state"
         }
@@ -22719,7 +22719,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:22.633743Z"
+        "fetchedAt": "2026-11-06T10:24:52.881936Z"
       },
       "politicalSystem": {
         "values": [
@@ -24742,7 +24742,7 @@
           "Sango"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:44.777602Z"
+        "fetchedAt": "2026-11-06T10:24:53.620108Z"
       },
       "politicalSystem": {
         "values": [
@@ -26138,7 +26138,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:00.753332Z"
+        "fetchedAt": "2026-11-06T10:24:54.358639Z"
       },
       "politicalSystem": {
         "values": [
@@ -26518,7 +26518,7 @@
           "Palauan"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:05.206798Z"
+        "fetchedAt": "2026-11-06T10:24:55.095854Z"
       },
       "politicalSystem": {
         "values": [
@@ -27275,7 +27275,7 @@
           "Portuguese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:13.813029Z"
+        "fetchedAt": "2026-11-06T10:24:55.811390Z"
       },
       "politicalSystem": {
         "values": [
