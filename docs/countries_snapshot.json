@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T10:24:38.811071Z",
+  "generatedAt": "2026-11-07T09:38:26.075949Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -1304,7 +1304,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:48.775956Z"
+        "fetchedAt": "2026-11-07T09:38:27.151865Z"
       },
       "politicalSystem": {
         "values": [
@@ -1913,7 +1913,7 @@
           "Portuguese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:55.015714Z"
+        "fetchedAt": "2026-11-07T09:38:28.129222Z"
       },
       "politicalSystem": {
         "values": [
@@ -4985,7 +4985,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:28.669937Z"
+        "fetchedAt": "2026-11-07T09:38:28.890504Z"
       },
       "politicalSystem": {
         "values": [
@@ -5501,7 +5501,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:32.734057Z"
+        "fetchedAt": "2026-11-07T09:38:29.662039Z"
       },
       "politicalSystem": {
         "values": [
@@ -10900,7 +10900,7 @@
           "Slovak"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:18.497695Z"
+        "fetchedAt": "2026-11-07T09:38:30.409626Z"
       },
       "politicalSystem": {
         "values": [
@@ -11691,7 +11691,7 @@
           "Estonian"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:23.881218Z"
+        "fetchedAt": "2026-11-07T09:38:31.162729Z"
       },
       "politicalSystem": {
         "values": [
@@ -14229,7 +14229,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:45.998563Z"
+        "fetchedAt": "2026-11-07T09:38:31.923422Z"
       },
       "politicalSystem": {
         "values": [
@@ -15280,7 +15280,7 @@
           "Tajik"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:57.347824Z"
+        "fetchedAt": "2026-11-07T09:38:32.693690Z"
       },
       "politicalSystem": {
         "values": [
@@ -15534,7 +15534,7 @@
           "New Zealand Sign Language"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:00.195737Z"
+        "fetchedAt": "2026-11-07T09:38:33.471734Z"
       },
       "politicalSystem": {
         "values": [
@@ -16548,7 +16548,7 @@
           "Nepali"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:11.837595Z"
+        "fetchedAt": "2026-11-07T09:38:34.253422Z"
       },
       "politicalSystem": {
         "values": [
@@ -18083,7 +18083,7 @@
           "Lingala"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:28.749257Z"
+        "fetchedAt": "2026-11-07T09:38:35.013514Z"
       },
       "politicalSystem": {
         "values": [
@@ -20500,7 +20500,7 @@
           "Malagasy"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:56.499047Z"
+        "fetchedAt": "2026-11-07T09:38:35.768446Z"
       },
       "politicalSystem": {
         "values": [
@@ -21133,7 +21133,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:03.808623Z"
+        "fetchedAt": "2026-11-07T09:38:36.526612Z"
       },
       "politicalSystem": {
         "values": [
@@ -23476,7 +23476,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:30.924752Z"
+        "fetchedAt": "2026-11-07T09:38:37.288875Z"
       },
       "politicalSystem": {
         "values": [
@@ -25378,7 +25378,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:51.924276Z"
+        "fetchedAt": "2026-11-07T09:38:38.041636Z"
       },
       "politicalSystem": {
         "values": [
@@ -25631,7 +25631,7 @@
           "Upper Guinea Crioulo"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:54.743048Z"
+        "fetchedAt": "2026-11-07T09:38:38.799160Z"
       },
       "politicalSystem": {
         "values": [
@@ -25759,7 +25759,7 @@
           "Gilbertese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:56.140581Z"
+        "fetchedAt": "2026-11-07T09:38:39.572093Z"
       },
       "politicalSystem": {
         "values": [
