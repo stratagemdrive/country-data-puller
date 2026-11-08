@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T09:38:26.075949Z",
+  "generatedAt": "2026-11-08T09:52:29.135938Z",
   "worldBankYearRule": "latest_non_null_per_indicator",
   "countries": [
     {
@@ -1438,7 +1438,7 @@
           "Hebrew"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:55:50.185369Z"
+        "fetchedAt": "2026-11-08T09:52:30.118514Z"
       },
       "politicalSystem": {
         "values": [
@@ -2244,7 +2244,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:04.108764Z"
+        "fetchedAt": "2026-11-08T09:52:31.019284Z"
       },
       "politicalSystem": {
         "values": [
@@ -6018,7 +6018,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:37.034529Z"
+        "fetchedAt": "2026-11-08T09:52:31.930506Z"
       },
       "politicalSystem": {
         "values": [
@@ -6681,7 +6681,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:42.618378Z"
+        "fetchedAt": "2026-11-08T09:52:32.674545Z"
       },
       "politicalSystem": {
         "values": [
@@ -8813,7 +8813,7 @@
           "Romansh"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:56:59.840204Z"
+        "fetchedAt": "2026-11-08T09:52:33.414877Z"
       },
       "politicalSystem": {
         "values": [
@@ -9320,7 +9320,7 @@
           "German"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:57:05.572197Z"
+        "fetchedAt": "2026-11-08T09:52:34.310947Z"
       },
       "politicalSystem": {
         "values": [
@@ -18841,7 +18841,7 @@
           "Kinyarwanda"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:37.475513Z"
+        "fetchedAt": "2026-11-08T09:52:35.055542Z"
       },
       "politicalSystem": {
         "values": [
@@ -19993,7 +19993,7 @@
           "French"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:58:50.811754Z"
+        "fetchedAt": "2026-11-08T09:52:35.957675Z"
       },
       "politicalSystem": {
         "values": [
@@ -21007,7 +21007,7 @@
           "Arabic"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:02.270356Z"
+        "fetchedAt": "2026-11-08T09:52:36.891408Z"
       },
       "politicalSystem": {
         "values": [
@@ -21259,7 +21259,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:05.959313Z"
+        "fetchedAt": "2026-11-08T09:52:37.615030Z"
       },
       "politicalSystem": {
         "values": [
@@ -21776,7 +21776,7 @@
           "Sotho"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:12.229170Z"
+        "fetchedAt": "2026-11-08T09:52:38.355984Z"
       },
       "politicalSystem": {
         "values": [
@@ -22285,7 +22285,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:17.857610Z"
+        "fetchedAt": "2026-11-08T09:52:39.094400Z"
       },
       "politicalSystem": {
         "values": [
@@ -23223,7 +23223,7 @@
           "Spanish"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:28.108323Z"
+        "fetchedAt": "2026-11-08T09:52:39.836641Z"
       },
       "politicalSystem": {
         "values": [
@@ -23730,7 +23730,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:33.687431Z"
+        "fetchedAt": "2026-11-08T09:52:40.581257Z"
       },
       "politicalSystem": {
         "values": [
@@ -24489,7 +24489,7 @@
           "Rundi"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:42.102286Z"
+        "fetchedAt": "2026-11-08T09:52:41.482463Z"
       },
       "politicalSystem": {
         "values": [
@@ -25504,7 +25504,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:53.302314Z"
+        "fetchedAt": "2026-11-08T09:52:42.219472Z"
       },
       "politicalSystem": {
         "values": [
@@ -25873,7 +25873,7 @@
       "metadata": {
         "officialName": "Principality of Liechtenstein",
         "capital": "Vaduz",
-        "population": 41237,
+        "population": 41228,
         "region": "Europe",
         "subregion": "Western Europe",
         "flag": "🇱🇮",
@@ -25885,7 +25885,7 @@
           "German"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:57.665280Z"
+        "fetchedAt": "2026-11-08T09:52:43.005006Z"
       },
       "politicalSystem": {
         "values": [
@@ -26012,7 +26012,7 @@
           "Marshallese"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T02:59:59.030128Z"
+        "fetchedAt": "2026-11-08T09:52:43.741197Z"
       },
       "politicalSystem": {
         "values": [
@@ -27529,7 +27529,7 @@
           "English"
         ],
         "source": "restcountries_v5",
-        "fetchedAt": "2026-09-30T03:00:16.623486Z"
+        "fetchedAt": "2026-11-08T09:52:44.482389Z"
       },
       "politicalSystem": {
         "values": [
